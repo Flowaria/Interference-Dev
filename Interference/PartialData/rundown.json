@@ -97,7 +97,8 @@
 				"Prefix": "TUTORIAL-",
 				"PublicName": "Handshaking",
 				"ExpeditionDepth": 213,
-				"EstimatedDuration": "15~20MIN",
+				"IsExtraExpedition": false,
+				"EstimatedDuration": "",
 				"ExpeditionDescription": "<color=red>[ERR://#005 Unexpected Network Condition During COMM]</color> is needed.\nAdministrator DNA verify is needed for further progress.\nPrisoners sent to collect DNA sample from HSU unit.",
 				"RoleplayedWardenIntel": ">..It's all done! We finally can be fre-\n<size=200%><color=red>>[Alarm siren]</color></size>\n>..Shit SHIT!\n>[unintelligible, gunfire]"
 			},
@@ -240,9 +241,10 @@
 				"Prefix": "0<size=70%>X</size>A00",
 				"PublicName": "Protocols",
 				"ExpeditionDepth": 195,
-				"EstimatedDuration": "15~20MIN",
+				"IsExtraExpedition": false,
+				"EstimatedDuration": "",
 				"ExpeditionDescription": "DNA Data has been salvaged and ready to be uploaded.\nPrisoners sent to Establish Uploading Protocol.",
-				"RoleplayedWardenIntel": ">..I can't... breath...\n<color=red><size=200%>>..Yeah do not go inside this fucking fog.</size></color>\n>..Terminal system says there is fog turbine somewhere..."
+				"RoleplayedWardenIntel": ">..I can't... breathe...\n<color=red><size=200%>>..Yeah, do NOT go inside this fucking fog.</size></color>\n>..Terminal system says there is fog turbine somewhere..."
 			},
 			"Seeds": {
 				"BuildSeed": -9291,
@@ -409,9 +411,10 @@
 				"Prefix": "0<size=70%>X</size>A00",
 				"PublicName": "Entrypoint",
 				"ExpeditionDepth": 267,
-				"EstimatedDuration": "15~20MIN",
-				"ExpeditionDescription": "Prisoners sent to try manual verify using salvaged Data Sphere.\nClear a Pathway If possible.",
-				"RoleplayedWardenIntel": ">[loud hum]\n<size=200%><color=red>>..Why is this place so big?</color></size>\n>..I don't know neither.\n>..Security Alarm.. Again.."
+				"IsExtraExpedition": false,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Prisoners sent to try manual verification using salvaged Data Sphere.\nClear a Pathway If possible.",
+				"RoleplayedWardenIntel": ">[loud hum]\n<size=200%><color=red>>..Why is this place so big?</color></size>\n>..I know as little as you do.\n>..Shit.. security alarm... again!"
 			},
 			"Seeds": {
 				"BuildSeed": 48,
@@ -532,9 +535,10 @@
 				"Prefix": "0<size=70%>X</size>B00",
 				"PublicName": "Malfunction",
 				"ExpeditionDepth": 393,
-				"EstimatedDuration": "30~45MIN",
+				"IsExtraExpedition": false,
+				"EstimatedDuration": "",
 				"ExpeditionDescription": "Low-power level detected for powerline in this part of Complex, Immediate Restoration Required.\nPrisoners sent to restore the air ventilization system in order to reach subjacent passage floor.",
-				"RoleplayedWardenIntel": ">..This fucking Fog is slowly rising!\n<size=150%><color=red>>We should hurry!</color></size>"
+				"RoleplayedWardenIntel": ">..Hey.. Is this fog... it's moving!?\n<size=150%><color=red>>Yeah, We should hurry!</color></size>"
 			},
 			"Seeds": {
 				"BuildSeed": 0,
@@ -712,8 +716,9 @@
 				"Prefix": "0<size=70%>X</size>B00",
 				"PublicName": "Power Surge",
 				"ExpeditionDepth": 481,
-				"EstimatedDuration": "30~40MIN",
-				"ExpeditionDescription": "Power outage occurred due to restart of air ventilization system for subjacent floor.\nPrisoners sent to execute startup sequence for backup reactor",
+				"IsExtraExpedition": false,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Power outage occurred due to restart of air ventilization system for subjacent floor.\nPrisoners sent to execute startup sequence for backup reactor.",
 				"RoleplayedWardenIntel": ">..The verification time... it... What...?\n>[Alarm Siren]\n<color=red>>..Yeah we don't have enough time, We should split up!</color>\n>..Are you ready?"
 			},
 			"Seeds": {
@@ -865,8 +870,9 @@
 				"Prefix": "0<size=70%>X</size>B00",
 				"PublicName": "Cryptology",
 				"ExpeditionDepth": 323,
+				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Navigation Beacon for [0<size=70%>X</size>D001] has encrypted and can't be triggered.\nPrisoners sent to collect PDEC (Partial Decoder) in complex.",
+				"ExpeditionDescription": "Navigational Beacon for [0<size=70%>X</size>D001] has been encrypted and can't be triggered.\nPrisoners sent to collect PDECs (Partial Decoders) in complex.",
 				"RoleplayedWardenIntel": ">[Tracker humming]\n>..There are...\n>[pause]\n>..What? What is it?\n<color=red><size=200%>>....Don't.. Fucking... Mov-</size></color>\n>[commotion, sudden scream]"
 			},
 			"Seeds": {
@@ -1132,9 +1138,10 @@
 				"Prefix": "0<size=70%>X</size>C00",
 				"PublicName": "<color=orange>Forbidden</color>",
 				"ExpeditionDepth": -99999,
+				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "<color=red><size=150%>[://ERR#403 Access Denied!]</size></color>",
-				"RoleplayedWardenIntel": ">..Class.. Unknown?\n>..This one is Unknown too.\n<color=red><size=200%>>Well, Every fucking door is unknown!</size></color>\n>..Do we have terminal?\n[radio static]"
+				"RoleplayedWardenIntel": ">..Class.. Unknown?\n>..This one is Unknown too.\n<color=red><size=200%>>Well, Every fucking door is unknown!</size></color>\n>..Is there a terminal?\n[radio static]"
 			},
 			"Seeds": {
 				"BuildSeed": 4444403,
@@ -1360,6 +1367,7 @@
 				"Prefix": "0<size=70%>X</size>C00",
 				"PublicName": "<color=red>Brute Force</color>",
 				"ExpeditionDepth": 588,
+				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Non-Authorized Access from Previous Expedition has Reported.\nPrisoners sent to disable the Alarm in this floor.\n<color=red>WARNING://Alarm Triggered!</color>",
 				"RoleplayedWardenIntel": ">..Overload Bulkhead?\n<color=red><size=200%>>..Yeah, this is our only chance to access it.</color></size>\n>[distant scream]\n>..Aw Fuck!\n>[gunfire, screams]"
@@ -1539,9 +1547,10 @@
 				"Prefix": "0<size=70%>X</size>D00",
 				"PublicName": "Checksum",
 				"ExpeditionDepth": 782,
+				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "General Power supply now in stable level.\nExecute Final setup sequence at any cost of prisoners.",
-				"RoleplayedWardenIntel": ">..This place is so fucking dark...\n<color=red><size=200%>>..Where the fuck are the generators?!</size></color>\n>..Shhhhh... They are pulsating!\n>..Stand still...\n>[radio static]"
+				"RoleplayedWardenIntel": ">..This place is so fucking dark...\n<color=red><size=200%>>..Where the fuck are the generators?!</size></color>\n>..Shhhhh... They're pulsating!\n>..Stand still...\n>[radio static]"
 			},
 			"Seeds": {
 				"BuildSeed": 0,
@@ -1717,9 +1726,10 @@
 				"Prefix": "0<size=70%>X</size>D00",
 				"PublicName": "Gateway",
 				"ExpeditionDepth": 729,
+				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "nFrame Cluster now have enough power to run.\nPrisoners sent to Clear a path towards [0<size=70%>X</size>E001]",
-				"RoleplayedWardenIntel": "\n>[metallic banging]\n>..The door..\n<color=red><size=200%>>..It's opening itself!</size></color>\n>Hold your ground!\n>[unintelligible, gunfire]"
+				"ExpeditionDescription": "nFrame Cluster has been located.\nPrisoners sent to Clear a path towards [0<size=70%>X</size>E001]",
+				"RoleplayedWardenIntel": ">[metallic banging]\n>..The door..\n<color=red><size=200%>>..It's opening itself!</size></color>\n>Hold your ground!\n>[unintelligible, gunfire]"
 			},
 			"Seeds": {
 				"BuildSeed": -1967873,
@@ -1864,10 +1874,11 @@
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>D00",
 				"PublicName": "Timeout",
-				"ExpeditionDepth": 962,
+				"ExpeditionDepth": 769,
+				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Unexpected Fog Anomaly in this complex, Estimated Fatality Rate is in Extreme level.\nPrisoners sent to restore climate control system in order to reach [0<size=70%>X</size>E001]",
-				"RoleplayedWardenIntel": ""
+				"ExpeditionDescription": "Unexpected Fog Anomaly in this complex, Estimated Fatality Rate is in Extreme level.\nPrisoners sent to restore partial climate control system in order to reach [0<size=70%>X</size>E001]",
+				"RoleplayedWardenIntel": ">.."
 			},
 			"Seeds": {
 				"BuildSeed": -504504,
@@ -1991,15 +2002,16 @@
 				"Prefix": "0<size=70%>X</size>E00",
 				"PublicName": "Daydream",
 				"ExpeditionDepth": 1022,
+				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Retrieve Geo-data from nFrame using allocated Data Sphere.\n<color=red>High prisoner fatality rate estimated</color>",
+				"ExpeditionDescription": "Retrieve Geo-data from nFrame using allocated Data Sphere.\n<color=red>High prisoner fatality rate estimated.</color>",
 				"RoleplayedWardenIntel": ""
 			},
 			"Seeds": {
 				"BuildSeed": -44467,
-				"FunctionMarkerOffset": -5551,
-				"StandardMarkerOffset": -5552,
-				"LightJobSeedOffset": -5553
+				"FunctionMarkerOffset": -551,
+				"StandardMarkerOffset": -552,
+				"LightJobSeedOffset": -553
 			},
 			"Expedition": {
 				"ComplexResourceData": 3,
@@ -2107,6 +2119,7 @@
 				"Prefix": "0<size=70%>X</size>E00",
 				"PublicName": "",
 				"ExpeditionDepth": 1162,
+				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "",
 				"RoleplayedWardenIntel": ""
