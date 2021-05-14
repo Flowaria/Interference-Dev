@@ -1,0 +1,118 @@
+
+[
+  {
+    "Type": 8,
+    "Header": "Terminal Uplink",
+    "MainObjective": "Establish Uplink with [ALL_ITEMS] to reactivate the biomass security system",
+    "FindLocationInfo": "Massive Bioreading approaching, Find [ALL_ITEMS] to Establish Uplink",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "Navigate to [ITEM_ZONE] and find [ALL_ITEMS]",
+    "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+    "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ALL_ITEMS]",
+    "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+    "SolveItem": "Use [ITEM_SERIAL] to create an uplink to [UPLINK_ADDRESS]",
+    "SolveItemHelp": "Use the UPLINK_CONNECT command to establish the connection",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+    "GoToWinCondition_CustomGeo": "Containment has secured. Retrieve the Geo-Data, Access to <color=orange>Extreme</color> Bulkhead and return the data to [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+    "GoToWinCondition_ToMainLayer": "",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [
+
+    ],
+    "WaveOnElevatorWardenIntel": "Biomass Security system offline - Immediate Repair Required",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [
+      {
+        "WaveSettings": 36,
+        "WavePopulation": 1,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      }
+    ],
+    "StopAllWavesBeforeGotoWin": true,
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": 5,
+        "WavePopulation": 1,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      }
+    ],
+    "WaveOnGotoWinTrigger": 1,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 1,
+        "Type": 2,
+        "Layer": 1,
+        "LocalIndex": 0,
+        "Delay": 10.0,
+        "WardenIntel": "Security door to [ZONE_0] unlocked"
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 10,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.35,
+    "Uplink_NumberOfVerificationRounds": 5,
+    "Uplink_NumberOfTerminals": 1,
+    "name": "TerminalUplink",
+    "internalEnabled": true,
+    "persistentID": "Obj_E1_L1"
+  },
+  {
+    "Type": 10,
+    "Header": "Retrieve Geo Data using Data Sphere",
+    "MainObjective": "Insert the Data sphere to [ITEM_SERIAL] to salvage Geo-Data",
+    "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+    "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+    "InZoneFindItem": "Find [ITEM_SERIAL] inside [ITEM_ZONE]",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "Insert Data Sphere into Partial Neural Frame Cluster [ITEM_SERIAL]",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Bring the Data Sphere to the forward exit in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_ToMainLayer": "Use the navigational beacon and the information in the surroundings to find the exit point",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": 15,
+        "WavePopulation": 1,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false
+      }
+    ],
+    "WaveOnGotoWinTrigger": 1,
+    "EventsOnGotoWin": [],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 10,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.14,
+    "ActivateHSU_ItemFromStart": "Carry_DataSphere_FixedName",
+    "ActivateHSU_ItemAfterActivation": "Carry_DataSphere_FixedName",
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "DataSphere_Retrieve_Data",
+    "internalEnabled": true,
+    "persistentID": "Obj_E1_L2"
+  }
+]

@@ -1,0 +1,65 @@
+{
+	"Expeditions": [
+		{
+			"Targets": [
+				"*"
+			],
+			"ScoutSettings": [
+				{
+					"TargetSetting": "BullrushScouts",
+					"WaveSetting": "Bullrushes"
+				},
+				{
+					"TargetSetting": "ShadowScouts",
+					"WaveSetting": "Shadows"
+				}
+			]
+		}
+	],
+	"TargetSettings": [
+		{
+			"Name": "BullrushScouts",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Bullrush",
+				"nameIgnoreCase": true
+			}
+		},
+		{
+			"Name": "ShadowScouts",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Shadow",
+				"nameIgnoreCase": true
+			}
+		}
+	],
+	"WaveSettings": [
+		{
+			"Name": "Bullrushes",
+			"Waves": [
+				[
+					{
+						"WaveSettingID": 3,
+						"WavePopulationID": 5,
+						"Delay": 0.0
+					}
+				]
+			]
+		},
+		{
+			"Name": "Shadows",
+			"Waves": [
+				[
+					{
+						"WaveSettingID": 3,
+						"WavePopulationID": 7,
+						"Delay": 0.0
+					}
+				]
+			]
+		}
+	]
+}

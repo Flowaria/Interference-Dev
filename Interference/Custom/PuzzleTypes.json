@@ -1,0 +1,168 @@
+{
+	"Scans": [
+		{
+			"name": "NoBackSiege",
+			"BaseScan": 8,
+			"PersistentID": 100,
+			"RequireAll": true,
+			"ScanRadius": 6.5,
+			"ScanProgression": 0.0,
+			"PlayersInScanMulti": [
+				0.0105,
+				0.0105,
+				0.0105,
+				0.0105
+			],
+			"ReduceSpeed": 0.0,
+			"ReduceWhenNoPlayer": false,
+			"ScanSpeedDecline": 0.0,
+			"BioScanGraphics": {
+				"Radius": 6.5,
+				"colorModeColor": [
+					{
+						"mode": 4,
+						"r": 0.7098039,
+						"g": 0.6980392,
+						"b": 1.0,
+						"a": 0.5
+					},
+					{
+						"mode": 5,
+						"r": 0.3607843,
+						"g": 0.8196078,
+						"b": 0.8980392,
+						"a": 1.0
+					}
+				]
+			}
+		},
+		{
+			"name": "Siege_Huge",
+			"BaseScan": 17,
+			"PersistentID": 101,
+			"RequireAll": true,
+			"ScanRadius": 32,
+			"ScanProgression": 0.0,
+			"PlayersInScanMulti": [
+				0.025,
+				0.025,
+				0.025,
+				0.025
+			],
+			"ReduceSpeed": 0.0,
+			"ReduceWhenNoPlayer": false,
+			"ScanSpeedDecline": 0.0,
+			"BioScanGraphics": {
+				"Radius": 32,
+				"colorModeColor": [
+					{
+						"mode": 4,
+						"r": 0.7098039,
+						"g": 0.6980392,
+						"b": 1.0,
+						"a": 0.1
+					},
+					{
+						"mode": 5,
+						"r": 0.3607843,
+						"g": 0.8196078,
+						"b": 0.8980392,
+						"a": 0.1
+					}
+				]
+			}
+		},
+		{
+			"name": "Q-Surge",
+			"BaseScan": 14,
+			"PersistentID": 102,
+			"RequireAll": true,
+			"ScanRadius": 2.05,
+			"ScanProgression": 0.0,
+			"PlayersInScanMulti": [
+				0.33,
+				0.33,
+				0.33,
+				0.33
+			],
+			"ReduceSpeed": 0.0,
+			"ReduceWhenNoPlayer": false,
+			"ScanSpeedDecline": 0.0,
+			"BioScanGraphics": {
+				"Radius": 2.05,
+				"colorModeColor": [
+					{
+						"mode": 4,
+						"r": 0.9803921,
+						"g": 0.3450980,
+						"b": 0.9568627,
+						"a": 0.5
+					},
+					{
+						"mode": 5,
+						"r": 0.9803921,
+						"g": 0.3450980,
+						"b": 0.9568627,
+						"a": 0.5
+					}
+				]
+			}
+		},
+		{
+			"name": "TinyCluster_Base",
+			"BaseScan": 3,
+			"PersistentID": 200,
+			"RequireAll": false,
+			"ScanRadius": 0.85,
+			"ScanProgression": 0.0,
+			"PlayersInScanMulti": [
+				1.425,
+				1.525,
+				1.7,
+				1.75
+			],
+			"ReduceSpeed": 0.0,
+			"ReduceWhenNoPlayer": false,
+			"ScanSpeedDecline": 0.0,
+			"BioScanGraphics": {
+				"Radius": 0.85,
+				"colorModeColor": [
+					{
+						"mode": 4,
+						"r": 0.9803921,
+						"g": 0.9568627,
+						"b": 0.7529411,
+						"a": 0.5
+					},
+					{
+						"mode": 5,
+						"r": 0.8078431,
+						"g": 0.9490196,
+						"b": 0.4745098,
+						"a": 1.0
+					}
+				]
+			}
+		}
+	],
+	"Clusters": [
+		{
+			"Name": "16-Cluster",
+			"BaseCluster": 4,
+			"PersistentID": 316,
+			"ClusterCount": 16,
+			"BioscanID": 200,
+			"DistanceBetweenScans": 16.0,
+			"RevealWithHoloPath": true
+		},
+		{
+			"Name": "24-Cluster",
+			"BaseCluster": 4,
+			"PersistentID": 324,
+			"ClusterCount": 24,
+			"BioscanID": 200,
+			"DistanceBetweenScans": 17.5,
+			"RevealWithHoloPath": true
+		}
+	]
+}

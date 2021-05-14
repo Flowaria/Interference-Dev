@@ -1,0 +1,47 @@
+[
+	{
+		"publicName": "GlueGun",
+		"terminalItemShortName": "",
+		"terminalItemLongName": "",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 15,
+		"inventorySlot": 3,
+		"FPSSettings": 15,
+		"crosshair": 1,
+		"HUDIcon": "GUI/Player/silouette_gluegun",
+		"ShowCrosshairWhenAiming": true,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": true,
+		"GUIShowAmmoTotalRel": true,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"BlockToolAmmoRefill": false,
+		"ClassAmmoCostFactor": 1.875, //MORE FOAMS - 80
+		"ConsumableAmmoMin": 0,
+		"ConsumableAmmoMax": 0,
+		"audioEventEquip": "GlueGunEquip",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Tools/GlueGun/GlueGunFirstPerson.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Tools/GlueGun/GlueGunThirdPerson.prefab"
+		],
+		"PickupPrefabs": [],
+		"InstancePrefabs": [],
+		"EquipTransitionTime": 0.6,
+		"AimTransitionTime": 0.6,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "glue_gun_idle",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "glue_gun_idle",
+		"SightLookAlign": "aSightLook",
+		"MuzzleAlign": "aMuzzle",
+		"BackpackAlign": "",
+		"name": "GEAR_GlueGun",
+		"internalEnabled": true,
+		"persistentID": 73
+	}
+]

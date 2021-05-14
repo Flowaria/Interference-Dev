@@ -1,0 +1,17 @@
+{
+	"FogInstanceConfig": {
+		"Range": 11.0,
+		"InfiniteDuration": false,
+		"ShrinkDuration": 10.0,
+		"GrowDuration": 8.0,
+		"LifeInSeconds": 60.0,
+		"Density": -7
+	},
+	"HeavyFogTurbineConfig": {
+		"Range": 8.5,
+		"InfiniteDuration": true,
+		"ShrinkDuration": 22.0,
+		"GrowDuration": 10.0,
+		"Density": -7
+	}
+}

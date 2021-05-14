@@ -1,0 +1,43 @@
+{
+	"FogSphereCustom": [],
+	"BirthingCustom": [
+		{
+			"Enabled": true, //Shadow Child
+			"DebugName": "Birthing-ShadowBabies",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Birther_Shadow",
+				"nameIgnoreCase": true
+			},
+			"EnemyGroupToSpawn": "EnemyGroup_Shadow_Child",
+			"ChildrenCost": 1.0,
+			"ChildrenPerBirth": "Unchanged",
+			"ChildrenPerBirthMin": "Unchanged",
+			"ChildrenMax": "Unchanged",
+			"MinDelayUntilNextBirth": "Unchanged",
+			"MaxDelayUntilNextBirth": "Unchanged"
+		}
+	],
+	"HealthRegenCustom": [],
+	"InfectionAttackCustom": [
+		{
+			"Enabled": true, //Punch will do 2% infection, and Tentacle will do 8%
+			"DebugName": "InfectionHybrid",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Shooter_Infection_Big"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"MeleeData": {
+				"Infection": "12%",
+				"SoundEventID": 676801566,
+				"UseEffect": true,
+				"ScreenLiquidRange": 3.0
+			}
+		}
+	]
+}

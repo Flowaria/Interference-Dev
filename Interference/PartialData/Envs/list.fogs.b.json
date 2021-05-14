@@ -1,0 +1,147 @@
+[
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.0,
+			"r": 0.7924528,
+			"g": 0.72965467,
+			"b": 0.6018156
+		},
+		"FogDensity": 0.0005,
+		"FogAmbience": 0.0001,
+		"DensityNoiseDirection": {
+			"x": 0.0,
+			"y": 0.6,
+			"z": 0.6
+		},
+		"DensityNoiseSpeed": 0.0372,
+		"DensityNoiseScale": 0.08,
+		"DensityHeightAltitude": -6.0,
+		"DensityHeightRange": 1.5,
+		"DensityHeightMaxBoost": 0.07,
+		"Infection": 0.02,
+		"name": "LightFog_B1_Layer0",
+		"internalEnabled": true,
+		"persistentID": "Fog_B1_Layer0"
+	},
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.0,
+			"r": 0.7924528,
+			"g": 0.72965467,
+			"b": 0.6018156
+		},
+		"FogDensity": 0.0009,
+		"FogAmbience": 0.0005,
+		"DensityNoiseDirection": {
+			"x": 0.5,
+			"y": 0.5,
+			"z": 0.5
+		},
+		"DensityNoiseSpeed": 0.0372,
+		"DensityNoiseScale": 0.08,
+		"DensityHeightAltitude": 7.65,
+		"DensityHeightRange": 1.5,
+		"DensityHeightMaxBoost": 0.07,
+		"Infection": 0.02,
+		"name": "LightFog_B1_Layer1",
+		"internalEnabled": true,
+		"persistentID": "Fog_B1_Layer1"
+	},
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.0,
+			"r": 0.7924528,
+			"g": 0.72965467,
+			"b": 0.6018156
+		},
+		"FogDensity": 0.00025,
+		"FogAmbience": 0.005,
+		"DensityNoiseDirection": {
+			"x": 0.5,
+			"y": 0.5,
+			"z": 0.5
+		},
+		"DensityNoiseSpeed": 0.0372,
+		"DensityNoiseScale": 0.08,
+		"DensityHeightAltitude": 6.65,
+		"DensityHeightRange": -5,
+		"DensityHeightMaxBoost": 0.003,
+		"Infection": 0.0,
+		"name": "LightFog_B1_GotoWin",
+		"internalEnabled": true,
+		"persistentID": "Fog_B1_GotoWin"
+	},
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.0,
+			"r": 0.7924528,
+			"g": 0.72965467,
+			"b": 0.6018156
+		},
+		"FogDensity": 0.0001,
+		"FogAmbience": 0.006,
+		"DensityNoiseDirection": {
+			"x": 0.0,
+			"y": 0.6,
+			"z": 0.6
+		},
+		"DensityNoiseSpeed": 0.0372,
+		"DensityNoiseScale": 0.08,
+		"DensityHeightAltitude": 5.0,
+		"DensityHeightRange": 6.0,
+		"DensityHeightMaxBoost": 0.005,
+		"Infection": 0.0,
+		"name": "LightFog_B2_Init",
+		"internalEnabled": true,
+		"persistentID": "Fog_B2_Init"
+	},
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.0,
+			"r": 0.7924528,
+			"g": 0.72965467,
+			"b": 0.6018156
+		},
+		"FogDensity": 0.0002,
+		"FogAmbience": 0.15,
+		"DensityNoiseDirection": {
+			"x": 0.0,
+			"y": 0.6,
+			"z": 0.6
+		},
+		"DensityNoiseSpeed": 0.0372,
+		"DensityNoiseScale": 0.08,
+		"DensityHeightAltitude": -18.0,
+		"DensityHeightRange": 8.0,
+		"DensityHeightMaxBoost": 0.01,
+		"Infection": 0.0,
+		"name": "LightFog_B2_Land",
+		"internalEnabled": true,
+		"persistentID": "Fog_B2_Landed"
+	},
+	{
+		"Enabled": true,
+		"FogColor": "#0D98BA04",
+		"FogDensity": 0.0003,
+		"FogAmbience": 0.0002,
+		"DensityNoiseDirection": {
+			"x": 0.02,
+			"y": -1,
+			"z": -0.02
+		},
+		"DensityNoiseSpeed": 0.2,
+		"DensityNoiseScale": 0.11,
+		"DensityHeightAltitude": 7.65,
+		"DensityHeightRange": 1.5,
+		"DensityHeightMaxBoost": 0.0042,
+		"Infection": 0.0045,
+		"name": "LightFog_B3_Layer1",
+		"internalEnabled": true,
+		"persistentID": "Fog_B3_Layer1"
+	}
+]

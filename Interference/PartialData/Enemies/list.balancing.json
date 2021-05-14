@@ -1,0 +1,80 @@
+[
+	{
+		"Health": {
+			"HealthMax": 20.0,
+			"DamageUntilHitreact": 5.0,
+			"BodypartHealth": 10.0,
+			"WeakspotDamageMulti": 2.0,
+			"ArmorDamageMulti": 0.3,
+			"HitreactOnLimbDestruction": 4,
+			"TryForceHitreactOnLimbDestruction": true
+		},
+		"GlueTolerance": 4.0,
+		"GlueFadeOutTime": 8.0,
+		"CanBePushed": true,
+		"ForbidTwitchHit": false,
+		"AllowDamgeBonusFromBehind": true,
+		"UseTentacleTunnelCheck": true,
+		"UseVisibilityRaycastDuringTentacleAttack": false,
+		"TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+		"TentacleAttackDamage": 3.0,
+		"MeleeAttackDamage": 1.5,
+		"MeleeAttackDamageCheckRadius": 1.75,
+		"TagTime": 60.0,
+		"name": "Striker_Rusher",
+		"internalEnabled": true,
+		"persistentID": "Balance_Striker_Rusher"
+	},
+	{
+		"Health": {
+			"HealthMax": 20.0,
+			"DamageUntilHitreact": 5.5,
+			"BodypartHealth": 9.0,
+			"WeakspotDamageMulti": 1.0,
+			"ArmorDamageMulti": 0.3,
+			"HitreactOnLimbDestruction": 4,
+			"TryForceHitreactOnLimbDestruction": true
+		},
+		"GlueTolerance": 4.0,
+		"GlueFadeOutTime": 8.0,
+		"CanBePushed": true,
+		"ForbidTwitchHit": false,
+		"AllowDamgeBonusFromBehind": true,
+		"UseTentacleTunnelCheck": true,
+		"UseVisibilityRaycastDuringTentacleAttack": false,
+		"TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+		"TentacleAttackDamage": 3.5,
+		"MeleeAttackDamage": 0.5,
+		"MeleeAttackDamageCheckRadius": 2.0,
+		"TagTime": 60.0,
+		"name": "Striker_Bullrush_Small",
+		"internalEnabled": true,
+		"persistentID": "Balance_Bullrush_Small"
+	},
+	{
+		"Health": {
+			"HealthMax": 20.0,
+			"DamageUntilHitreact": 5.5,
+			"BodypartHealth": 9.0,
+			"WeakspotDamageMulti": 1.0,
+			"ArmorDamageMulti": 0.3,
+			"HitreactOnLimbDestruction": 4,
+			"TryForceHitreactOnLimbDestruction": true
+		},
+		"GlueTolerance": 4.0,
+		"GlueFadeOutTime": 8.0,
+		"CanBePushed": true,
+		"ForbidTwitchHit": false,
+		"AllowDamgeBonusFromBehind": true,
+		"UseTentacleTunnelCheck": true,
+		"UseVisibilityRaycastDuringTentacleAttack": false,
+		"TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+		"TentacleAttackDamage": 3.5,
+		"MeleeAttackDamage": 0.5,
+		"MeleeAttackDamageCheckRadius": 2.0,
+		"TagTime": 10.0,
+		"name": "Striker_Bullrush_Small_Shadow",
+		"internalEnabled": true,
+		"persistentID": "Balance_Shadow_Bullrush_Small"
+	}
+]

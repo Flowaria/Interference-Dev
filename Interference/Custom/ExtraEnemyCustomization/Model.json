@@ -1,0 +1,124 @@
+{
+	"CacheAllMaterials": false,
+	"ShadowCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "Shadows",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Shadow",
+				"nameIgnoreCase": true
+			},
+			"IncludeEggSack": false,
+			"RequireTagForDetection": true
+		}
+	],
+	"MaterialCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "Scout_Bullrusher",
+			"Target": {
+				"Mode": "NameEquals",
+				"persistentIDs": [],
+				"nameParam": "Scout_Bullrush",
+				"nameIgnoreCase": true
+			},
+			"MaterialSets": [
+				{
+					"From": "shooter_RapidFire",
+					"To": "mtr_striker_bullrush"
+				},
+				{
+					"From": "shooter_wave",
+					"To": "mtr_striker_bullrush"
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"DebugName": "InfectionHybrid",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Shooter_Infection_Big"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"MaterialSets": [
+				{
+					//Head Part
+					"From": "shooter_RapidFire",
+					"To": "strikerBig"
+				},
+				{
+					//Body Part
+					"From": "shooter_wave",
+					"To": "mtr_StrikerChild"
+				}
+			]
+		}
+	],
+	"GlowCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "InfectionHybrid",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Shooter_Infection_Big"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"DefaultColor": "black",
+			"DetectionColor": "green", //Dont work
+			"SelfWakeupColor": "red",
+			"PropagateWakeupColor": "green", //Dont work
+			"TentacleAttackColor": "red",
+			"ShooterFireColor": "#86F8BD",
+			"HeartbeatColor": "#86F8BD",
+			"PulseEffects": [
+				{
+					"Target": "Hibernate",
+					"Duration": 1.75,
+					"GlowPattern": "04",
+					"GlowColor": "#86F8BD",
+					"RandomizeTime": true,
+					"KeepOnDead": false,
+					"AlwaysPulse": false
+				},
+				{
+					"Target": "Combat",
+					"Duration": 5.0,
+					"GlowPattern": "0+6+0+6+060606",
+					"GlowColor": "#86F8BD",
+					"RandomizeTime": true,
+					"KeepOnDead": false,
+					"AlwaysPulse": false
+				}
+			]
+		}
+	],
+	"LimbCustom": [],
+	"MarkerCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "Shadows",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Shadow",
+				"nameIgnoreCase": true
+			},
+			"SpriteName": "marker_shadow",
+			"MarkerColor": "#ff406c", //Default #d22f1e
+			"BlinkIn": true,
+			"Blink": true,
+			"BlinkDuration": 100.0,
+			"BlinkMinDelay": 2.0,
+			"BlinkMaxDelay": 5.0
+		}
+	]
+}

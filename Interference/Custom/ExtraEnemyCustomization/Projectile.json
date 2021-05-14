@@ -1,0 +1,45 @@
+{
+	"ShooterFireCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "InfectionHybrid",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Shooter_Infection_Big"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"FireSettings": [
+				{
+					"FromDistance": -1.0,
+					"OverrideProjectileType": true,
+					"ProjectileType": 50,
+					"BurstCount": "Unchanged",
+					"BurstDelay": "Unchanged",
+					"ShotDelayMin": "Unchanged",
+					"ShotDelayMax": "Unchanged",
+					"InitialFireDelay": "Unchanged",
+					"ShotSpreadXMin": "Unchanged",
+					"ShotSpreadXMax": "Unchanged",
+					"ShotSpreadYMin": "Unchanged",
+					"ShotSpreadYMax": "Unchanged"
+				}
+			]
+		}
+	],
+	"ProjectileDefinitions": [
+		{
+			"DebugName": "Tiny_Infection_Cyan",
+			"ID": 50,
+			"BaseProjectile": "TargetingTiny",
+			"Speed": "95%",
+			"HomingStrength": "150%",
+			"GlowColor": "cyan",
+			"GlowRange": 0.5,
+			"Damage": "75% of default",
+			"Infection": "1.75%"
+		}
+	]
+}

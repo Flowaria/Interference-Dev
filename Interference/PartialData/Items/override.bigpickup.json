@@ -1,0 +1,102 @@
+[
+	{
+		"publicName": "Fog Repeller Turbine",
+		"terminalItemShortName": "FOG_TURBINE",
+		"terminalItemLongName": "INDUSTRIAL GRADE FOG REPELLER TURBINE",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 2,
+		"inventorySlot": 8,
+		"FPSSettings": 31,
+		"crosshair": 0,
+		"HUDIcon": "",
+		"ShowCrosshairWhenAiming": false,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": false,
+		"GUIShowAmmoTotalRel": false,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"BlockToolAmmoRefill": false,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 0,
+		"ConsumableAmmoMax": 0,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_FirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_ThirdPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
+		],
+		"PickupPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_Pickup.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig_Pickup.prefab"
+		],
+		"InstancePrefabs": [],
+		"EquipTransitionTime": 0.5,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "DefoggerBig",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "DefoggerBig",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "CarryAlign",
+		"name": "Carry_HeavyFogRepeller",
+		"internalEnabled": true,
+		"persistentID": 133
+	},
+	{
+		"publicName": "Power Cell",
+		"terminalItemShortName": "CELL",
+		"terminalItemLongName": "POWER CELL FOR BACKUP GENERATOR",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 2,
+		"inventorySlot": 8,
+		"FPSSettings": 30,
+		"crosshair": 0,
+		"HUDIcon": "",
+		"ShowCrosshairWhenAiming": false,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": false,
+		"GUIShowAmmoTotalRel": false,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"BlockToolAmmoRefill": false,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 0,
+		"ConsumableAmmoMax": 0,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/PowerCellItemEuippable_FirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/Generator_Cell_FirstPerson.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/Generator_Cell_ThirdPerson.prefab"
+		],
+		"PickupPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_Pickup.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/Generator_Cell_pickup.prefab"
+		],
+		"InstancePrefabs": [],
+		"EquipTransitionTime": 0.5,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "Generator_Cell",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "Generator_Cell",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "",
+		"name": "Carry_Generator_PowerCell",
+		"internalEnabled": true,
+		"persistentID": 131
+	}
+]

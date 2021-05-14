@@ -1,0 +1,28 @@
+<size=85%>>cortex_ni --analyze-geo latest
+Analyzing Geo-data from previous Rundown... DONE!
+<color=orange>WARNING! Geo-data mismatch level is high compare to local data.</color>
+<color=orange>- Suggested Action: Sync the Geo-data, Contact the Admin.</color>
+
+>geotools --lookup --query-any *nframe*,*map*
+Querying data with filter... DONE!
+<color=orange>Result:</color>
+- Subcomplex 91X122: Real-Time GeoData nFrame Cluster
+
+>rundown --load-id 62 --subcomplex 91X122 --forced</size>
+<size=150%>Initiating Rundown Protocol: <color=orange>Interference</color></size>
+
+
+<size=200%>Change Log (v0.5.10):</size>
+- Level: Added D1
+- Balancing:
+  - Reduced Efficiency of C-Foam applying to door
+  - Reduced Chance of Lock&Hacking door / Also Health of Lock
+- Weapon:
+  - Added: Stun Sentry, Rifle Sentry
+  - Removed: Burst Sentry
+  - Handgun: Increased Reloading Speed
+  - Combat R: Decreased Reloading Speed
+  - Choke Slug S: Fixed Holding Animation, Buffed Damage/Range
+  - Hel Combat SRifle: Reduced Precision Multi, Slightly Reduced Max Ammo
+  - ANTI-Mat SRifle: Changed Front part due to Animation stuffs
+  - Foam Launcher: Increased Max Ammo to 80

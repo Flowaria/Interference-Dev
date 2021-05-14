@@ -1,0 +1,52 @@
+[
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.03,
+			"r": 0.2382,
+			"g": 0.7148,
+			"b": 0.7968
+		},
+		"FogDensity": 0.0002,
+		"FogAmbience": 0.0,
+		"DensityNoiseDirection": {
+			"x": 0.65,
+			"y": 0.65,
+			"z": 0.65
+		},
+		"DensityNoiseSpeed": 0.02,
+		"DensityNoiseScale": 0.0731,
+		"DensityHeightAltitude": 10,
+		"DensityHeightRange": 5.0,
+		"DensityHeightMaxBoost": 0.0005,
+		"Infection": 0.0,
+		"name": "Fog_very_light_layer0",
+		"internalEnabled": true,
+		"persistentID": "LightFog_A2_Up0"
+	},
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.03,
+			"r": 0.2382,
+			"g": 0.7148,
+			"b": 0.7968
+		},
+		"FogDensity": 0.055,
+		"FogAmbience": 0.0,
+		"DensityNoiseDirection": {
+			"x": 0.65,
+			"y": 0.65,
+			"z": 0.65
+		},
+		"DensityNoiseSpeed": 0.02,
+		"DensityNoiseScale": 0.0731,
+		"DensityHeightAltitude": 10,
+		"DensityHeightRange": 3.0,
+		"DensityHeightMaxBoost": 0.0148,
+		"Infection": 0.0,
+		"name": "Fog_very_light_layer0",
+		"internalEnabled": true,
+		"persistentID": "LightFog_A2_Up1"
+	}
+]

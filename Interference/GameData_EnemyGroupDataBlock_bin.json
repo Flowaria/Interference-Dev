@@ -1,0 +1,914 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "Type": 0,
+      "Difficulty": 6,
+      "SpawnPlacementType": 0,
+      "MaxScore": 12.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hibernate_Easy_Large_Melee",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "Type": 0,
+      "Difficulty": 7,
+      "SpawnPlacementType": 0,
+      "MaxScore": 12.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hibernate_Easy_Large_Melee_Copy_1",
+      "internalEnabled": true,
+      "persistentID": 48
+    },
+    {
+      "Type": 0,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 12.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hibernate_Easy_Large_Melee_Copy",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
+      "Type": 0,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 7.0,
+      "RelativeWeight": 1.2,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Easy_Mix",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "Type": 0,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 5.0,
+      "RelativeWeight": 1.2,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 3
+        },
+        {
+          "Role": 1,
+          "Distribution": 3
+        }
+      ],
+      "name": "Hibernate_Easy_Small_Mix_a",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "Type": 0,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 5.0,
+      "RelativeWeight": 1.2,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Easy_Small_Mix_b",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "Type": 0,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 3.0,
+      "RelativeWeight": 1.5,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Easy_very_small_mix_a",
+      "internalEnabled": true,
+      "persistentID": 12
+    },
+    {
+      "Type": 0,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 2.0,
+      "RelativeWeight": 1.5,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hibernate_Easy_very_small_melee",
+      "internalEnabled": true,
+      "persistentID": 10
+    },
+    {
+      "Type": 0,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 2.0,
+      "RelativeWeight": 1.5,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 3
+        },
+        {
+          "Role": 1,
+          "Distribution": 3
+        }
+      ],
+      "name": "Hibernate_Easy_very_small_mix_b",
+      "internalEnabled": true,
+      "persistentID": 11
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 5,
+          "Distribution": 1
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Medium_Large_Scout",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 8.0,
+      "RelativeWeight": 1.2,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Medium_Large_Mix",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 9.0,
+      "RelativeWeight": 1.5,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Medium_Mix",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.2,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        },
+        {
+          "Role": 5,
+          "Distribution": 1
+        }
+      ],
+      "name": "Hibernate_Medium_Mix_Scout",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 5.0,
+      "RelativeWeight": 1.5,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 3
+        },
+        {
+          "Role": 1,
+          "Distribution": 3
+        }
+      ],
+      "name": "Hibernate_Medium_Small_Mix",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 5.0,
+      "RelativeWeight": 2.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 3
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        },
+        {
+          "Role": 5,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Medium_Small_Mix_Scout",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 3.0,
+      "RelativeWeight": 1.5,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hibernate_Medium_Very_Small_Mix_a",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "Type": 0,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 3.0,
+      "RelativeWeight": 1.5,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 3
+        },
+        {
+          "Role": 1,
+          "Distribution": 3
+        }
+      ],
+      "name": "Hibernate_Medium_Very_Small_Mix_b",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "Type": 0,
+      "Difficulty": 2,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 1,
+          "Distribution": 2
+        },
+        {
+          "Role": 5,
+          "Distribution": 1
+        },
+        {
+          "Role": 0,
+          "Distribution": 3
+        }
+      ],
+      "name": "Hibernate_Hard_Scout",
+      "internalEnabled": true,
+      "persistentID": 19
+    },
+    {
+      "Type": 0,
+      "Difficulty": 3,
+      "SpawnPlacementType": 1,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 9,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hibernate_Miniboss",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
+      "Type": 1,
+      "Difficulty": 7,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 8,
+          "Distribution": 5
+        }
+      ],
+      "name": "Puresneak_buss_Birther_child",
+      "internalEnabled": true,
+      "persistentID": 52
+    },
+    {
+      "Type": 0,
+      "Difficulty": 5,
+      "SpawnPlacementType": 1,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 9,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hibernate_miniboss_megaboss",
+      "internalEnabled": true,
+      "persistentID": 44
+    },
+    {
+      "Type": 0,
+      "Difficulty": 4,
+      "SpawnPlacementType": 2,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 10,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hibernate_Boss",
+      "internalEnabled": true,
+      "persistentID": 41
+    },
+    {
+      "Type": 1,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 4,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Sneak_Easy",
+      "internalEnabled": true,
+      "persistentID": 20
+    },
+    {
+      "Type": 1,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 4,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Sneak_Medium",
+      "internalEnabled": true,
+      "persistentID": 21
+    },
+    {
+      "Type": 1,
+      "Difficulty": 2,
+      "SpawnPlacementType": 2,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 4,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Sneak_Hard",
+      "internalEnabled": true,
+      "persistentID": 22
+    },
+    {
+      "Type": 1,
+      "Difficulty": 6,
+      "SpawnPlacementType": 0,
+      "MaxScore": 3.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 4,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Sneak_Biss",
+      "internalEnabled": true,
+      "persistentID": 50
+    },
+    {
+      "Type": 3,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 5,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Detect_Easy",
+      "internalEnabled": true,
+      "persistentID": 26
+    },
+    {
+      "Type": 3,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 5,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Detect_Medium",
+      "internalEnabled": true,
+      "persistentID": 27
+    },
+    {
+      "Type": 3,
+      "Difficulty": 2,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 5,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Detect_Hard",
+      "internalEnabled": true,
+      "persistentID": 28
+    },
+    {
+      "Type": 3,
+      "Difficulty": 4,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 5,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Detect_Boss_shadow",
+      "internalEnabled": true,
+      "persistentID": 45
+    },
+    {
+      "Type": 3,
+      "Difficulty": 3,
+      "SpawnPlacementType": 0,
+      "MaxScore": 4.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 5,
+          "Distribution": 5
+        }
+      ],
+      "name": "Pure_Detect_MiniBoss_bullrush",
+      "internalEnabled": true,
+      "persistentID": 54
+    },
+    {
+      "Type": 2,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 3,
+          "Distribution": 5
+        }
+      ],
+      "name": "detect_lurker",
+      "internalEnabled": true,
+      "persistentID": 23
+    },
+    {
+      "Type": 2,
+      "Difficulty": 3,
+      "SpawnPlacementType": 0,
+      "MaxScore": 4.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 3,
+          "Distribution": 5
+        }
+      ],
+      "name": "detect_lurker_miniboss",
+      "internalEnabled": true,
+      "persistentID": 53
+    },
+    {
+      "Type": 2,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 6.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 3,
+          "Distribution": 5
+        }
+      ],
+      "name": "detect_lurker_medium",
+      "internalEnabled": true,
+      "persistentID": 43
+    },
+    {
+      "Type": 2,
+      "Difficulty": 2,
+      "SpawnPlacementType": 0,
+      "MaxScore": 8.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 3,
+          "Distribution": 5
+        }
+      ],
+      "name": "detect_lurker_big",
+      "internalEnabled": true,
+      "persistentID": 34
+    },
+    {
+      "Type": 2,
+      "Difficulty": 2,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 3,
+          "Distribution": 4
+        },
+        {
+          "Role": 5,
+          "Distribution": 1
+        }
+      ],
+      "name": "detect_hard_scout",
+      "internalEnabled": false,
+      "persistentID": 24
+    },
+    {
+      "Type": 3,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 12.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 2,
+          "Distribution": 5
+        }
+      ],
+      "name": "Bullrush",
+      "internalEnabled": false,
+      "persistentID": 25
+    },
+    {
+      "Type": 4,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 6,
+          "Distribution": 5
+        }
+      ],
+      "name": "PatrolTest",
+      "internalEnabled": true,
+      "persistentID": 29
+    },
+    {
+      "Type": 6,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 2
+        }
+      ],
+      "name": "Hunter_easy_infront",
+      "internalEnabled": true,
+      "persistentID": 30
+    },
+    {
+      "Type": 6,
+      "Difficulty": 2,
+      "SpawnPlacementType": 1,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 7,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hunter_Boss",
+      "internalEnabled": true,
+      "persistentID": 36
+    },
+    {
+      "Type": 6,
+      "Difficulty": 2,
+      "SpawnPlacementType": 1,
+      "MaxScore": 5.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 7,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hunter_Boss_only_one",
+      "internalEnabled": true,
+      "persistentID": 49
+    },
+    {
+      "Type": 6,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 12.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 7,
+          "Distribution": 4
+        },
+        {
+          "Role": 0,
+          "Distribution": 6
+        },
+        {
+          "Role": 1,
+          "Distribution": 7
+        }
+      ],
+      "name": "Hunter_easy_inback",
+      "internalEnabled": true,
+      "persistentID": 31
+    },
+    {
+      "Type": 6,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 8.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 7,
+          "Distribution": 1
+        },
+        {
+          "Role": 0,
+          "Distribution": 4
+        },
+        {
+          "Role": 1,
+          "Distribution": 7
+        }
+      ],
+      "name": "Hunter_easy_inback_melee",
+      "internalEnabled": true,
+      "persistentID": 51
+    },
+    {
+      "Type": 6,
+      "Difficulty": 1,
+      "SpawnPlacementType": 0,
+      "MaxScore": 14.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 7,
+          "Distribution": 4
+        },
+        {
+          "Role": 7,
+          "Distribution": 7
+        },
+        {
+          "Role": 1,
+          "Distribution": 8
+        },
+        {
+          "Role": 0,
+          "Distribution": 7
+        }
+      ],
+      "name": "Hunter_medium_inback",
+      "internalEnabled": true,
+      "persistentID": 33
+    },
+    {
+      "Type": 6,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 8.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 3,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hunter_easy_bullrush",
+      "internalEnabled": true,
+      "persistentID": 32
+    },
+    {
+      "Type": 6,
+      "Difficulty": 6,
+      "SpawnPlacementType": 0,
+      "MaxScore": 13.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hunter_medium_melee",
+      "internalEnabled": true,
+      "persistentID": 35
+    },
+    {
+      "Type": 6,
+      "Difficulty": 5,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 7,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hunter_boss",
+      "internalEnabled": true,
+      "persistentID": 46
+    },
+    {
+      "Type": 6,
+      "Difficulty": 3,
+      "SpawnPlacementType": 0,
+      "MaxScore": 10.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 7,
+          "Distribution": 5
+        }
+      ],
+      "name": "Hunter_miniboss",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
+      "Type": 6,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 20.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 8,
+          "Distribution": 5
+        }
+      ],
+      "name": "Birther_Children",
+      "internalEnabled": true,
+      "persistentID": 37
+    },
+    {
+      "Type": 6,
+      "Difficulty": 0,
+      "SpawnPlacementType": 0,
+      "MaxScore": 30.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 8,
+          "Distribution": 5
+        }
+      ],
+      "name": "Birther_Boss_Children",
+      "internalEnabled": true,
+      "persistentID": 38
+    }
+  ],
+  "LastPersistentID": 54
+}

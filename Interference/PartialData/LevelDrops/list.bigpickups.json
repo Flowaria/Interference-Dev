@@ -1,0 +1,14 @@
+[
+	{
+		"SpawnsPerZone": 1,
+		"SpawnData": [
+			{
+				"ItemID": "Carry_Neonate_Stage0",
+				"Weight": 1.0
+			}
+		],
+		"name": "Neonate_1",
+		"internalEnabled": true,
+		"persistentID": "BigPickups_Neonate_1"
+	}
+]

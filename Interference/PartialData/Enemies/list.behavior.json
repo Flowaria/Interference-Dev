@@ -1,0 +1,65 @@
+[
+	{
+		"MeleeAttackDistance": {
+			"Min": 0.0,
+			"Max": 2.15
+		},
+		"RangedAttackDistance": {
+			"Min": 2.4,
+			"Max": 7.5
+		},
+		"StrafeDistance": {
+			"Min": 2.0,
+			"Max": 6.0
+		},
+		"HowOftenToStrafe": {
+			"Min": 1.5,
+			"Max": 2.0
+		},
+		"DistanceToStrafeWithoutLOS": {
+			"Min": -1.0,
+			"Max": -1.0
+		},
+		"DistanceToStrafeInTargetsLOS": {
+			"Min": 4.5,
+			"Max": 10.0
+		},
+		"DistanceToStrafeWithoutTargetsLOS": {
+			"Min": -1.0,
+			"Max": -1.0
+		},
+		"MoveCloserDelayAfterAttack": {
+			"Min": 0.3,
+			"Max": 1.0
+		},
+		"MoveTowardsTargetDuration": {
+			"Min": 1.0,
+			"Max": 3.0
+		},
+		"ClosestTargetDistance": {
+			"Min": 0.5,
+			"Max": 4.0
+		},
+		"StartWalkDuration": {
+			"Min": 0.3,
+			"Max": 0.7
+		},
+		"StartWalkTimeoutUntilNext": {
+			"Min": 10.0,
+			"Max": 15.0
+		},
+		"ScreamStateDelay": {
+			"Min": 5.0,
+			"Max": 20.0
+		},
+		"RushTargetDistance": 8.5,
+		"ChanceToPropagateOnDetection": 0.25,
+		"ChanceToPropagateOnDeath": 0.25,
+		"ChanceToPropagateToMastermind": 0.1,
+		"PropagationDistance": 20.0,
+		"DisableTargetPreferenceWeight": false,
+		"name": "Striker_Rusher",
+		"internalEnabled": true,
+		"persistentID": "Behavior_Striker_Rusher"
+	}
+]

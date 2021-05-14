@@ -1,0 +1,32 @@
+[
+	{
+		"WaveRoleWeakling": "Enemy_Shadow_Bullrush_Small",
+		"WaveRoleStandard": "Enemy_Shadow_Bullrush_Small",
+		"WaveRoleSpecial": "Enemy_Shadow_Bullrush_Small",
+		"WaveRoleMiniBoss": "Enemy_Shadow_Bullrush_Small",
+		"WaveRoleBoss": "Enemy_Shadow_Bullrush_Small",
+		"name": "Bullrush_Small_Shadow",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Only_SmallBullrush_Shadow"
+	},
+	{
+		"WaveRoleWeakling": "Enemy_Shadow_Big_Bullrush",
+		"WaveRoleStandard": "Enemy_Shadow_Big_Bullrush",
+		"WaveRoleSpecial": "Enemy_Shadow_Big_Bullrush",
+		"WaveRoleMiniBoss": "Enemy_Shadow_Big_Bullrush",
+		"WaveRoleBoss": "Enemy_Shadow_Big_Bullrush",
+		"name": "Bullrush_Big_Shadow",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Shadow_BigBullrush"
+	},
+	{
+		"WaveRoleWeakling": 21,
+		"WaveRoleStandard": 13,
+		"WaveRoleSpecial": 11,
+		"WaveRoleMiniBoss": 33,
+		"WaveRoleBoss": 33,
+		"name": "Baseline_rapid_shooter",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Base_InfectionRapid"
+	}
+]

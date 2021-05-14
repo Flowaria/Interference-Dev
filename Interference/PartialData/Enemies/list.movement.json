@@ -1,0 +1,20 @@
+[
+	{
+		"AnimationControllers": 4,
+		"MoveSlowerWhenInPlayerRoom": false,
+		"MoveSlowerWithinTargetDistance": 20.0,
+		"GlobalAnimSpeedMulti": 1.22,
+		"PathMoveAnimSpeedMulti": 1.18,
+		"RotationLerp": 6.0,
+		"RotationLerpWhenNotMoving": 6.0,
+		"DefaultMoveState": 2,
+		"BlendIntoAttackAnim": 0.15,
+		"BlendIntoScreamAnim": 0.15,
+		"AllowMovmentBlendOutOfPathMove": false,
+		"PathMoveAnimDampTime": 0.05,
+		"AllowClimbDownLadders": true,
+		"name": "Striker_Rusher",
+		"internalEnabled": true,
+		"persistentID": "Movement_Striker_Rusher"
+	  }
+]

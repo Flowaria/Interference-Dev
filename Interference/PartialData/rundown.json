@@ -1,0 +1,2223 @@
+{
+	"ReqToReachTierB": {
+		"MainSectors": 0,
+		"SecondarySectors": 0,
+		"ThirdSectors": 0,
+		"AllClearedSectors": 0
+	},
+	"ReqToReachTierC": {
+		"MainSectors": 0,
+		"SecondarySectors": 0,
+		"ThirdSectors": 0,
+		"AllClearedSectors": 0
+	},
+	"ReqToReachTierD": {
+		"MainSectors": 0,
+		"SecondarySectors": 0,
+		"ThirdSectors": 0,
+		"AllClearedSectors": 0
+	},
+	"ReqToReachTierE": {
+		"MainSectors": 0,
+		"SecondarySectors": 0,
+		"ThirdSectors": 0,
+		"AllClearedSectors": 0
+	},
+	"StorytellingData": {
+		"Title": "Interference",
+		"TextLog": "",
+		"TextLogPos": {
+			"x": 0.0,
+			"y": 0.0
+		},
+		"Visuals": {
+			"ColorBackground": {
+				"a": 1.0,
+				"r": 0.0,
+				"g": 0.0,
+				"b": 0.0
+			},
+			"TierAVisuals": {
+				"Color": {
+					"a": 0.5,
+					"r": 0.8039215686,
+					"g": 1.0,
+					"b": 1.0
+				},
+				"Scale": 0.71
+			},
+			"TierBVisuals": {
+				"Color": {
+					"a": 0.8,
+					"r": 0.4039215686,
+					"g": 0.6,
+					"b": 1.0
+				},
+				"Scale": 0.78
+			},
+			"TierCVisuals": {
+				"Color": {
+					"a": 1.0,
+					"r": 0.631372549,
+					"g": 0.6117647058,
+					"b": 1.0
+				},
+				"Scale": 0.495
+			},
+			"TierDVisuals": {
+				"Color": {
+					"a": 1.0,
+					"r": 0.64705882,
+					"g": 0.4,
+					"b": 1.0
+				},
+				"Scale": 0.69
+			},
+			"TierEVisuals": {
+				"Color": {
+					"a": 0.8,
+					"r": 0.6470588,
+					"g": 0.4,
+					"b": 1.0
+				},
+				"Scale": 0.585
+			}
+		},
+		"SurfaceIconPosition": {
+			"x": 0.0,
+			"y": 0.0
+		},
+		"SurfaceDescription": "//:General Blueprint data is needed for new Rundown Protocol\n - Locate a Central nFrame Cluster in this Sector."
+	},
+	"TierA": [
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "TUTORIAL-",
+				"PublicName": "Handshaking",
+				"ExpeditionDepth": 213,
+				"EstimatedDuration": "15~20MIN",
+				"ExpeditionDescription": "<color=red>[ERR://#005 Unexpected Network Condition During COMM]</color> is needed.\nAdministrator DNA verify is needed for further progress.\nPrisoners sent to collect DNA sample from HSU unit.",
+				"RoleplayedWardenIntel": ">..It's all done! We finally can be fre-\n<size=200%><color=red>>[Alarm siren]</color></size>\n>..Shit SHIT!\n>[unintelligible, gunfire]"
+			},
+			"Seeds": {
+				"BuildSeed": 0,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": "Complex_Mining_Modifier",
+				"LightSettings": 9,
+				"FogSettings": "LightFog_Ambient",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_A1_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 6,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 4,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 7,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 100000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A1_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							},
+							{
+								"LocalIndex": 6,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							},
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							},
+							{
+								"LocalIndex": 6,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Obj_A1_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 4
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 34,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A1_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": false,
+			"ThirdLayout": 0,
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>A00",
+				"PublicName": "Protocols",
+				"ExpeditionDepth": 195,
+				"EstimatedDuration": "15~20MIN",
+				"ExpeditionDescription": "DNA Data has been salvaged and ready to be uploaded.\nPrisoners sent to Establish Uploading Protocol.",
+				"RoleplayedWardenIntel": ">..I can't... breath...\n<color=red><size=200%>>..Yeah do not go inside this fucking fog.</size></color>\n>..Terminal system says there is fog turbine somewhere..."
+			},
+			"Seeds": {
+				"BuildSeed": -9291,
+				"FunctionMarkerOffset": 5287,
+				"StandardMarkerOffset": 1236,
+				"LightJobSeedOffset": 65
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 9,
+				"FogSettings": "LightFog_Below_Infection_Slow",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_A2_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 21,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A2_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_A2_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 3
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 61,
+				"ZonesWithBulkheadEntrance": [
+					2
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 1,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A2_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_A2_L3",
+			"BuildThirdFrom": {
+				"LayerType": 1,
+				"Zone": 1
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 82,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 4,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A2_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 100000.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>A00",
+				"PublicName": "Entrypoint",
+				"ExpeditionDepth": 267,
+				"EstimatedDuration": "15~20MIN",
+				"ExpeditionDescription": "Prisoners sent to try manual verify using salvaged Data Sphere.\nClear a Pathway If possible.",
+				"RoleplayedWardenIntel": ">[loud hum]\n<size=200%><color=red>>..Why is this place so big?</color></size>\n>..I don't know neither.\n>..Security Alarm.. Again.."
+			},
+			"Seeds": {
+				"BuildSeed": 48,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": -123123
+			},
+			"Expedition": {
+				"ComplexResourceData": 3,
+				"LightSettings": 9,
+				"FogSettings": "LightFog_Ambient",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_A3_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 81,
+				"ZonesWithBulkheadEntrance": [
+					1
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 0,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A3_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_A3_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 121,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 3,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A3_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": false,
+			"ThirdLayout": 0,
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		}
+	],
+	"TierB": [
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>B00",
+				"PublicName": "Malfunction",
+				"ExpeditionDepth": 393,
+				"EstimatedDuration": "30~45MIN",
+				"ExpeditionDescription": "Low-power level detected for powerline in this part of Complex, Immediate Restoration Required.\nPrisoners sent to restore the air ventilization system in order to reach subjacent passage floor.",
+				"RoleplayedWardenIntel": ">..This fucking Fog is slowly rising!\n<size=150%><color=red>>We should hurry!</color></size>"
+			},
+			"Seeds": {
+				"BuildSeed": 0,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 21,
+				"FogSettings": "Fog_B1_Layer0",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_B1_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 10,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 1,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 1000.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 2
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 7,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B1_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_B1_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 1
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 42,
+				"ZonesWithBulkheadEntrance": [
+					2
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 1,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 1000.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B1_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_B1_L3",
+			"ThirdLayerData": {
+				"ZoneAliasStart": 162,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 2,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B1_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"BuildThirdFrom": {
+				"LayerType": 1,
+				"Zone": 1
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>B00",
+				"PublicName": "Power Surge",
+				"ExpeditionDepth": 481,
+				"EstimatedDuration": "30~40MIN",
+				"ExpeditionDescription": "Power outage occurred due to restart of air ventilization system for subjacent floor.\nPrisoners sent to execute startup sequence for backup reactor",
+				"RoleplayedWardenIntel": ">..The verification time... it... What...?\n>[Alarm Siren]\n<color=red>>..Yeah we don't have enough time, We should split up!</color>\n>..Are you ready?"
+			},
+			"Seeds": {
+				"BuildSeed": 0,
+				"FunctionMarkerOffset": 5,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 3,
+				"LightSettings": 21,
+				"FogSettings": "Fog_B2_Init",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_B2_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 52,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 2,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 1000.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 9,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 1000000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B2_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_B2_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 1
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 18,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B2_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_B2_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 2
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 81,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B2_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							},
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": 0.125
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>B00",
+				"PublicName": "Cryptology",
+				"ExpeditionDepth": 323,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Navigation Beacon for [0<size=70%>X</size>D001] has encrypted and can't be triggered.\nPrisoners sent to collect PDEC (Partial Decoder) in complex.",
+				"RoleplayedWardenIntel": ">[Tracker humming]\n>..There are...\n>[pause]\n>..What? What is it?\n<color=red><size=200%>>....Don't.. Fucking... Mov-</size></color>\n>[commotion, sudden scream]"
+			},
+			"Seeds": {
+				"BuildSeed": -7756,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": -665,
+				"LightJobSeedOffset": 959
+			},
+			"Expedition": {
+				"ComplexResourceData": 27,
+				"LightSettings": 21,
+				"FogSettings": 28,
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_B3_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 326,
+				"ZonesWithBulkheadEntrance": [
+					2
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 1,
+						"PlacementWeights": {
+							"Start": 10000.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 1000000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B3_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							},
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							},
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							},
+							{
+								"LocalIndex": 6,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_B3_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 1
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 276,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 1000.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 3,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 1000000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B3_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_B3_L3",
+			"BuildThirdFrom": {
+				"LayerType": 1,
+				"Zone": 0
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 512,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 3,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 1000000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B3_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		}
+	],
+	"TierC": [
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>C00",
+				"PublicName": "<color=orange>Forbidden</color>",
+				"ExpeditionDepth": -99999,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "<color=red><size=150%>[://ERR#403 Access Denied!]</size></color>",
+				"RoleplayedWardenIntel": ">..Class.. Unknown?\n>..This one is Unknown too.\n<color=red><size=200%>>Well, Every fucking door is unknown!</size></color>\n>..Do we have terminal?\n[radio static]"
+			},
+			"Seeds": {
+				"BuildSeed": 4444403,
+				"FunctionMarkerOffset": 40340,
+				"StandardMarkerOffset": 40340,
+				"LightJobSeedOffset": 4034
+			},
+			"Expedition": {
+				"ComplexResourceData": 3,
+				"LightSettings": 61,
+				"FogSettings": 28,
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_C1_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 445,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 2,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_C1_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 10,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 11,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
+							{
+								"LocalIndex": 12,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
+							{
+								"LocalIndex": 13,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
+							{
+								"LocalIndex": 14,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_C1_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 450,
+				"ZonesWithBulkheadEntrance": [
+					2
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_C1_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_C1_L3",
+			"BuildThirdFrom": {
+				"LayerType": 1,
+				"Zone": 0
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 725,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 5,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_C1_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 50000.0
+								}
+							},
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 50000.0
+								}
+							},
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 50000.0
+								}
+							},
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 50000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>C00",
+				"PublicName": "<color=red>Brute Force</color>",
+				"ExpeditionDepth": 588,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Non-Authorized Access from Previous Expedition has Reported.\nPrisoners sent to disable the Alarm in this floor.\n<color=red>WARNING://Alarm Triggered!</color>",
+				"RoleplayedWardenIntel": ">..Overload Bulkhead?\n<color=red><size=200%>>..Yeah, this is our only chance to access it.</color></size>\n>[distant scream]\n>..Aw Fuck!\n>[gunfire, screams]"
+			},
+			"Seeds": {
+				"BuildSeed": -6666,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 70,
+				"FogSettings": "HeavyFog_Below_Infection_Fast",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_C2_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 243,
+				"ZonesWithBulkheadEntrance": [
+					8
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 100000.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 5,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000000.0
+							}
+						},
+						{
+							"LocalIndex": 6,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_C2_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 9,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_C2_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 9
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 111,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_C2_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_C2_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 311,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 6,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_C2_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		}
+	],
+	"TierD": [
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>D00",
+				"PublicName": "Checksum",
+				"ExpeditionDepth": 782,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "General Power supply now in stable level.\nExecute Final setup sequence at any cost of prisoners.",
+				"RoleplayedWardenIntel": ">..This place is so fucking dark...\n<color=red><size=200%>>..Where the fuck are the generators?!</size></color>\n>..Shhhhh... They are pulsating!\n>..Stand still...\n>[radio static]"
+			},
+			"Seeds": {
+				"BuildSeed": 0,
+				"FunctionMarkerOffset": -6,
+				"StandardMarkerOffset": 6666,
+				"LightJobSeedOffset": 664
+			},
+			"Expedition": {
+				"ComplexResourceData": 3,
+				"LightSettings": 9,
+				"FogSettings": "Fog_D1_Low",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_D1_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 660,
+				"ZonesWithBulkheadEntrance": [
+					0
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 5,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 4,
+						"MarkerSeedOffset": 3
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 5,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D1_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_D1_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 5
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 912,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D1_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_D1_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 5
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 579,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 6,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D1_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>D00",
+				"PublicName": "Gateway",
+				"ExpeditionDepth": 729,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "nFrame Cluster now have enough power to run.\nPrisoners sent to Clear a path towards [0<size=70%>X</size>E001]",
+				"RoleplayedWardenIntel": "\n>[metallic banging]\n>..The door..\n<color=red><size=200%>>..It's opening itself!</size></color>\n>Hold your ground!\n>[unintelligible, gunfire]"
+			},
+			"Seeds": {
+				"BuildSeed": -1967873,
+				"FunctionMarkerOffset": 55,
+				"StandardMarkerOffset": 3546,
+				"LightJobSeedOffset": -945
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 39,
+				"FogSettings": "Fog_D2_High",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": "WaveSetting_Scout_Kind",
+				"ScoutWavePopulation": 5
+			},
+			"LevelLayoutData": "Layout_D2_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 660,
+				"ZonesWithBulkheadEntrance": [
+					19
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 20,
+						"PlacementWeights": {
+							"Start": 100000.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 53,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 20,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D2_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 16,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_D2_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 20
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 893,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 6,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D2_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_D2_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 16
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 988,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D2_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": "BlockedAndScrambled",
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>D00",
+				"PublicName": "Timeout",
+				"ExpeditionDepth": 962,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Unexpected Fog Anomaly in this complex, Estimated Fatality Rate is in Extreme level.\nPrisoners sent to restore climate control system in order to reach [0<size=70%>X</size>E001]",
+				"RoleplayedWardenIntel": ""
+			},
+			"Seeds": {
+				"BuildSeed": -504504,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 39,
+				"FogSettings": "Fog_D3_High",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_D3_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 712,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D3_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": false,
+			"SecondaryLayout": "Layout_D2_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 20
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 893,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 3,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D2_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": false,
+			"ThirdLayout": "Layout_D2_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 16
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 988,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D2_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		}
+	],
+	"TierE": [
+		{
+			"Enabled": true,
+			"Accessibility": 1,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>E00",
+				"PublicName": "Daydream",
+				"ExpeditionDepth": 1022,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Retrieve Geo-data from nFrame using allocated Data Sphere.\n<color=red>High prisoner fatality rate estimated</color>",
+				"RoleplayedWardenIntel": ""
+			},
+			"Seeds": {
+				"BuildSeed": -44467,
+				"FunctionMarkerOffset": -5551,
+				"StandardMarkerOffset": -5552,
+				"LightJobSeedOffset": -5553
+			},
+			"Expedition": {
+				"ComplexResourceData": 3,
+				"LightSettings": 9,
+				"FogSettings": "LightFog_Ambient",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_E1_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 792,
+				"ZonesWithBulkheadEntrance": [
+					8
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 53,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_E1_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_E1_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 3
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 987,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_E1_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": false,
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": "BlockedAndScrambled",
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>E00",
+				"PublicName": "",
+				"ExpeditionDepth": 1162,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "",
+				"RoleplayedWardenIntel": ""
+			},
+			"Seeds": {
+				"BuildSeed": 0,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 9,
+				"FogSettings": "LightFog_Ambient",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_E1_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 792,
+				"ZonesWithBulkheadEntrance": [
+					8
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 53,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_E1_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 5,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_E1_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 3
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 987,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_E1_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": false,
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		}
+	],
+	"name": "RundownData",
+	"internalEnabled": true,
+	"persistentID": 1
+}

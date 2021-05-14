@@ -1,0 +1,263 @@
+[
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 316
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge-16Cluster",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class2_16Cluster"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 316
+			},
+			{
+				"PuzzleType": 316
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge-16Cluster",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class3_16Cluster"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 9
+			},
+			{
+				"PuzzleType": 9
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge-2Cluster",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class3_Cluster"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 9
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge-2Cluster",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class2_Cluster"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 9.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class2_Surge"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 9.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge-Cluster",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class3_Surge"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 316
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge-16Cluster",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class3"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
+		"SurvivalWavePopulation": 18,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 13
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "S1-Static",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_S1"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
+		"SurvivalWavePopulation": 18,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Unknown S1 III",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_S1_3"
+	},
+	{
+		"PublicAlarmName": "Class [//:UNKNOWN] Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
+		"SurvivalWavePopulation": 18,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 12.0,
+		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 102
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Unknown Q Surge 5",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_QSurge_5"
+	}
+]

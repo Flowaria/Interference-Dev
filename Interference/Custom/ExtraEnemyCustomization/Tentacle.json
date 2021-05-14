@@ -1,0 +1,19 @@
+{
+	"StrikerTentacleCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "Shadow",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Shadow",
+				"nameIgnoreCase": true
+			},
+			"TentacleTypes": [
+				"Shadow"
+			],
+			"TentacleSettings": []
+		}
+	],
+	"TentacleDefinitions": []
+}

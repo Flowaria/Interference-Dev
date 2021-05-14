@@ -1,0 +1,306 @@
+[
+  {
+    "Type": 1,
+    "Header": "Reactor Startup",
+    "MainObjective": "Find the backup reactor and make sure it is back online.",
+    "FindLocationInfo": "Find the Reactor in [ITEM_ZONE]",
+    "FindLocationInfoHelp": "",
+    "GoToZone": "Navigate to [ITEM_ZONE] and start the Reactor",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "Find the reactor control panel and initiate the startup",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "Make sure the Reactor is fully started before leaving",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": "Fog_B2_Landed",
+    "FogTransitionDurationOnElevatorLand": 25.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": 36,
+        "WavePopulation": 1,
+        "SpawnDelay": 4.0,
+        "TriggerAlarm": true
+      }
+    ],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 10,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+    "ReactorWaves": [
+      {
+        "Warmup": 30.0,
+        "WarmupFail": 18.0,
+        "Wave": 32.0,
+        "Verify": 40.0,
+        "VerifyFail": 24.0,
+        "VerifyInOtherZone": false,
+        "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          }
+        ],
+        "Events": []
+      },
+      {
+        "Warmup": 16.0,
+        "WarmupFail": 13.0,
+        "Wave": 32.0,
+        "Verify": 32.0,
+        "VerifyFail": 26.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 4,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less",
+            "WavePopulation": 1,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 3,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_3] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_4]"
+          }
+        ]
+      },
+      {
+        "Warmup": 16.0,
+        "WarmupFail": 13.0,
+        "Wave": 43.0,
+        "Verify": 340.0,
+        "VerifyFail": 24.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 6,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.4,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 1,
+            "Layer": 0,
+            "LocalIndex": 5,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_5] opened by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_6]"
+          },
+          {
+            "Trigger": 2,
+            "Type": 2,
+            "Layer": 1,
+            "LocalIndex": 0,
+            "Delay": 10.0,
+            "WardenIntel": "Door to <color=orange>Extreme</color> unlocked by startup sequence"
+          }
+        ]
+      },
+      {
+        "Warmup": 16.0,
+        "WarmupFail": 9.0,
+        "Wave": 39.0,
+        "Verify": 385.0,
+        "VerifyFail": 20.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 8,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30,
+            "WavePopulation": 8,
+            "SpawnTimeRel": 0.32,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.75,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 1,
+            "Layer": 0,
+            "LocalIndex": 7,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_7] and [ZONE_9] opened by startup sequence"
+          },
+          {
+            "Trigger": 1,
+            "Type": 1,
+            "Layer": 0,
+            "LocalIndex": 9,
+            "Delay": 5.0,
+            "WardenIntel": ""
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_8]"
+          }
+        ]
+      }
+    ],
+    "LightsOnFromBeginning": false,
+    "LightsOnDuringIntro": true,
+    "LightsOnWhenStartupComplete": false,
+    "SpecialTerminalCommand": "",
+    "SpecialTerminalCommandDesc": "",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 0,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 0,
+    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_FogDataSteps": [],
+    "ActivateHSU_ItemFromStart": 0,
+    "ActivateHSU_ItemAfterActivation": 0,
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "Reactor_Startup_Waves_5_FAST[LightOffOnFinish]",
+    "internalEnabled": true,
+    "persistentID": "Obj_B2_L1"
+  },
+  {
+    "Type": 6,
+    "Header": "Retrieve Essential Items",
+    "MainObjective": "Find [ALL_ITEMS] and bring it to the extraction scan in [EXTRACTION_ZONE]",
+    "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "Retrieve_Items": [
+      148, 148
+    ],
+    "name": "Retrieve Essential Items_2_CRYO",
+    "internalEnabled": true,
+    "persistentID": "Obj_B2_L2"
+  },
+  {
+    "Type": 3,
+    "Header": "Gather Hard drives",
+    "MainObjective": "Gather [COUNT_REQUIRED] Hard Drives and return the data to be processed.",
+    "FindLocationInfo": "Look for Hard drives in the complex",
+    "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+    "Gather_RequiredCount": 16,
+    "Gather_ItemId": 147,
+    "Gather_SpawnCount": 24,
+    "Gather_MaxPerZone": 24,
+    "name": "Gather_Harddrives_8",
+    "internalEnabled": true,
+    "persistentID": "Obj_B2_L3"
+  }
+]

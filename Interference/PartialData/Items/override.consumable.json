@@ -1,0 +1,155 @@
+[
+	{
+		"publicName": "Fog Repeller",
+		"terminalItemShortName": "",
+		"terminalItemLongName": "",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 6,
+		"inventorySlot": 5,
+		"FPSSettings": 25,
+		"crosshair": 0,
+		"HUDIcon": "",
+		"ShowCrosshairWhenAiming": true,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": true,
+		"GUIShowAmmoTotalRel": true,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"BlockToolAmmoRefill": false,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 4,
+		"ConsumableAmmoMax": 6,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller_third.prefab"
+		],
+		"PickupPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller_Pickup.prefab"
+		],
+		"InstancePrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_Fogrepeller_Instance.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller.prefab"
+		],
+		"EquipTransitionTime": 1.0,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "FogRepeller",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "FogRepeller",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "",
+		"name": "CONSUMABLE_FogRepeller",
+		"internalEnabled": true,
+		"persistentID": 117
+	},
+	{
+		"publicName": "Glow Stick",
+		"terminalItemShortName": "",
+		"terminalItemLongName": "",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 3,
+		"inventorySlot": 5,
+		"FPSSettings": 24,
+		"crosshair": 0,
+		"HUDIcon": "",
+		"ShowCrosshairWhenAiming": true,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": true,
+		"GUIShowAmmoTotalRel": true,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"BlockToolAmmoRefill": false,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 16,
+		"ConsumableAmmoMax": 16,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_third.prefab"
+		],
+		"PickupPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Pickup.prefab"
+		],
+		"InstancePrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Instance.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_lit.prefab"
+		],
+		"EquipTransitionTime": 1.0,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "GlowStick",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "GlowStick",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "",
+		"name": "CONSUMABLE_GlowStick",
+		"internalEnabled": true,
+		"persistentID": 114
+	},
+	{
+		"publicName": "Red Glow Stick",
+		"terminalItemShortName": "",
+		"terminalItemLongName": "",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 3,
+		"inventorySlot": 5,
+		"FPSSettings": 24,
+		"crosshair": 0,
+		"HUDIcon": "",
+		"ShowCrosshairWhenAiming": true,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": true,
+		"GUIShowAmmoTotalRel": true,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"BlockToolAmmoRefill": false,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 16,
+		"ConsumableAmmoMax": 16,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Christmas.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_third_Christmas.prefab"
+		],
+		"PickupPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Pickup_Christmas.prefab"
+		],
+		"InstancePrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_Instance_Christmas.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/Glowstick/Consumable_GlowStick_lit_Christmas.prefab"
+		],
+		"EquipTransitionTime": 1.0,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "GlowStick",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "GlowStick",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "",
+		"name": "CONSUMABLE_GlowStick_Christmas",
+		"internalEnabled": true,
+		"persistentID": 130
+	}
+]

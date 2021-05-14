@@ -1,0 +1,34 @@
+[
+	{
+		"SFX_ID_walk": 1201976284,
+		"SFX_ID_run": 1727064594,
+		"SFX_ID_climbLadder": 0,
+		"SFX_ID_heartbeatPulse": 2209321909,
+		"SFX_ID_hibernateIdle": 3676707439,
+		"hibernateIdleInterval": {
+			"x": 60.0,
+			"y": 120.0
+		},
+		"SFX_ID_hibernateWakeUp": 3084824106,
+		"SFX_ID_hibernateDie": 3186730326,
+		"SFX_ID_hibernateDetectionStart": 1777084894,
+		"SFX_ID_scream": 2377057307,
+		"SFX_ID_stuckInGlue": 3821460214,
+		"SFX_ID_releaseFromGlue": 1980748693,
+		"SFX_ID_attackWindUp": 1991521962,
+		"SFX_ID_attackWindUp_NotLocalTarget": 0,
+		"SFX_ID_attackFire": 4088509470,
+		"SFX_ID_hurtSmall": 2251414234,
+		"SFX_ID_hurtBig": 3821460214,
+		"SFX_ID_die": 225404576,
+		"SFX_ID_JumpStart": 3391976123,
+		"SFX_ID_JumpInAir": 0,
+		"SFX_ID_JumpLand": 3296246808,
+		"SFX_ID_BigTentacleStart": 0,
+		"SFX_ID_BigTentacleTipLoop": 0,
+		"SFX_ID_BigTentacleEnd": 0,
+		"name": "Striker_Rusher",
+		"internalEnabled": true,
+		"persistentID": "SFX_Striker_Rusher"
+	}
+]

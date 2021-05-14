@@ -1,0 +1,473 @@
+{
+	"Zones": [
+		{
+			"LocalIndex": 0, //Cluster
+			"SubSeed": 0,
+			"BulkheadDCScanSeed": 0,
+			"SubComplex": "Refinery",
+			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_HA_01.prefab",
+			"CoverageMinMax": {
+				"x": 55.0,
+				"y": 60.0
+			},
+			"BuildFromLocalIndex": 0,
+			"StartPosition": "From_Start",
+			"StartPosition_IndexWeight": 0.0,
+			"StartExpansion": "Towards_Forward",
+			"ZoneExpansion": "Directional_Forward",
+			"LightSettings": 1,
+			"AltitudeData": {
+				"AllowedZoneAltitude": "Descending",
+				"ChanceToChange": 1.0
+			},
+			"EventsOnEnter": [],
+			"ProgressionPuzzleToEnter": {
+				"PuzzleType": 0,
+				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+				"PlacementCount": 1,
+				"ZonePlacementData": []
+			},
+			"ChainedPuzzleToEnter": "Alarm_A_Class4",
+			"SecurityGateToEnter": 0,
+			"ActiveEnemyWave": {
+				"HasActiveEnemyWave": false,
+				"EnemyGroupInfrontOfDoor": 0,
+				"EnemyGroupInArea": 0,
+				"EnemyGroupsInArea": 0
+			},
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.35
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 1,
+					"DistributionValue": 1.0
+				}
+			],
+			"HSUClustersInZone": 0,
+			"CorpseClustersInZone": 0,
+			"ResourceContainerClustersInZone": 0,
+			"GeneratorClustersInZone": 1,
+			"CorpsesInZone": 0,
+			"HSUsInZone": 0,
+			"DeconUnitsInZone": 0,
+			"AllowSmallPickupsAllocation": true,
+			"AllowResourceContainerAllocation": true,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": 1,
+			"BigPickupDistributionInZone": 0,
+			"TerminalPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 1.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				}
+			],
+			"ForbidTerminalsInZone": false,
+			"PowerGeneratorPlacements": [],
+			"DisinfectionStationPlacements": [],
+			"HealthMulti": 0.6,
+			"HealthPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"WeaponAmmoMulti": 0.6,
+			"WeaponAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"ToolAmmoMulti": 0.6,
+			"ToolAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"DisinfectionMulti": 0.0,
+			"DisinfectionPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			}
+		},
+		{
+			"LocalIndex": 1, //Cell Passage
+			"SubSeed": 0,
+			"BulkheadDCScanSeed": 0,
+			"SubComplex": "Refinery",
+			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_L_HA_01.prefab",
+			"CoverageMinMax": {
+				"x": 20.0,
+				"y": 30.0
+			},
+			"BuildFromLocalIndex": 0,
+			"StartPosition": "From_Start",
+			"StartPosition_IndexWeight": 0.0,
+			"StartExpansion": "Towards_Left",
+			"ZoneExpansion": "Directional_Left",
+			"LightSettings": 57,
+			"AltitudeData": {
+				"AllowedZoneAltitude": "Unchanged",
+				"ChanceToChange": 1.0
+			},
+			"EventsOnEnter": [],
+			"ProgressionPuzzleToEnter": {
+				"PuzzleType": 0,
+				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+				"PlacementCount": 1,
+				"ZonePlacementData": []
+			},
+			"ChainedPuzzleToEnter": 4,
+			"SecurityGateToEnter": 0,
+			"ActiveEnemyWave": {
+				"HasActiveEnemyWave": false,
+				"EnemyGroupInfrontOfDoor": 0,
+				"EnemyGroupInArea": 0,
+				"EnemyGroupsInArea": 0
+			},
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 1,
+					"DistributionValue": 1.0
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 1,
+					"DistributionValue": 1.0
+				}
+			],
+			"HSUClustersInZone": 0,
+			"CorpseClustersInZone": 0,
+			"ResourceContainerClustersInZone": 0,
+			"GeneratorClustersInZone": 0,
+			"CorpsesInZone": 0,
+			"HSUsInZone": 0,
+			"DeconUnitsInZone": 0,
+			"AllowSmallPickupsAllocation": true,
+			"AllowResourceContainerAllocation": true,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": 1,
+			"BigPickupDistributionInZone": 0,
+			"TerminalPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 1.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				}
+			],
+			"ForbidTerminalsInZone": false,
+			"PowerGeneratorPlacements": [],
+			"DisinfectionStationPlacements": [],
+			"HealthMulti": 0.3,
+			"HealthPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"WeaponAmmoMulti": 0.3,
+			"WeaponAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"ToolAmmoMulti": 0.3,
+			"ToolAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"DisinfectionMulti": 0.0,
+			"DisinfectionPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			}
+		},
+		{
+			"LocalIndex": 2, //Cell
+			"SubSeed": 78,
+			"BulkheadDCScanSeed": 0,
+			"SubComplex": "Refinery",
+			"CoverageMinMax": {
+				"x": 20.0,
+				"y": 30.0
+			},
+			"BuildFromLocalIndex": 1,
+			"StartPosition": "From_Start",
+			"StartPosition_IndexWeight": 0.0,
+			"StartExpansion": "Towards_Forward",
+			"ZoneExpansion": "Directional_Forward",
+			"LightSettings": 57,
+			"AltitudeData": {
+				"AllowedZoneAltitude": "Unchanged",
+				"ChanceToChange": 1.0
+			},
+			"EventsOnEnter": [],
+			"ProgressionPuzzleToEnter": {
+				"PuzzleType": 0,
+				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+				"PlacementCount": 1,
+				"ZonePlacementData": []
+			},
+			"ChainedPuzzleToEnter": "Alarm_A_Class3",
+			"SecurityGateToEnter": 0,
+			"ActiveEnemyWave": {
+				"HasActiveEnemyWave": false,
+				"EnemyGroupInfrontOfDoor": 0,
+				"EnemyGroupInArea": 0,
+				"EnemyGroupsInArea": 0
+			},
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.25
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 1,
+					"DistributionValue": 1.0
+				}
+			],
+			"HSUClustersInZone": 0,
+			"CorpseClustersInZone": 0,
+			"ResourceContainerClustersInZone": 0,
+			"GeneratorClustersInZone": 0,
+			"CorpsesInZone": 0,
+			"HSUsInZone": 0,
+			"DeconUnitsInZone": 0,
+			"AllowSmallPickupsAllocation": true,
+			"AllowResourceContainerAllocation": true,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": 1,
+			"BigPickupDistributionInZone": 0,
+			"TerminalPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 1.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				}
+			],
+			"ForbidTerminalsInZone": false,
+			"PowerGeneratorPlacements": [],
+			"DisinfectionStationPlacements": [],
+			"HealthMulti": 0.3,
+			"HealthPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"WeaponAmmoMulti": 0.3,
+			"WeaponAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"ToolAmmoMulti": 0.3,
+			"ToolAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"DisinfectionMulti": 0.0,
+			"DisinfectionPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			}
+		},
+		{
+			"LocalIndex": 3, //Cell
+			"SubSeed": 0,
+			"BulkheadDCScanSeed": 0,
+			"SubComplex": "DigSite",
+			"CoverageMinMax": {
+				"x": 20.0,
+				"y": 30.0
+			},
+			"BuildFromLocalIndex": 0,
+			"StartPosition": "From_Start",
+			"StartPosition_IndexWeight": 0.0,
+			"StartExpansion": "Towards_Right",
+			"ZoneExpansion": "Directional_Right",
+			"LightSettings": 57,
+			"AltitudeData": {
+				"AllowedZoneAltitude": "OnlyLow",
+				"ChanceToChange": 1.0
+			},
+			"EventsOnEnter": [],
+			"ProgressionPuzzleToEnter": {
+				"PuzzleType": 0,
+				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+				"PlacementCount": 1,
+				"ZonePlacementData": []
+			},
+			"ChainedPuzzleToEnter": "Alarm_A_Class4_Steep",
+			"SecurityGateToEnter": 0,
+			"ActiveEnemyWave": {
+				"HasActiveEnemyWave": false,
+				"EnemyGroupInfrontOfDoor": 0,
+				"EnemyGroupInArea": 0,
+				"EnemyGroupsInArea": 0
+			},
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.25
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 1,
+					"DistributionValue": 1.0
+				}
+			],
+			"HSUClustersInZone": 0,
+			"CorpseClustersInZone": 0,
+			"ResourceContainerClustersInZone": 0,
+			"GeneratorClustersInZone": 0,
+			"CorpsesInZone": 0,
+			"HSUsInZone": 0,
+			"DeconUnitsInZone": 0,
+			"AllowSmallPickupsAllocation": true,
+			"AllowResourceContainerAllocation": true,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": 1,
+			"BigPickupDistributionInZone": 0,
+			"TerminalPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 1.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				}
+			],
+			"ForbidTerminalsInZone": false,
+			"PowerGeneratorPlacements": [],
+			"DisinfectionStationPlacements": [],
+			"HealthMulti": 0.3,
+			"HealthPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"WeaponAmmoMulti": 0.3,
+			"WeaponAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"ToolAmmoMulti": 0.3,
+			"ToolAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"DisinfectionMulti": 0.0,
+			"DisinfectionPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			}
+		},
+		{
+			"LocalIndex": 4, //Key
+			"SubSeed": 5,
+			"BulkheadDCScanSeed": 0,
+			"SubComplex": "DigSite",
+			"CoverageMinMax": {
+				"x": 1.0,
+				"y": 5.0
+			},
+			"BuildFromLocalIndex": 0,
+			"StartPosition": "From_Start",
+			"StartPosition_IndexWeight": 0.0,
+			"StartExpansion": "Towards_Forward",
+			"ZoneExpansion": "Directional_Forward",
+			"LightSettings": 56,
+			"AltitudeData": {
+				"AllowedZoneAltitude": "Unchanged",
+				"ChanceToChange": 1.0
+			},
+			"EventsOnEnter": [],
+			"ProgressionPuzzleToEnter": {
+				"PuzzleType": 3,
+				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+				"PlacementCount": 1,
+				"ZonePlacementData": []
+			},
+			"ChainedPuzzleToEnter": 0,
+			"SecurityGateToEnter": 0,
+			"ActiveEnemyWave": {
+				"HasActiveEnemyWave": false,
+				"EnemyGroupInfrontOfDoor": 0,
+				"EnemyGroupInArea": 0,
+				"EnemyGroupsInArea": 0
+			},
+			"EnemySpawningInZone": [],
+			"HSUClustersInZone": 0,
+			"CorpseClustersInZone": 0,
+			"ResourceContainerClustersInZone": 0,
+			"GeneratorClustersInZone": 0,
+			"CorpsesInZone": 0,
+			"HSUsInZone": 0,
+			"DeconUnitsInZone": 0,
+			"AllowSmallPickupsAllocation": true,
+			"AllowResourceContainerAllocation": false,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": 0,
+			"BigPickupDistributionInZone": 3,
+			"TerminalPlacements": [],
+			"ForbidTerminalsInZone": false,
+			"PowerGeneratorPlacements": [],
+			"DisinfectionStationPlacements": [],
+			"HealthMulti": 0.0,
+			"HealthPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"WeaponAmmoMulti": 0.0,
+			"WeaponAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"ToolAmmoMulti": 0.0,
+			"ToolAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"DisinfectionMulti": 0.0,
+			"DisinfectionPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			}
+		}
+	],
+	"name": "A2_L3",
+	"internalEnabled": true,
+	"persistentID": "Layout_A2_L3"
+}

@@ -1,0 +1,92 @@
+[
+	{
+		"PublicAlarmName": "Class I Scan",
+		"TriggerAlarmOnActivate": false,
+		"SurvivalWaveSettings": 0,
+		"SurvivalWavePopulation": 0,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 0.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 3
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 0,
+		"AlarmSoundStop": 0,
+		"name": "Small Scan",
+		"internalEnabled": true,
+		"persistentID": "Scan_Small"
+	},
+	{
+		"PublicAlarmName": "Class I Scan",
+		"TriggerAlarmOnActivate": false,
+		"SurvivalWaveSettings": 0,
+		"SurvivalWavePopulation": 0,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 0.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 4
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 0,
+		"AlarmSoundStop": 0,
+		"name": "Small Scan",
+		"internalEnabled": true,
+		"persistentID": "Scan_Small_Cluster"
+	},
+	{
+		"PublicAlarmName": "Class II Scan",
+		"TriggerAlarmOnActivate": false,
+		"SurvivalWaveSettings": 0,
+		"SurvivalWavePopulation": 0,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 15.0,
+		"WantedDistanceBetweenPuzzleComponents": 15.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 4
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 0,
+		"AlarmSoundStop": 0,
+		"name": "Small Scan",
+		"internalEnabled": true,
+		"persistentID": "Scan_Travel_Class2"
+	},
+	{
+		"PublicAlarmName": "Class II Scan",
+		"TriggerAlarmOnActivate": false,
+		"SurvivalWaveSettings": 0,
+		"SurvivalWavePopulation": 0,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 12.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 4
+			},
+			{
+				"PuzzleType": 9
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 0,
+		"AlarmSoundStop": 0,
+		"name": "Small Scan",
+		"internalEnabled": true,
+		"persistentID": "Scan_Class2_Cluster"
+	}
+]

@@ -1,0 +1,146 @@
+[
+	{
+		"SpawnsPerZone": 10,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 30,
+				"Weight": 8.0
+			},
+			{
+				"ItemID": 130,
+				"Weight": 1.0
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Dark_Flash"
+	},
+	{
+		"SpawnsPerZone": 10,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 8.0
+			},
+			{
+				"ItemID": 30,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 130,
+				"Weight": 1.0
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Dark_Glowsticks"
+	},
+	{
+		"SpawnsPerZone": 12,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 8.0
+			},
+			{
+				"ItemID": 30,
+				"Weight": 1.5
+			},
+			{
+				"ItemID": 115,
+				"Weight": 0.5
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Dark_Glowsticks_WithFoam"
+	},
+	{
+		"SpawnsPerZone": 9,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 115,
+				"Weight": 3.0
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Dark_Glowsticks_WithMoreFoam"
+	},
+	{
+		"SpawnsPerZone": 6,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 8.0
+			},
+			{
+				"ItemID": 30,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 130,
+				"Weight": 1.0
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Dark_Glowsticks_Less"
+	},
+	{
+		"SpawnsPerZone": 4,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": "Consumable_Fog_Bulk",
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepellerBulk_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_FogBulk_Few"
+	},
+	{
+		"SpawnsPerZone": 8,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": "Consumable_Fog_Bulk",
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepellerBulk_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_FogBulk_Some"
+	},
+	{
+		"SpawnsPerZone": 8,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 117,
+				"Weight": 4.0
+			},
+			{
+				"ItemID": "Consumable_Fog_Bulk",
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepellerBulk_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_FogBulk_Some_Mixed"
+	}
+]

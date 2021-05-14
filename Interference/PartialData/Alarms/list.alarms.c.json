@@ -1,0 +1,71 @@
+[
+	{
+		"PublicAlarmName": "Class ://ERR#46 Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Trickle_Big_2_46",
+		"SurvivalWavePopulation": 7,
+		"DisableSurvivalWaveOnComplete": false,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 2200133294,
+		"AlarmSoundStop": 1190355274,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_C_ERR_Add_BigShadow"
+	},
+	{
+		"PublicAlarmName": "Class ://ERR#?? Siege Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 14,
+		"SurvivalWavePopulation": 7,
+		"DisableSurvivalWaveOnComplete": false,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 100
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 2200133294,
+		"AlarmSoundStop": 0,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_C_ERR_Siege_Kind_Stay_Shadow"
+	},
+	{
+		"PublicAlarmName": "Class III Surge Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 14.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge 3x",
+		"internalEnabled": true,
+		"persistentID": "Alarm_C_Surge"
+	}
+]

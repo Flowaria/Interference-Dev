@@ -1,0 +1,199 @@
+
+[
+  {
+    "Type": 8,
+    "Header": "Terminal Uplink",
+    "MainObjective": "Find the <u>Uplink Terminal</u> [ALL_ITEMS] and establish an external uplink",
+    "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "Navigate to [ITEM_ZONE] and find [ALL_ITEMS]",
+    "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+    "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ALL_ITEMS]",
+    "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+    "SolveItem": "Use [ITEM_SERIAL] to create an uplink to [UPLINK_ADDRESS]",
+    "SolveItemHelp": "Use the UPLINK_CONNECT command to establish the connection",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+    "GoToWinCondition_CustomGeo": "DNA Upload Procotol failed. Alternative Plan needed, Access to Extreme Bulkhead",
+    "GoToWinConditionHelp_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE] with Data Sphere",
+    "GoToWinCondition_ToMainLayer": "",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [
+      {
+        "WaveSettings": 36,
+        "WavePopulation": 1,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      }
+    ],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": 5,
+        "WavePopulation": 1,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      }
+    ],
+    "WaveOnGotoWinTrigger": 1,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 1,
+        "Type": 2,
+        "Layer": 1,
+        "LocalIndex": 0,
+        "Delay": 10.0,
+        "WardenIntel": "Security door to [ZONE_0] unlocked"
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.35,
+    "Uplink_NumberOfVerificationRounds": 4,
+    "Uplink_NumberOfTerminals": 1,
+    "name": "TerminalUplink_One_Terminal",
+    "internalEnabled": true,
+    "persistentID": "Obj_A2_L1"
+  },
+  {
+    "Type": 6,
+    "Header": "Retrieve Essential Items",
+    "MainObjective": "Locate <b>corrupted</b> [ALL_ITEMS] and bring it to the extraction scan in [EXTRACTION_ZONE]",
+    "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Return the salvaged <b>Data Sphere</b> to the extraction point in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 1,
+        "Type": 2,
+        "Layer": 0,
+        "LocalIndex": 5,
+        "Delay": 6.0,
+        "WardenIntel": "Security door to [ZONE_5] unlocked"
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "Retrieve_Items": [
+      "Carry_DataSphere_FixedName"
+    ],
+    "name": "Retrieve Essential Items_1_Datasphere",
+    "internalEnabled": true,
+    "persistentID": "Obj_A2_L2"
+  },
+  {
+    "Type": 9,
+    "Header": "Central Powergenerator Cluster",
+    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Central Generator Cluster in [ITEM_ZONE]",
+    "FindLocationInfo": "Locate the Power Cells and use them to power up the Generator Cluster",
+    "FindLocationInfoHelp": "Generators Online: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+    "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+    "GoToWinCondition_ToMainLayer": "Fog stablizer for next floor has activated. Make your way for the forward exit.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 1,
+        "Type": 2,
+        "Layer": 2,
+        "LocalIndex": 4,
+        "Delay": 4.0,
+        "WardenIntel": "Security door to [ZONE_4] unlocked"
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 63,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "Gather_RequiredCount": -1,
+    "Gather_ItemId": 0,
+    "Gather_SpawnCount": 0,
+    "Gather_MaxPerZone": 0,
+    "Retrieve_Items": [],
+    "ReactorWaves": [],
+    "LightsOnFromBeginning": false,
+    "LightsOnDuringIntro": false,
+    "LightsOnWhenStartupComplete": false,
+    "SpecialTerminalCommand": "",
+    "SpecialTerminalCommandDesc": "",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 3,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 2,
+    "CentralPowerGenClustser_NumberOfPowerCells": 2,
+    "CentralPowerGenClustser_FogDataSteps": [
+      {
+        "m_fogDataId": "LightFog_A2_Up0",
+        "m_transitionToTime": 15.0
+      },
+      {
+        "m_fogDataId": "LightFog_A2_Up0",
+        "m_transitionToTime": 2.0
+      },
+      {
+        "m_fogDataId": "LightFog_A2_Up1",
+        "m_transitionToTime": 300.0
+      }
+    ],
+    "ActivateHSU_ItemFromStart": 0,
+    "ActivateHSU_ItemAfterActivation": 0,
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "CentralPowerGeneratorCluster_2",
+    "internalEnabled": true,
+    "persistentID": "Obj_A2_L3"
+  }
+]

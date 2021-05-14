@@ -1,0 +1,69 @@
+[
+	{
+		"HealthPerZone": 1.0,
+		"DisinfectionPerZone": 1.0,
+		"WeaponAmmoPerZone": 0.8,
+		"ToolAmmoPerZone": 0.7,
+		"CommodityValuePerZone": 0.0,
+		"ChanceToPutCommodityInResourceContainer": 0.7,
+		"ChanceToPutArtifactInResourceContainer": 0.15,
+		"ChanceToSpawnCommodityLargePack": 0.3,
+		"ChanceToSpawnCommodityMediumPack": 0.5,
+		"ChanceToReUseResourceContainer": 0.5,
+		"MaxPacksPerResourceContainer": 4,
+		"EmptyWeakResourceContainersPerZone": 0.0,
+		"EmptySecureResourceContainersPerZone": 3.0,
+		"LootPerZone": 3.0,
+		"AirPerZone": 1.0,
+		"AirPerZoneInNoAir": 5.0,
+		"TerminalsPerZone": 1.0,
+		"TentacleTraps": {
+			"Health": 10.0,
+			"AttackDamage": 1.0,
+			"MaxPerZone": 3,
+			"MaxSmallArea": 1,
+			"MaxMediumArea": 1,
+			"MaxLargeArea": 1,
+			"MaxHugeArea": 1
+		},
+		"ParasiteNests": {
+			"Health": 20.0,
+			"AttackDamage": 2.0,
+			"MaxPerZone": 7,
+			"MaxSmallArea": 2,
+			"MaxMediumArea": 3,
+			"MaxLargeArea": 4,
+			"MaxHugeArea": 4
+		},
+		"EnemyPatrolGroupsPerZone": 5,
+		"StaticEnemiesMaxPerZone": 10,
+		"StaticEnemiesMaxSmallArea": 1,
+		"StaticEnemiesMaxMediumArea": 2,
+		"StaticEnemiesMaxLargeArea": 3,
+		"StaticEnemiesMaxHugeArea": 5,
+		"EnemyPopulationPerZone": 25.0,
+		"VoxelCoverageAreaMultiplier": 0.037,
+		"VoxelCoverageAreaScoringRandomMultiplier": 0.25,
+		"ArtifactsPerSegment": 1,
+		"ArtifactsPerLayer": 30,
+		"WeakDoor4x4Health": 7.0, //7
+		"WeakDoor8x4Health": 12.0, //12
+		"WeakDoorChanceLockWeightNoLock": 4.0, //Changed Value (og: 3) - Bit less Lock door
+		"WeakDoorChanceLockWeightMeleeLock": 1.0,
+		"WeakDoorChanceLockWeightHackableLock": 1.0,
+		"WeakDoorUnlockedChanceForOpen": 0.0,
+		"WeakDoorOpenChanceForWallRemoverUsed": 0.0,
+		"WeakDoorLockHealth": 13.0, //Changed Value (og: 15) - For Revolver
+		"WeakResourceContainerWithPackChanceForLocked": 0.75,
+		"ResourcePackSizes": [
+			0.6,
+			1.0,
+			0.4
+		],
+		"GlueVolumeToDoorHealthConversion": 0.25, //Changed Value (og: 0.5) - Drops C-foam door efficiency to 50%
+		"GlueVolumeForDoorGlueMaxState": 48.0, //Changed Value (og: 27) - Allow 16 blobs of foam can be holded on door, this will make foam grenade efficiency to not that bad
+		"name": "Normal-reinforced",
+		"internalEnabled": true,
+		"persistentID": 1
+	}
+]

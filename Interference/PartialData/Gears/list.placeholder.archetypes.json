@@ -1,0 +1,11 @@
+[
+	{
+		"PublicName": "Semi Burst",
+		"Description": "",
+		"FireMode": 3,
+		"RecoilDataID": 9,
+		"name": "GEAR_Rifle_SemiBurst",
+		"internalEnabled": true,
+		"persistentID": "AT_EMPTY_SEMIBURST"
+	}
+]

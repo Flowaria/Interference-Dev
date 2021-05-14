@@ -1,0 +1,52 @@
+[
+	{
+		"publicName": "Bulk of Fog Repeller",
+		"terminalItemShortName": "",
+		"terminalItemLongName": "",
+		"addSerialNumberToName": false,
+		"registerInTerminalSystem": false,
+		"Shard": 6,
+		"inventorySlot": 5,
+		"FPSSettings": 25,
+		"crosshair": 0,
+		"HUDIcon": "",
+		"ShowCrosshairWhenAiming": true,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": true,
+		"GUIShowAmmoTotalRel": true,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 12,
+		"ConsumableAmmoMax": 12,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/General/ThrowableFirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller_third.prefab"
+		],
+		"PickupPrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller_Pickup.prefab"
+		],
+		"InstancePrefabs": [
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_Fogrepeller_Instance.prefab",
+			"Assets/AssetPrefabs/Items/Consumables/FogRepeller/Consumable_FogRepeller.prefab"
+		],
+		"EquipTransitionTime": 1.0,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "FogRepeller",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "FogRepeller",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "",
+		"name": "CONSUMABLE_FogRepeller_Bulk",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Fog_Bulk"
+	}
+]

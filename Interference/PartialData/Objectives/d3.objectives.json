@@ -1,0 +1,139 @@
+
+[
+  {
+    "Type": 9,
+    "Header": "Central Powergenerator Cluster",
+    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Central Generator Cluster in [ITEM_ZONE]",
+    "FindLocationInfo": "Locate the Power Cells and use them to power up the Generator Cluster",
+    "FindLocationInfoHelp": "Generators Online: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [
+      //Phase 1, Tank + 1 each trickle (2 min)
+      {
+        "WaveSettings": "WaveSetting_Trickle_Tank_1_Finite",
+        "WavePopulation": 16,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      },
+      {
+        "WaveSettings": "WaveSetting_Finite4_Waves_6-12_45", //This Last for 3Min
+        "WavePopulation": 1,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false
+      },
+
+      //Phase 2, Delay 4min half, 100Sec Trickle + Hybrids (2+2 / 45)
+      {
+        "WaveSettings": "WaveSetting_Trickle_1_5_Limited20",
+        "WavePopulation": 1,
+        "SpawnDelay": 270.0,
+        "TriggerAlarm": false
+      },
+      {
+        "WaveSettings": "WaveSetting_Finite2_Big_2_45",
+        "WavePopulation": 8,
+        "SpawnDelay": 270.0,
+        "TriggerAlarm": false
+      },
+
+      //Phase 2.5, Delay 7min, Final Hybrid Spawn
+      {
+        "WaveSettings": "WaveSetting_Finite2_Big_2_45",
+        "WavePopulation": 8,
+        "SpawnDelay": 420.0,
+        "TriggerAlarm": false
+      },
+
+      //Phase 3, Delay 9min, 5 Charger + 2 Bigcharger (each 4wave), INFINITE
+      {
+        "WaveSettings": "WaveSetting_Trickle_4_40",
+        "WavePopulation": 5,
+        "SpawnDelay": 540.0,
+        "TriggerAlarm": false
+      },
+      {
+        "WaveSettings": "WaveSetting_Trickle_Big_1_160",
+        "WavePopulation": 5,
+        "SpawnDelay": 680.0,
+        "TriggerAlarm": false
+      }
+    ],
+    "WaveOnElevatorWardenIntel": "Massive Bioreadings Approaching",
+    "FogTransitionDataOnElevatorLand": "Fog_D2_Low",
+    "FogTransitionDurationOnElevatorLand": 1600.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 0,
+        "Type": 2,
+        "Layer": 2,
+        "LocalIndex": 4,
+        "Delay": 4.0,
+        "WardenIntel": "Security door to [ZONE_4] unlocked"
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 63,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "Gather_RequiredCount": -1,
+    "Gather_ItemId": 0,
+    "Gather_SpawnCount": 0,
+    "Gather_MaxPerZone": 0,
+    "Retrieve_Items": [],
+    "ReactorWaves": [],
+    "LightsOnFromBeginning": false,
+    "LightsOnDuringIntro": false,
+    "LightsOnWhenStartupComplete": false,
+    "SpecialTerminalCommand": "",
+    "SpecialTerminalCommandDesc": "",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 3,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 4,
+    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_FogDataSteps": [
+      {
+        "m_fogDataId": "Fog_D3_Low1",
+        "m_transitionToTime": 14.0
+      },
+      {
+        "m_fogDataId": "Fog_D3_Low2",
+        "m_transitionToTime": 8.0
+      },
+      {
+        "m_fogDataId": "Fog_D3_Low3",
+        "m_transitionToTime": 8.0
+      },
+      {
+        "m_fogDataId": "Fog_D3_Low4",
+        "m_transitionToTime": 8.0
+      },
+      {
+        "m_fogDataId": "Fog_D3_Finish",
+        "m_transitionToTime": 8.0
+      }
+    ],
+    "name": "CentralPowerGeneratorCluster_4",
+    "internalEnabled": true,
+    "persistentID": "Obj_D3_L1"
+  }
+]
