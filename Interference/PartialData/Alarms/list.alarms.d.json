@@ -412,7 +412,7 @@
 		"persistentID": "Alarm_D_Class9_QSurge"
 	},
 	{
-		"PublicAlarmName": "Class VII Alarm",
+		"PublicAlarmName": "Class VI Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
 		"SurvivalWavePopulation": 1,
@@ -425,7 +425,7 @@
 				"PuzzleType": 6
 			},
 			{
-				"PuzzleType": 5
+				"PuzzleType": 4
 			},
 			{
 				"PuzzleType": 4
@@ -434,13 +434,10 @@
 				"PuzzleType": 5
 			},
 			{
-				"PuzzleType": 2
+				"PuzzleType": 4
 			},
 			{
 				"PuzzleType": 2
-			},
-			{
-				"PuzzleType": 5
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,
@@ -448,13 +445,13 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_D1_Class7"
+		"persistentID": "Alarm_D1_Class6"
 	},
 	{
 		"PublicAlarmName": "Class IV S1 Alarm",
 		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": 38,
-		"SurvivalWavePopulation": "WavePop_Base_InfectionRapid",
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
+		"SurvivalWavePopulation": 1,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
 		"WantedDistanceFromStartPos": 12.0,

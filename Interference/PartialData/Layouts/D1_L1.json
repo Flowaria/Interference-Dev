@@ -113,7 +113,7 @@
 			},
 			"EventsOnEnter": [
 				{
-					"Delay": 30.0,
+					"Delay": 0.0,
 					"Noise": {
 						"Enabled": true,
 						"RadiusMin": 64.0,
@@ -133,7 +133,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_D1_Class7",
+			"ChainedPuzzleToEnter": "Alarm_D1_Class6",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,
@@ -146,7 +146,7 @@
 					"GroupType": 0,
 					"Difficulty": 500,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 0.6
+					"DistributionValue": 0.4
 				}
 			],
 			"EnemyRespawning": true,

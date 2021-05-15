@@ -154,18 +154,18 @@
 	},
 	{
 		"PublicName": "Sawed-off Shotgun",
-		"Description": "Ammo: 2/70 (Semi-auto)\nDamage: 1.3 (9 Pallets)\n[Precision: 0.72x - Stagger: 1.15x]\nRange: 3.5m-20m\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
+		"Description": "Ammo: 2/70 (Semi-auto)\nDamage: 1.85 (9 Pallets)\n[Precision: 0.72x - Stagger: 1.25x]\nRange: 3.85m-21.5m\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
 		"FireMode": 0,
 		"RecoilDataID": 6,
-		"Damage": 1.3,
+		"Damage": 1.85,
 		"DamageFalloff": {
-			"x": 3.5,
-			"y": 20.0
+			"x": 3.85,
+			"y": 21.5
 		},
-		"StaggerDamageMulti": 1.15,
+		"StaggerDamageMulti": 1.25,
 		"PrecisionDamageMulti": 0.72,
 		"DefaultClipSize": 2,
-		"DefaultReloadTime": 0.75,
+		"DefaultReloadTime": 0.65,
 		"CostOfBullet": 6.5714285714285,
 		"ShotDelay": 0.17,
 		"PiercingBullets": false,
@@ -205,7 +205,7 @@
 	},
 	{
 		"PublicName": "Combat Rifle",
-		"Description": "Ammo: 14/86 (Semi-auto)\nDamage: 5.25\n[Precision: 1.05x - Stagger: 0.75x]\nRange: 18.2m-76m",
+		"Description": "Ammo: 14/112 (Semi-auto)\nDamage: 5.25\n[Precision: 1.05x - Stagger: 0.75x]\nRange: 18.2m-76m",
 		"FireMode": 0,
 		"RecoilDataID": 12,
 		"Damage": 5.25,
@@ -217,7 +217,7 @@
 		"PrecisionDamageMulti": 1.05,
 		"DefaultClipSize": 14,
 		"DefaultReloadTime": 2.8,
-		"CostOfBullet": 5.347,
+		"CostOfBullet": 4.1071428571,
 		"ShotDelay": 0.115,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,

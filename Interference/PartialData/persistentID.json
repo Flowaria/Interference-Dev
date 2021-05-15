@@ -182,7 +182,7 @@
 	{ "GUID": "Alarm_D3_Class5", "ID": 1039 },
 	{ "GUID": "Alarm_D1_Class3", "ID": 1040 },
 	{ "GUID": "Alarm_D_Class9_QSurge", "ID": 1041 },
-	{ "GUID": "Alarm_D1_Class7", "ID": 1042 },
+	{ "GUID": "Alarm_D1_Class6", "ID": 1042 },
 	{ "GUID": "Alarm_D1_Class4_S1", "ID": 1043 },
 	{ "GUID": "Alarm_D_Class6_QSurge_NonStop", "ID": 1044 },
 	{ "GUID": "Alarm_D_S1", "ID": 1045 },
