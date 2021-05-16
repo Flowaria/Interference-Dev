@@ -101,7 +101,7 @@
   },
   {
     "m_pauseBeforeStart": 2.0,
-    "m_pauseBetweenGroups": 64.0,
+    "m_pauseBetweenGroups": 75.0,
     "m_wavePauseMin_atCost": 1.0,
     "m_wavePauseMax_atCost": 10.0,
     "m_wavePauseMin": 1.0,
@@ -121,7 +121,7 @@
     "m_populationPointsPerGroupStart": 3.0,
     "m_populationPointsPerGroupEnd": 3.0,
     "m_populationRampOverTime": 0.0,
-    "name": "Trickle_3_64",
+    "name": "Trickle_3_75",
     "internalEnabled": true,
     "persistentID": "WaveSetting_Trickle_3_Late"
   },

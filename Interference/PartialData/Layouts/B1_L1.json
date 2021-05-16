@@ -238,7 +238,8 @@
 						"Start": 1.0,
 						"Middle": 0.0,
 						"End": 0.0
-					}
+					},
+					"MarkerSeedOffset": 5
 				}
 			],
 			"ForbidTerminalsInZone": false,
@@ -508,7 +509,7 @@
 					"GroupType": 2,
 					"Difficulty": 0,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 0.75
+					"DistributionValue": 0.4
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -600,7 +601,7 @@
 					"GroupType": 2,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.8
+					"DistributionValue": 0.3
 				}
 			],
 			"HSUClustersInZone": 0,

@@ -124,7 +124,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_B1_Class4",
+			"ChainedPuzzleToEnter": "Alarm_B1_Class5",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -218,7 +218,7 @@
 			],
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 3,
-				"CustomText": "<color=red>://WARNING! Motion Trigger Lockdown in Effect</color>",
+				"CustomText": "<color=red>://WARNING! Motion Trigger Lockdown in Effect</color>\n<color=red>DO NOT UNSEAL IT WITHOUT PROPER EQUIPMENT</color>",
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},

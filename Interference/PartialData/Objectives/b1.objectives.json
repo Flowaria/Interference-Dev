@@ -40,7 +40,7 @@
         "Layer": 0,
         "LocalIndex": 7,
         "Delay": 6.0,
-        "WardenIntel": "Security door to [ZONE_6] unlocked"
+        "WardenIntel": "Security door to [ZONE_7] unlocked"
       }
     ],
     "FogTransitionDataOnGotoWin": "Fog_B1_GotoWin",
@@ -103,7 +103,7 @@
       {
         "WaveSettings": 36,
         "WavePopulation": 7,
-        "SpawnDelay": 4.0,
+        "SpawnDelay": 9.0,
         "TriggerAlarm": true
       }
     ],
@@ -177,8 +177,8 @@
         "Type": 1,
         "Layer": 2,
         "LocalIndex": 2,
-        "Delay": 3.0,
-        "WardenIntel": "LOW POWER::Security Lock to [ZONE_2] unsealed.",
+        "Delay": 15.0,
+        "WardenIntel": "LOW POWER::Motion Trigger Lockdown for [ZONE_2] unsealed.",
         "SoundID": 0
       }
     ],
