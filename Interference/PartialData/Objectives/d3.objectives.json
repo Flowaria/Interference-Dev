@@ -1,4 +1,3 @@
-
 [
   {
     "Type": 9,
@@ -22,16 +21,16 @@
     "WavesOnElevatorLand": [
       //Phase 1, Tank + 1 each trickle (2 min)
       {
-        "WaveSettings": "WaveSetting_Trickle_Tank_1_Finite",
-        "WavePopulation": 16,
-        "SpawnDelay": 0.0,
-        "TriggerAlarm": true
-      },
-      {
         "WaveSettings": "WaveSetting_Finite4_Waves_6-12_45", //This Last for 3Min
         "WavePopulation": 1,
         "SpawnDelay": 0.0,
         "TriggerAlarm": false
+      },
+      {
+        "WaveSettings": "WaveSetting_Trickle_Tank_1_Finite",
+        "WavePopulation": 16,
+        "SpawnDelay": 14.0,
+        "TriggerAlarm": true
       },
 
       //Phase 2, Delay 4min half, 100Sec Trickle + Hybrids (2+2 / 45)
@@ -56,17 +55,17 @@
         "TriggerAlarm": false
       },
 
-      //Phase 3, Delay 9min, 5 Charger + 2 Bigcharger (each 4wave), INFINITE
+      //Phase 3, Delay 10min, 5 Trickle + 1 Bigcharger (each 4wave), INFINITE
       {
         "WaveSettings": "WaveSetting_Trickle_4_40",
-        "WavePopulation": 5,
-        "SpawnDelay": 540.0,
+        "WavePopulation": 1,
+        "SpawnDelay": 600.0,
         "TriggerAlarm": false
       },
       {
         "WaveSettings": "WaveSetting_Trickle_Big_1_160",
         "WavePopulation": 5,
-        "SpawnDelay": 680.0,
+        "SpawnDelay": 760.0,
         "TriggerAlarm": false
       }
     ],
@@ -108,32 +107,107 @@
     "PowerCellsToDistribute": 3,
     "Uplink_NumberOfVerificationRounds": 0,
     "Uplink_NumberOfTerminals": 1,
-    "CentralPowerGenClustser_NumberOfGenerators": 4,
-    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_NumberOfGenerators": 3,
+    "CentralPowerGenClustser_NumberOfPowerCells": 3,
     "CentralPowerGenClustser_FogDataSteps": [
       {
         "m_fogDataId": "Fog_D3_Low1",
-        "m_transitionToTime": 14.0
-      },
-      {
-        "m_fogDataId": "Fog_D3_Low2",
-        "m_transitionToTime": 8.0
+        "m_transitionToTime": 15.0
       },
       {
         "m_fogDataId": "Fog_D3_Low3",
-        "m_transitionToTime": 8.0
+        "m_transitionToTime": 7.0
       },
       {
-        "m_fogDataId": "Fog_D3_Low4",
-        "m_transitionToTime": 8.0
+        "m_fogDataId": "Fog_D3_Low5",
+        "m_transitionToTime": 7.0
       },
       {
         "m_fogDataId": "Fog_D3_Finish",
-        "m_transitionToTime": 8.0
+        "m_transitionToTime": 15.0
       }
     ],
     "name": "CentralPowerGeneratorCluster_4",
     "internalEnabled": true,
     "persistentID": "Obj_D3_L1"
+  },
+  {
+    "Type": 5,
+    "Header": "Backdoor Command",
+    "MainObjective": "Find Computer terminal [ITEM_SERIAL] and input the backdoor command [SPECIAL_COMMAND]",
+    "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+    "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+    "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+    "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+    "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+    "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [],
+    "EventsOnActivate": [
+      {
+        "Trigger": 0,
+        "Type": 1,
+        "Layer": 1,
+        "LocalIndex": 1,
+        "Delay": 0.0,
+        "WardenIntel": ""
+      },
+      {
+        "Trigger": 0,
+        "Type": 0,
+        "Layer": 0,
+        "LocalIndex": 2,
+        "Delay": 6.0,
+        "WardenIntel": "Terminal Maintenance System i/o stream has rerouted."
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 10,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+    "Gather_RequiredCount": -1,
+    "Gather_ItemId": 0,
+    "Gather_SpawnCount": 0,
+    "Gather_MaxPerZone": 0,
+    "Retrieve_Items": [],
+    "ReactorWaves": [],
+    "LightsOnFromBeginning": false,
+    "LightsOnDuringIntro": false,
+    "LightsOnWhenStartupComplete": false,
+    "SpecialTerminalCommand": "REROUTE_TERMINAL_IO_TARGET_EXTERNAL",
+    "SpecialTerminalCommandDesc": "Reroute Terminal Maintenance System I/O Stream",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 0,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 0,
+    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_FogDataSteps": [],
+    "ActivateHSU_ItemFromStart": 0,
+    "ActivateHSU_ItemAfterActivation": 0,
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "SpecialTerminalCommand_REROUTE_COMMS[KillTerminalOnDone]",
+    "internalEnabled": true,
+    "persistentID": "Obj_D3_L2"
   }
 ]

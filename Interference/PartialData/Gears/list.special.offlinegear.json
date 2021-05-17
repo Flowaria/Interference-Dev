@@ -22,7 +22,7 @@
 	},
 	{
 		"Type": 1,
-		"GearJSON": "{\"Ver\":1,\"Name\":\"Omneco x Köning H-PR 3\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":211},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":5},\"d\":{\"c\":5,\"v\":36},\"e\":{\"c\":6,\"v\":36},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":19},\"l\":{\"c\":16,\"v\":9},\"m\":{\"c\":19,\"v\":2},\"n\":{\"c\":21,\"v\":19},\"o\":{\"c\":23,\"v\":13},\"p\":{\"c\":25,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.04},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Omneco x Köning H-PR 3\"}}}",
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Omneco x Köning H-PR 3\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":211},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":5},\"d\":{\"c\":5,\"v\":36},\"e\":{\"c\":6,\"v\":36},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":19},\"l\":{\"c\":16,\"v\":9},\"m\":{\"c\":19,\"v\":5},\"n\":{\"c\":21,\"v\":19},\"o\":{\"c\":23,\"v\":13},\"p\":{\"c\":25,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.04},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Omneco x Köning H-PR 3\"}}}",
 		"name": "SniperSemi",
 		"internalEnabled": true,
 		"persistentID": "OFF_CombatSniper_HEL"
@@ -54,5 +54,21 @@
 		"name": "Shotgun_Auto",
 		"internalEnabled": true,
 		"persistentID": "OFF_Shotgun_Auto"
+	},
+
+
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"UNKNOWN GUN-LIKE OBJECT\",\"Packet\":{\"Comps\":{\"Length\":15,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":240},\"c\":{\"c\":3,\"v\":109},\"d\":{\"c\":4,\"v\":7},\"e\":{\"c\":5,\"v\":38},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":8,\"v\":19},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":17},\"j\":{\"c\":11,\"v\":17},\"k\":{\"c\":12,\"v\":40},\"l\":{\"c\":16,\"v\":0},\"m\":{\"c\":19,\"v\":16},\"n\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.115,\"y\":-0.02},\"angle\":45.0,\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":0.115,\"y\":-0.02},\"scale\":0.06},\"tPattern\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":120.0,\"scale\":0.08}},\"publicName\":{\"data\":\"UNKNOWN GUN-LIKE OBJECT\"}}}",
+		"name": "Raygun",
+		"internalEnabled": true,
+		"persistentID": "OFF_Laser"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"TR22 Bullseye\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":250},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":4},\"d\":{\"c\":5,\"v\":43},\"e\":{\"c\":6,\"v\":36},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":501},\"l\":{\"c\":16,\"v\":6},\"m\":{\"c\":19,\"v\":13},\"n\":{\"c\":21,\"v\":500},\"o\":{\"c\":23,\"v\":0},\"p\":{\"c\":25,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.04},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"TR22 Bullseye\"}}}",
+		"name": "HuntsmanRifle",
+		"internalEnabled": true,
+		"persistentID": "OFF_BoltAction"
 	}
 ]

@@ -78,5 +78,37 @@
 		"name": "ShotgunType",
 		"internalEnabled": true,
 		"persistentID": 230
+	},
+	{
+		"PublicName": "",
+		"Description": "",
+		"BaseItem": 5001,
+		"HUDIcon": "",
+		"FPSArmPoseName": "",
+		"ThirdPersonFullbodyMovement": 0,
+		"SemiArchetype": 0,
+		"BurstArchetype": 0,
+		"AutoArchetype": "AT_LaserGun",
+		"SemiBurstArchetype": 0,
+		"PartAlignPriority": [],
+		"name": "LaserGun",
+		"internalEnabled": true,
+		"persistentID": 240
+	},
+	{
+		"PublicName": "",
+		"Description": "",
+		"BaseItem": 5002,
+		"HUDIcon": "",
+		"FPSArmPoseName": "",
+		"ThirdPersonFullbodyMovement": 0,
+		"SemiArchetype": "AT_BoltActionRifle",
+		"BurstArchetype": 0,
+		"AutoArchetype": 0,
+		"SemiBurstArchetype": 0,
+		"PartAlignPriority": [],
+		"name": "BoltAction",
+		"internalEnabled": true,
+		"persistentID": 250
 	}
 ]

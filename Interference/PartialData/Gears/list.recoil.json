@@ -1,0 +1,52 @@
+[
+	{
+		"power": {
+			"Min": 0.0001,
+			"Max": 0.0005
+		},
+		"spring": 8.0,
+		"dampening": 18.0,
+		"hipFireCrosshairSizeDefault": 10.0,
+		"hipFireCrosshairRecoilPop": 5.0,
+		"hipFireCrosshairSizeMax": 20.0,
+		"horizontalScale": {
+			"Min": -0.4,
+			"Max": 0.15
+		},
+		"verticalScale": {
+			"Min": 0.7,
+			"Max": 1.0
+		},
+		"directionalSimilarity": 0.0,
+		"worldToViewSpaceBlendHorizontal": 0.1,
+		"worldToViewSpaceBlendVertical": 0.1,
+		"recoilPosImpulse": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.01
+		},
+		"recoilPosShift": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.03
+		},
+		"recoilPosShiftWeight": 1.0,
+		"recoilPosStiffness": 270.0,
+		"recoilPosDamping": 15.0,
+		"recoilPosImpulseWeight": 1.0,
+		"recoilCameraPosWeight": 1.0,
+		"recoilAimingWeight": 0.75,
+		"recoilRotImpulse": {
+			"x": 0.0,
+			"y": 2.0,
+			"z": 40.0
+		},
+		"recoilRotStiffness": 80.0,
+		"recoilRotDamping": 8.0,
+		"recoilRotImpulseWeight": 200.0,
+		"recoilCameraRotWeight": 1.0,
+		"name": "BullpupAuto",
+		"internalEnabled": true,
+		"persistentID": "Recoil_LaserGun"
+	}
+]

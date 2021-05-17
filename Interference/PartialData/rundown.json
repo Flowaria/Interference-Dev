@@ -24,7 +24,7 @@
 		"AllClearedSectors": 0
 	},
 	"StorytellingData": {
-		"Title": "Interference",
+		"Title": "Interference <color=orange>://EXT</color>\n- Finalize",
 		"TextLog": "",
 		"TextLogPos": {
 			"x": 0.0,
@@ -44,7 +44,7 @@
 					"g": 1.0,
 					"b": 1.0
 				},
-				"Scale": 0.71
+				"Scale": 0.75
 			},
 			"TierBVisuals": {
 				"Color": {
@@ -53,7 +53,7 @@
 					"g": 0.6,
 					"b": 1.0
 				},
-				"Scale": 0.78
+				"Scale": 0.9
 			},
 			"TierCVisuals": {
 				"Color": {
@@ -62,7 +62,7 @@
 					"g": 0.6117647058,
 					"b": 1.0
 				},
-				"Scale": 0.495
+				"Scale": 0.745
 			},
 			"TierDVisuals": {
 				"Color": {
@@ -71,7 +71,7 @@
 					"g": 0.4,
 					"b": 1.0
 				},
-				"Scale": 0.69
+				"Scale": 0.66
 			},
 			"TierEVisuals": {
 				"Color": {
@@ -80,7 +80,7 @@
 					"g": 0.4,
 					"b": 1.0
 				},
-				"Scale": 0.585
+				"Scale": 0.725
 			}
 		},
 		"SurfaceIconPosition": {
@@ -522,6 +522,38 @@
 				"LayerType": 0,
 				"Zone": 0
 			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": "BlockedAndScrambled",
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>EEA",
+				"PublicName": "Cold Boot",
+				"ExpeditionDepth": 311,
+				"IsExtraExpedition": true,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Retrieved Data from [0<size=70%>X</size>E001] has processed.\nExecuting Finalize Protocol, Access to Eastern part of this complex is required.\nPrisoners sent to startup reactor to gain access.",
+				"RoleplayedWardenIntel": ""
+			},
+			"Seeds": {
+				"BuildSeed": 616555,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 70,
+				"FogSettings": 0,
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": 0,
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
@@ -1128,6 +1160,38 @@
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": "BlockedAndScrambled",
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>EEB",
+				"PublicName": "Deflation",
+				"ExpeditionDepth": 499,
+				"IsExtraExpedition": true,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Cargo from [0<size=70%>X</size>A001] contains useful parts for [Fog Repeller Beacon]\nUnseal it and bring it to point of entrance.",
+				"RoleplayedWardenIntel": ""
+			},
+			"Seeds": {
+				"BuildSeed": 616555,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 70,
+				"FogSettings": 0,
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": 0,
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
 		}
 	],
 	"TierC": [
@@ -1537,6 +1601,38 @@
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": "BlockedAndScrambled",
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>EEC",
+				"PublicName": "Desperation",
+				"ExpeditionDepth": 711,
+				"IsExtraExpedition": true,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "High Infection Barrier is blocking pathway to [0<size=70%>X</size>EEE2]\nAllocating [Fog Repeller Beacon] to Expendable prisoners.",
+				"RoleplayedWardenIntel": ""
+			},
+			"Seeds": {
+				"BuildSeed": 616555,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 70,
+				"FogSettings": 0,
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": 0,
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
 		}
 	],
 	"TierD": [
@@ -1870,15 +1966,15 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 1,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>D00",
-				"PublicName": "Timeout",
+				"PublicName": "Crepuscule",
 				"ExpeditionDepth": 769,
 				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Unexpected Fog Anomaly in this complex, Estimated Fatality Rate is in Extreme level.\nPrisoners sent to restore partial climate control system in order to reach [0<size=70%>X</size>E001]",
-				"RoleplayedWardenIntel": ">.."
+				"RoleplayedWardenIntel": "<size=200%><color=red>://ERR: D-Chipher Decr6t###n E_RR`066</color></size>"
 			},
 			"Seeds": {
 				"BuildSeed": -504504,
@@ -1897,17 +1993,71 @@
 			},
 			"LevelLayoutData": "Layout_D3_L1",
 			"MainLayerData": {
-				"ZoneAliasStart": 712,
-				"ZonesWithBulkheadEntrance": [],
-				"BulkheadDoorControllerPlacements": [],
-				"BulkheadKeyPlacements": [],
+				"ZoneAliasStart": 641,
+				"ZonesWithBulkheadEntrance": [
+					8
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 5,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					},
+					{
+						"ZoneIndex": 7,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 100000.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 6,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 100000.0
+							}
+						}
+					]
+				],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_D3_L1",
 					"WinCondition": 1,
 					"ZonePlacementDatas": [
 						[
 							{
-								"LocalIndex": 5,
+								"LocalIndex": 6,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 9,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 10,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
@@ -1923,20 +2073,28 @@
 					"ArtifactZoneDistributions": []
 				}
 			},
-			"SecondaryLayerEnabled": false,
-			"SecondaryLayout": "Layout_D2_L2",
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_D3_L2",
 			"BuildSecondaryFrom": {
 				"LayerType": 0,
-				"Zone": 20
+				"Zone": 7
 			},
 			"SecondaryLayerData": {
-				"ZoneAliasStart": 893,
+				"ZoneAliasStart": 439,
 				"ZonesWithBulkheadEntrance": [],
 				"BulkheadDoorControllerPlacements": [],
 				"BulkheadKeyPlacements": [
 					[
 						{
-							"LocalIndex": 3,
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						},
+						{
+							"LocalIndex": 2,
 							"Weights": {
 								"Start": 0.0,
 								"Middle": 0.0,
@@ -1946,29 +2104,7 @@
 					]
 				],
 				"ObjectiveData": {
-					"DataBlockId": "Obj_D2_L2",
-					"WinCondition": 0,
-					"ZonePlacementDatas": []
-				},
-				"ArtifactData": {
-					"ArtifactAmountMulti": 0.0,
-					"ArtifactLayerDistributionDataID": 0,
-					"ArtifactZoneDistributions": []
-				}
-			},
-			"ThirdLayerEnabled": false,
-			"ThirdLayout": "Layout_D2_L3",
-			"BuildThirdFrom": {
-				"LayerType": 0,
-				"Zone": 16
-			},
-			"ThirdLayerData": {
-				"ZoneAliasStart": 988,
-				"ZonesWithBulkheadEntrance": [],
-				"BulkheadDoorControllerPlacements": [],
-				"BulkheadKeyPlacements": [],
-				"ObjectiveData": {
-					"DataBlockId": "Obj_D2_L3",
+					"DataBlockId": "Obj_D3_L2",
 					"WinCondition": 0,
 					"ZonePlacementDatas": [
 						[
@@ -1989,6 +2125,7 @@
 					"ArtifactZoneDistributions": []
 				}
 			},
+			"ThirdLayerEnabled": false,
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
@@ -2116,8 +2253,8 @@
 			"Enabled": true,
 			"Accessibility": "BlockedAndScrambled",
 			"Descriptive": {
-				"Prefix": "0<size=70%>X</size>E00",
-				"PublicName": "",
+				"Prefix": "0<size=70%>X</size>EEE",
+				"PublicName": "Terminate",
 				"ExpeditionDepth": 1162,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
@@ -2230,7 +2367,7 @@
 			}
 		}
 	],
-	"name": "RundownData",
+	"name": "RundownData-Interference",
 	"internalEnabled": true,
 	"persistentID": 1
 }

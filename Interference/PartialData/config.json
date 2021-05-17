@@ -144,6 +144,20 @@
     ]
   },
   {
+    "TypeName": "RecoilDataBlock",
+    "GuidConfig": {
+      "StartFromID": 1000,
+      "IncrementMode": 1
+    },
+    "SearchConfigs": [
+      {
+        "BaseSubDirectory": "gears",
+        "FileSearchPattern": "*recoil*.json",
+        "CheckSubDirectory": true
+      }
+    ]
+  },
+  {
     "TypeName": "ArchetypeDataBlock",
     "GuidConfig": {
       "StartFromID": 1000,
@@ -167,6 +181,20 @@
       {
         "BaseSubDirectory": "gears",
         "FileSearchPattern": "*front*.json",
+        "CheckSubDirectory": false
+      }
+    ]
+  },
+  {
+    "TypeName": "GearSightPartDataBlock",
+    "GuidConfig": {
+      "StartFromID": 256,
+      "IncrementMode": 0
+    },
+    "SearchConfigs": [
+      {
+        "BaseSubDirectory": "gears",
+        "FileSearchPattern": "*sight*.json",
         "CheckSubDirectory": false
       }
     ]

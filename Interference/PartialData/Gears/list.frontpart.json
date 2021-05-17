@@ -67,5 +67,81 @@
 		"name": "Front_AutoShotgun_4",
 		"internalEnabled": true,
 		"persistentID": 500
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Rifle_2.prefab",
+			"Children": [],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_Rifle_2",
+			"AssetBundle": 20,
+			"BundleShard": 15
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "a_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			}
+		],
+		"FireSequence": [],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 9,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 2,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.2,
+				"Type": 5,
+				"StringData": "shotgun_reload_cock_back"
+			},
+			{
+				"TriggerTime": 0.6,
+				"Type": 5,
+				"StringData": "shotgun_reload_cock_forward"
+			},
+			{
+				"TriggerTime": 0.6,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 1.0,
+				"Type": 7
+			}
+		],
+		"name": "Front_Rifle_2",
+		"internalEnabled": true,
+		"persistentID": 501
 	}
 ]

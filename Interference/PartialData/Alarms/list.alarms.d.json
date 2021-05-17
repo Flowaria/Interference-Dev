@@ -276,13 +276,13 @@
 		"persistentID": "Alarm_D_ERR_WAVE"
 	},
 	{
-		"PublicAlarmName": "Class IV Alarm",
+		"PublicAlarmName": "Class IV M Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
 		"SurvivalWavePopulation": 1,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
-		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceFromStartPos": 12.0,
 		"WantedDistanceBetweenPuzzleComponents": 15.0,
 		"ChainedPuzzle": [
 			{
@@ -295,7 +295,7 @@
 				"PuzzleType": 2
 			},
 			{
-				"PuzzleType": 5
+				"PuzzleType": 14
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,
@@ -306,13 +306,13 @@
 		"persistentID": "Alarm_D3_Class4"
 	},
 	{
-		"PublicAlarmName": "Class V Alarm",
+		"PublicAlarmName": "Class V M Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
 		"SurvivalWavePopulation": 1,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
-		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceFromStartPos": 12.0,
 		"WantedDistanceBetweenPuzzleComponents": 15.0,
 		"ChainedPuzzle": [
 			{
@@ -328,7 +328,7 @@
 				"PuzzleType": 2
 			},
 			{
-				"PuzzleType": 5
+				"PuzzleType": 14
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,
@@ -368,7 +368,7 @@
 	{
 		"PublicAlarmName": "Class IX Q Surge Alarm",
 		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": 1,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
 		"SurvivalWavePopulation": 1,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,

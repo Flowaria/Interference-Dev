@@ -406,5 +406,107 @@
 		"name": "GEAR_Shotgun_Semi_Auto",
 		"internalEnabled": true,
 		"persistentID": "AT_Shotgun_Auto"
+	},
+	{
+		"PublicName": "Raygun",
+		"Description": "Capacity: 660<size=75%>m</size>A (Chargeup Full-auto)\nDamage: 0.9\n[Precision: 0.7x / Stagger: 0.7x]\nRange: 12m-80m\n<color=orange>No reloading required</color>\n<color=orange>Experimental</color>",
+		"FireMode": 2,
+		"RecoilDataID": "Recoil_LaserGun",
+		"Damage": 0.9,
+		"DamageFalloff": {
+			"x": 12.0,
+			"y": 80.0
+		},
+		"StaggerDamageMulti": 0.7,
+		"PrecisionDamageMulti": 0.7,
+		"DefaultClipSize": 1,
+		"DefaultReloadTime": 0.00001,
+		"CostOfBullet": 0.34848484848,
+		"ShotDelay": 0.02,
+		"PiercingBullets": false,
+		"PiercingDamageCountLimit": 5,
+		"HipFireSpread": 0.0,
+		"AimSpread": 0.0,
+		"EquipTransitionTime": 0.4,
+		"EquipSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_Pistol_1_equip_weaponmovement"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"AimTransitionTime": 0.25,
+		"AimSequence": [],
+		"BurstDelay": 0.0,
+		"BurstShotCount": 0,
+		"ShotgunBulletCount": 0,
+		"ShotgunConeSize": 0,
+		"ShotgunBulletSpread": 0,
+		"SpecialChargetupTime": 0.3,
+		"SpecialCooldownTime": 0.0,
+		"SpecialSemiBurstCountTimeout": 0.0,
+		"Sentry_StartFireDelay": 1.0,
+		"Sentry_RotationSpeed": 4.0,
+		"Sentry_DetectionMaxRange": 25.0,
+		"Sentry_DetectionMaxAngle": 30.0,
+		"Sentry_FireTowardsTargetInsteadOfForward": false,
+		"name": "GEAR_LaserGun",
+		"internalEnabled": true,
+		"persistentID": "AT_LaserGun"
+	},
+	{
+		"PublicName": "Huntsman Rifle",
+		"Description": "Ammo: 1/38 (Bolt-Action)\nDamage: 10.5\n[Precision: 0.95x / Stagger: 1.0x]\nRange: 5m-70m\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
+		"FireMode": 0,
+		"RecoilDataID": 9,
+		"Damage": 10.5,
+		"DamageFalloff": {
+			"x": 5.0,
+			"y": 70.0
+		},
+		"StaggerDamageMulti": 0.95,
+		"PrecisionDamageMulti": 1.0,
+		"DefaultClipSize": 1,
+		"DefaultReloadTime": 0.4,
+		"CostOfBullet": 6.05263157894,
+		"ShotDelay": 0.0,
+		"PiercingBullets": false,
+		"PiercingDamageCountLimit": 5,
+		"HipFireSpread": 2.0,
+		"AimSpread": 0.0,
+		"EquipTransitionTime": 0.4,
+		"EquipSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_Precision_1_equip_weaponmovement"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"AimTransitionTime": 0.24,
+		"AimSequence": [],
+		"BurstDelay": 0.0,
+		"BurstShotCount": 0,
+		"ShotgunBulletCount": 0,
+		"ShotgunConeSize": 0,
+		"ShotgunBulletSpread": 0,
+		"SpecialChargetupTime": 0.0,
+		"SpecialCooldownTime": 0.0,
+		"SpecialSemiBurstCountTimeout": 0.0,
+		"Sentry_StartFireDelay": 1.0,
+		"Sentry_RotationSpeed": 4.0,
+		"Sentry_DetectionMaxRange": 25.0,
+		"Sentry_DetectionMaxAngle": 30.0,
+		"Sentry_FireTowardsTargetInsteadOfForward": false,
+		"name": "GEAR_BoltAction",
+		"internalEnabled": true,
+		"persistentID": "AT_BoltActionRifle"
 	}
 ]
