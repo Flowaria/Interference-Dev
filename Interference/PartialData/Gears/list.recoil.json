@@ -48,5 +48,55 @@
 		"name": "BullpupAuto",
 		"internalEnabled": true,
 		"persistentID": "Recoil_LaserGun"
+	},
+	{
+		"power": {
+			"Min": 3.0,
+			"Max": 4.5
+		},
+		"spring": 1.0,
+		"dampening": 15.0,
+		"hipFireCrosshairSizeDefault": 120.0,
+		"hipFireCrosshairRecoilPop": 80.0,
+		"hipFireCrosshairSizeMax": 180.0,
+		"horizontalScale": {
+			"Min": -0.5,
+			"Max": 0.1
+		},
+		"verticalScale": {
+			"Min": 0.8,
+			"Max": 1.0
+		},
+		"directionalSimilarity": 0.0,
+		"worldToViewSpaceBlendHorizontal": 0.2,
+		"worldToViewSpaceBlendVertical": 0.2,
+		"recoilPosImpulse": {
+			"x": 1.0,
+			"y": -60.0,
+			"z": -5.0
+		},
+		"recoilPosShift": {
+			"x": 0.0,
+			"y": -0.1,
+			"z": -0.1
+		},
+		"recoilPosShiftWeight": 1.0,
+		"recoilPosStiffness": 150.0,
+		"recoilPosDamping": 30.0,
+		"recoilPosImpulseWeight": 1.0,
+		"recoilCameraPosWeight": 1.0,
+		"recoilAimingWeight": 0.7,
+		"recoilRotImpulse": {
+			"x": 20.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"recoilRotStiffness": 50.0,
+		"recoilRotDamping": 8.0,
+		"recoilRotImpulseWeight": 200.0,
+		"recoilCameraRotWeight": 1.0,
+		"name": "ShotgunSemi_v2",
+		"internalEnabled": true,
+		"persistentID": "Recoil_Shotgun_DB"
 	}
 ]

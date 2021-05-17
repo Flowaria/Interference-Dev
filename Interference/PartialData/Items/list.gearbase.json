@@ -44,7 +44,7 @@
 		"persistentID": 5000
 	},
 	{
-		"publicName": "Gear Laser",
+		"publicName": "Gear Special_MagIsClip",
 		"terminalItemShortName": "",
 		"terminalItemLongName": "",
 		"addSerialNumberToName": true,
@@ -88,7 +88,7 @@
 		"persistentID": 5001
 	},
 	{
-		"publicName": "Gear BoltAction",
+		"publicName": "Gear Special AutoReload",
 		"terminalItemShortName": "",
 		"terminalItemLongName": "",
 		"addSerialNumberToName": true,
@@ -130,5 +130,49 @@
 		"name": "GEAR_BoltAction",
 		"internalEnabled": true,
 		"persistentID": 5002
+	},
+	{
+		"publicName": "Gear shotgun",
+		"terminalItemShortName": "",
+		"terminalItemLongName": "",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 17,
+		"inventorySlot": 2,
+		"FPSSettings": 0,
+		"crosshair": 1,
+		"HUDIcon": "GUI/Player/silouette_köning",
+		"ShowCrosshairWhenAiming": false,
+		"GUIShowAmmoClip": true,
+		"GUIShowAmmoPack": true,
+		"GUIShowAmmoTotalRel": true,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 0,
+		"ConsumableAmmoMax": 0,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Weapons/GearSetup/ShotgunWeaponFirstPerson.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/Weapons/GearSetup/ShotgunWeaponThirdPerson.prefab"
+		],
+		"PickupPrefabs": [],
+		"InstancePrefabs": [],
+		"EquipTransitionTime": 1.0,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "",
+		"LeftHandGripAnim": "",
+		"RightHandGripAlign": "",
+		"RightHandGripAnim": "",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "",
+		"name": "GEAR_ShotgunWeapon_Special_Shotgun_Autoreload",
+		"internalEnabled": true,
+		"persistentID": 5003
 	}
 ]

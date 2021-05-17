@@ -82,6 +82,22 @@
 	{
 		"PublicName": "",
 		"Description": "",
+		"BaseItem": 5003,
+		"HUDIcon": "",
+		"FPSArmPoseName": "",
+		"ThirdPersonFullbodyMovement": 0,
+		"SemiArchetype": "AT_Shotgun_DoubleBarrel",
+		"BurstArchetype": 0,
+		"AutoArchetype": 0,
+		"SemiBurstArchetype": 0,
+		"PartAlignPriority": [],
+		"name": "ShotgunType_DB",
+		"internalEnabled": true,
+		"persistentID": 231
+	},
+	{
+		"PublicName": "",
+		"Description": "",
 		"BaseItem": 5001,
 		"HUDIcon": "",
 		"FPSArmPoseName": "",

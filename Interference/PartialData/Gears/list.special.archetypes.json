@@ -408,6 +408,57 @@
 		"persistentID": "AT_Shotgun_Auto"
 	},
 	{
+		"PublicName": "Double Barrel Shotgun",
+		"Description": "Ammo: 2/14 (Semi-auto)\nDamage: 8.5 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m",
+		"FireMode": 0,
+		"RecoilDataID": "Recoil_Shotgun_DB",
+		"Damage": 8.5,
+		"DamageFalloff": {
+			"x": 5.5,
+			"y": 20.0
+		},
+		"StaggerDamageMulti": 1.0,
+		"PrecisionDamageMulti": 0.735,
+		"DefaultClipSize": 2,
+		"DefaultReloadTime": 2.9,
+		"CostOfBullet": 16.427,
+		"ShotDelay": 0.7,
+		"PiercingBullets": false,
+		"PiercingDamageCountLimit": 5,
+		"HipFireSpread": 1.0,
+		"AimSpread": 0.0,
+		"EquipTransitionTime": 0.35,
+		"EquipSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "AutoShotgun_Draw_Front3_equip_weaponmovement"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"AimTransitionTime": 0.32,
+		"AimSequence": [],
+		"BurstDelay": 0.0,
+		"BurstShotCount": 0,
+		"ShotgunBulletCount": 8,
+		"ShotgunConeSize": 3,
+		"ShotgunBulletSpread": 3,
+		"SpecialChargetupTime": 0.0,
+		"SpecialCooldownTime": 0.0,
+		"SpecialSemiBurstCountTimeout": 0.0,
+		"Sentry_StartFireDelay": 1.0,
+		"Sentry_RotationSpeed": 4.0,
+		"Sentry_DetectionMaxRange": 25.0,
+		"Sentry_DetectionMaxAngle": 30.0,
+		"Sentry_FireTowardsTargetInsteadOfForward": false,
+		"name": "GEAR_Shotgun_DB",
+		"internalEnabled": true,
+		"persistentID": "AT_Shotgun_DoubleBarrel"
+	},
+	{
 		"PublicName": "Raygun",
 		"Description": "Capacity: 660<size=75%>m</size>A (Chargeup Full-auto)\nDamage: 0.9\n[Precision: 0.7x / Stagger: 0.7x]\nRange: 12m-80m\n<color=orange>No reloading required</color>\n<color=orange>Experimental</color>",
 		"FireMode": 2,
@@ -460,7 +511,7 @@
 	},
 	{
 		"PublicName": "Huntsman Rifle",
-		"Description": "Ammo: 1/38 (Bolt-Action)\nDamage: 10.5\n[Precision: 0.95x / Stagger: 1.0x]\nRange: 5m-70m\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
+		"Description": "Ammo: 1/38 (Bolt-Action)\nDamage: 10.5\n[Precision: 0.95x / Stagger: 1.0x]\nRange: 5m-70m\nPierce: 2\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
 		"Damage": 10.5,
@@ -471,11 +522,11 @@
 		"StaggerDamageMulti": 0.95,
 		"PrecisionDamageMulti": 1.0,
 		"DefaultClipSize": 1,
-		"DefaultReloadTime": 0.4,
+		"DefaultReloadTime": 0.43,
 		"CostOfBullet": 6.05263157894,
 		"ShotDelay": 0.0,
-		"PiercingBullets": false,
-		"PiercingDamageCountLimit": 5,
+		"PiercingBullets": true,
+		"PiercingDamageCountLimit": 2,
 		"HipFireSpread": 2.0,
 		"AimSpread": 0.0,
 		"EquipTransitionTime": 0.4,

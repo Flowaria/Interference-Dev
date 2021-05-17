@@ -16,8 +16,71 @@
 			"GearFovZoom": 20,
 			"WorldFovZoom": 42
 		},
-		"name": "Sight_8",
+		"name": "DMR_FovFix",
 		"internalEnabled": true,
 		"persistentID": 500
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_8.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 50,
+			"BundleShard": 13
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"SightProperties": {
+			"GearFovZoom": 20,
+			"WorldFovZoom": 60
+		},
+		"name": "DMR_FovFix_Closer",
+		"internalEnabled": true,
+		"persistentID": 503
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_7_B.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 50,
+			"BundleShard": 12
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"SightProperties": {
+			"GearFovZoom": 30,
+			"WorldFovZoom": 42
+		},
+		"name": "IronSight_FOVFix",
+		"internalEnabled": true,
+		"persistentID": 501
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_16.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 50,
+			"BundleShard": 18
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"SightProperties": {
+			"GearFovZoom": 18,
+			"WorldFovZoom": 42
+		},
+		"name": "12_FovFix",
+		"internalEnabled": true,
+		"persistentID": 502
 	}
 ]
