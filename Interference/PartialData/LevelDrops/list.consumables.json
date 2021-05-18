@@ -142,5 +142,30 @@
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
 		"persistentID": "Consumable_FogBulk_Some_Mixed"
+	},
+	{
+		"SpawnsPerZone": 6,
+		"ChanceToSpawnInResourceContainer": 0.4,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 30,
+				"Weight": 0.25
+			},
+			{
+				"ItemID": 130,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 116,
+				"Weight": 0.25
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Hard_NoFog_NoFoam"
 	}
 ]

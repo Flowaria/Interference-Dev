@@ -52,10 +52,10 @@
 	},
 	{
 		"PublicName": "Heavy-SMG",
-		"Description": "Ammo: 36/268 (Full-auto)\nDamage: 1.875\n[Precision: 0.93x - Stagger: 0.95x]\nRange: 8m-58m",
+		"Description": "Ammo: 36/298 (Full-auto)\nDamage: 1.925\n[Precision: 0.93x - Stagger: 0.95x]\nRange: 8m-58m",
 		"FireMode": 2,
 		"RecoilDataID": 2,
-		"Damage": 1.875,
+		"Damage": 1.925,
 		"DamageFalloff": {
 			"x": 8.0,
 			"y": 58.0
@@ -64,7 +64,7 @@
 		"PrecisionDamageMulti": 0.93,
 		"DefaultClipSize": 36,
 		"DefaultReloadTime": 1.78,
-		"CostOfBullet": 1.654676258992,
+		"CostOfBullet": 1.5435,
 		"ShotDelay": 0.075,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -409,17 +409,17 @@
 	},
 	{
 		"PublicName": "Handgun",
-		"Description": "Ammo: 20/216 (Semi-auto)\nDamage: 2.8\n[Precision: 1.0x - Stagger: 1.15x]\nRange: 8m-60m",
+		"Description": "Ammo: 21/216 (Semi-auto)\nDamage: 2.8\n[Precision: 1.0x - Stagger: 1.15x]\nRange: 10m-70m",
 		"FireMode": 0,
 		"RecoilDataID": 12,
 		"Damage": 2.8,
 		"DamageFalloff": {
-			"x": 8.0,
-			"y": 60.0
+			"x": 10.0,
+			"y": 70.0
 		},
 		"StaggerDamageMulti": 1.15,
 		"PrecisionDamageMulti": 0.89,
-		"DefaultClipSize": 20,
+		"DefaultClipSize": 21,
 		"DefaultReloadTime": 1.3,
 		"CostOfBullet": 2.128,
 		"ShotDelay": 0.115,

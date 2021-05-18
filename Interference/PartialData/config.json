@@ -172,6 +172,20 @@
     ]
   },
   {
+    "TypeName": "GearMeleeHeadPartDataBlock",
+    "GuidConfig": {
+      "StartFromID": 256,
+      "IncrementMode": 0
+    },
+    "SearchConfigs": [
+      {
+        "BaseSubDirectory": "gears",
+        "FileSearchPattern": "*meleehead*.json",
+        "CheckSubDirectory": false
+      }
+    ]
+  },
+  {
     "TypeName": "GearFrontPartDataBlock",
     "GuidConfig": {
       "StartFromID": 256,

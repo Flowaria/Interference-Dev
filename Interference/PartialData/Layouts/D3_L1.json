@@ -14,7 +14,7 @@
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Forward",
 			"ZoneExpansion": "Directional_Forward",
-			"LightSettings": "Light_MonoOrange_AllOn",
+			"LightSettings": 56,
 			"AltitudeData": {
 				"AllowedZoneAltitude": "Unchanged",
 				"ChanceToChange": 1.0
@@ -45,7 +45,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -137,7 +137,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -182,7 +182,7 @@
 			"SubSeed": 0,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Storage",
-			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_03.prefab",
+			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_hub_HA_04.prefab",
 			"CoverageMinMax": {
 				"x": 70.0,
 				"y": 80.0
@@ -192,7 +192,7 @@
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Forward",
 			"ZoneExpansion": "Directional_Forward",
-			"LightSettings": 66,
+			"LightSettings": "Light_CyanBrownYellow_AllOn",
 			"AltitudeData": {
 				"AllowedZoneAltitude": "OnlyLow",
 				"ChanceToChange": 1.0
@@ -223,7 +223,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -244,7 +244,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 3.0,
+			"WeaponAmmoMulti": 0.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -277,7 +277,7 @@
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Left",
 			"ZoneExpansion": "Directional_Left",
-			"LightSettings": 71,
+			"LightSettings": 21,
 			"AltitudeData": {
 				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
@@ -315,16 +315,16 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 1000.0,
+						"Start": 10000.0,
 						"Middle": 0.0,
 						"End": 0.0
 					},
-					"AreaSeedOffset": 1
+					"AreaSeedOffset": 0
 				}
 			],
 			"ForbidTerminalsInZone": false,
@@ -369,7 +369,7 @@
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Right",
 			"ZoneExpansion": "Directional_Right",
-			"LightSettings": 71,
+			"LightSettings": 21,
 			"AltitudeData": {
 				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
@@ -407,16 +407,16 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 1000.0,
+						"Start": 10000.0,
 						"Middle": 0.0,
 						"End": 0.0
 					},
-					"AreaSeedOffset": 1
+					"AreaSeedOffset": 0
 				}
 			],
 			"ForbidTerminalsInZone": false,
@@ -449,7 +449,7 @@
 		},
 		{
 			"LocalIndex": 5, //Generator
-			"SubSeed": 0,
+			"SubSeed": -16,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DigSite",
 			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_HA_01.prefab",
@@ -462,7 +462,7 @@
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Forward",
 			"ZoneExpansion": "Directional_Forward",
-			"LightSettings": 64,
+			"LightSettings": "Light_MonoOrange_AllOn",
 			"AltitudeData": {
 				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
@@ -491,7 +491,7 @@
 					}
 				]
 			},
-			"ChainedPuzzleToEnter": "Alarm_D_Class9_QSurge",
+			"ChainedPuzzleToEnter": "Alarm_D3_Class5",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -540,23 +540,23 @@
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 1000.0,
+						"Start": 100000.0,
 						"Middle": 0.0,
 						"End": 0.0
 					},
-					"AreaSeedOffset": 1
+					"AreaSeedOffset": 0
 				}
 			],
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 1.2,
+			"HealthMulti": 1.6,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.6,
+			"WeaponAmmoMulti": 1.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -568,7 +568,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.0,
+			"DisinfectionMulti": 0.8,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -576,7 +576,7 @@
 			}
 		},
 		{
-			"LocalIndex": 6, //First Cell
+			"LocalIndex": 6, //Key Passage
 			"SubSeed": 0,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DigSite",
@@ -620,23 +620,23 @@
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
-			"GeneratorClustersInZone": 1,
+			"GeneratorClustersInZone": 0,
 			"CorpsesInZone": 0,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 1000.0,
+						"Start": 100000.0,
 						"Middle": 0.0,
 						"End": 0.0
 					},
-					"AreaSeedOffset": 1
+					"AreaSeedOffset": 0
 				}
 			],
 			"ForbidTerminalsInZone": false,
@@ -688,12 +688,21 @@
 			},
 			"EventsOnEnter": [],
 			"ProgressionPuzzleToEnter": {
-				"PuzzleType": 0,
+				"PuzzleType": 1,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
 				"PlacementCount": 1,
-				"ZonePlacementData": []
+				"ZonePlacementData": [
+					{
+						"LocalIndex": 6,
+						"Weights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 100000.0
+						}
+					}
+				]
 			},
-			"ChainedPuzzleToEnter": 4,
+			"ChainedPuzzleToEnter": "Alarm_D_Class2_16Cluster",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -712,14 +721,14 @@
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
-			"GeneratorClustersInZone": 1,
+			"GeneratorClustersInZone": 0,
 			"CorpsesInZone": 0,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -786,7 +795,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": 4,
+			"ChainedPuzzleToEnter": 0,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -805,14 +814,14 @@
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
-			"GeneratorClustersInZone": 1,
+			"GeneratorClustersInZone": 0,
 			"CorpsesInZone": 0,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -853,23 +862,22 @@
 			}
 		},
 		{
-			"LocalIndex": 9, //Left Zone
-			"SubSeed": 0,
+			"LocalIndex": 9, //Left Zone / KeySearch
+			"SubSeed": 594,
 			"BulkheadDCScanSeed": 0,
-			"SubComplex": "Refinery",
-			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_I_HA_01.prefab",
+			"SubComplex": "DigSite",
 			"CoverageMinMax": {
-				"x": 30.0,
-				"y": 40.0
+				"x": 80.0,
+				"y": 90.0
 			},
-			"BuildFromLocalIndex": 5,
+			"BuildFromLocalIndex": 8,
 			"StartPosition": "From_Furthest",
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Left",
 			"ZoneExpansion": "Directional_Left",
-			"LightSettings": 64,
+			"LightSettings": 66,
 			"AltitudeData": {
-				"AllowedZoneAltitude": "OnlyHigh",
+				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -879,7 +887,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": 4,
+			"ChainedPuzzleToEnter": "Alarm_D3_Class4_2",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -898,14 +906,14 @@
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
-			"GeneratorClustersInZone": 1,
+			"GeneratorClustersInZone": 0,
 			"CorpsesInZone": 0,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Flash",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -926,7 +934,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.4,
+			"WeaponAmmoMulti": 0.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -939,6 +947,185 @@
 				"End": 0.0
 			},
 			"DisinfectionMulti": 0.0,
+			"DisinfectionPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			}
+		},
+		{
+			"LocalIndex": 10, //Left Zone
+			"SubSeed": 0,
+			"BulkheadDCScanSeed": 0,
+			"SubComplex": "Refinery",
+			"CoverageMinMax": {
+				"x": 50.0,
+				"y": 60.0
+			},
+			"BuildFromLocalIndex": 9,
+			"StartPosition": "From_Start",
+			"StartPosition_IndexWeight": 0.0,
+			"StartExpansion": "Towards_Forward",
+			"ZoneExpansion": "Directional_Forward",
+			"LightSettings": 60,
+			"AltitudeData": {
+				"AllowedZoneAltitude": "OnlyLow",
+				"ChanceToChange": 1.0
+			},
+			"EventsOnEnter": [],
+			"ProgressionPuzzleToEnter": {
+				"PuzzleType": 1,
+				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+				"PlacementCount": 1,
+				"ZonePlacementData": [
+					{
+						"LocalIndex": 9,
+						"Weights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 100000.0
+						}
+					}
+				]
+			},
+			"ChainedPuzzleToEnter": 0,
+			"SecurityGateToEnter": 0,
+			"ActiveEnemyWave": {
+				"HasActiveEnemyWave": false,
+				"EnemyGroupInfrontOfDoor": 0,
+				"EnemyGroupInArea": 0,
+				"EnemyGroupsInArea": 0
+			},
+			"EnemySpawningInZone": [],
+			"HSUClustersInZone": 0,
+			"CorpseClustersInZone": 0,
+			"ResourceContainerClustersInZone": 0,
+			"GeneratorClustersInZone": 0,
+			"CorpsesInZone": 0,
+			"HSUsInZone": 0,
+			"DeconUnitsInZone": 0,
+			"AllowSmallPickupsAllocation": true,
+			"AllowResourceContainerAllocation": true,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"BigPickupDistributionInZone": 0,
+			"TerminalPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 1000.0,
+						"Middle": 0.0,
+						"End": 0.0
+					},
+					"AreaSeedOffset": 1
+				}
+			],
+			"ForbidTerminalsInZone": false,
+			"PowerGeneratorPlacements": [],
+			"DisinfectionStationPlacements": [],
+			"HealthMulti": 0.8,
+			"HealthPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"WeaponAmmoMulti": 1.0,
+			"WeaponAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"ToolAmmoMulti": 0.2,
+			"ToolAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"DisinfectionMulti": 0.0,
+			"DisinfectionPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			}
+		},
+		{
+			"LocalIndex": 11, //Finalle
+			"SubSeed": 0,
+			"BulkheadDCScanSeed": 0,
+			"SubComplex": "Storage",
+			"CoverageMinMax": {
+				"x": 15.0,
+				"y": 20.0
+			},
+			"BuildFromLocalIndex": 10,
+			"StartPosition": "From_Furthest",
+			"StartPosition_IndexWeight": 0.0,
+			"StartExpansion": "Towards_Forward",
+			"ZoneExpansion": "Directional_Forward",
+			"LightSettings": "Light_MonoOrange_AllOn",
+			"AltitudeData": {
+				"AllowedZoneAltitude": "OnlyHigh",
+				"ChanceToChange": 1.0
+			},
+			"EventsOnEnter": [],
+			"ProgressionPuzzleToEnter": {
+				"PuzzleType": 0,
+				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+				"PlacementCount": 1,
+				"ZonePlacementData": []
+			},
+			"ChainedPuzzleToEnter": 4,
+			"SecurityGateToEnter": 0,
+			"ActiveEnemyWave": {
+				"HasActiveEnemyWave": false,
+				"EnemyGroupInfrontOfDoor": 0,
+				"EnemyGroupInArea": 0,
+				"EnemyGroupsInArea": 0
+			},
+			"EnemySpawningInZone": [],
+			"HSUClustersInZone": 0,
+			"CorpseClustersInZone": 0,
+			"ResourceContainerClustersInZone": 0,
+			"GeneratorClustersInZone": 0,
+			"CorpsesInZone": 0,
+			"HSUsInZone": 0,
+			"DeconUnitsInZone": 0,
+			"AllowSmallPickupsAllocation": true,
+			"AllowResourceContainerAllocation": true,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"BigPickupDistributionInZone": 0,
+			"TerminalPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 1000.0,
+						"Middle": 0.0,
+						"End": 0.0
+					},
+					"AreaSeedOffset": 1
+				}
+			],
+			"ForbidTerminalsInZone": false,
+			"PowerGeneratorPlacements": [],
+			"DisinfectionStationPlacements": [],
+			"HealthMulti": 0.8,
+			"HealthPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"WeaponAmmoMulti": 1.0,
+			"WeaponAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"ToolAmmoMulti": 0.2,
+			"ToolAmmoPlacement": {
+				"Start": 0.0,
+				"Middle": 0.0,
+				"End": 0.0
+			},
+			"DisinfectionMulti": 2.8,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

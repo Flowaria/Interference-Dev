@@ -1966,9 +1966,9 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": 1,
+			"Accessibility": 0,
 			"Descriptive": {
-				"Prefix": "0<size=70%>X</size>D00",
+				"Prefix": "<color=red>0<size=70%>X</size>D00",
 				"PublicName": "Crepuscule",
 				"ExpeditionDepth": 769,
 				"IsExtraExpedition": false,
@@ -1978,9 +1978,9 @@
 			},
 			"Seeds": {
 				"BuildSeed": -504504,
-				"FunctionMarkerOffset": 0,
-				"StandardMarkerOffset": 0,
-				"LightJobSeedOffset": 0
+				"FunctionMarkerOffset": 6565,
+				"StandardMarkerOffset": 65656,
+				"LightJobSeedOffset": -6
 			},
 			"Expedition": {
 				"ComplexResourceData": 1,
@@ -1995,11 +1995,11 @@
 			"MainLayerData": {
 				"ZoneAliasStart": 641,
 				"ZonesWithBulkheadEntrance": [
-					8
+					9
 				],
 				"BulkheadDoorControllerPlacements": [
 					{
-						"ZoneIndex": 5,
+						"ZoneIndex": 8,
 						"PlacementWeights": {
 							"Start": 0.0,
 							"Middle": 0.0,
@@ -2022,7 +2022,7 @@
 				"BulkheadKeyPlacements": [
 					[
 						{
-							"LocalIndex": 6,
+							"LocalIndex": 7,
 							"Weights": {
 								"Start": 0.0,
 								"Middle": 0.0,
@@ -2037,7 +2037,7 @@
 					"ZonePlacementDatas": [
 						[
 							{
-								"LocalIndex": 6,
+								"LocalIndex": 7,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
@@ -2049,15 +2049,15 @@
 							{
 								"LocalIndex": 9,
 								"Weights": {
-									"Start": 0.0,
+									"Start": 100000.0,
 									"Middle": 0.0,
-									"End": 100000.0
+									"End": 0.0
 								}
 							}
 						],
 						[
 							{
-								"LocalIndex": 10,
+								"LocalIndex": 11,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
@@ -2092,14 +2092,6 @@
 								"Middle": 0.0,
 								"End": 0.0
 							}
-						},
-						{
-							"LocalIndex": 2,
-							"Weights": {
-								"Start": 0.0,
-								"Middle": 0.0,
-								"End": 0.0
-							}
 						}
 					]
 				],
@@ -2109,7 +2101,7 @@
 					"ZonePlacementDatas": [
 						[
 							{
-								"LocalIndex": 0,
+								"LocalIndex": 1,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,

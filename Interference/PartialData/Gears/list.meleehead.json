@@ -1,0 +1,14 @@
+[
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Heads/Head_Hammer_10.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 140,
+			"BundleShard": 13
+		},
+		"Aligns": [],
+		"name": "Gavel_FixedID",
+		"internalEnabled": true,
+		"persistentID": 500
+	}
+]

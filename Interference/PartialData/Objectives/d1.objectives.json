@@ -203,7 +203,6 @@
         "WardenIntel": "",
         "SoundID": 0
       },
-
       {
         "Trigger": 0,
         "Type": 3, //Turn off lights
@@ -222,7 +221,6 @@
         "WardenIntel": "",
         "SoundID": 0
       },
-
       {
         "Trigger": 0,
         "Type": 3, //Turn off lights
@@ -241,7 +239,6 @@
         "WardenIntel": "",
         "SoundID": 0
       },
-
       {
         "Trigger": 0,
         "Type": 5,
@@ -260,7 +257,6 @@
         "WardenIntel": "",
         "SoundID": 0
       },
-
       {
         "Trigger": 0,
         "Type": 2, //Unlock Door
@@ -298,6 +294,7 @@
     "ActivateHSU_ItemAfterActivation": "Carry_Neonate_Stage1",
     "ActivateHSU_StopEnemyWavesOnActivation": false,
     "ActivateHSU_ObjectiveCompleteAfterInsertion": true,
+    "ActivateHSU_RequireItemAfterActivationInExitScan": false,
     "ActivateHSU_Events": [],
     "name": "QTP_Neonate[Activator_Teleporter]",
     "internalEnabled": true,

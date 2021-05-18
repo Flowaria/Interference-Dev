@@ -71,27 +71,18 @@
     ],
     "WaveOnElevatorWardenIntel": "Massive Bioreadings Approaching",
     "FogTransitionDataOnElevatorLand": "Fog_D2_Low",
-    "FogTransitionDurationOnElevatorLand": 1600.0,
+    "FogTransitionDurationOnElevatorLand": 1780.0,
     "WavesOnActivate": [],
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [],
     "WaveOnGotoWinTrigger": 0,
-    "EventsOnGotoWin": [
-      {
-        "Trigger": 0,
-        "Type": 2,
-        "Layer": 2,
-        "LocalIndex": 4,
-        "Delay": 4.0,
-        "WardenIntel": "Security door to [ZONE_4] unlocked"
-      }
-    ],
+    "EventsOnGotoWin": [],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
     "ChainedPuzzleToActive": 0,
-    "ChainedPuzzleMidObjective": 63,
+    "ChainedPuzzleMidObjective": "Alarm_D1_Class3",
     "ChainedPuzzleAtExit": 11,
-    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.85,
     "Gather_RequiredCount": -1,
     "Gather_ItemId": 0,
     "Gather_SpawnCount": 0,
@@ -124,7 +115,7 @@
       },
       {
         "m_fogDataId": "Fog_D3_Finish",
-        "m_transitionToTime": 15.0
+        "m_transitionToTime": 420.0
       }
     ],
     "name": "CentralPowerGeneratorCluster_4",
@@ -159,24 +150,7 @@
     "WavesOnGotoWin": [],
     "WaveOnGotoWinTrigger": 0,
     "EventsOnGotoWin": [],
-    "EventsOnActivate": [
-      {
-        "Trigger": 0,
-        "Type": 1,
-        "Layer": 1,
-        "LocalIndex": 1,
-        "Delay": 0.0,
-        "WardenIntel": ""
-      },
-      {
-        "Trigger": 0,
-        "Type": 0,
-        "Layer": 0,
-        "LocalIndex": 2,
-        "Delay": 6.0,
-        "WardenIntel": "Terminal Maintenance System i/o stream has rerouted."
-      }
-    ],
+    "EventsOnActivate": [],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
     "ChainedPuzzleToActive": 10,
@@ -192,8 +166,8 @@
     "LightsOnFromBeginning": false,
     "LightsOnDuringIntro": false,
     "LightsOnWhenStartupComplete": false,
-    "SpecialTerminalCommand": "REROUTE_TERMINAL_IO_TARGET_EXTERNAL",
-    "SpecialTerminalCommandDesc": "Reroute Terminal Maintenance System I/O Stream",
+    "SpecialTerminalCommand": "CLIMATE_MANAGER_SET_RESTART_MODE_FLAG_5",
+    "SpecialTerminalCommandDesc": "",
     "PostCommandOutput": [],
     "PowerCellsToDistribute": 0,
     "Uplink_NumberOfVerificationRounds": 0,
@@ -206,7 +180,7 @@
     "ActivateHSU_StopEnemyWavesOnActivation": false,
     "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
     "ActivateHSU_Events": [],
-    "name": "SpecialTerminalCommand_REROUTE_COMMS[KillTerminalOnDone]",
+    "name": "SpecialTerminalCommand",
     "internalEnabled": true,
     "persistentID": "Obj_D3_L2"
   }

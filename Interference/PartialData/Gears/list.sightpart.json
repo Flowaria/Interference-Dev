@@ -76,7 +76,7 @@
 			}
 		],
 		"SightProperties": {
-			"GearFovZoom": 18,
+			"GearFovZoom": 16,
 			"WorldFovZoom": 42
 		},
 		"name": "12_FovFix",
