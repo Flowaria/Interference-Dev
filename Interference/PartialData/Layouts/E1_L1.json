@@ -6,8 +6,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Lab",
 			"CoverageMinMax": {
-				"x": 70.0,
-				"y": 80.0
+				"x": 85.0,
+				"y": 90.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Random",
@@ -16,7 +16,7 @@
 			"ZoneExpansion": "Directional_Forward",
 			"LightSettings": 71,
 			"AltitudeData": {
-				"AllowedZoneAltitude": "OnlyLow",
+				"AllowedZoneAltitude": "Unchanged",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
