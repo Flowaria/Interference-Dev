@@ -12,17 +12,11 @@ Querying data with filter... DONE!
 <size=150%>Initiating Rundown Protocol: <color=orange>Interference</color></size>
 
 
-<size=200%>Change Log (v0.5.10):</size>
-- Level: Added D1
-- Balancing:
-  - Reduced Efficiency of C-Foam applying to door
-  - Reduced Chance of Lock&Hacking door / Also Health of Lock
+<size=200%>Change Log (v0.5.20):</size>
+- Level: Added D3 - Crepuscule
+  - Tweaked Enemy Spawning in A1, B1
 - Weapon:
-  - Added: Stun Sentry, Rifle Sentry
-  - Removed: Burst Sentry
-  - Handgun: Increased Reloading Speed
-  - Combat R: Decreased Reloading Speed
-  - Choke Slug S: Fixed Holding Animation, Buffed Damage/Range
-  - Hel Combat SRifle: Reduced Precision Multi, Slightly Reduced Max Ammo
-  - ANTI-Mat SRifle: Changed Front part due to Animation stuffs
-  - Foam Launcher: Increased Max Ammo to 80
+  - Added-Main: Tactical Handgun (same as old handgun), Heavy-SMG
+  - Added-Special: Huntsman Rifle, Raygun
+  - Changed Sight part of Marksman Revolver
+- *Some* change on rundown screen

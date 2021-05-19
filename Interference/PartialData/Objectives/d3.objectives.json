@@ -2,16 +2,16 @@
   {
     "Type": 9,
     "Header": "Central Powergenerator Cluster",
-    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Central Generator Cluster in [ITEM_ZONE]",
-    "FindLocationInfo": "Locate the Power Cells and use them to power up the Generator Cluster",
-    "FindLocationInfoHelp": "Generators Online: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+    "MainObjective": "Find:::[COUNT_REQUIRED] P59+wer cells a$d br___G them to the //:Generator Clu___0 in [ITEM_ZONE]",
+    "FindLocationInfo": "::Loca/// the Power C###s and use th___m to power up the Generator Clust_ERR",
+    "FindLocationInfoHelp": "GenERRat0rs Online: $$_[COUNT_CURRENT] / __[COUNT_REQUIRED]__",
     "GoToZone": "",
     "GoToZoneHelp": "",
     "InZoneFindItem": "",
     "InZoneFindItemHelp": "",
     "SolveItem": "",
     "SolveItemHelp": "",
-    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinCondition_Elevator": "Retur__n to the p+int of entran__ce in //:[EXTRACTION_ZONE]",
     "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
     "GoToWinCondition_CustomGeo": "",
     "GoToWinConditionHelp_CustomGeo": "",
@@ -33,45 +33,45 @@
         "TriggerAlarm": true
       },
 
-      //Phase 2, Delay 4min half, 100Sec Trickle + Hybrids (2+2 / 45)
+      //Phase 2, Delay 5min, 100Sec Trickle + Big Striker (2+2 / 45)
       {
-        "WaveSettings": "WaveSetting_Trickle_1_5_Limited20",
+        "WaveSettings": "WaveSetting_Trickle_1_6_Limited20",
         "WavePopulation": 1,
-        "SpawnDelay": 270.0,
+        "SpawnDelay": 300.0,
         "TriggerAlarm": false
       },
       {
-        "WaveSettings": "WaveSetting_Finite2_Big_2_45",
-        "WavePopulation": 8,
-        "SpawnDelay": 270.0,
+        "WaveSettings": "WaveSetting_Finite2_Big_2_90",
+        "WavePopulation": 18,
+        "SpawnDelay": 300.0,
         "TriggerAlarm": false
       },
 
-      //Phase 2.5, Delay 7min, Final Hybrid Spawn
+      //Phase 2.5, Delay 9min, Final Hybrid Spawn
       {
-        "WaveSettings": "WaveSetting_Finite2_Big_2_45",
+        "WaveSettings": "WaveSetting_Finite2_Big_2_90",
         "WavePopulation": 8,
-        "SpawnDelay": 420.0,
+        "SpawnDelay": 540.0,
         "TriggerAlarm": false
       },
 
-      //Phase 3, Delay 10min, 5 Trickle + 1 Bigcharger (each 4wave), INFINITE
+      //Phase 3, Delay 13min, 5 Trickle + 1 Bigcharger (each 4wave), INFINITE
       {
         "WaveSettings": "WaveSetting_Trickle_4_40",
         "WavePopulation": 1,
-        "SpawnDelay": 600.0,
+        "SpawnDelay": 780.0,
         "TriggerAlarm": false
       },
       {
         "WaveSettings": "WaveSetting_Trickle_Big_1_160",
         "WavePopulation": 5,
-        "SpawnDelay": 760.0,
+        "SpawnDelay": 940.0,
         "TriggerAlarm": false
       }
     ],
     "WaveOnElevatorWardenIntel": "Massive Bioreadings Approaching",
     "FogTransitionDataOnElevatorLand": "Fog_D2_Low",
-    "FogTransitionDurationOnElevatorLand": 1780.0,
+    "FogTransitionDurationOnElevatorLand": 2100.0,
     "WavesOnActivate": [],
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [],

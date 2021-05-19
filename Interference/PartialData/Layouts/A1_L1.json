@@ -39,8 +39,8 @@
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
+					"Distribution": 2,
+					"DistributionValue": 0.35
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -132,14 +132,8 @@
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
-				},
-				{
-					"GroupType": 0,
-					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
+					"Distribution": 2,
+					"DistributionValue": 0.65
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -229,14 +223,8 @@
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
-				},
-				{
-					"GroupType": 0,
-					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
+					"Distribution": 2,
+					"DistributionValue": 0.65
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -350,14 +338,8 @@
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
-				},
-				{
-					"GroupType": 0,
-					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
+					"Distribution": 2,
+					"DistributionValue": 0.65
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -444,7 +426,14 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [],
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.45
+				}
+			],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
@@ -532,8 +521,8 @@
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
+					"Distribution": 2,
+					"DistributionValue": 0.4
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -623,8 +612,8 @@
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
-					"Distribution": 1,
-					"DistributionValue": 1.0
+					"Distribution": 2,
+					"DistributionValue": 0.4
 				}
 			],
 			"HSUClustersInZone": 0,

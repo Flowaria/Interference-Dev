@@ -1,0 +1,516 @@
+[
+  {
+    "Type": 1,
+    "Header": "Reactor Startup",
+    "MainObjective": "Find the emergency door controller reactor and make sure it is back online.",
+    "FindLocationInfo": "Find the Reactor in [ITEM_ZONE]",
+    "FindLocationInfoHelp": "",
+    "GoToZone": "Navigate to [ITEM_ZONE] and start the Reactor",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "Find the reactor control panel and initiate the startup",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "Make sure the Reactor is fully started before leaving",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": 36,
+        "WavePopulation": 1,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      }
+    ],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 1,
+        "Type": 1,
+        "Layer": 0,
+        "LocalIndex": 4,
+        "Delay": 4.0,
+        "WardenIntel": "Door controller connection retrieved. Door to <color=orange>[Forward Exit]</color> has opened."
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 10,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.9,
+    "ReactorWaves": [
+      {
+        "Warmup": 40.0, //Wave 1
+        "WarmupFail": 20.0,
+        "Wave": 70.0,
+        "Verify": 62.0,
+        "VerifyFail": 36.0,
+        "VerifyInOtherZone": false,
+        "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess", //5
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less", //7
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.3,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less", //7
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less", //7
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.9,
+            "SpawnType": 0
+          }
+        ],
+        "Events": []
+      },
+      {
+        "Warmup": 40.0, //Wave 2
+        "WarmupFail": 20.0,
+        "Wave": 80.0,
+        "Verify": 36.0,
+        "VerifyFail": 36.0,
+        "VerifyInOtherZone": false,
+        "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less", //7
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less", //7
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.2,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less", //7
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.4,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.4,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 40, //8
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.68,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_6_12_Randomized", //12
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.95,
+            "SpawnType": 0
+          }
+        ],
+        "Events": []
+      },
+      {
+        "Warmup": 40.0, //Wave 3
+        "WarmupFail": 20.0,
+        "Wave": 90.0,
+        "Verify": 36.0,
+        "VerifyFail": 36.0,
+        "VerifyInOtherZone": false,
+        "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 22, //2, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.0, //0
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 22, //2, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.1, //9
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_6_12_Randomized", //12
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.35, //31.5
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_6_12_Randomized", //12
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.55, //49.5
+            "SpawnType": 0
+          }
+        ],
+        "Events": []
+      },
+      {
+        "Warmup": 40.0, //Wave 4 - Regular Push
+        "WarmupFail": 20.0,
+        "Wave": 100.0,
+        "Verify": 36.0,
+        "VerifyFail": 36.0,
+        "VerifyInOtherZone": false,
+        "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 22, //3, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.0, //0
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 40, //8
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_16_Randomized", //18 sec / 
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.35,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_12_Randomized", //18 sec / 
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.66,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 22, //3, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.8, //0
+            "SpawnType": 0
+          }
+        ],
+        "Events": []
+      },
+      {
+        "Warmup": 40.0, //Wave 5 - Introduce Hybrid
+        "WarmupFail": 20.0,
+        "Wave": 110.0,
+        "Verify": 40.0,
+        "VerifyFail": 40.0,
+        "VerifyInOtherZone": false,
+        "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_16_Randomized",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 22, //3, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.15,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_16_Randomized",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.3,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1 Rapid
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.7,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.75,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.79,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1 Rapid
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.8,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.8,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.9,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.95,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_4_Randomized",
+            "WavePopulation": 22,
+            "SpawnTimeRel": 0.99,
+            "SpawnType": 0
+          }
+        ],
+        "Events": []
+      },
+      {
+        "Warmup": 40.0, //Wave 6 - Wow such big
+        "WarmupFail": 20.0,
+        "Wave": 120.0,
+        "Verify": 38.0,
+        "VerifyFail": 38.0,
+        "VerifyInOtherZone": false,
+        "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_16_Randomized", //18 sec / 
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.1,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.2,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.3,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_16_Randomized", //18 sec / 
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.3,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.4,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.5,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_16_Randomized", //18 sec / 
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.7,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.8,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 30, //1, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.9,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_4_16_Randomized", //18 sec / 
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.9,
+            "SpawnType": 0
+          },
+          {
+            "WaveSettings": 22, //3, Big Striker
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.99,
+            "SpawnType": 0
+          }
+        ],
+        "Events": []
+      }
+    ],
+    "LightsOnFromBeginning": true,
+    "LightsOnDuringIntro": true,
+    "LightsOnWhenStartupComplete": true,
+    "SpecialTerminalCommand": "",
+    "SpecialTerminalCommandDesc": "",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 0,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 0,
+    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_FogDataSteps": [],
+    "ActivateHSU_ItemFromStart": 0,
+    "ActivateHSU_ItemAfterActivation": 0,
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "Reactor_Startup_Waves_6",
+    "internalEnabled": true,
+    "persistentID": "Obj_A4_L1"
+  },
+  {
+    "Type": 5,
+    "Header": "Backdoor Command",
+    "MainObjective": "Find Computer terminal [ITEM_SERIAL] and input the backdoor command [SPECIAL_COMMAND]",
+    "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
+    "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+    "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
+    "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+    "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+    "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 1,
+        "Type": 1,
+        "Layer": 1,
+        "LocalIndex": 1,
+        "Delay": 4.0,
+        "WardenIntel": "High-risk Security doors are opened"
+      },
+      {
+        "Trigger": 1,
+        "Type": 1,
+        "Layer": 0,
+        "LocalIndex": 5,
+        "Delay": 4.0,
+        "WardenIntel": ""
+      },
+      {
+        "Trigger": 1,
+        "Type": 1,
+        "Layer": 0,
+        "LocalIndex": 6,
+        "Delay": 4.0,
+        "WardenIntel": ""
+      }
+    ],
+    "EventsOnActivate": [],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 10,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
+    "Gather_RequiredCount": -1,
+    "Gather_ItemId": 0,
+    "Gather_SpawnCount": 0,
+    "Gather_MaxPerZone": 0,
+    "Retrieve_Items": [],
+    "ReactorWaves": [],
+    "LightsOnFromBeginning": false,
+    "LightsOnDuringIntro": false,
+    "LightsOnWhenStartupComplete": false,
+    "SpecialTerminalCommand": "OVERRIDE_HIGH_RISK_SECURITY_ALARM",
+    "SpecialTerminalCommandDesc": "",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 0,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 0,
+    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_FogDataSteps": [],
+    "ActivateHSU_ItemFromStart": 0,
+    "ActivateHSU_ItemAfterActivation": 0,
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "SpecialTerminalCommand",
+    "internalEnabled": true,
+    "persistentID": "Obj_A4_L2"
+  }
+]

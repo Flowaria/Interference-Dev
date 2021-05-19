@@ -25,7 +25,7 @@
   },
   {
     "m_pauseBeforeStart": 2.0,
-    "m_pauseBetweenGroups": 5.0,
+    "m_pauseBetweenGroups": 6.0,
     "m_wavePauseMin_atCost": 1.0,
     "m_wavePauseMax_atCost": 10.0,
     "m_wavePauseMin": 1.0,
@@ -47,7 +47,7 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_4_32",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_1_5_Limited20"
+    "persistentID": "WaveSetting_Trickle_1_6_Limited20"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -64,7 +64,7 @@
     "m_filterType": 0,
     "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
     "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
-    "m_populationPointsTotal": 20.0,
+    "m_populationPointsTotal": 16.0,
     "m_populationPointsPerWaveStart": 10000.0,
     "m_populationPointsPerWaveEnd": 10000.0,
     "m_populationPointsMinPerGroup": 3.0,
@@ -77,7 +77,7 @@
   },
   {
     "m_pauseBeforeStart": 2.0,
-    "m_pauseBetweenGroups": 45.0,
+    "m_pauseBetweenGroups": 90.0,
     "m_wavePauseMin_atCost": 1.0,
     "m_wavePauseMax_atCost": 10.0,
     "m_wavePauseMin": 1.0,
@@ -98,6 +98,6 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Big_2_45",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Finite2_Big_2_45"
+    "persistentID": "WaveSetting_Finite2_Big_2_90"
   }
 ]

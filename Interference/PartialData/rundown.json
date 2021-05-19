@@ -24,12 +24,67 @@
 		"AllClearedSectors": 0
 	},
 	"StorytellingData": {
-		"Title": "Interference <color=orange>://EXT</color>\n- Finalize",
+		"Title": "Interference",
+		//"Title": "Interference <color=orange>://EXT</color>\n- Finalize",
 		"TextLog": "",
 		"TextLogPos": {
 			"x": 0.0,
 			"y": 0.0
 		},
+		"Visuals": {
+			"ColorBackground": {
+				"a": 1.0,
+				"r": 0.0,
+				"g": 0.0,
+				"b": 0.0
+			},
+			"TierAVisuals": {
+				"Color": {
+					"a": 0.5,
+					"r": 0.8039215686,
+					"g": 1.0,
+					"b": 1.0
+				},
+				"Scale": 0.71
+			},
+			"TierBVisuals": {
+				"Color": {
+					"a": 0.8,
+					"r": 0.4039215686,
+					"g": 0.6,
+					"b": 1.0
+				},
+				"Scale": 0.78
+			},
+			"TierCVisuals": {
+				"Color": {
+					"a": 1.0,
+					"r": 0.631372549,
+					"g": 0.6117647058,
+					"b": 1.0
+				},
+				"Scale": 0.495
+			},
+			"TierDVisuals": {
+				"Color": {
+					"a": 1.0,
+					"r": 0.64705882,
+					"g": 0.4,
+					"b": 1.0
+				},
+				"Scale": 0.69
+			},
+			"TierEVisuals": {
+				"Color": {
+					"a": 0.8,
+					"r": 0.6470588,
+					"g": 0.4,
+					"b": 1.0
+				},
+				"Scale": 0.585
+			}
+		},
+		/*
 		"Visuals": {
 			"ColorBackground": {
 				"a": 1.0,
@@ -83,6 +138,7 @@
 				"Scale": 0.725
 			}
 		},
+		*/
 		"SurfaceIconPosition": {
 			"x": 0.0,
 			"y": 0.0
@@ -528,7 +584,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEA",
 				"PublicName": "Cold Boot",
@@ -540,22 +596,106 @@
 			},
 			"Seeds": {
 				"BuildSeed": 616555,
-				"FunctionMarkerOffset": 0,
-				"StandardMarkerOffset": 0,
+				"FunctionMarkerOffset": 1,
+				"StandardMarkerOffset": 1,
 				"LightJobSeedOffset": 0
 			},
 			"Expedition": {
 				"ComplexResourceData": 1,
 				"LightSettings": 70,
-				"FogSettings": 0,
+				"FogSettings": "LightFog_Ambient_More",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
 				"ScoutWavePopulation": 1
 			},
-			"LevelLayoutData": 0,
+			"LevelLayoutData": "Layout_A4_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 76,
+				"ZonesWithBulkheadEntrance": [
+					2
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 1,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A4_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_A4_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 1
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 61,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_A4_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
 			"SpecialOverrideData": {
-				"WeakResourceContainerWithPackChanceForLocked": -1.0
+				"WeakResourceContainerWithPackChanceForLocked": 0.1
 			}
 		}
 	],
@@ -1160,7 +1300,8 @@
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
-		},
+		}
+		/*
 		{
 			"Enabled": true,
 			"Accessibility": "BlockedAndScrambled",
@@ -1193,6 +1334,7 @@
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
 		}
+		*/
 	],
 	"TierC": [
 		{
@@ -1601,7 +1743,8 @@
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
-		},
+		}
+		/*
 		{
 			"Enabled": true,
 			"Accessibility": "BlockedAndScrambled",
@@ -1634,6 +1777,7 @@
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
 		}
+		*/
 	],
 	"TierD": [
 		{
@@ -1980,7 +2124,7 @@
 				"BuildSeed": -504504,
 				"FunctionMarkerOffset": 6565,
 				"StandardMarkerOffset": 65656,
-				"LightJobSeedOffset": -6
+				"LightJobSeedOffset": -824
 			},
 			"Expedition": {
 				"ComplexResourceData": 1,

@@ -73,5 +73,30 @@
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
 		"persistentID": "HeavyFog_Below_Infection_Fast"
+	},
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.0,
+			"r": 0.847058833,
+			"g": 1.0,
+			"b": 0.956862748
+		},
+		"FogDensity": 0.00025,
+		"FogAmbience": 0.0,
+		"DensityNoiseDirection": {
+			"x": 1.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"DensityNoiseSpeed": 0.045,
+		"DensityNoiseScale": 0.085,
+		"DensityHeightAltitude": -5.0,
+		"DensityHeightRange": 7.0,
+		"DensityHeightMaxBoost": 0.0015,
+		"Infection": 0.0,
+		"name": "Fog_very_light_White_Low5ToHigh2",
+		"internalEnabled": true,
+		"persistentID": "LightFog_Ambient_More"
 	}
 ]
