@@ -28,5 +28,25 @@
 		"name": "Baseline_rapid_shooter",
 		"internalEnabled": true,
 		"persistentID": "WavePop_Base_InfectionRapid"
+	},
+	{
+		"WaveRoleWeakling": 38,
+		"WaveRoleStandard": 38,
+		"WaveRoleSpecial": 38,
+		"WaveRoleMiniBoss": 38,
+		"WaveRoleBoss": 38,
+		"name": "Baseline",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Only_Babies"
+	},
+	{
+		"WaveRoleWeakling": 37,
+		"WaveRoleStandard": 37,
+		"WaveRoleSpecial": 37,
+		"WaveRoleMiniBoss": 37,
+		"WaveRoleBoss": 37,
+		"name": "Baseline_birther",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Only_Birther_Boss"
 	}
 ]

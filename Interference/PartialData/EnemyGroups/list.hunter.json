@@ -114,5 +114,21 @@
 		"name": "Hunter_ShadowChild",
 		"internalEnabled": true,
 		"persistentID": "EnemyGroup_Shadow_Child"
+	},
+	{
+		"Type": 6,
+		"Difficulty": 0,
+		"SpawnPlacementType": 0,
+		"MaxScore": 14.0,
+		"RelativeWeight": 1.0,
+		"Roles": [
+			{
+				"Role": 0,
+				"Distribution": 4
+			}
+		],
+		"name": "Hunter_striker_Lot",
+		"internalEnabled": true,
+		"persistentID": "EnemyGroup_Striker_Lot"
 	}
 ]

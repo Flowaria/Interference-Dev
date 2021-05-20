@@ -594,5 +594,97 @@
 		"name": "Shooter_Big_Infection_Rapid",
 		"internalEnabled": true,
 		"persistentID": "Enemy_Shooter_Infection_Big"
+	},
+	{
+		"EnemyType": 2,
+		"AssetBundle": 300,
+		"BundleShard": 0,
+		"BasePrefabs": [
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+		],
+		"ModelDatas": [
+			{
+				"ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Tank/Tank_CB.prefab",
+				"ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Tank/Customization_Tank.prefab",
+				"PositionOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"RotationOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"NeckScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"HeadScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"ChestScale": {
+					"x": 1.2,
+					"y": 1.2,
+					"z": 1.2
+				},
+				"ArmScale": {
+					"x": 0.7,
+					"y": 0.7,
+					"z": 0.7
+				},
+				"LegScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"SizeRange": {
+					"x": 1.8,
+					"y": 1.8
+				}
+			}
+		],
+		"DetectionDataId": 13,
+		"BehaviorDataId": 35,
+		"MovementDataId": 34,
+		"BalancingDataId": 29,
+		"SFXDataId": 34,
+		"LinkedSlaveModels": [],
+		"InternalMaterial": 131072,
+		"isCoccoon": false,
+		"EnemySpottedDialogId": 51,
+		"AI_Abilities": [
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerBigTentacleMultiple.prefab",
+				"AbilityType": 2,
+				"Cooldown": 0.1
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+				"AbilityType": 8,
+				"Cooldown": 1.0
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+				"AbilityType": 1,
+				"Cooldown": 2.0
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+				"AbilityType": 7,
+				"Cooldown": 25.0
+			}
+		],
+		"name": "Tank",
+		"internalEnabled": true,
+		"persistentID": "Enemy_Tank_Scout_Boss"
 	}
 ]

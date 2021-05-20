@@ -331,8 +331,15 @@
 		},
 		{
 			"Role": 5,
-			"Difficulty": 3000,
+			"Difficulty": 3000, //ShadowScout Single
 			"Enemy": 40,
+			"Cost": 3.0,
+			"Weight": 1.0
+		},
+		{
+			"Role": 5,
+			"Difficulty": 4000,
+			"Enemy": "Enemy_Tank_Scout_Boss",
 			"Cost": 3.0,
 			"Weight": 1.0
 		}

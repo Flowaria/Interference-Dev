@@ -114,5 +114,21 @@
 		"name": "Hibernate_InfectHybrid",
 		"internalEnabled": true,
 		"persistentID": "EnemyGroup_Hibernate_InfectionHybrid"
+	},
+	{
+		"Type": 3,
+		"Difficulty": 4000,
+		"SpawnPlacementType": 0,
+		"MaxScore": 3.0,
+		"RelativeWeight": 1.0,
+		"Roles": [
+			{
+				"Role": 5,
+				"Distribution": 5
+			}
+		],
+		"name": "Pure_Detect_Boss_Tank",
+		"internalEnabled": true,
+		"persistentID": "EnemyGroup_Scout_TankBoss"
 	}
 ]

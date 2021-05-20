@@ -12,6 +12,10 @@
 				{
 					"TargetSetting": "ShadowScouts",
 					"WaveSetting": "Shadows"
+				},
+				{
+					"TargetSetting": "TankScouts",
+					"WaveSetting": "TankScout_Error"
 				}
 			]
 		}
@@ -32,6 +36,15 @@
 				"Mode": "NameContains",
 				"persistentIDs": [],
 				"nameParam": "Shadow",
+				"nameIgnoreCase": true
+			}
+		},
+		{
+			"Name": "TankScouts",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [ "Enemy_Tank_Scout_Boss" ],
+				"nameParam": "",
 				"nameIgnoreCase": true
 			}
 		}
@@ -57,6 +70,19 @@
 						"WaveSettingID": 3,
 						"WavePopulationID": 7,
 						"Delay": 0.0
+					}
+				]
+			]
+		},
+		{
+			"Name": "TankScout_Error",
+			"Waves": [
+				[
+					{
+						"WaveSettingID": 27,
+						"WavePopulationID": 1,
+						"Delay": 0.0,
+						"StopWaveOnDeath": true
 					}
 				]
 			]

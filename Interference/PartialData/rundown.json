@@ -2059,7 +2059,7 @@
 				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Unexpected Fog Anomaly in this complex, Estimated Fatality Rate is in Extreme level.\nPrisoners sent to restore partial climate control system in order to reach [0<size=70%>X</size>E001]",
-				"RoleplayedWardenIntel": "<size=200%><color=red>://ERR: D-Chipher Decr6t###n E_RR`066</color></size>"
+				"RoleplayedWardenIntel": "<size=200%><color=red>://ERR: D-Cipher Decr6t###n E_RR`066</color></size>"
 			},
 			"Seeds": {
 				"BuildSeed": -504504,
@@ -2118,7 +2118,7 @@
 				],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_D3_L1",
-					"WinCondition": 1,
+					"WinCondition": 0,
 					"ZonePlacementDatas": [
 						[
 							{
@@ -2211,26 +2211,26 @@
 	"TierE": [
 		{
 			"Enabled": true,
-			"Accessibility": 1,
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>E00",
 				"PublicName": "Daydream",
 				"ExpeditionDepth": 1022,
 				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Retrieve Geo-data from nFrame using allocated Data Sphere.\n<color=red>High prisoner fatality rate estimated.</color>",
-				"RoleplayedWardenIntel": ""
+				"ExpeditionDescription": "Retrieve Geo-data from nFrame using allocated Data Sphere.\nPrisoners deemed expendable.\n<color=red>#E_RR: Security Alarm Override Failure on $Z_???</color>",
+				"RoleplayedWardenIntel": ">..Found that nFrame here!\n<color=red>>..Put it in, Right NOW!</color>\n>[machinery sound, loud hum, distant roar]\n>Wait, what the hell was th-\n>[lost communication]"
 			},
 			"Seeds": {
-				"BuildSeed": -44467,
+				"BuildSeed": -500,
 				"FunctionMarkerOffset": -551,
 				"StandardMarkerOffset": -552,
-				"LightJobSeedOffset": -553
+				"LightJobSeedOffset": -555555
 			},
 			"Expedition": {
-				"ComplexResourceData": 3,
+				"ComplexResourceData": "ComplexSet_Tech_Modifier",
 				"LightSettings": 9,
-				"FogSettings": "LightFog_Ambient",
+				"FogSettings": "HeavyFog_Below1_Infection_Fast",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
@@ -2238,23 +2238,34 @@
 			},
 			"LevelLayoutData": "Layout_E1_L1",
 			"MainLayerData": {
-				"ZoneAliasStart": 792,
+				"ZoneAliasStart": 789,
 				"ZonesWithBulkheadEntrance": [
-					8
+					9
 				],
 				"BulkheadDoorControllerPlacements": [
 					{
-						"ZoneIndex": 0,
+						"ZoneIndex": 10,
 						"PlacementWeights": {
 							"Start": 0.0,
 							"Middle": 0.0,
-							"End": 0.0
+							"End": 10000.0
 						},
-						"AreaSeedOffset": 53,
+						"AreaSeedOffset": 0,
 						"MarkerSeedOffset": 0
 					}
 				],
-				"BulkheadKeyPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 10,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_E1_L1",
 					"WinCondition": 1,
@@ -2281,10 +2292,10 @@
 			"SecondaryLayout": "Layout_E1_L2",
 			"BuildSecondaryFrom": {
 				"LayerType": 0,
-				"Zone": 3
+				"Zone": 10
 			},
 			"SecondaryLayerData": {
-				"ZoneAliasStart": 987,
+				"ZoneAliasStart": 521,
 				"ZonesWithBulkheadEntrance": [],
 				"BulkheadDoorControllerPlacements": [],
 				"BulkheadKeyPlacements": [
@@ -2394,54 +2405,7 @@
 					"ArtifactZoneDistributions": []
 				}
 			},
-			"SecondaryLayerEnabled": true,
-			"SecondaryLayout": "Layout_E1_L2",
-			"BuildSecondaryFrom": {
-				"LayerType": 0,
-				"Zone": 3
-			},
-			"SecondaryLayerData": {
-				"ZoneAliasStart": 987,
-				"ZonesWithBulkheadEntrance": [],
-				"BulkheadDoorControllerPlacements": [],
-				"BulkheadKeyPlacements": [
-					[
-						{
-							"LocalIndex": 1,
-							"Weights": {
-								"Start": 0.0,
-								"Middle": 0.0,
-								"End": 0.0
-							}
-						}
-					]
-				],
-				"ObjectiveData": {
-					"DataBlockId": "Obj_E1_L2",
-					"WinCondition": 0,
-					"ZonePlacementDatas": [
-						[
-							{
-								"LocalIndex": 0,
-								"Weights": {
-									"Start": 0.0,
-									"Middle": 0.0,
-									"End": 0.0
-								}
-							}
-						]
-					]
-				},
-				"ArtifactData": {
-					"ArtifactAmountMulti": 0.0,
-					"ArtifactLayerDistributionDataID": 0,
-					"ArtifactZoneDistributions": []
-				}
-			},
-			"ThirdLayerEnabled": false,
-			"SpecialOverrideData": {
-				"WeakResourceContainerWithPackChanceForLocked": -1.0
-			}
+			"SecondaryLayerEnabled": false
 		}
 	],
 	"name": "RundownData-Interference",

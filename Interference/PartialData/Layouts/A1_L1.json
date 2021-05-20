@@ -667,7 +667,7 @@
 		},
 		{
 			"LocalIndex": 7, //Bulkhead Key Spawn
-			"SubSeed": 0,
+			"SubSeed": 789,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Storage",
 			"CoverageMinMax": {
