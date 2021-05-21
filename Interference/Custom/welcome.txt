@@ -12,11 +12,9 @@ Querying data with filter... DONE!
 <size=150%>Initiating Rundown Protocol: <color=orange>Interference</color></size>
 
 
-<size=200%>Change Log (v0.5.20):</size>
-- Level: Added D3 - Crepuscule
-  - Tweaked Enemy Spawning in A1, B1
+<size=200%>Change Log (v0.5.30):</size>
+- Level: Added E1 - Daydream
+  - Reworked on A3 High
+  - Retouched A1
 - Weapon:
-  - Added-Main: Tactical Handgun (same as old handgun), Heavy-SMG
-  - Added-Special: Huntsman Rifle, Raygun
-  - Changed Sight part of Marksman Revolver
-- *Some* change on rundown screen
+  - Added-Main: Marksman Rifle
