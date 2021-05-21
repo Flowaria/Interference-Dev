@@ -98,5 +98,55 @@
 		"name": "ShotgunSemi_v2",
 		"internalEnabled": true,
 		"persistentID": "Recoil_Shotgun_DB"
+	},
+	{
+		"power": {
+			"Min": 8.4,
+			"Max": 8.6
+		},
+		"spring": 4.2,
+		"dampening": 68.0,
+		"hipFireCrosshairSizeDefault": 50.0,
+		"hipFireCrosshairRecoilPop": 40.0,
+		"hipFireCrosshairSizeMax": 100.0,
+		"horizontalScale": {
+			"Min": -0.1,
+			"Max": -0.5
+		},
+		"verticalScale": {
+			"Min": 3.6,
+			"Max": 4.0
+		},
+		"directionalSimilarity": 0.0,
+		"worldToViewSpaceBlendHorizontal": 0.2,
+		"worldToViewSpaceBlendVertical": 0.2,
+		"recoilPosImpulse": {
+			"x": 0.0,
+			"y": 0.12,
+			"z": -2.0
+		},
+		"recoilPosShift": {
+			"x": 0.0,
+			"y": 0.12,
+			"z": -2.0
+		},
+		"recoilPosShiftWeight": 0.05,
+		"recoilPosStiffness": 260.0,
+		"recoilPosDamping": 24.0,
+		"recoilPosImpulseWeight": 0.1,
+		"recoilCameraPosWeight": 0.1,
+		"recoilAimingWeight": 1.2,
+		"recoilRotImpulse": {
+			"x": -150.0,
+			"y": 0.0,
+			"z": -20.0
+		},
+		"recoilRotStiffness": 440.0,
+		"recoilRotDamping": 30.0,
+		"recoilRotImpulseWeight": 0.6,
+		"recoilCameraRotWeight": 1.5,
+		"name": "RifleSemi",
+		"internalEnabled": true,
+		"persistentID": "Recoil_Marksman_Rifle"
 	}
 ]

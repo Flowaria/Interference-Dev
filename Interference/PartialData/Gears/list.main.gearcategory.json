@@ -6,7 +6,7 @@
 		"HUDIcon": "",
 		"FPSArmPoseName": "",
 		"ThirdPersonFullbodyMovement": 0,
-		"SemiArchetype": "AT_Handgun",
+		"SemiArchetype": 0,
 		"BurstArchetype": "AT_Carbine",
 		"AutoArchetype": "AT_SMG",
 		"SemiBurstArchetype": 0,
@@ -70,7 +70,7 @@
 		"HUDIcon": "",
 		"FPSArmPoseName": "",
 		"ThirdPersonFullbodyMovement": 0,
-		"SemiArchetype": 0,
+		"SemiArchetype": "AT_MarksmanRifle",
 		"BurstArchetype": "AT_StunGun",
 		"AutoArchetype": 0,
 		"SemiBurstArchetype": 0,
@@ -94,5 +94,21 @@
 		"name": "MainShotty",
 		"internalEnabled": true,
 		"persistentID": 120
+	},
+	{
+		"PublicName": "",
+		"Description": "",
+		"BaseItem": 5004,
+		"HUDIcon": "",
+		"FPSArmPoseName": "",
+		"ThirdPersonFullbodyMovement": 0,
+		"SemiArchetype": "AT_Handgun",
+		"BurstArchetype": 0,
+		"AutoArchetype": 0,
+		"SemiBurstArchetype": 0,
+		"PartAlignPriority": [],
+		"name": "InfiniteAmmo",
+		"internalEnabled": true,
+		"persistentID": 130
 	}
 ]

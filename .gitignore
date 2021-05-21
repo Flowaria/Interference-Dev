@@ -1,4 +1,3 @@
 *.dll
-GameData_*/
-dakkhuza-*
-UnityExplorer/*
+*
+!Interference/*

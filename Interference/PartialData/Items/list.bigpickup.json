@@ -219,11 +219,11 @@
 		"ConsumableAmmoMax": 0,
 		"audioEventEquip": "",
 		"FirstPersonPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_FirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/SmallHSUEuippable_FirstPerson.prefab",
 			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
 		],
 		"ThirdPersonPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_ThirdPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
 			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
 		],
 		"PickupPrefabs": [
@@ -343,5 +343,55 @@
 		"name": "Carry_HSU_Small_Stage_3",
 		"internalEnabled": true,
 		"persistentID": "Carry_Neonate_Stage1"
+	},
+	{
+		"publicName": "Fog Repeller Beacon",
+		"terminalItemShortName": "FOG_BEACON",
+		"terminalItemLongName": "MODIFIED INDUSTRIAL GRADE FOG REPELLER TURBINE",
+		"addSerialNumberToName": true,
+		"registerInTerminalSystem": true,
+		"Shard": 2,
+		"inventorySlot": 8,
+		"FPSSettings": 31,
+		"crosshair": 0,
+		"HUDIcon": "",
+		"ShowCrosshairWhenAiming": false,
+		"GUIShowAmmoClip": false,
+		"GUIShowAmmoPack": false,
+		"GUIShowAmmoTotalRel": false,
+		"GUIShowAmmoInfinite": false,
+		"canMoveQuick": true,
+		"BlockToolAmmoRefill": false,
+		"ClassAmmoCostFactor": 1.0,
+		"ConsumableAmmoMin": 0,
+		"ConsumableAmmoMax": 0,
+		"audioEventEquip": "",
+		"FirstPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/SmallHSUEuippable_FirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
+		],
+		"ThirdPersonPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
+		],
+		"PickupPrefabs": [
+			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_Pickup.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig_Pickup.prefab"
+		],
+		"InstancePrefabs": [],
+		"EquipTransitionTime": 0.5,
+		"AimTransitionTime": 0.5,
+		"FPSArmsAnim": "",
+		"ThirdPersonFullbodyMovementSet": 0,
+		"LeftHandGripAlign": "LeftHand",
+		"LeftHandGripAnim": "DefoggerBig",
+		"RightHandGripAlign": "RightHand",
+		"RightHandGripAnim": "DefoggerBig",
+		"SightLookAlign": "",
+		"MuzzleAlign": "",
+		"BackpackAlign": "CarryAlign",
+		"name": "Carry_FogBeacon[ConstantFog]",
+		"internalEnabled": true,
+		"persistentID": "Carry_FogBeacon"
 	}
 ]

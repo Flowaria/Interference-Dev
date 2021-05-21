@@ -76,5 +76,31 @@
 		"name": "Striker_Bullrush_Small_Shadow",
 		"internalEnabled": true,
 		"persistentID": "Balance_Shadow_Bullrush_Small"
+	},
+	{
+		"Health": {
+			"HealthMax": 9999999.0,
+			"DamageUntilHitreact": 9999999,
+			"BodypartHealth": 9999999.0,
+			"WeakspotDamageMulti": 0.001,
+			"ArmorDamageMulti": 0.001,
+			"HitreactOnLimbDestruction": 4,
+			"TryForceHitreactOnLimbDestruction": true
+		},
+		"GlueTolerance": 9999.0,
+		"GlueFadeOutTime": 1.0,
+		"CanBePushed": false,
+		"ForbidTwitchHit": true,
+		"AllowDamgeBonusFromBehind": false,
+		"UseTentacleTunnelCheck": true,
+		"UseVisibilityRaycastDuringTentacleAttack": false,
+		"TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+		"TentacleAttackDamage": 5.0,
+		"MeleeAttackDamage": 25.0,
+		"MeleeAttackDamageCheckRadius": 3.0,
+		"TagTime": 3.0,
+		"name": "Striker_Bullrush_Small",
+		"internalEnabled": true,
+		"persistentID": "Balance_Slenderman"
 	}
 ]

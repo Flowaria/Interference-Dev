@@ -48,5 +48,15 @@
 		"name": "Baseline_birther",
 		"internalEnabled": true,
 		"persistentID": "WavePop_Only_Birther_Boss"
+	},
+	{
+		"WaveRoleWeakling": "Enemy_SlenderMan",
+		"WaveRoleStandard": "Enemy_SlenderMan",
+		"WaveRoleSpecial": "Enemy_SlenderMan",
+		"WaveRoleMiniBoss": "Enemy_SlenderMan",
+		"WaveRoleBoss": "Enemy_SlenderMan",
+		"name": "Baseline_birther",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Slenderman"
 	}
 ]

@@ -39,7 +39,7 @@
 					"GroupType": 0,
 					"Difficulty": 1,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 0.8
+					"DistributionValue": 0.92
 				},
 				{
 					"GroupType": 0,
@@ -58,7 +58,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Dark_Glowsticks_WithMoreFoam_Less",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -170,7 +170,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_FogBulk_Some",
+			"ConsumableDistributionInZone": "Consumable_FogBulk_6",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -184,13 +184,13 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.0,
+			"HealthMulti": 0.8,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.0,
+			"WeaponAmmoMulti": 0.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -269,10 +269,16 @@
 					"DistributionValue": 0.4
 				},
 				{
+					"GroupType": 1,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.9
+				},
+				{
 					"GroupType": 0,
 					"Difficulty": 500,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 1.0
+					"DistributionValue": 0.4
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -285,7 +291,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Fog_15",
 			"BigPickupDistributionInZone": 6,
 			"TerminalPlacements": [
 				{
@@ -384,10 +390,16 @@
 					"DistributionValue": 0.4
 				},
 				{
+					"GroupType": 1,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.9
+				},
+				{
 					"GroupType": 0,
 					"Difficulty": 500,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 1.0
+					"DistributionValue": 0.4
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -400,7 +412,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Fog_15",
 			"BigPickupDistributionInZone": 6,
 			"TerminalPlacements": [
 				{
@@ -576,7 +588,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam_Tech",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -667,7 +679,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam_Tech",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -732,7 +744,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": [
 					{
-						"LocalIndex": 0,
+						"LocalIndex": 14,
 						"Weights": {
 							"Start": 0.0,
 							"Middle": 0.0,
@@ -767,7 +779,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam_Tech",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -858,7 +870,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam_Tech",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -943,7 +955,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_FogBulk_Few",
+			"ConsumableDistributionInZone": "Consumable_FogBulk_2",
 			"BigPickupDistributionInZone": 3,
 			"TerminalPlacements": [
 				{

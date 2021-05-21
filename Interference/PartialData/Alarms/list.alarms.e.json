@@ -44,9 +44,6 @@
 			},
 			{
 				"PuzzleType": 316
-			},
-			{
-				"PuzzleType": 4
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,

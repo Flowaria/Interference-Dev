@@ -436,5 +436,116 @@
 		"name": "Front_Revolver_1",
 		"internalEnabled": true,
 		"persistentID": 504
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_MachineGun_2.prefab",
+			"Children": [],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_Machinegun_2_Animation_idle",
+			"AssetBundle": 20,
+			"BundleShard": 15
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "a_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			}
+		],
+		"FireSequence": [],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_Machinegun_2_Animation_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 2,
+				"StringData": "Front_Machinegun_2_Animation_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Machinegun_2_Animation_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 5,
+				"StringData": "generic_reload_foley_quick"
+			},
+			{
+				"TriggerTime": 0.55,
+				"Type": 5,
+				"StringData": "cannon_reload_mag_out"
+			},
+			{
+				"TriggerTime": 0.8,
+				"Type": 5,
+				"StringData": "cannon_reload_grab_mag"
+			},
+			{
+				"TriggerTime": 1.0,
+				"Type": 5,
+				"StringData": "cannon_reload_foley_move"
+			},
+			{
+				"TriggerTime": 1.55,
+				"Type": 5,
+				"StringData": "cannon_reload_mag_in"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 5,
+				"StringData": "generic_reload_foley_subtle"
+			},
+			{
+				"TriggerTime": 2.3,
+				"Type": 5,
+				"StringData": "generic_reload_foley_quick_soft"
+			},
+			{
+				"TriggerTime": 2.5,
+				"Type": 5,
+				"StringData": "carbine_reload_5_pull_slide"
+			},
+			{
+				"TriggerTime": 2.5,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 2.7,
+				"Type": 5,
+				"StringData": "carbine_reload_5_release_slide"
+			},
+			{
+				"TriggerTime": 2.95,
+				"Type": 5,
+				"StringData": "generic_reload_grab_heavy_weapon"
+			},
+			{
+				"TriggerTime": 3.7,
+				"Type": 7
+			}
+		],
+		"name": "Front_MachineGun_2_NoReloadCanceling",
+		"internalEnabled": true,
+		"persistentID": 505
 	}
 ]

@@ -85,6 +85,23 @@
 		"SpawnData": [
 			{
 				"ItemID": 114,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 115,
+				"Weight": 3.0
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Dark_Glowsticks_WithMoreFoam_Less"
+	},
+	{
+		"SpawnsPerZone": 6,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 114,
 				"Weight": 8.0
 			},
 			{
@@ -101,6 +118,19 @@
 		"persistentID": "Consumable_Dark_Glowsticks_Less"
 	},
 	{
+		"SpawnsPerZone": 2,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": "Consumable_Fog_Bulk",
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepellerBulk_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_FogBulk_2"
+	},
+	{
 		"SpawnsPerZone": 4,
 		"ChanceToSpawnInResourceContainer": 0.75,
 		"SpawnData": [
@@ -112,6 +142,19 @@
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
 		"persistentID": "Consumable_FogBulk_Few"
+	},
+	{
+		"SpawnsPerZone": 6,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": "Consumable_Fog_Bulk",
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepellerBulk_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_FogBulk_6"
 	},
 	{
 		"SpawnsPerZone": 8,
@@ -144,6 +187,32 @@
 		"persistentID": "Consumable_FogBulk_Some_Mixed"
 	},
 	{
+		"SpawnsPerZone": 10,
+		"ChanceToSpawnInResourceContainer": 0.15,
+		"SpawnData": [
+			{
+				"ItemID": 117,
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepellerBulk_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Fog_10"
+	},
+	{
+		"SpawnsPerZone": 15,
+		"ChanceToSpawnInResourceContainer": 0.15,
+		"SpawnData": [
+			{
+				"ItemID": 117,
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepellerBulk_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Fog_15"
+	},
+	{
 		"SpawnsPerZone": 6,
 		"ChanceToSpawnInResourceContainer": 0.4,
 		"SpawnData": [
@@ -167,5 +236,34 @@
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
 		"persistentID": "Consumable_Hard_NoFog_NoFoam"
+	},
+	{
+		"SpawnsPerZone": 6,
+		"ChanceToSpawnInResourceContainer": 0.4,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 30,
+				"Weight": 0.25
+			},
+			{
+				"ItemID": 130,
+				"Weight": 1.0
+			},
+			{
+				"ItemID": 116,
+				"Weight": 0.25
+			},
+			{
+				"ItemID": 140,
+				"Weight": 0.25
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Hard_NoFog_NoFoam_Tech"
 	}
 ]

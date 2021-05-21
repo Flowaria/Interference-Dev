@@ -686,5 +686,84 @@
 		"name": "Tank",
 		"internalEnabled": true,
 		"persistentID": "Enemy_Tank_Scout_Boss"
+	},
+	{
+		"EnemyType": 1,
+		"AssetBundle": 300,
+		"BundleShard": 0,
+		"BasePrefabs": [
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/StrikerBase.prefab"
+		],
+		"ModelDatas": [
+			{
+				"ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Striker_CB.prefab",
+				"ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Striker/Customization_StrikerHibernate.prefab",
+				"PositionOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"RotationOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"NeckScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"HeadScale": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"ChestScale": {
+					"x": 0.2,
+					"y": 0.2,
+					"z": 0.5
+				},
+				"ArmScale": {
+					"x": 8.4,
+					"y": 0.7,
+					"z": 0.7
+				},
+				"LegScale": {
+					"x": 2.1,
+					"y": 0.4,
+					"z": 0.4
+				},
+				"SizeRange": {
+					"x": 3.1,
+					"y": 3.1
+				}
+			}
+		],
+		"DetectionDataId": 13,
+		"BehaviorDataId": "Behavior_Slenderman",
+		"MovementDataId": 28,
+		"BalancingDataId": "Balance_Slenderman",
+		"SFXDataId": 28,
+		"LinkedSlaveModels": [],
+		"InternalMaterial": 131072,
+		"isCoccoon": false,
+		"AI_Abilities": [
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerStriker.prefab",
+				"AbilityType": 8,
+				"Cooldown": 1.0
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_StrikerMelee.prefab",
+				"AbilityType": 1,
+				"Cooldown": 0.4
+			}
+		],
+		"name": "Striker_Slenderman",
+		"internalEnabled": true,
+		"persistentID": "Enemy_SlenderMan"
 	}
 ]

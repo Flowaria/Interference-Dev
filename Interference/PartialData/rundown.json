@@ -529,7 +529,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEA",
 				"PublicName": "Cold Boot",
@@ -537,7 +537,7 @@
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Retrieved Data from [0<size=70%>X</size>E001] has processed.\nExecuting Finalize Protocol, Access to Eastern part of this complex is required.\nPrisoners sent to startup reactor to gain access.",
-				"RoleplayedWardenIntel": ""
+				"RoleplayedWardenIntel": ">..This door.. <color=red>it's opened..?</color>\n>..Fuck.. Split up and Defense!\n>[blaring siren]\n>..They're coming!"
 			},
 			"Seeds": {
 				"BuildSeed": 616555,
@@ -2219,7 +2219,7 @@
 				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Retrieve Geo-data from nFrame using allocated Data Sphere.\nPrisoners deemed expendable.\n<color=red>#E_RR: Security Alarm Override Failure on $Z_???</color>",
-				"RoleplayedWardenIntel": ">..Found that nFrame here!\n<color=red>>..Put it in, Right NOW!</color>\n>[machinery sound, loud hum, distant roar]\n>Wait, what the hell was th-\n>[lost communication]"
+				"RoleplayedWardenIntel": ">..Found that nFrame here!\n<color=red><size=200%>>..Put it in, Right NOW!</size></color>\n>[machinery sound, distant roar]\n>[lost communication]"
 			},
 			"Seeds": {
 				"BuildSeed": -500,
@@ -2407,6 +2407,72 @@
 			},
 			"SecondaryLayerEnabled": false
 		}
+		/*{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "EXTRA-",
+				"PublicName": "<color=red>???</color>",
+				"ExpeditionDepth": -99999,
+				"IsExtraExpedition": false,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "",
+				"RoleplayedWardenIntel": ">..Wait it's all Hub_HA_01..?\n>..Always had been\n>[gunfire, lost communication]"
+			},
+			"Seeds": {
+				"BuildSeed": 0,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": "Complex_Mining_Modifier_Hub01",
+				"LightSettings": 9,
+				"FogSettings": "HeavyFog_Horror",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_Ex1_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": -99999,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_Ext1_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": false,
+			"ThirdLayerEnabled": false,
+			"ThirdLayout": 0,
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": 0.0
+			}
+		}*/
 	],
 	"name": "RundownData-Interference",
 	"internalEnabled": true,
