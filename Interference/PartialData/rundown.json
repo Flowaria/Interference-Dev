@@ -446,7 +446,7 @@
 							"Middle": 0.0,
 							"End": 0.0
 						},
-						"AreaSeedOffset": 0,
+						"AreaSeedOffset": 1,
 						"MarkerSeedOffset": 0
 					}
 				],
