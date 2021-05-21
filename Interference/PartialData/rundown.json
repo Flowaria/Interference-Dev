@@ -529,7 +529,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": 0,
+			"Accessibility": "BlockedAndScrambled",
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEA",
 				"PublicName": "Cold Boot",

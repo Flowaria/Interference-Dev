@@ -206,7 +206,7 @@
 	{
 		"PublicAlarmName": "GenCluster Alarm",
 		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly", //Big Striker Only
+		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly_Harder", //Big Striker Only
 		"SurvivalWavePopulation": 18,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
@@ -243,7 +243,7 @@
 				"PuzzleType": 4
 			},
 			{
-				"PuzzleType": 2 //Class X
+				"PuzzleType": 6 //Class X
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,

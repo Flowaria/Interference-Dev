@@ -40,7 +40,7 @@
 					"GroupType": 1,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 1.2
+					"DistributionValue": 1.8
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -58,9 +58,9 @@
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 0.0,
+						"Start": 100000.0,
 						"Middle": 0.0,
-						"End": 100000.0
+						"End": 0.0
 					}
 				}
 			],
@@ -73,7 +73,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.4,
+			"WeaponAmmoMulti": 2.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

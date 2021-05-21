@@ -1284,6 +1284,18 @@
 					"DistributionValue": 1.0
 				},
 				{
+					"GroupType": 3,
+					"Difficulty": 3000,
+					"Distribution": "Force_One",
+					"DistributionValue": 1.0
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 3000,
+					"Distribution": "Force_One",
+					"DistributionValue": 1.0
+				},
+				{
 					"GroupType": 0,
 					"Difficulty": 1,
 					"Distribution": "Rel_Value",
@@ -1294,6 +1306,12 @@
 					"Difficulty": 500,
 					"Distribution": "Rel_Value",
 					"DistributionValue": 1.0
+				},
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": "Rel_Value",
+					"DistributionValue": 0.45
 				},
 				{
 					"GroupType": 2, //BIG CHARGER
@@ -1410,7 +1428,7 @@
 					"GroupType": 0,
 					"Difficulty": 1,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 0.8
+					"DistributionValue": 0.95
 				},
 				{
 					"GroupType": 3,

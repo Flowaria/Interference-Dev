@@ -138,11 +138,11 @@
     "CentralPowerGenClustser_FogDataSteps": [
       {
         "m_fogDataId": "HeavyFog_Below1_Ext_TimeOver_Infection_Fast",
-        "m_transitionToTime": 580.0
+        "m_transitionToTime": 520.0
       },
       {
         "m_fogDataId": "HeavyFog_Below1_1_Infection_Fast",
-        "m_transitionToTime": 10.0
+        "m_transitionToTime": 8.0
       }
     ],
     "ActivateHSU_ItemFromStart": 0,
