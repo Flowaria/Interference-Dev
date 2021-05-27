@@ -546,6 +546,6 @@
 		],
 		"name": "Front_MachineGun_2_NoReloadCanceling",
 		"internalEnabled": true,
-		"persistentID": 505
+		"persistentID": "Front_MG2"
 	}
 ]

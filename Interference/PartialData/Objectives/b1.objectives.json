@@ -38,9 +38,9 @@
         "Trigger": 1,
         "Type": 2,
         "Layer": 0,
-        "LocalIndex": 7,
+        "LocalIndex": 6,
         "Delay": 6.0,
-        "WardenIntel": "Security door to [ZONE_7] unlocked"
+        "WardenIntel": "Security door to [ZONE_6] unlocked"
       }
     ],
     "FogTransitionDataOnGotoWin": "Fog_B1_GotoWin",
@@ -111,7 +111,7 @@
     "EventsOnGotoWin": [],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
-    "ChainedPuzzleToActive": 82,
+    "ChainedPuzzleToActive": 0,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
     "ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,

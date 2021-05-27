@@ -105,8 +105,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Floodways",
 			"CoverageMinMax": {
-				"x": 60.0,
-				"y": 70.0
+				"x": 40.0,
+				"y": 50.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Random",
@@ -138,7 +138,7 @@
 					"GroupType": 0,
 					"Difficulty": 1001,
 					"Distribution": 2,
-					"DistributionValue": 2.2
+					"DistributionValue": 1.4
 				},
 				{
 					"GroupType": 0,
@@ -356,18 +356,6 @@
 					"Difficulty": 900,
 					"Distribution": 2,
 					"DistributionValue": 0.7
-				},
-				{
-					"GroupType": 3,
-					"Difficulty": 3000,
-					"Distribution": "Force_One",
-					"DistributionValue": 1.0
-				},
-				{
-					"GroupType": 3,
-					"Difficulty": 3000,
-					"Distribution": "Force_One",
-					"DistributionValue": 1.0
 				}
 			],
 			"HSUClustersInZone": 0,

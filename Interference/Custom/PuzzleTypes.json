@@ -163,6 +163,15 @@
 			"BioscanID": 200,
 			"DistanceBetweenScans": 17.5,
 			"RevealWithHoloPath": true
+		},
+		{
+			"Name": "Q-Surge BC",
+			"BaseCluster": 4,
+			"PersistentID": 404,
+			"ClusterCount": 4,
+			"BioscanID": 102,
+			"DistanceBetweenScans": 14.0,
+			"RevealWithHoloPath": true
 		}
 	]
 }

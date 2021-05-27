@@ -147,7 +147,7 @@
     ],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
-    "ChainedPuzzleToActive": 10,
+    "ChainedPuzzleToActive": 0,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
     "ChainedPuzzleAtExitScanSpeedMultiplier": 0.35,

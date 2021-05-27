@@ -529,7 +529,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEA",
 				"PublicName": "Cold Boot",
@@ -691,7 +691,7 @@
 				"BulkheadKeyPlacements": [
 					[
 						{
-							"LocalIndex": 7,
+							"LocalIndex": 6,
 							"Weights": {
 								"Start": 0.0,
 								"Middle": 0.0,
@@ -1251,11 +1251,11 @@
 			"Accessibility": "BlockedAndScrambled",
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEB",
-				"PublicName": "Deflation",
+				"PublicName": "Deflate",
 				"ExpeditionDepth": 499,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Cargo from [0<size=70%>X</size>A001] contains useful parts for [Fog Repeller Beacon]\nUnseal it and bring it to point of entrance.",
+				"ExpeditionDescription": "Cargo from [0<size=70%>X</size>A001] contains useful parts for [Fog Repeller Beacon]\nUnseal it and bring the content to point of entrance.",
 				"RoleplayedWardenIntel": ""
 			},
 			"Seeds": {
@@ -1689,14 +1689,14 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEC",
 				"PublicName": "Desperation",
 				"ExpeditionDepth": 711,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "High Infection Barrier is blocking pathway to [0<size=70%>X</size>EEE2]\nAllocating [Fog Repeller Beacon] to Expendable prisoners.",
+				"ExpeditionDescription": "High Infection Barrier is blocking pathway to [0<size=70%>X</size>EEE2]\nAllocating [Fog Repeller Beacon] to Expendable prisoners to clear a path.",
 				"RoleplayedWardenIntel": ""
 			},
 			"Seeds": {
@@ -1706,15 +1706,55 @@
 				"LightJobSeedOffset": 0
 			},
 			"Expedition": {
-				"ComplexResourceData": 1,
+				"ComplexResourceData": "Complex_Mining_Modifier",
 				"LightSettings": 70,
-				"FogSettings": 0,
+				"FogSettings": "HeavyFog_Below_C3_Infection_Fast",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
 				"ScoutWavePopulation": 1
 			},
-			"LevelLayoutData": 0,
+			"LevelLayoutData": "Layout_C3_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 619,
+				"ZonesWithBulkheadEntrance": [
+					6
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 4,
+						"PlacementWeights": {
+							"Start": 100000.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 5,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 10000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_C3_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
@@ -2240,11 +2280,11 @@
 			"MainLayerData": {
 				"ZoneAliasStart": 789,
 				"ZonesWithBulkheadEntrance": [
-					9
+					10
 				],
 				"BulkheadDoorControllerPlacements": [
 					{
-						"ZoneIndex": 10,
+						"ZoneIndex": 11,
 						"PlacementWeights": {
 							"Start": 0.0,
 							"Middle": 0.0,
@@ -2257,7 +2297,7 @@
 				"BulkheadKeyPlacements": [
 					[
 						{
-							"LocalIndex": 10,
+							"LocalIndex": 11,
 							"Weights": {
 								"Start": 0.0,
 								"Middle": 0.0,
@@ -2269,18 +2309,7 @@
 				"ObjectiveData": {
 					"DataBlockId": "Obj_E1_L1",
 					"WinCondition": 1,
-					"ZonePlacementDatas": [
-						[
-							{
-								"LocalIndex": 5,
-								"Weights": {
-									"Start": 0.0,
-									"Middle": 0.0,
-									"End": 0.0
-								}
-							}
-						]
-					]
+					"ZonePlacementDatas": []
 				},
 				"ArtifactData": {
 					"ArtifactAmountMulti": 0.0,
@@ -2292,7 +2321,7 @@
 			"SecondaryLayout": "Layout_E1_L2",
 			"BuildSecondaryFrom": {
 				"LayerType": 0,
-				"Zone": 10
+				"Zone": 11
 			},
 			"SecondaryLayerData": {
 				"ZoneAliasStart": 521,
@@ -2301,7 +2330,7 @@
 				"BulkheadKeyPlacements": [
 					[
 						{
-							"LocalIndex": 1,
+							"LocalIndex": 2,
 							"Weights": {
 								"Start": 0.0,
 								"Middle": 0.0,
@@ -2320,7 +2349,17 @@
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
-									"End": 0.0
+									"End": 100000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
 								}
 							}
 						]

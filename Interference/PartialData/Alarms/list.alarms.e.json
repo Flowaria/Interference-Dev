@@ -183,6 +183,84 @@
 		"persistentID": "Alarm_E1_2C3"
 	},
 	{
+		"PublicAlarmName": "Class III QS BC Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 14.0,
+		"WantedDistanceBetweenPuzzleComponents": 14.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E1_QS_BC3"
+	},
+	{
+		"PublicAlarmName": "Class II QS BC Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 14.0,
+		"WantedDistanceBetweenPuzzleComponents": 14.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E1_QS_BC2"
+	},
+	{
+		"PublicAlarmName": "Class III QS BC Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 14.0,
+		"WantedDistanceBetweenPuzzleComponents": 14.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E1_QS_BC3"
+	},
+	{
 		"PublicAlarmName": "[SHUFFLE_TYPE1]",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Trickle_Big_2_53",
@@ -233,6 +311,9 @@
 				"PuzzleType": 4
 			},
 			{
+				"PuzzleType": 4
+			},
+			{
 				"PuzzleType": 2
 			},
 			
@@ -240,10 +321,13 @@
 				"PuzzleType": 4
 			},
 			{
-				"PuzzleType": 4
+				"PuzzleType": 316
 			},
 			{
-				"PuzzleType": 6 //Class X
+				"PuzzleType": 316
+			},
+			{
+				"PuzzleType": 6 //Class 12
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,

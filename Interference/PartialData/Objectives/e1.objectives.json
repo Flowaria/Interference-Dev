@@ -45,9 +45,9 @@
         "Trigger": 1,
         "Type": 2,
         "Layer": 0,
-        "LocalIndex": 10,
+        "LocalIndex": 11,
         "Delay": 6.0,
-        "WardenIntel": "Security door to [ZONE_10] unlocked"
+        "WardenIntel": "Security door to [ZONE_11] unlocked"
       },
       {
         "Trigger": 0,
@@ -107,7 +107,7 @@
         "Trigger": 1,
         "Type": 2,
         "Layer": 1,
-        "LocalIndex": 1,
+        "LocalIndex": 2,
         "Delay": 4.0,
         "WardenIntel": "Security door to [ZONE_1] unlocked"
       }
@@ -133,16 +133,20 @@
     "PowerCellsToDistribute": 3,
     "Uplink_NumberOfVerificationRounds": 0,
     "Uplink_NumberOfTerminals": 1,
-    "CentralPowerGenClustser_NumberOfGenerators": 1,
-    "CentralPowerGenClustser_NumberOfPowerCells": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 2,
+    "CentralPowerGenClustser_NumberOfPowerCells": 2,
     "CentralPowerGenClustser_FogDataSteps": [
       {
+        "m_fogDataId": "HeavyFog_Below1_Lower_Infection_Fast",
+        "m_transitionToTime": 9.0
+      },
+      {
         "m_fogDataId": "HeavyFog_Below1_Ext_TimeOver_Infection_Fast",
-        "m_transitionToTime": 520.0
+        "m_transitionToTime": 460.0
       },
       {
         "m_fogDataId": "HeavyFog_Below1_1_Infection_Fast",
-        "m_transitionToTime": 8.0
+        "m_transitionToTime": 9.0
       }
     ],
     "ActivateHSU_ItemFromStart": 0,
@@ -150,7 +154,7 @@
     "ActivateHSU_StopEnemyWavesOnActivation": false,
     "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
     "ActivateHSU_Events": [],
-    "name": "CentralPowerGeneratorCluster_1",
+    "name": "CentralPowerGeneratorCluster_2",
     "internalEnabled": true,
     "persistentID": "Obj_E1_L2"
   }

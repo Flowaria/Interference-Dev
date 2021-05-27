@@ -584,6 +584,11 @@
 			"Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_HA_03.prefab",
 			"SubComplex": 4,
 			"Shard": 7
+		},
+		{
+			"Prefab": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_HA_06.prefab",
+			"SubComplex": 4,
+			"Shard": 5
 		}
 	],
 	"CustomGeomorphs_Challenge_1x1": [],

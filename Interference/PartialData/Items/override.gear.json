@@ -1,5 +1,7 @@
 [
 	{
+		"datablock": "ItemDataBlock",
+		
 		"publicName": "GlueGun",
 		"terminalItemShortName": "",
 		"terminalItemLongName": "",

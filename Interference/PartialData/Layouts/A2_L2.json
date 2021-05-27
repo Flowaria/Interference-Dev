@@ -112,7 +112,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": 4,
+			"ChainedPuzzleToEnter": 0,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -210,7 +210,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_Class2_S",
+			"ChainedPuzzleToEnter": 4,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,

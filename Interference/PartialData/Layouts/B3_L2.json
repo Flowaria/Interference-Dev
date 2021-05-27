@@ -194,8 +194,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Floodways",
 			"CoverageMinMax": {
-				"x": 60.0,
-				"y": 70.0
+				"x": 30.0,
+				"y": 40.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Start",
@@ -236,13 +236,13 @@
 					"GroupType": 2,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 1.9
+					"DistributionValue": 0.8
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 1000,
 					"Distribution": 2,
-					"DistributionValue": 0.75
+					"DistributionValue": 0.35
 				}
 			],
 			"HSUClustersInZone": 0,
