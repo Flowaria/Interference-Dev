@@ -12,9 +12,9 @@ Querying data with filter... DONE!
 <size=150%>Initiating Rundown Protocol: <color=orange>Interference</color></size>
 
 
-<size=200%>Change Log (v0.5.30):</size>
-- Level: Added E1 - Daydream
-  - Reworked on A3 High
-  - Retouched A1
-- Weapon:
-  - Added-Main: Marksman Rifle
+<size=200%>Change Log (v0.5.40):</size>
+- Level
+  - B1: Removed Key zone in High
+  - B1: Fixed bug where uplink was not working
+  - B3: Reduced Amount of enemies in Optional Objective
+  - E1: Nerfed
