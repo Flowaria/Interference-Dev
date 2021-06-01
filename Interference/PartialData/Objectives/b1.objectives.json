@@ -64,7 +64,8 @@
     "PowerCellsToDistribute": 2,
     "name": "Distribute_PowerCells_2",
     "internalEnabled": true,
-    "persistentID": "Obj_B1_L1"
+    "persistentID": "Obj_B1_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 8,
@@ -141,7 +142,8 @@
     "ActivateHSU_Events": [],
     "name": "TerminalUplink_2",
     "internalEnabled": true,
-    "persistentID": "Obj_B1_L2"
+    "persistentID": "Obj_B1_L2",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 2,
@@ -226,6 +228,7 @@
     "ActivateHSU_Events": [],
     "name": "Reactor_Shutdown",
     "internalEnabled": true,
-    "persistentID": "Obj_B1_L3"
+    "persistentID": "Obj_B1_L3",
+    "datablock": "WardenObjective"
   }
 ]

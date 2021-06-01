@@ -21,7 +21,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_A1_Class2"
+		"persistentID": "Alarm_A1_Class2",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Alarm",
@@ -48,7 +49,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_A1_Class3"
+		"persistentID": "Alarm_A1_Class3",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Cluster Alarm",
@@ -72,7 +74,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_A1_Cluster2"
+		"persistentID": "Alarm_A1_Cluster2",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Alarm",
@@ -99,7 +102,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_A1_Class3_Low"
+		"persistentID": "Alarm_A1_Class3_Low",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class I Alarm",
@@ -120,7 +124,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_A2_Class1"
+		"persistentID": "Alarm_A2_Class1",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Alarm",
@@ -144,7 +149,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class2_S"
+		"persistentID": "Alarm_Class2_S",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Alarm",
@@ -168,7 +174,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class2_B"
+		"persistentID": "Alarm_Class2_B",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Alarm",
@@ -195,7 +202,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class3_SS"
+		"persistentID": "Alarm_Class3_SS",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Alarm",
@@ -222,7 +230,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class3_SB"
+		"persistentID": "Alarm_Class3_SB",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Alarm",
@@ -249,7 +258,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class3_BS"
+		"persistentID": "Alarm_Class3_BS",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Alarm",
@@ -276,7 +286,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class3_BB"
+		"persistentID": "Alarm_Class3_BB",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Alarm",
@@ -300,7 +311,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class2_Steep"
+		"persistentID": "Alarm_Class2_Steep",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class ://ERR#36 Alarm",
@@ -321,7 +333,8 @@
 		"AlarmSoundStop": 1190355274,
 		"name": "ErrorAlarm - Quick Trickle",
 		"internalEnabled": true,
-		"persistentID": "Alarm_ClassERR_QuickTrickle"
+		"persistentID": "Alarm_ClassERR_QuickTrickle",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class I Siege Alarm",
@@ -342,7 +355,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Siege_Halved"
+		"persistentID": "Alarm_Siege_Halved",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class I Siege Alarm",
@@ -363,7 +377,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Siege_Halved_Stay"
+		"persistentID": "Alarm_Siege_Halved_Stay",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class I Siege Alarm",
@@ -384,7 +399,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Siege"
+		"persistentID": "Alarm_Siege",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class I Siege Alarm",
@@ -405,7 +421,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Siege_StrikerOnly_Stay"
+		"persistentID": "Alarm_Siege_StrikerOnly_Stay",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class I Cluster Alarm",
@@ -426,7 +443,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class1_Cluster"
+		"persistentID": "Alarm_Class1_Cluster",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Cluster Alarm",
@@ -450,7 +468,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Cluster2"
+		"persistentID": "Alarm_Cluster2",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II 2C Alarm",
@@ -474,7 +493,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class2_16Cluster"
+		"persistentID": "Alarm_Class2_16Cluster",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III 2C Alarm",
@@ -501,7 +521,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class3_16Cluster"
+		"persistentID": "Alarm_Class3_16Cluster",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II S1 BC Alarm",
@@ -525,6 +546,7 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_Class2_S1BC"
+		"persistentID": "Alarm_Class2_S1BC",
+		"datablock": "ChainedPuzzle"
 	}
 ]

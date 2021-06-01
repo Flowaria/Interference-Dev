@@ -346,5 +346,6 @@
 	],
 	"name": "DefaultPop_Modifier",
 	"internalEnabled": true,
-	"persistentID": 1
+	"persistentID": 1,
+	"datablock": "EnemyPopulation"
 }

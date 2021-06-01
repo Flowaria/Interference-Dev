@@ -24,8 +24,7 @@
 		"AllClearedSectors": 0
 	},
 	"StorytellingData": {
-		"Title": "Interference",
-		//"Title": "Interference <color=orange>://EXT</color>\n- Finalize",
+		"Title": "Interference <size=80%><color=orange>://Ext</color></size>\n- Finalize",
 		"TextLog": "",
 		"TextLogPos": {
 			"x": 0.0,
@@ -529,7 +528,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEA",
 				"PublicName": "Cold Boot",
@@ -1248,18 +1247,18 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEB",
 				"PublicName": "Deflate",
 				"ExpeditionDepth": 499,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Cargo from [0<size=70%>X</size>A001] contains useful parts for [Fog Repeller Beacon]\nUnseal it and bring the content to point of entrance.",
+				"ExpeditionDescription": "Cargo from [0<size=70%>X</size>A001] contains useful parts for [Fog Repeller Beacon]\nUnseal it and bring the content to extraction point.",
 				"RoleplayedWardenIntel": ""
 			},
 			"Seeds": {
-				"BuildSeed": 616555,
+				"BuildSeed": 616333,
 				"FunctionMarkerOffset": 0,
 				"StandardMarkerOffset": 0,
 				"LightJobSeedOffset": 0
@@ -1267,13 +1266,73 @@
 			"Expedition": {
 				"ComplexResourceData": 1,
 				"LightSettings": 70,
-				"FogSettings": 0,
+				"FogSettings": "HeavyFog_Below_C3_Infection_Fast",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
 				"ScoutWavePopulation": 1
 			},
-			"LevelLayoutData": 0,
+			"LevelLayoutData": "Layout_B4_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 574,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 10000.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 1000000000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B4_L1",
+					"WinCondition": 1,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_B4_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 219,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B4_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": []
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
@@ -1309,39 +1368,17 @@
 			},
 			"LevelLayoutData": "Layout_C1_L1",
 			"MainLayerData": {
-				"ZoneAliasStart": 445,
+				"ZoneAliasStart": 449,
 				"ZonesWithBulkheadEntrance": [],
-				"BulkheadDoorControllerPlacements": [
-					{
-						"ZoneIndex": 0,
-						"PlacementWeights": {
-							"Start": 0.0,
-							"Middle": 0.0,
-							"End": 0.0
-						},
-						"AreaSeedOffset": 0,
-						"MarkerSeedOffset": 0
-					}
-				],
-				"BulkheadKeyPlacements": [
-					[
-						{
-							"LocalIndex": 2,
-							"Weights": {
-								"Start": 0.0,
-								"Middle": 0.0,
-								"End": 0.0
-							}
-						}
-					]
-				],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_C1_L1",
 					"WinCondition": 0,
 					"ZonePlacementDatas": [
 						[
 							{
-								"LocalIndex": 10,
+								"LocalIndex": 8,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
@@ -1350,6 +1387,22 @@
 							}
 						],
 						[
+							{
+								"LocalIndex": 9,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
+							{
+								"LocalIndex": 10,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
 							{
 								"LocalIndex": 11,
 								"Weights": {
@@ -1360,22 +1413,6 @@
 							},
 							{
 								"LocalIndex": 12,
-								"Weights": {
-									"Start": 0.0,
-									"Middle": 0.0,
-									"End": 10000000.0
-								}
-							},
-							{
-								"LocalIndex": 13,
-								"Weights": {
-									"Start": 0.0,
-									"Middle": 0.0,
-									"End": 10000000.0
-								}
-							},
-							{
-								"LocalIndex": 14,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
@@ -2278,7 +2315,7 @@
 			},
 			"LevelLayoutData": "Layout_E1_L1",
 			"MainLayerData": {
-				"ZoneAliasStart": 789,
+				"ZoneAliasStart": 788,
 				"ZonesWithBulkheadEntrance": [
 					10
 				],
@@ -2381,11 +2418,11 @@
 			"Accessibility": "BlockedAndScrambled",
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEE",
-				"PublicName": "Terminate",
+				"PublicName": "<i>EoL</i>",
 				"ExpeditionDepth": 1162,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "",
+				"ExpeditionDescription": "Closing Rundown Session::SubComplex: [91X122]\nExtract Essential Items from this part of facility",
 				"RoleplayedWardenIntel": ""
 			},
 			"Seeds": {
@@ -2515,5 +2552,6 @@
 	],
 	"name": "RundownData-Interference",
 	"internalEnabled": true,
-	"persistentID": 1
+	"persistentID": 1,
+	"datablock": "Rundown"
 }

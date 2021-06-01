@@ -218,7 +218,8 @@
     "ActivateHSU_Events": [],
     "name": "Reactor_Startup_Waves_5_FAST[LightOffOnFinish]",
     "internalEnabled": true,
-    "persistentID": "Obj_B2_L1"
+    "persistentID": "Obj_B2_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 6,
@@ -259,7 +260,8 @@
     ],
     "name": "Retrieve Essential Items_2_CRYO",
     "internalEnabled": true,
-    "persistentID": "Obj_B2_L2"
+    "persistentID": "Obj_B2_L2",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 3,
@@ -301,6 +303,7 @@
     "Gather_MaxPerZone": 24,
     "name": "Gather_Harddrives_8",
     "internalEnabled": true,
-    "persistentID": "Obj_B2_L3"
+    "persistentID": "Obj_B2_L3",
+    "datablock": "WardenObjective"
   }
 ]

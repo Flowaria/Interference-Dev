@@ -15,6 +15,7 @@
 		"AllowClimbDownLadders": true,
 		"name": "Striker_Rusher",
 		"internalEnabled": true,
-		"persistentID": "Movement_Striker_Rusher"
+		"persistentID": "Movement_Striker_Rusher",
+		"datablock": "EnemyMovement"
 	  }
 ]

@@ -60,7 +60,8 @@
 		"DisableTargetPreferenceWeight": false,
 		"name": "Striker_Rusher",
 		"internalEnabled": true,
-		"persistentID": "Behavior_Striker_Rusher"
+		"persistentID": "Behavior_Striker_Rusher",
+		"datablock": "EnemyBehavior"
 	},
 	{
 		"MeleeAttackDistance": {
@@ -123,6 +124,7 @@
 		"DisableTargetPreferenceWeight": false,
 		"name": "Striker_Rusher",
 		"internalEnabled": true,
-		"persistentID": "Behavior_Slenderman"
+		"persistentID": "Behavior_Slenderman",
+		"datablock": "EnemyBehavior"
 	}
 ]

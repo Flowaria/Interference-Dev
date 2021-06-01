@@ -17,7 +17,8 @@
 		"Infection": 0.055,
 		"name": "Fog_light_purple_low_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "Fog_D1_Low"
+		"persistentID": "Fog_D1_Low",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -37,7 +38,8 @@
 		"Infection": 0.055,
 		"name": "Fog_light_purple_low_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "Fog_D1_Low1"
+		"persistentID": "Fog_D1_Low1",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -62,7 +64,8 @@
 		"Infection": 0.0,
 		"name": "LightFog_D2_Layer0",
 		"internalEnabled": true,
-		"persistentID": "Fog_D2_High"
+		"persistentID": "Fog_D2_High",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -82,7 +85,8 @@
 		"Infection": 0.0,
 		"name": "LightFog_D2_Layer1",
 		"internalEnabled": true,
-		"persistentID": "Fog_D2_Low"
+		"persistentID": "Fog_D2_Low",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -102,7 +106,8 @@
 		"Infection": 0.0,
 		"name": "LightFog_D3_Layer0",
 		"internalEnabled": true,
-		"persistentID": "Fog_D3_High"
+		"persistentID": "Fog_D3_High",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -127,7 +132,8 @@
 		"Infection": 0.03,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "Fog_D3_Low1"
+		"persistentID": "Fog_D3_Low1",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -152,7 +158,8 @@
 		"Infection": 0.03,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "Fog_D3_Low2"
+		"persistentID": "Fog_D3_Low2",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -177,7 +184,8 @@
 		"Infection": 0.015,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "Fog_D3_Low3"
+		"persistentID": "Fog_D3_Low3",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -202,7 +210,8 @@
 		"Infection": 0.03,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "Fog_D3_Low4"
+		"persistentID": "Fog_D3_Low4",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -227,7 +236,8 @@
 		"Infection": 0.03,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "Fog_D3_Low5"
+		"persistentID": "Fog_D3_Low5",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -252,6 +262,7 @@
 		"Infection": 0.0,
 		"name": "Fog_light_blue_low2",
 		"internalEnabled": true,
-		"persistentID": "Fog_D3_Finish"
+		"persistentID": "Fog_D3_Finish",
+		"datablock": "FogSettings"
 	}
 ]

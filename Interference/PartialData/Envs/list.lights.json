@@ -74,7 +74,8 @@
 		],
 		"name": "Dark_Peach",
 		"internalEnabled": true,
-		"persistentID": "Dark_BlueToPeach"
+		"persistentID": "Dark_BlueToPeach",
+		"datablock": "LightSettings"
 	},
 	{
 		"LightCategorySettings": [
@@ -193,6 +194,7 @@
 		],
 		"name": "BlueToOrange_1",
 		"internalEnabled": true,
-		"persistentID": "Light_BuleOrange"
+		"persistentID": "Light_BuleOrange",
+		"datablock": "LightSettings"
 	}
 ]

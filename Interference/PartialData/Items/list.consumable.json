@@ -47,6 +47,7 @@
 		"BackpackAlign": "",
 		"name": "CONSUMABLE_FogRepeller_Bulk",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Fog_Bulk"
+		"persistentID": "Consumable_Fog_Bulk",
+		"datablock": "Item"
 	}
 ]

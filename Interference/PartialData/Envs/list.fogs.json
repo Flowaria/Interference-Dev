@@ -22,7 +22,8 @@
 		"Infection": 0.0,
 		"name": "Fog_very_light_layer0",
 		"internalEnabled": true,
-		"persistentID": "LightFog_Ambient"
+		"persistentID": "LightFog_Ambient",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -47,7 +48,8 @@
 		"Infection": 0.005,
 		"name": "Fog_very_light_layer0",
 		"internalEnabled": true,
-		"persistentID": "LightFog_Below_Infection_Slow"
+		"persistentID": "LightFog_Below_Infection_Slow",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -72,7 +74,8 @@
 		"Infection": 0.03,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "HeavyFog_Below_Infection_Fast"
+		"persistentID": "HeavyFog_Below_Infection_Fast",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -97,6 +100,7 @@
 		"Infection": 0.0,
 		"name": "Fog_very_light_White_Low5ToHigh2",
 		"internalEnabled": true,
-		"persistentID": "LightFog_Ambient_More"
+		"persistentID": "LightFog_Ambient_More",
+		"datablock": "FogSettings"
 	}
 ]

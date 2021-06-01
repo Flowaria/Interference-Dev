@@ -18,7 +18,8 @@
 		"AlarmSoundStop": 1190355274,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_C_ERR_Add_BigShadow"
+		"persistentID": "Alarm_C_ERR_Add_BigShadow",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class ://ERR#?? Siege Alarm",
@@ -39,7 +40,8 @@
 		"AlarmSoundStop": 0,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_C_ERR_Siege_Kind_Stay_Shadow"
+		"persistentID": "Alarm_C_ERR_Siege_Kind_Stay_Shadow",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Surge Alarm",
@@ -66,6 +68,7 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Surge 3x",
 		"internalEnabled": true,
-		"persistentID": "Alarm_C_Surge"
+		"persistentID": "Alarm_C_Surge",
+		"datablock": "ChainedPuzzle"
 	}
 ]

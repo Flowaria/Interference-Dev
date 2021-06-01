@@ -947,6 +947,7 @@
 		],
 		"name": "Complex_Mining_Modifier",
 		"internalEnabled": true,
-		"persistentID": "Complex_Mining_Modifier"
+		"persistentID": "Complex_Mining_Modifier",
+		"datablock": "ComplexResourceSet"
 	}
 ]

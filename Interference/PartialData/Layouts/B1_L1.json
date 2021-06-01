@@ -696,5 +696,6 @@
 	],
 	"name": "B1_L1",
 	"internalEnabled": true,
-	"persistentID": "Layout_B1_L1"
+	"persistentID": "Layout_B1_L1",
+	"datablock": "LevelLayout"
 }

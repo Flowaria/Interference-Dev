@@ -22,13 +22,14 @@
 		"m_populationRampOverTime": 200.0,
 		"name": "Apex",
 		"internalEnabled": true,
-		"persistentID": "WaveSetting_Apex_BigOnly"
+		"persistentID": "WaveSetting_Apex_BigOnly",
+		"datablock": "SurvivalWaveSettings"
 	},
 	{
 		"m_pauseBeforeStart": 2.0,
-		"m_pauseBetweenGroups": 5.0,
+		"m_pauseBetweenGroups": 7.0,
 		"m_wavePauseMin_atCost": 2.0,
-		"m_wavePauseMax_atCost": 24.0,
+		"m_wavePauseMax_atCost": 12.0,
 		"m_wavePauseMin": 3.0,
 		"m_wavePauseMax": 30.0,
 		"m_populationFilter": [
@@ -47,7 +48,8 @@
 		"m_populationRampOverTime": 500.0,
 		"name": "Apex",
 		"internalEnabled": true,
-		"persistentID": "WaveSetting_Apex_BigOnly_Harder"
+		"persistentID": "WaveSetting_Apex_BigOnly_Harder",
+		"datablock": "SurvivalWaveSettings"
 	},
 	{
 		"m_pauseBeforeStart": 3.0,
@@ -73,7 +75,8 @@
 		"m_populationRampOverTime": 200.0,
 		"name": "Apex",
 		"internalEnabled": true,
-		"persistentID": "WaveSetting_Apex_SmallOnly"
+		"persistentID": "WaveSetting_Apex_SmallOnly",
+		"datablock": "SurvivalWaveSettings"
 	},
 	{
 		"m_pauseBeforeStart": 3.0,
@@ -99,7 +102,8 @@
 		"m_populationRampOverTime": 100.0,
 		"name": "Apex",
 		"internalEnabled": true,
-		"persistentID": "WaveSetting_Apex_SmallOnly_Harder"
+		"persistentID": "WaveSetting_Apex_SmallOnly_Harder",
+		"datablock": "SurvivalWaveSettings"
 	},
 	{
 		"m_pauseBeforeStart": 0.0,
@@ -123,7 +127,8 @@
 		"m_populationRampOverTime": 0.0,
 		"name": "Wave_Boss",
 		"internalEnabled": true,
-		"persistentID": "WaveSetting_Four_Boss"
+		"persistentID": "WaveSetting_Four_Boss",
+		"datablock": "SurvivalWaveSettings"
 	},
 	{
 		"m_pauseBeforeStart": 1.0,
@@ -149,7 +154,8 @@
 		"m_populationRampOverTime": 120.0,
 		"name": "Scout_Kind",
 		"internalEnabled": true,
-		"persistentID": "WaveSetting_Scout_Kind"
+		"persistentID": "WaveSetting_Scout_Kind",
+		"datablock": "SurvivalWaveSettings"
 	},
 	{
 		"m_pauseBeforeStart": 0.0,
@@ -173,6 +179,7 @@
 		"m_populationRampOverTime": 0.0,
 		"name": "Bigs",
 		"internalEnabled": true,
-		"persistentID": "WaveSetting_Big_Test"
+		"persistentID": "WaveSetting_Big_Test",
+		"datablock": "SurvivalWaveSettings"
 	}
 ]

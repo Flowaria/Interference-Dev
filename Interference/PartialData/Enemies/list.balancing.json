@@ -23,7 +23,8 @@
 		"TagTime": 60.0,
 		"name": "Striker_Rusher",
 		"internalEnabled": true,
-		"persistentID": "Balance_Striker_Rusher"
+		"persistentID": "Balance_Striker_Rusher",
+		"datablock": "EnemyBalancing"
 	},
 	{
 		"Health": {
@@ -49,7 +50,8 @@
 		"TagTime": 60.0,
 		"name": "Striker_Bullrush_Small",
 		"internalEnabled": true,
-		"persistentID": "Balance_Bullrush_Small"
+		"persistentID": "Balance_Bullrush_Small",
+		"datablock": "EnemyBalancing"
 	},
 	{
 		"Health": {
@@ -75,7 +77,8 @@
 		"TagTime": 10.0,
 		"name": "Striker_Bullrush_Small_Shadow",
 		"internalEnabled": true,
-		"persistentID": "Balance_Shadow_Bullrush_Small"
+		"persistentID": "Balance_Shadow_Bullrush_Small",
+		"datablock": "EnemyBalancing"
 	},
 	{
 		"Health": {
@@ -101,6 +104,7 @@
 		"TagTime": 3.0,
 		"name": "Striker_Bullrush_Small",
 		"internalEnabled": true,
-		"persistentID": "Balance_Slenderman"
+		"persistentID": "Balance_Slenderman",
+		"datablock": "EnemyBalancing"
 	}
 ]

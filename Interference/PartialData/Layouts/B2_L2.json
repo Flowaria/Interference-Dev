@@ -234,5 +234,6 @@
 	],
 	"name": "B2_L2",
 	"internalEnabled": true,
-	"persistentID": "Layout_B2_L2"
+	"persistentID": "Layout_B2_L2",
+	"datablock": "LevelLayout"
 }

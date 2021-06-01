@@ -40,7 +40,8 @@
 		"BackpackAlign": "",
 		"name": "Pickup_PartialDecoder_Fixed",
 		"internalEnabled": true,
-		"persistentID": "Gather_PDEC"
+		"persistentID": "Gather_PDEC",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Electrical Fuse",
@@ -84,7 +85,8 @@
 		"BackpackAlign": "",
 		"name": "Pickup_FUSE",
 		"internalEnabled": true,
-		"persistentID": "Gather_Fuse"
+		"persistentID": "Gather_Fuse",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "1022f SECTOR KEYCARD",
@@ -128,6 +130,7 @@
 		"BackpackAlign": "",
 		"name": "Pickup_KEYCARD_FIXEDNAME",
 		"internalEnabled": true,
-		"persistentID": "Gather_Sector_Keycard"
+		"persistentID": "Gather_Sector_Keycard",
+		"datablock": "Item"
 	}
 ]

@@ -22,7 +22,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "reactor_small_few",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_3"
+    "persistentID": "WaveSetting_Reactor_3",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -46,7 +47,8 @@
     "m_populationRampOverTime": 50.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_LotLess"
+    "persistentID": "WaveSetting_Reactor_LotLess",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -70,7 +72,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_Less"
+    "persistentID": "WaveSetting_Reactor_Less",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -94,7 +97,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_4_4_Randomized"
+    "persistentID": "WaveSetting_Reactor_4_4_Randomized",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -118,7 +122,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_8_8_Randomized"
+    "persistentID": "WaveSetting_Reactor_8_8_Randomized",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -142,7 +147,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_6_12_Randomized"
+    "persistentID": "WaveSetting_Reactor_6_12_Randomized",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -166,7 +172,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_9_18_Randomized"
+    "persistentID": "WaveSetting_Reactor_9_18_Randomized",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -190,7 +197,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_4_16_Randomized"
+    "persistentID": "WaveSetting_Reactor_4_16_Randomized",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 0.0,
@@ -214,6 +222,7 @@
     "m_populationRampOverTime": 0.0,
     "name": "Reactor_third",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Reactor_4_12_Randomized"
+    "persistentID": "WaveSetting_Reactor_4_12_Randomized",
+		"datablock": "SurvivalWaveSettings"
   }
 ]

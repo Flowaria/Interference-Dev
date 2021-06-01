@@ -65,7 +65,8 @@
     "ActivateHSU_Events": [],
     "name": "Gather_PDEC_7",
     "internalEnabled": true,
-    "persistentID": "Obj_B3_L1"
+    "persistentID": "Obj_B3_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 6,
@@ -130,7 +131,8 @@
     "ActivateHSU_Events": [],
     "name": "Retrieve Essential Items_1_Defoggers",
     "internalEnabled": true,
-    "persistentID": "Obj_B3_L2"
+    "persistentID": "Obj_B3_L2",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 3,
@@ -209,6 +211,7 @@
     "ActivateHSU_Events": [],
     "name": "Gather_Keycard",
     "internalEnabled": true,
-    "persistentID": "Obj_B3_L3"
+    "persistentID": "Obj_B3_L3",
+    "datablock": "WardenObjective"
   }
 ]

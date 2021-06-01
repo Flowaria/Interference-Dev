@@ -1,7 +1,7 @@
 [
   {
     "m_pauseBeforeStart": 2.0,
-    "m_pauseBetweenGroups": 36.0,
+    "m_pauseBetweenGroups": 45.0,
     "m_wavePauseMin_atCost": 1.0,
     "m_wavePauseMax_atCost": 10.0,
     "m_wavePauseMin": 1.0,
@@ -16,12 +16,13 @@
     "m_populationPointsPerWaveStart": 10000.0,
     "m_populationPointsPerWaveEnd": 10000.0,
     "m_populationPointsMinPerGroup": 8.0,
-    "m_populationPointsPerGroupStart": 22.0,
-    "m_populationPointsPerGroupEnd": 14.0,
+    "m_populationPointsPerGroupStart": 18.0,
+    "m_populationPointsPerGroupEnd": 9.0,
     "m_populationRampOverTime": 110.0,
     "name": "Trickle_12-4_40",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_WAVE_BABIES"
+    "persistentID": "WaveSetting_Trickle_WAVE_BABIES",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -47,7 +48,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_4_32",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_4_Quick"
+    "persistentID": "WaveSetting_Trickle_4_Quick",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -73,7 +75,8 @@
     "m_populationRampOverTime": 2000.0,
     "name": "Trickle_12_65",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_65_WAVE_BULLRUSH"
+    "persistentID": "WaveSetting_Trickle_65_WAVE_BULLRUSH",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -97,7 +100,8 @@
     "m_populationRampOverTime": 60.0,
     "name": "Trickle_12-4_40",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_4_40"
+    "persistentID": "WaveSetting_Trickle_4_40",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -121,7 +125,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Big_2_140",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Big_1_160"
+    "persistentID": "WaveSetting_Trickle_Big_1_160",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -147,7 +152,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_3_75",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_3_Late"
+    "persistentID": "WaveSetting_Trickle_3_Late",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 3.0,
@@ -173,7 +179,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_3-36",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_3_Fast"
+    "persistentID": "WaveSetting_Trickle_3_Fast",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 3.0,
@@ -199,7 +206,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_3-40",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_3_Mid"
+    "persistentID": "WaveSetting_Trickle_3_Mid",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -225,7 +233,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_3-43",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_3_43"
+    "persistentID": "WaveSetting_Trickle_3_43",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -250,7 +259,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Bigs_1_129",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Big_1_129"
+    "persistentID": "WaveSetting_Trickle_Big_1_129",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -275,7 +285,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Bigs_1_65",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Big_1_65"
+    "persistentID": "WaveSetting_Trickle_Big_1_65",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -300,7 +311,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Bigs_2_65",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Big_2_65"
+    "persistentID": "WaveSetting_Trickle_Big_2_65",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -325,7 +337,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Bigs_2_53",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Big_2_53"
+    "persistentID": "WaveSetting_Trickle_Big_2_53",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -350,7 +363,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Bigs_2_46",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Big_2_46"
+    "persistentID": "WaveSetting_Trickle_Big_2_46",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 10.0,
@@ -374,6 +388,7 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Tank_360",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Tank_1_360"
+    "persistentID": "WaveSetting_Trickle_Tank_1_360",
+		"datablock": "SurvivalWaveSettings"
   }
 ]

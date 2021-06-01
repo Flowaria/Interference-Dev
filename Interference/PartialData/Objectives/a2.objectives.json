@@ -61,7 +61,8 @@
     "Uplink_NumberOfTerminals": 1,
     "name": "TerminalUplink_One_Terminal",
     "internalEnabled": true,
-    "persistentID": "Obj_A2_L1"
+    "persistentID": "Obj_A2_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 6,
@@ -111,7 +112,8 @@
     ],
     "name": "Retrieve Essential Items_1_Datasphere",
     "internalEnabled": true,
-    "persistentID": "Obj_A2_L2"
+    "persistentID": "Obj_A2_L2",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 9,
@@ -194,6 +196,7 @@
     "ActivateHSU_Events": [],
     "name": "CentralPowerGeneratorCluster_2",
     "internalEnabled": true,
-    "persistentID": "Obj_A2_L3"
+    "persistentID": "Obj_A2_L3",
+    "datablock": "WardenObjective"
   }
 ]

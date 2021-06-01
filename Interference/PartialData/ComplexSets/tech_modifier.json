@@ -636,5 +636,6 @@
 	],
 	"name": "Complex_Tech",
 	"internalEnabled": true,
-	"persistentID": "ComplexSet_Tech_Modifier"
+	"persistentID": "ComplexSet_Tech_Modifier",
+	"datablock": "ComplexResourceSet"
 }

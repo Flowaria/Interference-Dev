@@ -75,7 +75,8 @@
     "PowerCellsToDistribute": 2,
     "name": "Distribute_PowerCells_2[NoLightOnStart]",
     "internalEnabled": true,
-    "persistentID": "Obj_D1_L1"
+    "persistentID": "Obj_D1_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 8,
@@ -155,7 +156,8 @@
     "Uplink_NumberOfTerminals": 3,
     "name": "TerminalUplink_Three_Terminal",
     "internalEnabled": true,
-    "persistentID": "Obj_D1_L2"
+    "persistentID": "Obj_D1_L2",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 10,
@@ -298,6 +300,7 @@
     "ActivateHSU_Events": [],
     "name": "QTP_Neonate[Activator_Teleporter]",
     "internalEnabled": true,
-    "persistentID": "Obj_D1_L3"
+    "persistentID": "Obj_D1_L3",
+    "datablock": "WardenObjective"
   }
 ]

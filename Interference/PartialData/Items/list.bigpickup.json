@@ -47,7 +47,8 @@
 		"BackpackAlign": "",
 		"name": "Carry_CargoCrate_Fixed",
 		"internalEnabled": true,
-		"persistentID": "Carry_Cargo_Fixed"
+		"persistentID": "Carry_Cargo_Fixed",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Cargo Crate",
@@ -97,7 +98,8 @@
 		"BackpackAlign": "",
 		"name": "Carry_CargoCrate_Beacon_Closed",
 		"internalEnabled": true,
-		"persistentID": "Carry_Cargo_Closed"
+		"persistentID": "Carry_Cargo_Closed",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Cargo Crate",
@@ -147,7 +149,8 @@
 		"BackpackAlign": "",
 		"name": "Carry_CargoCrate_Beacon_Opened",
 		"internalEnabled": true,
-		"persistentID": "Carry_Cargo_Opened"
+		"persistentID": "Carry_Cargo_Opened",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "DATA SPHERE",
@@ -195,7 +198,8 @@
 		"BackpackAlign": "",
 		"name": "Carry_DataSphere_FIXEDNAME",
 		"internalEnabled": true,
-		"persistentID": "Carry_DataSphere_FixedName"
+		"persistentID": "Carry_DataSphere_FixedName",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Fog Repeller Turbine",
@@ -244,7 +248,8 @@
 		"BackpackAlign": "CarryAlign",
 		"name": "Carry_HeavyFogRepeller_IDLE",
 		"internalEnabled": true,
-		"persistentID": "Carry_Idle_FogTurbine"
+		"persistentID": "Carry_Idle_FogTurbine",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "NEONATE HSU",
@@ -293,7 +298,8 @@
 		"BackpackAlign": "",
 		"name": "Carry_HSU_Small_Stage_1",
 		"internalEnabled": true,
-		"persistentID": "Carry_Neonate_Stage0"
+		"persistentID": "Carry_Neonate_Stage0",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "NEONATE HSU",
@@ -342,7 +348,8 @@
 		"BackpackAlign": "",
 		"name": "Carry_HSU_Small_Stage_3",
 		"internalEnabled": true,
-		"persistentID": "Carry_Neonate_Stage1"
+		"persistentID": "Carry_Neonate_Stage1",
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Fog Repeller Beacon",
@@ -392,6 +399,7 @@
 		"BackpackAlign": "CarryAlign",
 		"name": "Carry_FogBeacon[ConstantFog]",
 		"internalEnabled": true,
-		"persistentID": "Carry_FogBeacon"
+		"persistentID": "Carry_FogBeacon",
+		"datablock": "Item"
 	}
 ]

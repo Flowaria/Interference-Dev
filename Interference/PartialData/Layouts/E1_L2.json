@@ -47,7 +47,7 @@
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
 			"GeneratorClustersInZone": 50,
-			"CorpsesInZone": 1,
+			"CorpsesInZone": 4,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
@@ -73,19 +73,19 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.8,
+			"WeaponAmmoMulti": 2.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.4,
+			"ToolAmmoMulti": 0.6,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.0,
+			"DisinfectionMulti": 0.8,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -118,7 +118,7 @@
 				"PlacementCount": 0,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_E1_Class3_Surge",
+			"ChainedPuzzleToEnter": "Alarm_E1_Class4_Surge",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -167,25 +167,25 @@
 			"HealthMulti": 1.2,
 			"HealthPlacement": {
 				"Start": 0.0,
-				"Middle": 0.0,
+				"Middle": 1000.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.2,
+			"WeaponAmmoMulti": 2.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
-				"End": 0.0
+				"End": 1000.0
 			},
-			"ToolAmmoMulti": 0.2,
+			"ToolAmmoMulti": 0.6,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
-				"End": 0.0
+				"End": 1000.0
 			},
 			"DisinfectionMulti": 1.2,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
-				"Middle": 0.0,
+				"Middle": 1000.0,
 				"End": 0.0
 			}
 		},
@@ -231,7 +231,7 @@
 				"PlacementCount": 0,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_E1_Class4_Surge",
+			"ChainedPuzzleToEnter": 0,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,
@@ -244,7 +244,7 @@
 					"GroupType": 1,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 1.5
+					"DistributionValue": 0.9
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -283,7 +283,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.2,
+			"ToolAmmoMulti": 0.8,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -299,5 +299,6 @@
 	],
 	"name": "E1_L2",
 	"internalEnabled": true,
-	"persistentID": "Layout_E1_L2"
+	"persistentID": "Layout_E1_L2",
+	"datablock": "LevelLayout"
 }

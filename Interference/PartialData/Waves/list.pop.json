@@ -7,7 +7,8 @@
 		"WaveRoleBoss": "Enemy_Shadow_Bullrush_Small",
 		"name": "Bullrush_Small_Shadow",
 		"internalEnabled": true,
-		"persistentID": "WavePop_Only_SmallBullrush_Shadow"
+		"persistentID": "WavePop_Only_SmallBullrush_Shadow",
+		"datablock": "SurvivalWavePopulation"
 	},
 	{
 		"WaveRoleWeakling": "Enemy_Shadow_Big_Bullrush",
@@ -17,7 +18,8 @@
 		"WaveRoleBoss": "Enemy_Shadow_Big_Bullrush",
 		"name": "Bullrush_Big_Shadow",
 		"internalEnabled": true,
-		"persistentID": "WavePop_Shadow_BigBullrush"
+		"persistentID": "WavePop_Shadow_BigBullrush",
+		"datablock": "SurvivalWavePopulation"
 	},
 	{
 		"WaveRoleWeakling": 21,
@@ -27,7 +29,8 @@
 		"WaveRoleBoss": 33,
 		"name": "Baseline_rapid_shooter",
 		"internalEnabled": true,
-		"persistentID": "WavePop_Base_InfectionRapid"
+		"persistentID": "WavePop_Base_InfectionRapid",
+		"datablock": "SurvivalWavePopulation"
 	},
 	{
 		"WaveRoleWeakling": 38,
@@ -37,7 +40,8 @@
 		"WaveRoleBoss": 38,
 		"name": "Baseline",
 		"internalEnabled": true,
-		"persistentID": "WavePop_Only_Babies"
+		"persistentID": "WavePop_Only_Babies",
+		"datablock": "SurvivalWavePopulation"
 	},
 	{
 		"WaveRoleWeakling": 37,
@@ -47,7 +51,8 @@
 		"WaveRoleBoss": 37,
 		"name": "Baseline_birther",
 		"internalEnabled": true,
-		"persistentID": "WavePop_Only_Birther_Boss"
+		"persistentID": "WavePop_Only_Birther_Boss",
+		"datablock": "SurvivalWavePopulation"
 	},
 	{
 		"WaveRoleWeakling": "Enemy_SlenderMan",
@@ -57,6 +62,7 @@
 		"WaveRoleBoss": "Enemy_SlenderMan",
 		"name": "Baseline_birther",
 		"internalEnabled": true,
-		"persistentID": "WavePop_Slenderman"
+		"persistentID": "WavePop_Slenderman",
+		"datablock": "SurvivalWavePopulation"
 	}
 ]

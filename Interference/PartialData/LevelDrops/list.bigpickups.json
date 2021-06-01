@@ -9,6 +9,7 @@
 		],
 		"name": "Neonate_1",
 		"internalEnabled": true,
-		"persistentID": "BigPickups_Neonate_1"
+		"persistentID": "BigPickups_Neonate_1",
+		"datablock": "BigPickupDistribution"
 	}
 ]

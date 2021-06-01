@@ -248,7 +248,7 @@
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": 1,
-			"BigPickupDistributionInZone": 0,
+			"BigPickupDistributionInZone": 5,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
@@ -310,17 +310,8 @@
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 2,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
-				"PlacementCount": 1,
-				"ZonePlacementData": [
-					{
-						"LocalIndex": 2,
-						"Weights": {
-							"Start": 0.0,
-							"Middle": 0.0,
-							"End": 100000.0
-						}
-					}
-				]
+				"PlacementCount": 0,
+				"ZonePlacementData": []
 			},
 			"ChainedPuzzleToEnter": "Alarm_A_Class3",
 			"SecurityGateToEnter": 0,
@@ -667,5 +658,6 @@
 	],
 	"name": "A2_L1",
 	"internalEnabled": true,
-	"persistentID": "Layout_A2_L1"
+	"persistentID": "Layout_A2_L1",
+	"datablock": "LevelLayout"
 }

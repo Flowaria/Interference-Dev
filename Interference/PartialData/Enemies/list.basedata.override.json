@@ -82,7 +82,8 @@
 		],
 		"name": "Striker_Big_Shadow",
 		"internalEnabled": true,
-		"persistentID": 35
+		"persistentID": 35,
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 2,
@@ -167,7 +168,8 @@
 		],
 		"name": "Scout_Shadow",
 		"internalEnabled": true,
-		"persistentID": 40
+		"persistentID": 40,
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 2,
@@ -258,6 +260,7 @@
 		],
 		"name": "Scout_Bullrush",
 		"internalEnabled": true,
-		"persistentID": 41
+		"persistentID": 41,
+		"datablock": "Enemy"
 	}
 ]

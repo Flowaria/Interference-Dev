@@ -424,7 +424,8 @@
     "ActivateHSU_Events": [],
     "name": "Reactor_Startup_Waves_6",
     "internalEnabled": true,
-    "persistentID": "Obj_A4_L1"
+    "persistentID": "Obj_A4_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 5,
@@ -511,6 +512,7 @@
     "ActivateHSU_Events": [],
     "name": "SpecialTerminalCommand",
     "internalEnabled": true,
-    "persistentID": "Obj_A4_L2"
+    "persistentID": "Obj_A4_L2",
+    "datablock": "WardenObjective"
   }
 ]

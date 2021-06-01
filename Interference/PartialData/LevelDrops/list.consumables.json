@@ -18,7 +18,8 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Dark_Flash"
+		"persistentID": "Consumable_Dark_Flash",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 10,
@@ -39,7 +40,8 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Dark_Glowsticks"
+		"persistentID": "Consumable_Dark_Glowsticks",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 12,
@@ -60,7 +62,8 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Dark_Glowsticks_WithFoam"
+		"persistentID": "Consumable_Dark_Glowsticks_WithFoam",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 9,
@@ -77,7 +80,8 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Dark_Glowsticks_WithMoreFoam"
+		"persistentID": "Consumable_Dark_Glowsticks_WithMoreFoam",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 6,
@@ -94,7 +98,8 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Dark_Glowsticks_WithMoreFoam_Less"
+		"persistentID": "Consumable_Dark_Glowsticks_WithMoreFoam_Less",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 6,
@@ -115,7 +120,8 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Dark_Glowsticks_Less"
+		"persistentID": "Consumable_Dark_Glowsticks_Less",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 2,
@@ -128,7 +134,8 @@
 		],
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
-		"persistentID": "Consumable_FogBulk_2"
+		"persistentID": "Consumable_FogBulk_2",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 4,
@@ -141,7 +148,8 @@
 		],
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
-		"persistentID": "Consumable_FogBulk_Few"
+		"persistentID": "Consumable_FogBulk_Few",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 6,
@@ -154,7 +162,8 @@
 		],
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
-		"persistentID": "Consumable_FogBulk_6"
+		"persistentID": "Consumable_FogBulk_6",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 8,
@@ -167,7 +176,8 @@
 		],
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
-		"persistentID": "Consumable_FogBulk_Some"
+		"persistentID": "Consumable_FogBulk_Some",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 8,
@@ -184,7 +194,8 @@
 		],
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
-		"persistentID": "Consumable_FogBulk_Some_Mixed"
+		"persistentID": "Consumable_FogBulk_Some_Mixed",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 10,
@@ -197,7 +208,8 @@
 		],
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Fog_10"
+		"persistentID": "Consumable_Fog_10",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 15,
@@ -210,7 +222,8 @@
 		],
 		"name": "FogRepellerBulk_Few",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Fog_15"
+		"persistentID": "Consumable_Fog_15",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 6,
@@ -235,7 +248,8 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Hard_NoFog_NoFoam"
+		"persistentID": "Consumable_Hard_NoFog_NoFoam",
+		"datablock": "ConsumableDistribution"
 	},
 	{
 		"SpawnsPerZone": 6,
@@ -264,6 +278,7 @@
 		],
 		"name": "ExplorationDark_MoreFlash",
 		"internalEnabled": true,
-		"persistentID": "Consumable_Hard_NoFog_NoFoam_Tech"
+		"persistentID": "Consumable_Hard_NoFog_NoFoam_Tech",
+		"datablock": "ConsumableDistribution"
 	}
 ]

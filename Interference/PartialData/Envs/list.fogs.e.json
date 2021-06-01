@@ -22,7 +22,8 @@
 		"Infection": 0.03,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "HeavyFog_Below1_Infection_Fast"
+		"persistentID": "HeavyFog_Below1_Infection_Fast",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -47,7 +48,8 @@
 		"Infection": 0.03,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "HeavyFog_Below1_Lower_Infection_Fast"
+		"persistentID": "HeavyFog_Below1_Lower_Infection_Fast",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -72,7 +74,8 @@
 		"Infection": 0.04,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "HeavyFog_Below1_1_Infection_Fast"
+		"persistentID": "HeavyFog_Below1_1_Infection_Fast",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -97,7 +100,8 @@
 		"Infection": 0.04,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "HeavyFog_Below1_Ext_TimeOver_Infection_Fast"
+		"persistentID": "HeavyFog_Below1_Ext_TimeOver_Infection_Fast",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -122,6 +126,7 @@
 		"Infection": 0.0,
 		"name": "Fog_light_blue_low2_INFECTION",
 		"internalEnabled": true,
-		"persistentID": "HeavyFog_Horror"
+		"persistentID": "HeavyFog_Horror",
+		"datablock": "FogSettings"
 	}
 ]

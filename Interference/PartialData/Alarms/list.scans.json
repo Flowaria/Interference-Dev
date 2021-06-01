@@ -18,7 +18,8 @@
 		"AlarmSoundStop": 0,
 		"name": "Small Scan",
 		"internalEnabled": true,
-		"persistentID": "Scan_Small"
+		"persistentID": "Scan_Small",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class I Scan",
@@ -39,7 +40,8 @@
 		"AlarmSoundStop": 0,
 		"name": "Small Scan",
 		"internalEnabled": true,
-		"persistentID": "Scan_Small_Cluster"
+		"persistentID": "Scan_Small_Cluster",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Scan",
@@ -63,7 +65,8 @@
 		"AlarmSoundStop": 0,
 		"name": "Small Scan",
 		"internalEnabled": true,
-		"persistentID": "Scan_Travel_Class2"
+		"persistentID": "Scan_Travel_Class2",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Scan",
@@ -87,6 +90,7 @@
 		"AlarmSoundStop": 0,
 		"name": "Small Scan",
 		"internalEnabled": true,
-		"persistentID": "Scan_Class2_Cluster"
+		"persistentID": "Scan_Class2_Cluster",
+		"datablock": "ChainedPuzzle"
 	}
 ]

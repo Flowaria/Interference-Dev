@@ -27,7 +27,8 @@
 		"AlarmSoundStop": 0,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_ERR_Babies"
+		"persistentID": "Alarm_E1_ERR_Babies",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II 2C Alarm",
@@ -51,7 +52,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_2C2"
+		"persistentID": "Alarm_E1_2C2",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class IV M Alarm",
@@ -81,7 +83,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_M4"
+		"persistentID": "Alarm_E1_M4",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class V M Alarm",
@@ -114,7 +117,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_M5"
+		"persistentID": "Alarm_E1_M5",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class VII Q Surge Alarm",
@@ -153,7 +157,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_QS7"
+		"persistentID": "Alarm_E1_QS7",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III 2C Alarm",
@@ -180,34 +185,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_2C3"
-	},
-	{
-		"PublicAlarmName": "Class III QS BC Alarm",
-		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
-		"SurvivalWavePopulation": 1,
-		"DisableSurvivalWaveOnComplete": true,
-		"UseRandomPositions": true,
-		"WantedDistanceFromStartPos": 14.0,
-		"WantedDistanceBetweenPuzzleComponents": 14.0,
-		"ChainedPuzzle": [
-			{
-				"PuzzleType": 404
-			},
-			{
-				"PuzzleType": 404
-			},
-			{
-				"PuzzleType": 404
-			}
-		],
-		"OnlyShowHUDWhenPlayerIsClose": false,
-		"AlarmSoundStart": 3339129407,
-		"AlarmSoundStop": 42633153,
-		"name": "Alarm",
-		"internalEnabled": true,
-		"persistentID": "Alarm_E1_QS_BC3"
+		"persistentID": "Alarm_E1_2C3",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II QS BC Alarm",
@@ -231,7 +210,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_QS_BC2"
+		"persistentID": "Alarm_E1_QS_BC2",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III QS BC Alarm",
@@ -258,7 +238,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_QS_BC3"
+		"persistentID": "Alarm_E1_QS_BC3",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "[SHUFFLE_TYPE1]",
@@ -279,7 +260,8 @@
 		"AlarmSoundStop": 1190355274,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_ERR_BigShadowCharger"
+		"persistentID": "Alarm_E1_ERR_BigShadowCharger",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "GenCluster Alarm",
@@ -298,15 +280,9 @@
 				"PuzzleType": 4
 			},
 			{
-				"PuzzleType": 4
-			},
-			{
 				"PuzzleType": 2
 			},
 
-			{
-				"PuzzleType": 4
-			},
 			{
 				"PuzzleType": 4
 			},
@@ -327,7 +303,7 @@
 				"PuzzleType": 316
 			},
 			{
-				"PuzzleType": 6 //Class 12
+				"PuzzleType": 6 //Class 10
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,
@@ -335,7 +311,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_Ext_GenCluster"
+		"persistentID": "Alarm_E1_Ext_GenCluster",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class IV Surge Alarm",
@@ -365,7 +342,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_Class4_Surge"
+		"persistentID": "Alarm_E1_Class4_Surge",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Surge Alarm",
@@ -392,6 +370,7 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_E1_Class3_Surge"
+		"persistentID": "Alarm_E1_Class3_Surge",
+		"datablock": "ChainedPuzzle"
 	}
 ]

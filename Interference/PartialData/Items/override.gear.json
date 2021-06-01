@@ -1,7 +1,5 @@
 [
 	{
-		"datablock": "ItemDataBlock",
-		
 		"publicName": "GlueGun",
 		"terminalItemShortName": "",
 		"terminalItemLongName": "",
@@ -44,6 +42,7 @@
 		"BackpackAlign": "",
 		"name": "GEAR_GlueGun",
 		"internalEnabled": true,
-		"persistentID": 73
+		"persistentID": 73,
+		"datablock": "Item"
 	}
 ]

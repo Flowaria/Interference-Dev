@@ -120,7 +120,8 @@
     ],
     "name": "CentralPowerGeneratorCluster_4",
     "internalEnabled": true,
-    "persistentID": "Obj_D3_L1"
+    "persistentID": "Obj_D3_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 5,
@@ -182,6 +183,7 @@
     "ActivateHSU_Events": [],
     "name": "SpecialTerminalCommand",
     "internalEnabled": true,
-    "persistentID": "Obj_D3_L2"
+    "persistentID": "Obj_D3_L2",
+    "datablock": "WardenObjective"
   }
 ]

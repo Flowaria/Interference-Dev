@@ -46,7 +46,8 @@
     ],
     "name": "Retrieve_NO_INFO",
     "internalEnabled": true,
-    "persistentID": "Obj_C1_L1"
+    "persistentID": "Obj_C1_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 1,
@@ -120,7 +121,8 @@
     "LightsOnWhenStartupComplete": true,
     "name": "Reactor_Startup_TERMINAL_BIGCHARGERS",
     "internalEnabled": true,
-    "persistentID": "Obj_C1_L2"
+    "persistentID": "Obj_C1_L2",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 0,
@@ -165,6 +167,7 @@
     "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
     "name": "HSU_DNA_Core_1",
     "internalEnabled": true,
-    "persistentID": "Obj_C1_L3"
+    "persistentID": "Obj_C1_L3",
+    "datablock": "WardenObjective"
   }
 ]

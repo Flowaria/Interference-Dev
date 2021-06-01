@@ -73,7 +73,8 @@
     "ActivateHSU_Events": [],
     "name": "DataSphere_Retrieve_Data",
     "internalEnabled": true,
-    "persistentID": "Obj_E1_L1"
+    "persistentID": "Obj_E1_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 9,
@@ -109,7 +110,7 @@
         "Layer": 1,
         "LocalIndex": 2,
         "Delay": 4.0,
-        "WardenIntel": "Security door to [ZONE_1] unlocked"
+        "WardenIntel": "Security door to [ZONE_2] unlocked"
       }
     ],
     "FogTransitionDataOnGotoWin": 0,
@@ -156,6 +157,7 @@
     "ActivateHSU_Events": [],
     "name": "CentralPowerGeneratorCluster_2",
     "internalEnabled": true,
-    "persistentID": "Obj_E1_L2"
+    "persistentID": "Obj_E1_L2",
+    "datablock": "WardenObjective"
   }
 ]

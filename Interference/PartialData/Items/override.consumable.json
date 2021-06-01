@@ -48,7 +48,8 @@
 		"BackpackAlign": "",
 		"name": "CONSUMABLE_FogRepeller",
 		"internalEnabled": true,
-		"persistentID": 117
+		"persistentID": 117,
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Glow Stick",
@@ -99,7 +100,8 @@
 		"BackpackAlign": "",
 		"name": "CONSUMABLE_GlowStick",
 		"internalEnabled": true,
-		"persistentID": 114
+		"persistentID": 114,
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Red Glow Stick",
@@ -150,6 +152,7 @@
 		"BackpackAlign": "",
 		"name": "CONSUMABLE_GlowStick_Christmas",
 		"internalEnabled": true,
-		"persistentID": 130
+		"persistentID": 130,
+		"datablock": "Item"
 	}
 ]

@@ -22,7 +22,8 @@
 		"Infection": 0.0,
 		"name": "Fog_very_light_layer0",
 		"internalEnabled": true,
-		"persistentID": "LightFog_A2_Up0"
+		"persistentID": "LightFog_A2_Up0",
+		"datablock": "FogSettings"
 	},
 	{
 		"Enabled": true,
@@ -47,6 +48,7 @@
 		"Infection": 0.0,
 		"name": "Fog_very_light_layer0",
 		"internalEnabled": true,
-		"persistentID": "LightFog_A2_Up1"
+		"persistentID": "LightFog_A2_Up1",
+		"datablock": "FogSettings"
 	}
 ]

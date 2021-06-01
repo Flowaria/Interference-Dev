@@ -13,7 +13,8 @@
 		],
 		"name": "Hibernate_Shadow_Bullrush",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Hibernate_Shadow_Bullrush"
+		"persistentID": "EnemyGroup_Hibernate_Shadow_Bullrush",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 0,
@@ -29,7 +30,8 @@
 		],
 		"name": "Hibernate_BigShadow_Bullrush",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Hibernate_BigShadow_Bullrush"
+		"persistentID": "EnemyGroup_Hibernate_BigShadow_Bullrush",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 0,
@@ -49,7 +51,8 @@
 		],
 		"name": "Hibernate_ShooterBased_Shadows",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Hibernate_Shadows_ShooterPrior"
+		"persistentID": "EnemyGroup_Hibernate_Shadows_ShooterPrior",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 0,
@@ -65,7 +68,8 @@
 		],
 		"name": "Hibernate_ShadowBirther",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Hibernate_Shadow_Birther"
+		"persistentID": "EnemyGroup_Hibernate_Shadow_Birther",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 0,
@@ -81,7 +85,8 @@
 		],
 		"name": "Hibernate_ShadowChild",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Hibernate_ShadowChild"
+		"persistentID": "EnemyGroup_Hibernate_ShadowChild",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 3,
@@ -97,7 +102,8 @@
 		],
 		"name": "Pure_Detect_Boss_shadow",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Scout_NonPairShadow"
+		"persistentID": "EnemyGroup_Scout_NonPairShadow",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 0,
@@ -113,7 +119,8 @@
 		],
 		"name": "Hibernate_InfectHybrid",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Hibernate_InfectionHybrid"
+		"persistentID": "EnemyGroup_Hibernate_InfectionHybrid",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 3,
@@ -129,6 +136,7 @@
 		],
 		"name": "Pure_Detect_Boss_Tank",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Scout_TankBoss"
+		"persistentID": "EnemyGroup_Scout_TankBoss",
+		"datablock": "EnemyGroup"
 	}
 ]

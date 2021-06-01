@@ -102,7 +102,8 @@
 		],
 		"name": "CyanBrownToYellow_1",
 		"internalEnabled": true,
-		"persistentID": "Light_CyanBrownYellow_AllOn"
+		"persistentID": "Light_CyanBrownYellow_AllOn",
+		"datablock": "LightSettings"
 	},
 	{
 		"LightCategorySettings": [
@@ -207,7 +208,8 @@
 		],
 		"name": "Monochrome_Orange",
 		"internalEnabled": true,
-		"persistentID": "Light_MonoOrange_AllOn"
+		"persistentID": "Light_MonoOrange_AllOn",
+		"datablock": "LightSettings"
 	},
 	{
 		"LightCategorySettings": [
@@ -326,7 +328,8 @@
 		],
 		"name": "DarktealToYellow",
 		"internalEnabled": true,
-		"persistentID": "Light_DarktealToYellow_AllOn"
+		"persistentID": "Light_DarktealToYellow_AllOn",
+		"datablock": "LightSettings"
 	},
 	{
 		"LightCategorySettings": [
@@ -445,6 +448,7 @@
 		],
 		"name": "Monochrome_Cyan",
 		"internalEnabled": true,
-		"persistentID": "Light_MonoCyan_AllOn"
+		"persistentID": "Light_MonoCyan_AllOn",
+		"datablock": "LightSettings"
 	}
 ]

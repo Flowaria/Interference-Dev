@@ -82,7 +82,8 @@
 		],
 		"name": "Striker_Shadow_Bullrush_Small",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Shadow_Bullrush_Small"
+		"persistentID": "Enemy_Shadow_Bullrush_Small",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 3,
@@ -167,7 +168,8 @@
 		],
 		"name": "Striker_Shadow_Big_Bullrush",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Shadow_Big_Bullrush"
+		"persistentID": "Enemy_Shadow_Big_Bullrush",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 1,
@@ -252,7 +254,8 @@
 		],
 		"name": "Striker_Shadow_Bullrush",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Shadow_Bullrush"
+		"persistentID": "Enemy_Shadow_Bullrush",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 2,
@@ -337,7 +340,8 @@
 		],
 		"name": "Shooter_Hibernate_Shadow",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Shadow_Shooter"
+		"persistentID": "Enemy_Shadow_Shooter",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 4,
@@ -422,7 +426,8 @@
 		],
 		"name": "Birther_Shadow",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Shadow_Birther"
+		"persistentID": "Enemy_Shadow_Birther",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 1,
@@ -501,7 +506,8 @@
 		],
 		"name": "Striker_Child_Shadow",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Shadow_Child"
+		"persistentID": "Enemy_Shadow_Child",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 4,
@@ -593,7 +599,8 @@
 		],
 		"name": "Shooter_Big_Infection_Rapid",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Shooter_Infection_Big"
+		"persistentID": "Enemy_Shooter_Infection_Big",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 2,
@@ -685,7 +692,8 @@
 		],
 		"name": "Tank",
 		"internalEnabled": true,
-		"persistentID": "Enemy_Tank_Scout_Boss"
+		"persistentID": "Enemy_Tank_Scout_Boss",
+		"datablock": "Enemy"
 	},
 	{
 		"EnemyType": 1,
@@ -764,6 +772,7 @@
 		],
 		"name": "Striker_Slenderman",
 		"internalEnabled": true,
-		"persistentID": "Enemy_SlenderMan"
+		"persistentID": "Enemy_SlenderMan",
+		"datablock": "Enemy"
 	}
 ]

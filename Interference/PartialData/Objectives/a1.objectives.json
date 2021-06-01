@@ -65,7 +65,8 @@
     "ActivateHSU_Events": [],
     "name": "HSU_DNA_Core_1",
     "internalEnabled": true,
-    "persistentID": "Obj_A1_L1"
+    "persistentID": "Obj_A1_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 6,
@@ -131,6 +132,7 @@
     "ActivateHSU_Events": [],
     "name": "Retrieve Essential Items_1_Neonate",
     "internalEnabled": true,
-    "persistentID": "Obj_A1_L2"
+    "persistentID": "Obj_A1_L2",
+    "datablock": "WardenObjective"
   }
 ]

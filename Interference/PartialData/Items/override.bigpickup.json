@@ -47,7 +47,8 @@
 		"BackpackAlign": "CarryAlign",
 		"name": "Carry_HeavyFogRepeller",
 		"internalEnabled": true,
-		"persistentID": 133
+		"persistentID": 133,
+		"datablock": "Item"
 	},
 	{
 		"publicName": "Power Cell",
@@ -97,6 +98,7 @@
 		"BackpackAlign": "",
 		"name": "Carry_Generator_PowerCell",
 		"internalEnabled": true,
-		"persistentID": 131
+		"persistentID": 131,
+		"datablock": "Item"
 	}
 ]

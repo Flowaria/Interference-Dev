@@ -80,7 +80,8 @@
     "PowerCellsToDistribute": 1,
     "name": "Distribute_PowerCells_1_FAKED_TO_CLEARPATH",
     "internalEnabled": true,
-    "persistentID": "Obj_D2_L1"
+    "persistentID": "Obj_D2_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 1,
@@ -392,7 +393,8 @@
     "LightsOnWhenStartupComplete": false,
     "name": "Reactor_Startup_RETRIEVE_CODE_DURING_INTRO[LightOffOnFinish]",
     "internalEnabled": true,
-    "persistentID": "Obj_D2_L2"
+    "persistentID": "Obj_D2_L2",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 6,
@@ -442,6 +444,7 @@
     ],
     "name": "Retrieve Essential Items_2_CARGO, IDLE_TURBINE",
     "internalEnabled": true,
-    "persistentID": "Obj_D2_L3"
+    "persistentID": "Obj_D2_L3",
+    "datablock": "WardenObjective"
   }
 ]

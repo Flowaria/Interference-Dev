@@ -21,7 +21,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Tank_trickle",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_Tank_1_Finite"
+    "persistentID": "WaveSetting_Trickle_Tank_1_Finite",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -47,7 +48,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_4_32",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Trickle_1_6_Limited20"
+    "persistentID": "WaveSetting_Trickle_1_6_Limited20",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -73,7 +75,8 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_4_32",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Finite4_Waves_6-12_45"
+    "persistentID": "WaveSetting_Finite4_Waves_6-12_45",
+		"datablock": "SurvivalWaveSettings"
   },
   {
     "m_pauseBeforeStart": 2.0,
@@ -98,6 +101,7 @@
     "m_populationRampOverTime": 0.0,
     "name": "Trickle_Big_2_45",
     "internalEnabled": true,
-    "persistentID": "WaveSetting_Finite2_Big_2_90"
+    "persistentID": "WaveSetting_Finite2_Big_2_90",
+		"datablock": "SurvivalWaveSettings"
   }
 ]

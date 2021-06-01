@@ -18,7 +18,8 @@
 		"AlarmSoundStop": 0,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B_Reactor"
+		"persistentID": "Alarm_B_Reactor",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class VII Q Surge Alarm",
@@ -57,7 +58,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Surge 4x",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B_Quick_Surge_7"
+		"persistentID": "Alarm_B_Quick_Surge_7",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class S1 Alarm",
@@ -78,7 +80,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Surge 4x",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B_S1"
+		"persistentID": "Alarm_B_S1",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class VI Q Mix Alarm",
@@ -108,7 +111,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Surge 4x",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B_Quick_Mix_4"
+		"persistentID": "Alarm_B_Quick_Mix_4",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class II Alarm",
@@ -132,7 +136,8 @@
 		"AlarmSoundStop": 0,
 		"name": "Class2 with tank",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B_Class2_Tank"
+		"persistentID": "Alarm_B_Class2_Tank",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class ://ERR#53 Alarm",
@@ -153,7 +158,8 @@
 		"AlarmSoundStop": 1190355274,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B_ERR_Hybrid"
+		"persistentID": "Alarm_B_ERR_Hybrid",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class V M Alarm",
@@ -186,7 +192,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B3_Class5_M_Chargers"
+		"persistentID": "Alarm_B3_Class5_M_Chargers",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class IV Alarm",
@@ -216,7 +223,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B1_Class4_MoveInit"
+		"persistentID": "Alarm_B1_Class4_MoveInit",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class IV Alarm",
@@ -246,7 +254,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B1_Class4"
+		"persistentID": "Alarm_B1_Class4",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class V Alarm",
@@ -279,7 +288,8 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B1_Class5"
+		"persistentID": "Alarm_B1_Class5",
+		"datablock": "ChainedPuzzle"
 	},
 	{
 		"PublicAlarmName": "Class III Alarm",
@@ -306,6 +316,103 @@
 		"AlarmSoundStop": 42633153,
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
-		"persistentID": "Alarm_B1_Class3"
+		"persistentID": "Alarm_B1_Class3",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class V Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 17.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 4
+			},
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 2
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_B4_Class5",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Manual Door Override",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 20.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 4
+			},
+			{
+				"PuzzleType": 4
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_B4_Manual",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class V Q Surge Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 10.0,
+		"WantedDistanceBetweenPuzzleComponents": 20.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 102
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge 4x",
+		"internalEnabled": true,
+		"persistentID": "Alarm_B_Quick_Surge_5",
+		"datablock": "ChainedPuzzle"
 	}
 ]

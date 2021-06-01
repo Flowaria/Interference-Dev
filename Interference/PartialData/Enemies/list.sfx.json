@@ -29,6 +29,7 @@
 		"SFX_ID_BigTentacleEnd": 0,
 		"name": "Striker_Rusher",
 		"internalEnabled": true,
-		"persistentID": "SFX_Striker_Rusher"
+		"persistentID": "SFX_Striker_Rusher",
+		"datablock": "EnemySFX"
 	}
 ]

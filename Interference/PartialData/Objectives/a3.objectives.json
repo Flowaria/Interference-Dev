@@ -80,7 +80,8 @@
     "ActivateHSU_Events": [],
     "name": "INJECT_DNA_DATA_DataSphere",
     "internalEnabled": true,
-    "persistentID": "Obj_A3_L1"
+    "persistentID": "Obj_A3_L1",
+    "datablock": "WardenObjective"
   },
   {
     "Type": 5,
@@ -141,6 +142,7 @@
     "ActivateHSU_Events": [],
     "name": "SpecialTerminalCommand_ESS_F641",
     "internalEnabled": true,
-    "persistentID": "Obj_A3_L2"
+    "persistentID": "Obj_A3_L2",
+    "datablock": "WardenObjective"
   }
 ]

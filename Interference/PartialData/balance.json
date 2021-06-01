@@ -64,6 +64,7 @@
 		"GlueVolumeForDoorGlueMaxState": 48.0, //Changed Value (og: 27) - Allow 16 blobs of foam can be holded on door, this will make foam grenade efficiency to not that bad
 		"name": "Normal-reinforced",
 		"internalEnabled": true,
-		"persistentID": 1
+		"persistentID": 1,
+		"datablock": "ExpeditionBalance"
 	}
 ]

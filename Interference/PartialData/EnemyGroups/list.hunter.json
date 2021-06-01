@@ -17,7 +17,8 @@
 		],
 		"name": "Hunter_RapidShooter",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Rapid_Two"
+		"persistentID": "EnemyGroup_Rapid_Two",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 6,
@@ -33,7 +34,8 @@
 		],
 		"name": "Hunter_RapidShooter",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Rapid_Single"
+		"persistentID": "EnemyGroup_Rapid_Single",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 6,
@@ -49,7 +51,8 @@
 		],
 		"name": "Hunter_BigShadow",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_BigShadow_Single"
+		"persistentID": "EnemyGroup_BigShadow_Single",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 6,
@@ -65,7 +68,8 @@
 		],
 		"name": "Hunter_Large_Shadows",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Shadows_Large"
+		"persistentID": "EnemyGroup_Shadows_Large",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 6,
@@ -81,7 +85,8 @@
 		],
 		"name": "Hunter_BigShadow_Bullrush",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_BigShadow_Bullrush_Single"
+		"persistentID": "EnemyGroup_BigShadow_Bullrush_Single",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 6,
@@ -97,7 +102,8 @@
 		],
 		"name": "Hunter_BigShadow_Bullrush",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_BigShadow_Bullrush_6"
+		"persistentID": "EnemyGroup_BigShadow_Bullrush_6",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 6,
@@ -113,7 +119,8 @@
 		],
 		"name": "Hunter_ShadowChild",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Shadow_Child"
+		"persistentID": "EnemyGroup_Shadow_Child",
+		"datablock": "EnemyGroup"
 	},
 	{
 		"Type": 6,
@@ -129,6 +136,7 @@
 		],
 		"name": "Hunter_striker_Lot",
 		"internalEnabled": true,
-		"persistentID": "EnemyGroup_Striker_Lot"
+		"persistentID": "EnemyGroup_Striker_Lot",
+		"datablock": "EnemyGroup"
 	}
 ]
