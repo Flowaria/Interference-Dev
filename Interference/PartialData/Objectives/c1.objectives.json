@@ -2,7 +2,7 @@
   {
     "Type": 6,
     "Header": "Retrieve Essential Items",
-    "MainObjective": "<color=orange>(Back-up Message)</color> Find the <u><b>MCFC Power cells</b></u> and bring it to the extraction scan",
+    "MainObjective": "<color=orange>(Back-up Message)</color> Find <color=orange>2</color> <u><b>MCFC Power cells</b></u> and bring them to the extraction scan",
     "FindLocationInfo": "<b><i>--LOST COMMUNICATION--</i></b>",
     "FindLocationInfoHelp": "<color=orange>(Back-up Message)</color> Only one terminal maintenance system is located in <u>Zone 450</u>",
     "GoToZone": "",
@@ -52,7 +52,7 @@
   {
     "Type": 1,
     "Header": "Reactor Startup INFINITE ALARM",
-    "MainObjective": "<color=orange>(Back-up Message)</color> Find the <u><b>MCFC Power cells</b></u> and bring it to the extraction scan",
+    "MainObjective": "<color=orange>(Back-up Message)</color> Find <color=orange>2</color> <u><b>MCFC Power cells</b></u> and bring it to the extraction scan",
     "FindLocationInfo": "",
     "FindLocationInfoHelp": "",
     "GoToZone": "",

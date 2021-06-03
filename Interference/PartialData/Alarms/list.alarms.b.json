@@ -84,14 +84,14 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
-		"PublicAlarmName": "Class VI Q Mix Alarm",
+		"PublicAlarmName": "Class IV Q Mix Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": 1,
 		"SurvivalWavePopulation": 1,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
 		"WantedDistanceFromStartPos": 14.0,
-		"WantedDistanceBetweenPuzzleComponents": 13.0,
+		"WantedDistanceBetweenPuzzleComponents": 20.0,
 		"ChainedPuzzle": [
 			{
 				"PuzzleType": 102
@@ -354,7 +354,7 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
-		"PublicAlarmName": "Manual Door Override",
+		"PublicAlarmName": "Class III Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": 1,
 		"SurvivalWavePopulation": 1,
@@ -413,6 +413,40 @@
 		"name": "Surge 4x",
 		"internalEnabled": true,
 		"persistentID": "Alarm_B_Quick_Surge_5",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class V Q Mix Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 42,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 14.0,
+		"WantedDistanceBetweenPuzzleComponents": 17.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 102
+			},
+			{
+				"PuzzleType": 4
+			},
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 4
+			},
+			{
+				"PuzzleType": 102
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge 4x",
+		"internalEnabled": true,
+		"persistentID": "Alarm_B4_QSurgeMIX_5",
 		"datablock": "ChainedPuzzle"
 	}
 ]

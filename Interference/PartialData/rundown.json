@@ -1266,7 +1266,7 @@
 			"Expedition": {
 				"ComplexResourceData": 1,
 				"LightSettings": 70,
-				"FogSettings": "HeavyFog_Below_C3_Infection_Fast",
+				"FogSettings": "Fog_B4_Layer0",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
@@ -1318,12 +1318,64 @@
 				"Zone": 0
 			},
 			"SecondaryLayerData": {
-				"ZoneAliasStart": 219,
+				"ZoneAliasStart": 466,
 				"ZonesWithBulkheadEntrance": [],
 				"BulkheadDoorControllerPlacements": [],
 				"BulkheadKeyPlacements": [],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_B4_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_B4_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 219,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 7,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						},
+						{
+							"LocalIndex": 8,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B4_L3",
 					"WinCondition": 0,
 					"ZonePlacementDatas": []
 				},
@@ -1757,30 +1809,8 @@
 				"ZonesWithBulkheadEntrance": [
 					6
 				],
-				"BulkheadDoorControllerPlacements": [
-					{
-						"ZoneIndex": 4,
-						"PlacementWeights": {
-							"Start": 100000.0,
-							"Middle": 0.0,
-							"End": 0.0
-						},
-						"AreaSeedOffset": 0,
-						"MarkerSeedOffset": 0
-					}
-				],
-				"BulkheadKeyPlacements": [
-					[
-						{
-							"LocalIndex": 5,
-							"Weights": {
-								"Start": 0.0,
-								"Middle": 0.0,
-								"End": 10000000.0
-							}
-						}
-					]
-				],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_C3_L1",
 					"WinCondition": 1,
@@ -2131,7 +2161,7 @@
 			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "<color=red>0<size=70%>X</size>D00",
-				"PublicName": "Crepuscule",
+				"PublicName": "<color=red>Crepuscule</color>",
 				"ExpeditionDepth": 769,
 				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
