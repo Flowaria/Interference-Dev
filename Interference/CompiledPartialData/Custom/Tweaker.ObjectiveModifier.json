@@ -1,0 +1,10 @@
+{
+  "DataBlockId": 34,
+  "startTime": 10.0,
+  "infection": {
+    "amount": 0.01,
+    "rateMax": 1.5,
+    "rateMin": 1.0
+  },
+  "internalEnabled": false
+}

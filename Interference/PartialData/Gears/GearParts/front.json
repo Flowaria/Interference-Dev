@@ -1,0 +1,557 @@
+[
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_4.prefab",
+			"Children": [
+				"Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_AutoShotgun_4_GripAlign.fbx"
+			],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_Rifle_3_idle",
+			"RightHandGripAnim": "Front_Rifle_3_idle",
+			"AssetBundle": 20,
+			"BundleShard": 2
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "Front_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			}
+		],
+		"FireSequence": [],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "RifleReload_bump"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 5,
+				"StringData": "CARBINE_RELOAD_3_FOLEY"
+			},
+			{
+				"TriggerTime": 0.1,
+				"Type": 5,
+				"StringData": "CARBINE_RELOAD_1_MAG_OUT"
+			},
+			{
+				"TriggerTime": 0.8,
+				"Type": 5,
+				"StringData": "CARBINE_RELOAD_2_MAG_IN"
+			},
+			{
+				"TriggerTime": 0.85,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"name": "Front_AutoShotgun_4",
+		"internalEnabled": true,
+		"persistentID": 500,
+		"datablock": "GearFrontPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Rifle_2.prefab",
+			"Children": [],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_Rifle_2",
+			"AssetBundle": 20,
+			"BundleShard": 15
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "a_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			}
+		],
+		"FireSequence": [],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 9,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 2,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Precision_2_reload"
+			},
+			{
+				"TriggerTime": 0.2,
+				"Type": 5,
+				"StringData": "shotgun_reload_cock_back"
+			},
+			{
+				"TriggerTime": 0.6,
+				"Type": 5,
+				"StringData": "shotgun_reload_cock_forward"
+			},
+			{
+				"TriggerTime": 0.6,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 1.0,
+				"Type": 7
+			}
+		],
+		"name": "Front_Rifle_2",
+		"internalEnabled": true,
+		"persistentID": 501,
+		"datablock": "GearFrontPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_4.prefab",
+			"Children": [
+				"Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_SMG_4_GripAlign.fbx"
+			],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_SMG_3",
+			"RightHandGripAnim": "Front_SMG_3",
+			"AssetBundle": 20,
+			"BundleShard": 11
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "Front_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			},
+			{
+				"AlignType": 8,
+				"AlignName": "RightHand"
+			}
+		],
+		"FireSequence": [],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "SMGReload_Front_SMG_3_anim"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 2,
+				"StringData": "Front_SMG_3_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_SMG_3_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 5,
+				"StringData": "generic_reload_foley_quick"
+			},
+			{
+				"TriggerTime": 0.1,
+				"Type": 5,
+				"StringData": "SMG_RELOAD_1_MAG_OUT"
+			},
+			{
+				"TriggerTime": 0.4,
+				"Type": 5,
+				"StringData": "smg_reload_3_grab_mag"
+			},
+			{
+				"TriggerTime": 0.8,
+				"Type": 5,
+				"StringData": "SMG_RELOAD_2_MAG_IN"
+			},
+			{
+				"TriggerTime": 0.85,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 1.0,
+				"Type": 5,
+				"StringData": "smg_reload_4_pat_mag"
+			},
+			{
+				"TriggerTime": 1.1,
+				"Type": 5,
+				"StringData": "smg_reload_5_slide_release"
+			},
+			{
+				"TriggerTime": 1.25,
+				"Type": 5,
+				"StringData": "generic_reload_grab_heavy_weapon"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"name": "Front_SMG_4",
+		"internalEnabled": true,
+		"persistentID": 502,
+		"datablock": "GearFrontPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Pistol_1.prefab",
+			"Children": [],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Stock_Pistol_1",
+			"RightHandGripAnim": "",
+			"AssetBundle": 20,
+			"BundleShard": 3
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "Front_Mag"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			},
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			},
+			{
+				"AlignType": 4,
+				"AlignName": "Receiver_Sight"
+			}
+		],
+		"FireSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Pistol_1_fire"
+			},
+			{
+				"TriggerTime": 0.1,
+				"Type": 7
+			}
+		],
+		"ReloadSequence": [],
+		"name": "Front_Pistol_1",
+		"internalEnabled": true,
+		"persistentID": 503,
+		"datablock": "GearFrontPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Revolver_1_GripAlign.prefab",
+			"Children": [],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_Revolver_1",
+			"RightHandGripAnim": "Front_Revolver_1",
+			"AssetBundle": 20,
+			"BundleShard": 1
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "Front_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			},
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			},
+			{
+				"AlignType": 4,
+				"AlignName": "Receiver_Sight"
+			},
+			{
+				"AlignType": 8,
+				"AlignName": "RightHand"
+			}
+		],
+		"FireSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Revolver_1_fire"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 8,
+				"StringData": "Stock_Revolver_1_fire"
+			},
+			{
+				"TriggerTime": 0.2,
+				"Type": 7
+			}
+		],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "RevolverReload_Revolver_1_anim"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Revolver_1_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 2,
+				"StringData": "Front_Revolver_1_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 4,
+				"StringData": "Front_Revolver_1_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 5,
+				"StringData": "generic_reload_foley_quick"
+			},
+			{
+				"TriggerTime": 0.1,
+				"Type": 5,
+				"StringData": "revolver_open"
+			},
+			{
+				"TriggerTime": 0.2,
+				"Type": 5,
+				"StringData": "revolver_reload_foley"
+			},
+			{
+				"TriggerTime": 0.5,
+				"Type": 5,
+				"StringData": "revolver_reload_grab_mag"
+			},
+			{
+				"TriggerTime": 0.8,
+				"Type": 5,
+				"StringData": "revolver_mag_in"
+			},
+			{
+				"TriggerTime": 0.85,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 1.35,
+				"Type": 5,
+				"StringData": "revolver_close"
+			},
+			{
+				"TriggerTime": 1.5,
+				"Type": 5,
+				"StringData": "revolver_reload_foley"
+			},
+			{
+				"TriggerTime": 1.55,
+				"Type": 5,
+				"StringData": "generic_reload_grab_heavy_weapon"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"name": "Front_Revolver_1",
+		"internalEnabled": true,
+		"persistentID": 504,
+		"datablock": "GearFrontPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_MachineGun_2.prefab",
+			"Children": [],
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_Machinegun_2_Animation_idle",
+			"AssetBundle": 20,
+			"BundleShard": 15
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "a_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			}
+		],
+		"FireSequence": [],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_Machinegun_2_Animation_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 2,
+				"StringData": "Front_Machinegun_2_Animation_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Machinegun_2_Animation_reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 5,
+				"StringData": "generic_reload_foley_quick"
+			},
+			{
+				"TriggerTime": 0.55,
+				"Type": 5,
+				"StringData": "cannon_reload_mag_out"
+			},
+			{
+				"TriggerTime": 0.8,
+				"Type": 5,
+				"StringData": "cannon_reload_grab_mag"
+			},
+			{
+				"TriggerTime": 1.0,
+				"Type": 5,
+				"StringData": "cannon_reload_foley_move"
+			},
+			{
+				"TriggerTime": 1.55,
+				"Type": 5,
+				"StringData": "cannon_reload_mag_in"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 5,
+				"StringData": "generic_reload_foley_subtle"
+			},
+			{
+				"TriggerTime": 2.3,
+				"Type": 5,
+				"StringData": "generic_reload_foley_quick_soft"
+			},
+			{
+				"TriggerTime": 2.5,
+				"Type": 5,
+				"StringData": "carbine_reload_5_pull_slide"
+			},
+			{
+				"TriggerTime": 2.5,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 2.7,
+				"Type": 5,
+				"StringData": "carbine_reload_5_release_slide"
+			},
+			{
+				"TriggerTime": 2.95,
+				"Type": 5,
+				"StringData": "generic_reload_grab_heavy_weapon"
+			},
+			{
+				"TriggerTime": 3.7,
+				"Type": 7
+			}
+		],
+		"name": "Front_MachineGun_2_NoReloadCanceling",
+		"internalEnabled": true,
+		"persistentID": 505,
+		"datablock": "GearFrontPart"
+	}
+]

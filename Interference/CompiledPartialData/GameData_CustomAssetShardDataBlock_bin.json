@@ -1,0 +1,626 @@
+{
+  "Headers": [],
+  "Blocks": [
+    {
+      "BundleName": 1,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_security_door.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_apex_door.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_security_door.prefab",
+          "Shard": 5
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_apex_door.prefab",
+          "Shard": 5
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_weak_door.prefab",
+          "Shard": 6
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_security_door.prefab",
+          "Shard": 6
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_cap_wall_01.prefab",
+          "Shard": 6
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_weak_door.prefab",
+          "Shard": 6
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_weak_door.prefab",
+          "Shard": 6
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/4x4/gate_4x4_bulkhead_door.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x4/gate_8x4_bulkhead_door.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Gates/8x8/gate_8x8_bulkhead_door.prefab",
+          "Shard": 0
+        }
+      ],
+      "name": "Shared Complex Resources",
+      "internalEnabled": true,
+      "persistentID": 1
+    },
+    {
+      "BundleName": 1,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Terminal_Floor.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/AirSupply_Floor.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/AirSupply_2x3.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_weak_box_01.prefab",
+          "Shard": 2
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mini_120x120x120/SM_mini_120x120x120_security_box_01.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_security_01.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_200x300x50_weak_01.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_07.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_08.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_09.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_10.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_11.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_12.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Temp/AirDecontaminator_Station.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_HSU_120x120x240_r.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_storage_240x120x240/mining_storage_submarker_HSU_240x120x240_V08.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Hydrostasis_unit.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V01.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V02.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V03.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V04.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_400x400x35/mining_corpse_floor_400x400x35_V05.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/Temp/BoxSecurityLock.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/loot/BoxWeakLock.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Tech/Markers/MarkerCompositions/Tech_corpse_floor_85x195x35/tech_corpse_floor_85x195x35_05.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_disinfection_120x120x240_v.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkers/Props/submarker_mining_cover_120x120x240/submarker_mining_cover_generator_120x120x240_u.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Bulkhead_Door_Controller.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_Pickup_200x300x50_01.prefab",
+          "Shard": 2
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_container_locker_200x300x50/mining_container_locker_Big_Pickup_200x300x50_01.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_01.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_02.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_03.prefab",
+          "Shard": 5
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_04.prefab",
+          "Shard": 6
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_05.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/mining_corpse_floor_85x195x35_06.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_01.prefab",
+          "Shard": 2
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_02.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_03.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_edge_75x135x90/mining_corpse_edge_75x135x90_04.prefab",
+          "Shard": 5
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_bottom_01.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_1m_01.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_2m_01.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_4m_01.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_tile_05m_01.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/ladder/prop_generic_ladder_a_top_01.prefab",
+          "Shard": 8
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/mining_corpse_floor_85x195x35/generic_ground_marker_01.prefab",
+          "Shard": 3
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_01.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Mining/SubMarkersDigSite/Props/light_submarker_door_4x4/light_submarker_door_4x4_HA_02.prefab",
+          "Shard": 5
+        }
+      ],
+      "name": "Shared Markers",
+      "internalEnabled": true,
+      "persistentID": 2
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/Scenes/ElevatorCage/Assets/ElevatorRide.prefab",
+          "Shard": 7
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/character_a.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/character_b.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/character_c.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/character_d.prefab",
+          "Shard": 0
+        }
+      ],
+      "name": "Startup",
+      "internalEnabled": true,
+      "persistentID": 3
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjTargetingTiny.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjTargetingSmall.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjTargetingMedium.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjTargetingLarge.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Tools/GlueGun/GlueGunProjectile.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjSemiTargetingQuick.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjInfectionBomb.prefab",
+          "Shard": 4
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Abilities/ProjTargetingSmallFast.prefab",
+          "Shard": 4
+        }
+      ],
+      "name": "Projectiles",
+      "internalEnabled": true,
+      "persistentID": 4
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/FX_Effects/FX_Tracer.prefab",
+          "Shard": 5
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/FX_Effects/FX_Tripmine.prefab",
+          "Shard": 6
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Effects/Weapon/MuzzleFlash/Sentrygun_MuzzleFlash_3RD.prefab",
+          "Shard": 11
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/FX_Effects/FX_TripmineGlue.prefab",
+          "Shard": 6
+        }
+      ],
+      "name": "Effects_Weapons",
+      "internalEnabled": true,
+      "persistentID": 6
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item.prefab",
+          "Shard": 16
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Big_Pickup_Item.prefab",
+          "Shard": 16
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item_corpse.prefab",
+          "Shard": 16
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/FunctionMarkers/Pickup_Item_ground.prefab",
+          "Shard": 16
+        }
+      ],
+      "name": "Consumables",
+      "internalEnabled": true,
+      "persistentID": 7
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Physical/pickup_Small_Physical_a.prefab",
+          "Shard": 13
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Physical/pickup_Small_Physical_b.prefab",
+          "Shard": 18
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Physical/pickup_Small_Physical_x6_a.prefab",
+          "Shard": 11
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Physical/pickup_Small_Physical_x12_a.prefab",
+          "Shard": 15
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_Small_Artifact_a.prefab",
+          "Shard": 17
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_Medium_Artifact_a.prefab",
+          "Shard": 17
+        }
+      ],
+      "name": "Commodities",
+      "internalEnabled": true,
+      "persistentID": 8
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big.prefab",
+          "Shard": 9
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Cluster_Big.prefab",
+          "Shard": 9
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Cluster_Small.prefab",
+          "Shard": 9
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Small.prefab",
+          "Shard": 9
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/ChainedPuzzleInstance.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Big_RequireAll.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_ExpeditionExit.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Bigger_RequireAll.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Cluster_Six.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Bulkhead_Select_Layer_Main.prefab",
+          "Shard": 9
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Bulkhead_Select_Layer_Secondary.prefab",
+          "Shard": 9
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Bulkhead_Select_Layer_Third.prefab",
+          "Shard": 9
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_RequireAll.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Bigger_RequireAll.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_small_RequireAll.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_Sustained_Cluster_Big_RequireAll.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_MegaHuge_RequireAll.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Complex/Generic/ChainedPuzzles/CP_Bioscan_sustained_Huge_RequireAll .prefab",
+          "Shard": 0
+        }
+      ],
+      "name": "ChainedPuzzles",
+      "internalEnabled": true,
+      "persistentID": 9
+    },
+    {
+      "BundleName": 2,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Env/Mining/StorageBuildingParts/BuildingPart_StorageCeiling_Rock_2x4_a.prefab",
+          "Shard": 0
+        }
+      ],
+      "name": "CMS Mining A and B",
+      "internalEnabled": true,
+      "persistentID": 13
+    },
+    {
+      "BundleName": 3,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Env/Tech/DataCenterBuildingParts/BuildingPart_DataCenter_2_Wall_a.prefab",
+          "Shard": 0
+        }
+      ],
+      "name": "CMS Tech A and B",
+      "internalEnabled": true,
+      "persistentID": 14
+    },
+    {
+      "BundleName": 1,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_generic/beam/prop_generic_beam_a_column_1m_tile_001.prefab",
+          "Shard": 0
+        }
+      ],
+      "name": "CMS Miningmetals A and B",
+      "internalEnabled": true,
+      "persistentID": 15
+    },
+    {
+      "BundleName": 1,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Prop/prop_vehicles/articulated_digger_truck_bucket.prefab",
+          "Shard": 1
+        }
+      ],
+      "name": "CMS MetalProps A and B",
+      "internalEnabled": true,
+      "persistentID": 16
+    },
+    {
+      "BundleName": 1,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Infestation/InfectionSpitter.prefab",
+          "Shard": 10
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Infestation/World_EggSack_Small.prefab",
+          "Shard": 10
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Infestation/World_EggSack_Small_Collision.prefab",
+          "Shard": 10
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_01.prefab",
+          "Shard": 10
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_small_01.prefab",
+          "Shard": 10
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Characters/Enemies/Respawner/respawner_womb_litter_01.prefab",
+          "Shard": 10
+        }
+      ],
+      "name": "Infestation",
+      "internalEnabled": true,
+      "persistentID": 17
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepellerGlobalState.prefab",
+          "Shard": 14
+        }
+      ],
+      "name": "CarryItemGlobalStates",
+      "internalEnabled": true,
+      "persistentID": 18
+    },
+    {
+      "BundleName": 5,
+      "Assets": [
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Artifacts/General/ArtifactPickup_Core.prefab",
+          "Shard": 13
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Artifacts/General/ArtifactPickup_Test.prefab",
+          "Shard": 15
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_a.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_b Variant.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_c Variant.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_d Variant.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_f Variant.prefab",
+          "Shard": 0
+        },
+        {
+          "AssetPath": "Assets/AssetPrefabs/Items/Commodities/Artifacts/pickup_artifact_skull Variant.prefab",
+          "Shard": 0
+        }
+      ],
+      "name": "Artifacts",
+      "internalEnabled": true,
+      "persistentID": 19
+    }
+  ],
+  "LastPersistentID": 19
+}

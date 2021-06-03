@@ -1,0 +1,90 @@
+[
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Accrat MP1\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":2,\"v\":130},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":8},\"d\":{\"c\":5,\"v\":1},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":7,\"v\":1},\"g\":{\"c\":8,\"v\":16},\"h\":{\"c\":9,\"v\":15},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":27},\"k\":{\"c\":12,\"v\":38},\"l\":{\"c\":16,\"v\":18},\"m\":{\"c\":19,\"v\":18},\"n\":{\"c\":23,\"v\":8},\"o\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.098,\"y\":-0.07},\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":-0.098,\"y\":-0.07},\"scale\":0.04},\"tPattern\":{\"position\":{\"x\":-0.09,\"y\":-0.03},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Accrat MP1\"}}}",
+		"name": "PistolSemi",
+		"internalEnabled": true,
+		"persistentID": "OFF_PISTOL",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Shelling S82\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":2,\"v\":103},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":8},\"d\":{\"c\":5,\"v\":1},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":7,\"v\":1},\"g\":{\"c\":8,\"v\":16},\"h\":{\"c\":9,\"v\":15},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":27},\"k\":{\"c\":12,\"v\":503},\"l\":{\"c\":16,\"v\":21},\"m\":{\"c\":19,\"v\":18},\"n\":{\"c\":23,\"v\":8},\"o\":{\"c\":25,\"v\":3},\"p\":{\"c\":21,\"v\":500}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.098,\"y\":-0.07},\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":-0.098,\"y\":-0.07},\"scale\":0.04},\"tPattern\":{\"position\":{\"x\":-0.09,\"y\":-0.03},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Shelling S82\"}}}",
+		"name": "PistolSemi",
+		"internalEnabled": true,
+		"persistentID": "OFF_PISTOL_SCOPE",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken CAB F4\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":100},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":41},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":19},\"i\":{\"c\":9,\"v\":9},\"j\":{\"c\":10,\"v\":10},\"k\":{\"c\":11,\"v\":10},\"l\":{\"c\":12,\"v\":23},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":9},\"o\":{\"c\":21,\"v\":12},\"p\":{\"c\":23,\"v\":5},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.05,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"angle\":-135.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Van Auken CAB F4\"}}}",
+		"name": "SMGBurst",
+		"internalEnabled": true,
+		"persistentID": "OFF_CARBINE",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"TR22 Aleph-0\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":110},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":1},\"d\":{\"c\":5,\"v\":36},\"e\":{\"c\":6,\"v\":3},\"f\":{\"c\":7,\"v\":3},\"g\":{\"c\":8,\"v\":9},\"h\":{\"c\":9,\"v\":8},\"i\":{\"c\":10,\"v\":10},\"j\":{\"c\":11,\"v\":10},\"k\":{\"c\":12,\"v\":505},\"l\":{\"c\":16,\"v\":6},\"m\":{\"c\":19,\"v\":7},\"n\":{\"c\":21,\"v\":24},\"o\":{\"c\":23,\"v\":9},\"p\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.03,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.02},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.32,\"y\":0.0},\"scale\":0.6}},\"publicName\":{\"data\":\"TR22 Aleph-0\"}}}",
+		"name": "Rifle_MarksmanRifle",
+		"internalEnabled": true,
+		"persistentID": "OFF_MARKSMANRIFLE",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Drekker Pres R80\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":101},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":1},\"d\":{\"c\":5,\"v\":42},\"e\":{\"c\":6,\"v\":3},\"f\":{\"c\":7,\"v\":2},\"g\":{\"c\":8,\"v\":9},\"h\":{\"c\":9,\"v\":8},\"i\":{\"c\":10,\"v\":10},\"j\":{\"c\":11,\"v\":10},\"k\":{\"c\":12,\"v\":14},\"l\":{\"c\":16,\"v\":8},\"m\":{\"c\":19,\"v\":2},\"n\":{\"c\":21,\"v\":43},\"o\":{\"c\":23,\"v\":9},\"p\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.03,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.02},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.32,\"y\":0.0},\"scale\":0.6}},\"publicName\":{\"data\":\"Drekker Pres MOD R80\"}}}",
+		"name": "Rifle_CombatRifle",
+		"internalEnabled": true,
+		"persistentID": "OFF_COMBATRIFLE",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Malatack ATK7\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":101},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":42},\"f\":{\"c\":6,\"v\":3},\"g\":{\"c\":7,\"v\":2},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":6},\"j\":{\"c\":10,\"v\":12},\"k\":{\"c\":11,\"v\":12},\"l\":{\"c\":12,\"v\":28},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":7},\"o\":{\"c\":21,\"v\":20},\"p\":{\"c\":23,\"v\":1},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.045,\"y\":0.025},\"angle\":90.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.05,\"y\":0.03},\"angle\":90.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.05,\"y\":0.03},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Malatack ATK7\"}}}",
+		"name": "RifleAuto",
+		"internalEnabled": true,
+		"persistentID": "OFF_ASSAULT",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken IIZ\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":100},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":2},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":26},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":9},\"o\":{\"c\":21,\"v\":10},\"p\":{\"c\":23,\"v\":5},\"q\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Van Auken IIZ\"}}}",
+		"name": "SMGAuto",
+		"internalEnabled": true,
+		"persistentID": "OFF_SMG_V2",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken Dot 3\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":103},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":2},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":502},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":5},\"o\":{\"c\":21,\"v\":4},\"p\":{\"c\":23,\"v\":1},\"q\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Van Auken Dot 3\"}}}",
+		"name": "SMGAuto_Heavy",
+		"internalEnabled": true,
+		"persistentID": "OFF_SMG_HEAVY",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"TechMan Stinger 5\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":102},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":33},\"f\":{\"c\":6,\"v\":33},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":10},\"i\":{\"c\":9,\"v\":10},\"j\":{\"c\":10,\"v\":13},\"k\":{\"c\":11,\"v\":14},\"l\":{\"c\":12,\"v\":27},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":3},\"o\":{\"c\":21,\"v\":5},\"p\":{\"c\":23,\"v\":16},\"q\":{\"c\":25,\"v\":6}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.1,\"y\":0.02},\"angle\":180.0,\"scale\":0.4},\"tDecalB\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.05},\"tPattern\":{\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"TechMan Stinger 5\"}}}\n",
+		"name": "Machinegun_MAIN_Light",
+		"internalEnabled": true,
+		"persistentID": "OFF_LIGHTMACHINEGUN",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Buckland SBR9\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":2,\"v\":120},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":6},\"d\":{\"c\":5,\"v\":4},\"e\":{\"c\":6,\"v\":4},\"f\":{\"c\":7,\"v\":4},\"g\":{\"c\":8,\"v\":7},\"h\":{\"c\":9,\"v\":1},\"i\":{\"c\":10,\"v\":24},\"j\":{\"c\":11,\"v\":24},\"k\":{\"c\":12,\"v\":37},\"l\":{\"c\":16,\"v\":0},\"m\":{\"c\":19,\"v\":16},\"n\":{\"c\":21,\"v\":12},\"o\":{\"c\":23,\"v\":0},\"p\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.11,\"y\":0.01},\"angle\":0.07,\"scale\":0.07},\"tDecalB\":{\"position\":{\"x\":0.105,\"y\":0.005},\"angle\":0.07,\"scale\":0.07},\"tPattern\":{\"position\":{\"x\":0.25,\"y\":0.0},\"angle\":180.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Buckland SBR9\"}}}",
+		"name": "Shotgun_MAIN_SawedOff",
+		"internalEnabled": true,
+		"persistentID": "OFF_Shotgun_SawedOff",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Raptus x TR22 Hanaway\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":2,\"v\":110},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":4},\"d\":{\"c\":5,\"v\":34},\"e\":{\"c\":6,\"v\":34},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":14},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":18},\"j\":{\"c\":11,\"v\":18},\"k\":{\"c\":12,\"v\":13},\"l\":{\"c\":16,\"v\":8},\"m\":{\"c\":19,\"v\":1},\"n\":{\"c\":21,\"v\":10},\"o\":{\"c\":23,\"v\":1},\"p\":{\"c\":25,\"v\":3},\"q\":{\"c\":1,\"v\":1}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.48,\"y\":-0.035},\"scale\":0.5},\"tDecalB\":{\"position\":{\"x\":0.53,\"y\":-0.05},\"scale\":0.5},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":-0.02},\"scale\":0.5}},\"publicName\":{\"data\":\"TR22 Hanaway\"}}}",
+		"name": "RifleSTAGGER",
+		"internalEnabled": true,
+		"persistentID": "OFF_STAGGER_RIFLE",
+		"datablock": "PlayerOfflineGear"
+	}
+]

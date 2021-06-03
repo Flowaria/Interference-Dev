@@ -1,0 +1,11 @@
+{
+  "solo": 1.0,
+  "duo": 2.0,
+  "trio": 3.0,
+  "full": 4.0,
+  "bulletDamage": false,
+  "damagePlayer": false,
+  "hammerDamage": false,
+  "progressBioscan": false,
+  "internalEnabled": false
+}

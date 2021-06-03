@@ -1,0 +1,5 @@
+{
+  "fail": "EXPEDITION FAILED",
+  "success": "EXPEDITION SUCCESS",
+  "internalEnabled": false
+}
