@@ -27,12 +27,7 @@
 	},
 	{
 		"Enabled": true,
-		"FogColor": {
-			"a": 0.0313725,
-			"r": 0.2392156,
-			"g": 0.7176470,
-			"b": 0.8
-		},
+		"FogColor": "#dd255408",
 		"FogDensity": 0.0013,
 		"FogAmbience": 0.002,
 		"DensityNoiseDirection": {
@@ -42,11 +37,11 @@
 		},
 		"DensityNoiseSpeed": 0.074,
 		"DensityNoiseScale": 0.131,
-		"DensityHeightAltitude": -4.0,
+		"DensityHeightAltitude": -5.5,
 		"DensityHeightRange": 2.2,
-		"DensityHeightMaxBoost": 0.01,
+		"DensityHeightMaxBoost": 0.02,
 		"Infection": 0.03,
-		"name": "Fog_light_blue_low2_INFECTION",
+		"name": "Fog_light_RED_low2_INFECTION",
 		"internalEnabled": true,
 		"persistentID": "HeavyFog_Below1_Lower_Infection_Fast",
 		"datablock": "FogSettings"
@@ -79,12 +74,7 @@
 	},
 	{
 		"Enabled": true,
-		"FogColor": {
-			"a": 0.0313725,
-			"r": 0.2392156,
-			"g": 0.7176470,
-			"b": 0.8
-		},
+		"FogColor": "#dd255408",
 		"FogDensity": 0.0013,
 		"FogAmbience": 0.002,
 		"DensityNoiseDirection": {

@@ -271,8 +271,8 @@
       {
         "Warmup": 30.0, //Wave 2 Hybrids
         "WarmupFail": 20.0,
-        "Wave": 90.0,
-        "Verify": 330.0,
+        "Wave": 100.0,
+        "Verify": 340.0,
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 3,
@@ -507,7 +507,7 @@
       {
         "Warmup": 30.0, //Wave 4 Big Rush, Tank
         "WarmupFail": 20.0,
-        "Wave": 165.0,
+        "Wave": 175.0,
         "Verify": 565.0,
         "VerifyFail": 80.0,
         "VerifyInOtherZone": true,

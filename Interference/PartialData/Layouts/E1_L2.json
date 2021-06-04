@@ -2,7 +2,7 @@
 	"Zones": [
 		{
 			"LocalIndex": 0,
-			"SubSeed": 0,
+			"SubSeed": 1,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Lab",
 			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_lab_HA_03.prefab",
@@ -131,13 +131,13 @@
 					"GroupType": 1,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.6
+					"DistributionValue": 0.3
 				},
 				{
 					"GroupType": 0,
-					"Difficulty": 1,
+					"Difficulty": 2,
 					"Distribution": 2,
-					"DistributionValue": 0.9
+					"DistributionValue": 1.3
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -182,7 +182,7 @@
 				"Middle": 0.0,
 				"End": 1000.0
 			},
-			"DisinfectionMulti": 1.2,
+			"DisinfectionMulti": 0.8,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 1000.0,
@@ -271,13 +271,13 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 1.4,
+			"HealthMulti": 1.6,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.4,
+			"WeaponAmmoMulti": 1.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -289,7 +289,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 1.2,
+			"DisinfectionMulti": 0.6,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

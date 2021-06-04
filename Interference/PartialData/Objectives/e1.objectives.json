@@ -79,7 +79,7 @@
   {
     "Type": 9,
     "Header": "Central Powergenerator Cluster",
-    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Generator Cluster in [ITEM_ZONE]",
+    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Generator Cluster in [ITEM_ZONE] to overload it",
     "FindLocationInfo": "Locate the Power Cells and use them to power up the Generator Cluster",
     "FindLocationInfoHelp": "Generators Online: [COUNT_CURRENT] / [COUNT_REQUIRED]",
     "GoToZone": "",
@@ -92,14 +92,27 @@
     "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
     "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
     "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
-    "GoToWinCondition_ToMainLayer": "Fog stablizer for next expedition has activated. Make your way for the forward exit.",
+    "GoToWinCondition_ToMainLayer": "Generator Cluster overload, Security Mainframe has shutdowned. Make your way for the forward exit.",
     "GoToWinConditionHelp_ToMainLayer": "",
     "ShowHelpDelay": 180.0,
     "WavesOnElevatorLand": [],
     "WaveOnElevatorWardenIntel": "",
     "FogTransitionDataOnElevatorLand": 0,
     "FogTransitionDurationOnElevatorLand": 0.0,
-    "WavesOnActivate": [],
+    "WavesOnActivate": [
+      {
+        "WaveSettings": 27,
+        "WavePopulation": 18,
+        "SpawnDelay": 16.0,
+        "TriggerAlarm": false
+      },
+      {
+        "WaveSettings": 27,
+        "WavePopulation": 18,
+        "SpawnDelay": 23.5,
+        "TriggerAlarm": false
+      }
+    ],
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [],
     "WaveOnGotoWinTrigger": 0,

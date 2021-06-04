@@ -202,7 +202,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 2.0,
+			"DisinfectionMulti": 2.4,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -866,15 +866,7 @@
 			],
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
-			"DisinfectionStationPlacements": [
-				{
-					"PlacementWeights": {
-						"Start": 0.0,
-						"Middle": 0.0,
-						"End": 0.0
-					}
-				}
-			],
+			"DisinfectionStationPlacements": [],
 			"HealthMulti": 1.6,
 			"HealthPlacement": {
 				"Start": 0.0,
@@ -893,7 +885,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.0,
+			"DisinfectionMulti": 2.4,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -991,7 +983,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.8,
+			"DisinfectionMulti": 0.2,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -1124,7 +1116,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.8,
+			"DisinfectionMulti": 0.2,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -1304,7 +1296,7 @@
 				"Middle": 10000.0,
 				"End": 10000.0
 			},
-			"DisinfectionMulti": 1.6,
+			"DisinfectionMulti": 2.4,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 10000.0,
@@ -1519,7 +1511,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.8,
+			"DisinfectionMulti": 0.4,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
