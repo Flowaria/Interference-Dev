@@ -273,7 +273,7 @@
 		"DensityNoiseScale": 0.131,
 		"DensityHeightAltitude": 8.5,
 		"DensityHeightRange": 3.0,
-		"DensityHeightMaxBoost": 0.007,
+		"DensityHeightMaxBoost": 0.0045,
 		"Infection": 0.0,
 		"name": "Fog_light_blue_low2",
 		"internalEnabled": true,

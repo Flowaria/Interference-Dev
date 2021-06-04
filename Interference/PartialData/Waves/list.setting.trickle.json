@@ -1,7 +1,7 @@
 [
   {
     "m_pauseBeforeStart": 2.0,
-    "m_pauseBetweenGroups": 45.0,
+    "m_pauseBetweenGroups": 41.0,
     "m_wavePauseMin_atCost": 1.0,
     "m_wavePauseMax_atCost": 10.0,
     "m_wavePauseMin": 1.0,
@@ -17,7 +17,7 @@
     "m_populationPointsPerWaveEnd": 10000.0,
     "m_populationPointsMinPerGroup": 8.0,
     "m_populationPointsPerGroupStart": 18.0,
-    "m_populationPointsPerGroupEnd": 9.0,
+    "m_populationPointsPerGroupEnd": 10.0,
     "m_populationRampOverTime": 110.0,
     "name": "Trickle_12-4_40",
     "internalEnabled": true,

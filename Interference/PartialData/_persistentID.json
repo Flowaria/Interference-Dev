@@ -231,6 +231,7 @@
 	{ "GUID": "OFF_Shotgun_DoubleBarrel", "ID": 65513 },
 	{ "GUID": "OFF_Shotgun_Auto", "ID": 65512 },
 	{ "GUID": "OFF_Laser", "ID": 65511 },
+	{ "GUID": "OFF_TOOL_Silencer", "ID": 65510 },
 	{ "GUID": "Recoil_LaserGun", "ID": 65535 },
 	{ "GUID": "Recoil_Shotgun_DB", "ID": 65534 },
 	{ "GUID": "Recoil_Marksman_Rifle", "ID": 65533 },

@@ -1,0 +1,19 @@
+[
+	{
+		"PublicName": "",
+		"Description": "",
+		"BaseItem": 6000,
+		"HUDIcon": "",
+		"FPSArmPoseName": "",
+		"ThirdPersonFullbodyMovement": 0,
+		"SemiArchetype": 0,
+		"BurstArchetype": 0,
+		"AutoArchetype": "AT_Revolver_Powered",
+		"SemiBurstArchetype": 0,
+		"PartAlignPriority": [],
+		"name": "Revolver",
+		"internalEnabled": true,
+		"persistentID": 300,
+		"datablock": "GearCategory"
+	}
+]

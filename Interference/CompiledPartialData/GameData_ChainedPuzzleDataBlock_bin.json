@@ -3362,14 +3362,14 @@
       "persistentID": 65515
     },
     {
-      "PublicAlarmName": "Class VI Q Mix Alarm",
+      "PublicAlarmName": "Class IV Q Mix Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
       "SurvivalWavePopulation": 1,
       "DisableSurvivalWaveOnComplete": true,
       "UseRandomPositions": true,
       "WantedDistanceFromStartPos": 14.0,
-      "WantedDistanceBetweenPuzzleComponents": 13.0,
+      "WantedDistanceBetweenPuzzleComponents": 20.0,
       "ChainedPuzzle": [
         {
           "PuzzleType": 102
@@ -3623,7 +3623,7 @@
       "persistentID": 65506
     },
     {
-      "PublicAlarmName": "Manual Door Override",
+      "PublicAlarmName": "Class III Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 1,
       "SurvivalWavePopulation": 1,
@@ -3683,6 +3683,39 @@
       "persistentID": 65504
     },
     {
+      "PublicAlarmName": "Class V Q Mix Alarm",
+      "TriggerAlarmOnActivate": true,
+      "SurvivalWaveSettings": 42,
+      "SurvivalWavePopulation": 1,
+      "DisableSurvivalWaveOnComplete": true,
+      "UseRandomPositions": true,
+      "WantedDistanceFromStartPos": 14.0,
+      "WantedDistanceBetweenPuzzleComponents": 17.0,
+      "ChainedPuzzle": [
+        {
+          "PuzzleType": 102
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 2
+        },
+        {
+          "PuzzleType": 4
+        },
+        {
+          "PuzzleType": 102
+        }
+      ],
+      "OnlyShowHUDWhenPlayerIsClose": false,
+      "AlarmSoundStart": 3339129407,
+      "AlarmSoundStop": 42633153,
+      "name": "Surge 4x_4",
+      "internalEnabled": true,
+      "persistentID": 65503
+    },
+    {
       "PublicAlarmName": "Class ://ERR#46 Alarm",
       "TriggerAlarmOnActivate": true,
       "SurvivalWaveSettings": 222,
@@ -3701,7 +3734,7 @@
       "AlarmSoundStop": 1190355274,
       "name": "Single to Cluster Alarm x3 - Alarm_12",
       "internalEnabled": true,
-      "persistentID": 65503
+      "persistentID": 65502
     },
     {
       "PublicAlarmName": "Class ://ERR#?? Siege Alarm",
@@ -3722,7 +3755,7 @@
       "AlarmSoundStop": 0,
       "name": "Single to Cluster Alarm x3 - Alarm_13",
       "internalEnabled": true,
-      "persistentID": 65502
+      "persistentID": 65501
     },
     {
       "PublicAlarmName": "Class III Surge Alarm",
@@ -3749,7 +3782,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge 3x",
       "internalEnabled": true,
-      "persistentID": 65501
+      "persistentID": 65500
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -3776,7 +3809,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_14",
       "internalEnabled": true,
-      "persistentID": 65500
+      "persistentID": 65499
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -3803,7 +3836,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_15",
       "internalEnabled": true,
-      "persistentID": 65499
+      "persistentID": 65498
     },
     {
       "PublicAlarmName": "Class IV Alarm",
@@ -3833,7 +3866,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_16",
       "internalEnabled": true,
-      "persistentID": 65498
+      "persistentID": 65497
     },
     {
       "PublicAlarmName": "Class V Alarm",
@@ -3866,7 +3899,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_17",
       "internalEnabled": true,
-      "persistentID": 65497
+      "persistentID": 65496
     },
     {
       "PublicAlarmName": "Class VI Alarm",
@@ -3902,7 +3935,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_18",
       "internalEnabled": true,
-      "persistentID": 65496
+      "persistentID": 65495
     },
     {
       "PublicAlarmName": "Class ://ERR#360 Alarm",
@@ -3923,7 +3956,7 @@
       "AlarmSoundStop": 1190355274,
       "name": "Single to Cluster Alarm x3 - Alarm_19",
       "internalEnabled": true,
-      "persistentID": 65495
+      "persistentID": 65494
     },
     {
       "PublicAlarmName": "Class II S1 Warning",
@@ -3947,7 +3980,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_20",
       "internalEnabled": true,
-      "persistentID": 65494
+      "persistentID": 65493
     },
     {
       "PublicAlarmName": "Class III S1 Warning",
@@ -3974,7 +4007,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_21",
       "internalEnabled": true,
-      "persistentID": 65493
+      "persistentID": 65492
     },
     {
       "PublicAlarmName": "Class IV S1 Warning",
@@ -4004,7 +4037,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_22",
       "internalEnabled": true,
-      "persistentID": 65492
+      "persistentID": 65491
     },
     {
       "PublicAlarmName": "Class ://ERR#65 Alarm",
@@ -4025,7 +4058,7 @@
       "AlarmSoundStop": 1190355274,
       "name": "Single to Cluster Alarm x3 - Alarm_23",
       "internalEnabled": true,
-      "persistentID": 65491
+      "persistentID": 65490
     },
     {
       "PublicAlarmName": "Class IV M Alarm",
@@ -4055,7 +4088,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_24",
       "internalEnabled": true,
-      "persistentID": 65490
+      "persistentID": 65489
     },
     {
       "PublicAlarmName": "Class IV M Alarm",
@@ -4085,7 +4118,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_25",
       "internalEnabled": true,
-      "persistentID": 65489
+      "persistentID": 65488
     },
     {
       "PublicAlarmName": "Class V M Alarm",
@@ -4118,7 +4151,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_26",
       "internalEnabled": true,
-      "persistentID": 65488
+      "persistentID": 65487
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -4145,7 +4178,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_27",
       "internalEnabled": true,
-      "persistentID": 65487
+      "persistentID": 65486
     },
     {
       "PublicAlarmName": "Class IX Q Surge Alarm",
@@ -4190,7 +4223,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_28",
       "internalEnabled": true,
-      "persistentID": 65486
+      "persistentID": 65485
     },
     {
       "PublicAlarmName": "Class IX Alarm",
@@ -4235,7 +4268,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_29",
       "internalEnabled": true,
-      "persistentID": 65485
+      "persistentID": 65484
     },
     {
       "PublicAlarmName": "Class VI Alarm",
@@ -4271,7 +4304,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_30",
       "internalEnabled": true,
-      "persistentID": 65484
+      "persistentID": 65483
     },
     {
       "PublicAlarmName": "Class IV S1 Alarm",
@@ -4301,7 +4334,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_31",
       "internalEnabled": true,
-      "persistentID": 65483
+      "persistentID": 65482
     },
     {
       "PublicAlarmName": "Class VI Q Surge Alarm",
@@ -4337,7 +4370,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_32",
       "internalEnabled": true,
-      "persistentID": 65482
+      "persistentID": 65481
     },
     {
       "PublicAlarmName": "Class S1 Alarm",
@@ -4356,9 +4389,9 @@
       "OnlyShowHUDWhenPlayerIsClose": false,
       "AlarmSoundStart": 3339129407,
       "AlarmSoundStop": 42633153,
-      "name": "Surge 4x_4",
+      "name": "Surge 4x_5",
       "internalEnabled": true,
-      "persistentID": 65481
+      "persistentID": 65480
     },
     {
       "PublicAlarmName": "Class II 2C Alarm",
@@ -4382,7 +4415,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_16",
       "internalEnabled": true,
-      "persistentID": 65480
+      "persistentID": 65479
     },
     {
       "PublicAlarmName": "Class IV Q Surge Alarm",
@@ -4412,7 +4445,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_33",
       "internalEnabled": true,
-      "persistentID": 65479
+      "persistentID": 65478
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE1]",
@@ -4442,7 +4475,7 @@
       "AlarmSoundStop": 0,
       "name": "Single to Cluster Alarm x3 - Alarm_34",
       "internalEnabled": true,
-      "persistentID": 65478
+      "persistentID": 65477
     },
     {
       "PublicAlarmName": "Class II 2C Alarm",
@@ -4466,7 +4499,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_17",
       "internalEnabled": true,
-      "persistentID": 65477
+      "persistentID": 65476
     },
     {
       "PublicAlarmName": "Class IV M Alarm",
@@ -4496,7 +4529,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_18",
       "internalEnabled": true,
-      "persistentID": 65476
+      "persistentID": 65475
     },
     {
       "PublicAlarmName": "Class V M Alarm",
@@ -4529,7 +4562,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_19",
       "internalEnabled": true,
-      "persistentID": 65475
+      "persistentID": 65474
     },
     {
       "PublicAlarmName": "Class VII Q Surge Alarm",
@@ -4568,7 +4601,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_20",
       "internalEnabled": true,
-      "persistentID": 65474
+      "persistentID": 65473
     },
     {
       "PublicAlarmName": "Class III 2C Alarm",
@@ -4595,7 +4628,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_21",
       "internalEnabled": true,
-      "persistentID": 65473
+      "persistentID": 65472
     },
     {
       "PublicAlarmName": "Class II QS BC Alarm",
@@ -4619,7 +4652,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_22",
       "internalEnabled": true,
-      "persistentID": 65472
+      "persistentID": 65471
     },
     {
       "PublicAlarmName": "Class III QS BC Alarm",
@@ -4646,7 +4679,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_23",
       "internalEnabled": true,
-      "persistentID": 65471
+      "persistentID": 65470
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE1]",
@@ -4667,7 +4700,7 @@
       "AlarmSoundStop": 1190355274,
       "name": "Single to Cluster Alarm x3 - Alarm_35",
       "internalEnabled": true,
-      "persistentID": 65470
+      "persistentID": 65469
     },
     {
       "PublicAlarmName": "GenCluster Alarm",
@@ -4715,7 +4748,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_24",
       "internalEnabled": true,
-      "persistentID": 65469
+      "persistentID": 65468
     },
     {
       "PublicAlarmName": "Class IV Surge Alarm",
@@ -4745,7 +4778,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_25",
       "internalEnabled": true,
-      "persistentID": 65468
+      "persistentID": 65467
     },
     {
       "PublicAlarmName": "Class III Surge Alarm",
@@ -4772,7 +4805,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_26",
       "internalEnabled": true,
-      "persistentID": 65467
+      "persistentID": 65466
     },
     {
       "PublicAlarmName": "Class II Alarm",
@@ -4796,7 +4829,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_36",
       "internalEnabled": true,
-      "persistentID": 65466
+      "persistentID": 65465
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -4823,7 +4856,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_37",
       "internalEnabled": true,
-      "persistentID": 65465
+      "persistentID": 65464
     },
     {
       "PublicAlarmName": "Class II Cluster Alarm",
@@ -4847,7 +4880,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_38",
       "internalEnabled": true,
-      "persistentID": 65464
+      "persistentID": 65463
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -4874,7 +4907,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_39",
       "internalEnabled": true,
-      "persistentID": 65463
+      "persistentID": 65462
     },
     {
       "PublicAlarmName": "Class I Alarm",
@@ -4895,7 +4928,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_40",
       "internalEnabled": true,
-      "persistentID": 65462
+      "persistentID": 65461
     },
     {
       "PublicAlarmName": "Class II Alarm",
@@ -4919,7 +4952,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_27",
       "internalEnabled": true,
-      "persistentID": 65461
+      "persistentID": 65460
     },
     {
       "PublicAlarmName": "Class II Alarm",
@@ -4943,7 +4976,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_28",
       "internalEnabled": true,
-      "persistentID": 65460
+      "persistentID": 65459
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -4970,7 +5003,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_29",
       "internalEnabled": true,
-      "persistentID": 65459
+      "persistentID": 65458
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -4997,7 +5030,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_30",
       "internalEnabled": true,
-      "persistentID": 65458
+      "persistentID": 65457
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -5024,7 +5057,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_31",
       "internalEnabled": true,
-      "persistentID": 65457
+      "persistentID": 65456
     },
     {
       "PublicAlarmName": "Class III Alarm",
@@ -5051,7 +5084,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_32",
       "internalEnabled": true,
-      "persistentID": 65456
+      "persistentID": 65455
     },
     {
       "PublicAlarmName": "Class II Alarm",
@@ -5075,7 +5108,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_33",
       "internalEnabled": true,
-      "persistentID": 65455
+      "persistentID": 65454
     },
     {
       "PublicAlarmName": "Class ://ERR#36 Alarm",
@@ -5096,7 +5129,7 @@
       "AlarmSoundStop": 1190355274,
       "name": "ErrorAlarm - Quick Trickle",
       "internalEnabled": true,
-      "persistentID": 65454
+      "persistentID": 65453
     },
     {
       "PublicAlarmName": "Class I Siege Alarm",
@@ -5117,7 +5150,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_41",
       "internalEnabled": true,
-      "persistentID": 65453
+      "persistentID": 65452
     },
     {
       "PublicAlarmName": "Class I Siege Alarm",
@@ -5138,7 +5171,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_42",
       "internalEnabled": true,
-      "persistentID": 65452
+      "persistentID": 65451
     },
     {
       "PublicAlarmName": "Class I Siege Alarm",
@@ -5159,7 +5192,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_43",
       "internalEnabled": true,
-      "persistentID": 65451
+      "persistentID": 65450
     },
     {
       "PublicAlarmName": "Class I Siege Alarm",
@@ -5180,7 +5213,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_44",
       "internalEnabled": true,
-      "persistentID": 65450
+      "persistentID": 65449
     },
     {
       "PublicAlarmName": "Class I Cluster Alarm",
@@ -5201,7 +5234,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_34",
       "internalEnabled": true,
-      "persistentID": 65449
+      "persistentID": 65448
     },
     {
       "PublicAlarmName": "Class II Cluster Alarm",
@@ -5225,7 +5258,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Single to Cluster Alarm x3 - Alarm_45",
       "internalEnabled": true,
-      "persistentID": 65448
+      "persistentID": 65447
     },
     {
       "PublicAlarmName": "Class II 2C Alarm",
@@ -5249,7 +5282,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_35",
       "internalEnabled": true,
-      "persistentID": 65447
+      "persistentID": 65446
     },
     {
       "PublicAlarmName": "Class III 2C Alarm",
@@ -5276,7 +5309,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_36",
       "internalEnabled": true,
-      "persistentID": 65446
+      "persistentID": 65445
     },
     {
       "PublicAlarmName": "Class II S1 BC Alarm",
@@ -5300,7 +5333,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Alarm_37",
       "internalEnabled": true,
-      "persistentID": 65445
+      "persistentID": 65444
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5324,7 +5357,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge-16Cluster",
       "internalEnabled": true,
-      "persistentID": 65444
+      "persistentID": 65443
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5351,7 +5384,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge-16Cluster_1",
       "internalEnabled": true,
-      "persistentID": 65443
+      "persistentID": 65442
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5378,7 +5411,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge-2Cluster",
       "internalEnabled": true,
-      "persistentID": 65442
+      "persistentID": 65441
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5402,7 +5435,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge-2Cluster_1",
       "internalEnabled": true,
-      "persistentID": 65441
+      "persistentID": 65440
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5426,7 +5459,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge",
       "internalEnabled": true,
-      "persistentID": 65440
+      "persistentID": 65439
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5453,7 +5486,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge-Cluster",
       "internalEnabled": true,
-      "persistentID": 65439
+      "persistentID": 65438
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5480,7 +5513,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Surge-16Cluster_2",
       "internalEnabled": true,
-      "persistentID": 65438
+      "persistentID": 65437
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5501,7 +5534,7 @@
       "AlarmSoundStop": 42633153,
       "name": "S1-Static",
       "internalEnabled": true,
-      "persistentID": 65437
+      "persistentID": 65436
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5528,7 +5561,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Unknown S1 III",
       "internalEnabled": true,
-      "persistentID": 65436
+      "persistentID": 65435
     },
     {
       "PublicAlarmName": "[SHUFFLE_TYPE2]",
@@ -5561,7 +5594,7 @@
       "AlarmSoundStop": 42633153,
       "name": "Unknown Q Surge 5",
       "internalEnabled": true,
-      "persistentID": 65435
+      "persistentID": 65434
     },
     {
       "PublicAlarmName": "Class I Scan",
@@ -5582,7 +5615,7 @@
       "AlarmSoundStop": 0,
       "name": "Small Scan",
       "internalEnabled": true,
-      "persistentID": 65434
+      "persistentID": 65433
     },
     {
       "PublicAlarmName": "Class I Scan",
@@ -5603,7 +5636,7 @@
       "AlarmSoundStop": 0,
       "name": "Small Scan_1",
       "internalEnabled": true,
-      "persistentID": 65433
+      "persistentID": 65432
     },
     {
       "PublicAlarmName": "Class II Scan",
@@ -5627,7 +5660,7 @@
       "AlarmSoundStop": 0,
       "name": "Small Scan_2",
       "internalEnabled": true,
-      "persistentID": 65432
+      "persistentID": 65431
     },
     {
       "PublicAlarmName": "Class II Scan",
@@ -5651,7 +5684,7 @@
       "AlarmSoundStop": 0,
       "name": "Small Scan_3",
       "internalEnabled": true,
-      "persistentID": 65431
+      "persistentID": 65430
     }
   ],
   "LastPersistentID": 104

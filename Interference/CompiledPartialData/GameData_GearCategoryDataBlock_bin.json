@@ -712,6 +712,22 @@
       "name": "BoltAction",
       "internalEnabled": true,
       "persistentID": 250
+    },
+    {
+      "PublicName": "",
+      "Description": "",
+      "BaseItem": 5005,
+      "HUDIcon": "",
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 65513,
+      "SemiBurstArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "Minigun",
+      "internalEnabled": true,
+      "persistentID": 260
     }
   ],
   "LastPersistentID": 25

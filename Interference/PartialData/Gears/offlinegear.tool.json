@@ -1,0 +1,10 @@
+[
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Bataldo Model 10\",\"Packet\":{\"Comps\":{\"Length\":15,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":300},\"c\":{\"c\":3,\"v\":6000},\"d\":{\"c\":4,\"v\":7},\"e\":{\"c\":5,\"v\":29},\"f\":{\"c\":6,\"v\":29},\"g\":{\"c\":8,\"v\":19},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":17},\"j\":{\"c\":11,\"v\":17},\"k\":{\"c\":12,\"v\":35},\"l\":{\"c\":16,\"v\":0},\"m\":{\"c\":19,\"v\":15},\"n\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.115,\"y\":-0.02},\"angle\":45.0,\"scale\":0.05},\"tDecalB\":{\"position\":{\"x\":0.115,\"y\":-0.02},\"scale\":0.06},\"tPattern\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":120.0,\"scale\":0.08}},\"publicName\":{\"data\":\"Bataldo Model 10\"}}}",
+		"name": "Revolver_Auto_BodyShot",
+		"internalEnabled": false,
+		"persistentID": "OFF_TOOL_Silencer",
+		"datablock": "PlayerOfflineGear"
+	}
+]

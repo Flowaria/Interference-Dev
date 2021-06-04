@@ -553,5 +553,126 @@
 		"internalEnabled": true,
 		"persistentID": 505,
 		"datablock": "GearFrontPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Revolver_2.prefab",
+			"GearCategoryFilter": 0,
+			"LeftHandGripAnim": "Front_Revolver_2_Idle",
+			"RightHandGripAnim": "Front_Revolver_2_Idle",
+			"AssetBundle": 20,
+			"BundleShard": 0
+		},
+		"Aligns": [
+			{
+				"AlignType": 0,
+				"AlignName": "Front_M"
+			},
+			{
+				"AlignType": 1,
+				"AlignName": "Front_SE"
+			},
+			{
+				"AlignType": 2,
+				"AlignName": "a_Mag"
+			},
+			{
+				"AlignType": 5,
+				"AlignName": "Front_Flash"
+			},
+			{
+				"AlignType": 7,
+				"AlignName": "LeftHand"
+			},
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"FireSequence": [],
+		"ReloadSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Stock_Revolver_2_Reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 1,
+				"StringData": "Front_Revolver_2_Reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 2,
+				"StringData": "Front_Revolver_2_Reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 4,
+				"StringData": "Front_Revolver_2_Reload"
+			},
+			{
+				"TriggerTime": 0.0,
+				"Type": 5,
+				"StringData": "generic_reload_foley_quick"
+			},
+			{
+				"TriggerTime": 0.25,
+				"Type": 5,
+				"StringData": "revolver_open"
+			},
+			{
+				"TriggerTime": 0.4,
+				"Type": 5,
+				"StringData": "revolver_reload_grab_mag"
+			},
+			{
+				"TriggerTime": 0.75,
+				"Type": 5,
+				"StringData": "revolver_reload_foley"
+			},
+			{
+				"TriggerTime": 0.85,
+				"Type": 6
+			},
+			{
+				"TriggerTime": 1.1,
+				"Type": 5,
+				"StringData": "revolver_mag_in"
+			},
+			{
+				"TriggerTime": 1.4,
+				"Type": 5,
+				"StringData": "generic_reload_foley_subtle"
+			},
+			{
+				"TriggerTime": 1.6,
+				"Type": 5,
+				"StringData": "revolver_close"
+			},
+			{
+				"TriggerTime": 1.9,
+				"Type": 5,
+				"StringData": "generic_reload_foley_subtle"
+			},
+			{
+				"TriggerTime": 2.3,
+				"Type": 5,
+				"StringData": "revolver_reload_foley"
+			},
+			{
+				"TriggerTime": 2.5,
+				"Type": 5,
+				"StringData": "generic_reload_foley_subtle"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"name": "Front_Revolver_2",
+		"internalEnabled": true,
+		"persistentID": 506,
+		"datablock": "GearFrontPart"
 	}
 ]

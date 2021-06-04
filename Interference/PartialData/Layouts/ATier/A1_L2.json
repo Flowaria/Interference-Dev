@@ -2,18 +2,18 @@
 	"Zones": [
 		{
 			"LocalIndex": 0,
-			"SubSeed": 1,
+			"SubSeed": 11,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Storage",
 			"CoverageMinMax": {
-				"x": 78.0,
+				"x": 70.0,
 				"y": 80.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Random",
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Forward",
-			"ZoneExpansion": "Collapsed",
+			"ZoneExpansion": "Directional_Left",
 			"LightSettings": 57,
 			"AltitudeData": {
 				"AllowedZoneAltitude": "Unchanged",
@@ -108,7 +108,7 @@
 				"y": 30.0
 			},
 			"BuildFromLocalIndex": 0,
-			"StartPosition": "From_Random",
+			"StartPosition": "From_Start",
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Forward",
 			"ZoneExpansion": "Directional_Forward",

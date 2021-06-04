@@ -1,0 +1,24 @@
+[
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Receivers/Receiver_Revolver_2.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 30,
+			"BundleShard": 5
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Receiver_Sight"
+			},
+			{
+				"AlignType": 4,
+				"AlignName": "Receiver_Sight"
+			}
+		],
+		"name": "Receiver_Revolver_2",
+		"internalEnabled": true,
+		"persistentID": 5000,
+		"datablock": "GearReceiverPart"
+	}
+]

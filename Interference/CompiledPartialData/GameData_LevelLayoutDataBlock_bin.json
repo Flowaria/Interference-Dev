@@ -88553,7 +88553,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65466,
+          "ChainedPuzzleToEnter": 65465,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -88658,7 +88658,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65466,
+          "ChainedPuzzleToEnter": 65465,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -88763,7 +88763,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65466,
+          "ChainedPuzzleToEnter": 65465,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -88980,7 +88980,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65465,
+          "ChainedPuzzleToEnter": 65464,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -89543,7 +89543,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65460,
+          "ChainedPuzzleToEnter": 65459,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -89890,7 +89890,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65454,
+          "ChainedPuzzleToEnter": 65453,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -90088,7 +90088,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65461,
+          "ChainedPuzzleToEnter": 65460,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -91917,7 +91917,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65451,
+          "ChainedPuzzleToEnter": 65450,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -92029,7 +92029,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65451,
+          "ChainedPuzzleToEnter": 65450,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -93758,7 +93758,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65431,
+          "ChainedPuzzleToEnter": 65430,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -94140,7 +94140,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65448,
+          "ChainedPuzzleToEnter": 65447,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -94251,7 +94251,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65447,
+          "ChainedPuzzleToEnter": 65446,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -95086,7 +95086,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65433,
+          "ChainedPuzzleToEnter": 65432,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -95105,7 +95105,7 @@
               "GroupType": 1,
               "Difficulty": 0,
               "Distribution": 2,
-              "DistributionValue": 1.8
+              "DistributionValue": 1.5
             }
           ],
           "EnemyRespawning": false,
@@ -95226,7 +95226,7 @@
               "GroupType": 0,
               "Difficulty": 0,
               "Distribution": 2,
-              "DistributionValue": 0.25
+              "DistributionValue": 0.4
             },
             {
               "GroupType": 1,
@@ -95330,7 +95330,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65433,
+          "ChainedPuzzleToEnter": 65432,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -97763,7 +97763,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65445,
+          "ChainedPuzzleToEnter": 65444,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -98240,9 +98240,9 @@
           },
           "EventsOnEnter": [],
           "ProgressionPuzzleToEnter": {
-            "PuzzleType": 1,
+            "PuzzleType": 0,
             "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
-            "PlacementCount": 1,
+            "PlacementCount": 0,
             "ZonePlacementData": []
           },
           "ChainedPuzzleToEnter": 0,
@@ -98253,7 +98253,14 @@
             "EnemyGroupInArea": 0,
             "EnemyGroupsInArea": 0
           },
-          "EnemySpawningInZone": [],
+          "EnemySpawningInZone": [
+            {
+              "GroupType": 0,
+              "Difficulty": 2,
+              "Distribution": 2,
+              "DistributionValue": 0.5
+            }
+          ],
           "EnemyRespawning": false,
           "EnemyRespawnRequireOtherZone": true,
           "EnemyRespawnRoomDistance": 2,
@@ -98336,24 +98343,7 @@
             "AllowedZoneAltitude": 7,
             "ChanceToChange": 1.0
           },
-          "EventsOnEnter": [
-            {
-              "Delay": 30.0,
-              "Noise": {
-                "Enabled": false,
-                "RadiusMin": 0.0,
-                "RadiusMax": 0.0
-              },
-              "Intel": {
-                "Enabled": false,
-                "IntelMessage": "://ERR! - Power surge due to manual door override. Access to <color=orange>Extreme</color> bulkhead to retrieve power!"
-              },
-              "Sound": {
-                "Enabled": false,
-                "SoundEvent": 0
-              }
-            }
-          ],
+          "EventsOnEnter": [],
           "ProgressionPuzzleToEnter": {
             "PuzzleType": 0,
             "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
@@ -98455,7 +98445,7 @@
           "EventsOnEnter": [],
           "ProgressionPuzzleToEnter": {
             "PuzzleType": 3,
-            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "CustomText": "Door locked\n<color=white>You need Keycard <color=orange>KEY_OMNI_782F</color> to unlock.</color>",
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
@@ -98623,6 +98613,324 @@
       "Zones": [
         {
           "LocalIndex": 0,
+          "SubSeed": 787,
+          "BulkheadDCScanSeed": 0,
+          "SubComplex": 0,
+          "CoverageMinMax": {
+            "x": 30.0,
+            "y": 35.0
+          },
+          "BuildFromLocalIndex": 0,
+          "StartPosition": 0,
+          "StartPosition_IndexWeight": 0.0,
+          "StartExpansion": 4,
+          "ZoneExpansion": 6,
+          "LightSettings": 66,
+          "AltitudeData": {
+            "AllowedZoneAltitude": 9,
+            "ChanceToChange": 1.0
+          },
+          "EventsOnEnter": [],
+          "ProgressionPuzzleToEnter": {
+            "PuzzleType": 0,
+            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "PlacementCount": 0,
+            "ZonePlacementData": []
+          },
+          "ChainedPuzzleToEnter": 0,
+          "SecurityGateToEnter": 0,
+          "ActiveEnemyWave": {
+            "HasActiveEnemyWave": true,
+            "EnemyGroupInfrontOfDoor": 65527,
+            "EnemyGroupInArea": 65519,
+            "EnemyGroupsInArea": 2
+          },
+          "EnemySpawningInZone": [],
+          "EnemyRespawning": false,
+          "EnemyRespawnRequireOtherZone": true,
+          "EnemyRespawnRoomDistance": 2,
+          "EnemyRespawnTimeInterval": 10.0,
+          "EnemyRespawnCountMultiplier": 1.0,
+          "HSUClustersInZone": 0,
+          "CorpseClustersInZone": 0,
+          "ResourceContainerClustersInZone": 0,
+          "GeneratorClustersInZone": 0,
+          "CorpsesInZone": 0,
+          "GroundSpawnersInZone": 3,
+          "HSUsInZone": 0,
+          "DeconUnitsInZone": 0,
+          "AllowSmallPickupsAllocation": true,
+          "AllowResourceContainerAllocation": true,
+          "ForceBigPickupsAllocation": false,
+          "ConsumableDistributionInZone": 1,
+          "BigPickupDistributionInZone": 0,
+          "TerminalPlacements": [
+            {
+              "PlacementWeights": {
+                "Start": 1.0,
+                "Middle": 0.0,
+                "End": 0.0
+              },
+              "AreaSeedOffset": 0,
+              "MarkerSeedOffset": 0,
+              "LocalLogFiles": [],
+              "StartingStateData": {
+                "StartingState": 0,
+                "AudioEventEnter": 0,
+                "AudioEventExit": 0
+              }
+            }
+          ],
+          "ForbidTerminalsInZone": false,
+          "PowerGeneratorPlacements": [],
+          "DisinfectionStationPlacements": [],
+          "HealthMulti": 0.4,
+          "HealthPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "WeaponAmmoMulti": 0.4,
+          "WeaponAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "ToolAmmoMulti": 0.2,
+          "ToolAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "DisinfectionMulti": 0.0,
+          "DisinfectionPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          }
+        },
+        {
+          "LocalIndex": 1,
+          "SubSeed": 0,
+          "BulkheadDCScanSeed": 0,
+          "SubComplex": 2,
+          "CoverageMinMax": {
+            "x": 30.0,
+            "y": 40.0
+          },
+          "BuildFromLocalIndex": 0,
+          "StartPosition": 0,
+          "StartPosition_IndexWeight": 0.0,
+          "StartExpansion": 2,
+          "ZoneExpansion": 4,
+          "LightSettings": 3,
+          "AltitudeData": {
+            "AllowedZoneAltitude": 9,
+            "ChanceToChange": 1.0
+          },
+          "EventsOnEnter": [],
+          "ProgressionPuzzleToEnter": {
+            "PuzzleType": 0,
+            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "PlacementCount": 0,
+            "ZonePlacementData": []
+          },
+          "ChainedPuzzleToEnter": 65503,
+          "SecurityGateToEnter": 0,
+          "ActiveEnemyWave": {
+            "HasActiveEnemyWave": false,
+            "EnemyGroupInfrontOfDoor": 0,
+            "EnemyGroupInArea": 0,
+            "EnemyGroupsInArea": 0
+          },
+          "EnemySpawningInZone": [
+            {
+              "GroupType": 3,
+              "Difficulty": 0,
+              "Distribution": 2,
+              "DistributionValue": 1.5
+            }
+          ],
+          "EnemyRespawning": false,
+          "EnemyRespawnRequireOtherZone": true,
+          "EnemyRespawnRoomDistance": 2,
+          "EnemyRespawnTimeInterval": 10.0,
+          "EnemyRespawnCountMultiplier": 1.0,
+          "HSUClustersInZone": 0,
+          "CorpseClustersInZone": 0,
+          "ResourceContainerClustersInZone": 0,
+          "GeneratorClustersInZone": 0,
+          "CorpsesInZone": 0,
+          "GroundSpawnersInZone": 3,
+          "HSUsInZone": 0,
+          "DeconUnitsInZone": 0,
+          "AllowSmallPickupsAllocation": true,
+          "AllowResourceContainerAllocation": true,
+          "ForceBigPickupsAllocation": false,
+          "ConsumableDistributionInZone": 1,
+          "BigPickupDistributionInZone": 0,
+          "TerminalPlacements": [
+            {
+              "PlacementWeights": {
+                "Start": 1.0,
+                "Middle": 0.0,
+                "End": 0.0
+              },
+              "AreaSeedOffset": 0,
+              "MarkerSeedOffset": 0,
+              "LocalLogFiles": [],
+              "StartingStateData": {
+                "StartingState": 0,
+                "AudioEventEnter": 0,
+                "AudioEventExit": 0
+              }
+            }
+          ],
+          "ForbidTerminalsInZone": false,
+          "PowerGeneratorPlacements": [],
+          "DisinfectionStationPlacements": [],
+          "HealthMulti": 0.4,
+          "HealthPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "WeaponAmmoMulti": 0.8,
+          "WeaponAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "ToolAmmoMulti": 0.2,
+          "ToolAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "DisinfectionMulti": 0.0,
+          "DisinfectionPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          }
+        },
+        {
+          "LocalIndex": 2,
+          "SubSeed": 0,
+          "BulkheadDCScanSeed": 0,
+          "SubComplex": 0,
+          "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_HA_03.prefab",
+          "CoverageMinMax": {
+            "x": 10.0,
+            "y": 20.0
+          },
+          "BuildFromLocalIndex": 0,
+          "StartPosition": 0,
+          "StartPosition_IndexWeight": 0.0,
+          "StartExpansion": 4,
+          "ZoneExpansion": 6,
+          "LightSettings": 20,
+          "AltitudeData": {
+            "AllowedZoneAltitude": 9,
+            "ChanceToChange": 1.0
+          },
+          "EventsOnEnter": [],
+          "ProgressionPuzzleToEnter": {
+            "PuzzleType": 1,
+            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "PlacementCount": 1,
+            "ZonePlacementData": [
+              {
+                "LocalIndex": 1,
+                "Weights": {
+                  "Start": 0.0,
+                  "Middle": 0.0,
+                  "End": 100000.0
+                }
+              }
+            ]
+          },
+          "ChainedPuzzleToEnter": 0,
+          "SecurityGateToEnter": 0,
+          "ActiveEnemyWave": {
+            "HasActiveEnemyWave": true,
+            "EnemyGroupInfrontOfDoor": 65524,
+            "EnemyGroupInArea": 65519,
+            "EnemyGroupsInArea": 2
+          },
+          "EnemySpawningInZone": [],
+          "EnemyRespawning": false,
+          "EnemyRespawnRequireOtherZone": true,
+          "EnemyRespawnRoomDistance": 2,
+          "EnemyRespawnTimeInterval": 10.0,
+          "EnemyRespawnCountMultiplier": 1.0,
+          "HSUClustersInZone": 0,
+          "CorpseClustersInZone": 0,
+          "ResourceContainerClustersInZone": 0,
+          "GeneratorClustersInZone": 0,
+          "CorpsesInZone": 0,
+          "GroundSpawnersInZone": 3,
+          "HSUsInZone": 0,
+          "DeconUnitsInZone": 0,
+          "AllowSmallPickupsAllocation": true,
+          "AllowResourceContainerAllocation": true,
+          "ForceBigPickupsAllocation": false,
+          "ConsumableDistributionInZone": 1,
+          "BigPickupDistributionInZone": 0,
+          "TerminalPlacements": [
+            {
+              "PlacementWeights": {
+                "Start": 1.0,
+                "Middle": 0.0,
+                "End": 0.0
+              },
+              "AreaSeedOffset": 0,
+              "MarkerSeedOffset": 0,
+              "LocalLogFiles": [],
+              "StartingStateData": {
+                "StartingState": 0,
+                "AudioEventEnter": 0,
+                "AudioEventExit": 0
+              }
+            }
+          ],
+          "ForbidTerminalsInZone": false,
+          "PowerGeneratorPlacements": [],
+          "DisinfectionStationPlacements": [],
+          "HealthMulti": 0.4,
+          "HealthPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "WeaponAmmoMulti": 0.8,
+          "WeaponAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "ToolAmmoMulti": 0.2,
+          "ToolAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "DisinfectionMulti": 0.8,
+          "DisinfectionPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          }
+        }
+      ],
+      "name": "B4_L2",
+      "internalEnabled": true,
+      "persistentID": 65516
+    },
+    {
+      "Zones": [
+        {
+          "LocalIndex": 0,
           "SubSeed": 0,
           "BulkheadDCScanSeed": 0,
           "SubComplex": 0,
@@ -98737,7 +99045,7 @@
           "ZoneExpansion": 5,
           "LightSettings": 20,
           "AltitudeData": {
-            "AllowedZoneAltitude": 2,
+            "AllowedZoneAltitude": 3,
             "ChanceToChange": 1.0
           },
           "EventsOnEnter": [],
@@ -98790,7 +99098,7 @@
             "Middle": 0.0,
             "End": 0.0
           },
-          "ToolAmmoMulti": 0.4,
+          "ToolAmmoMulti": 0.8,
           "ToolAmmoPlacement": {
             "Start": 0.0,
             "Middle": 0.0,
@@ -98826,7 +99134,7 @@
           "EventsOnEnter": [],
           "ProgressionPuzzleToEnter": {
             "PuzzleType": 3,
-            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "CustomText": "<color=red>://ERROR: Door in reactor state lockdown, will only operate during reactor startup sequence.</color>",
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
@@ -98961,7 +99269,7 @@
           "EventsOnEnter": [],
           "ProgressionPuzzleToEnter": {
             "PuzzleType": 3,
-            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "CustomText": "<color=red>://ERROR: Door in reactor state lockdown, will only operate during reactor startup sequence.</color>",
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
@@ -99037,7 +99345,7 @@
             "Middle": 0.0,
             "End": 0.0
           },
-          "WeaponAmmoMulti": 1.2,
+          "WeaponAmmoMulti": 1.4,
           "WeaponAmmoPlacement": {
             "Start": 0.0,
             "Middle": 0.0,
@@ -99072,13 +99380,13 @@
           "ZoneExpansion": 3,
           "LightSettings": 15,
           "AltitudeData": {
-            "AllowedZoneAltitude": 2,
+            "AllowedZoneAltitude": 3,
             "ChanceToChange": 1.0
           },
           "EventsOnEnter": [],
           "ProgressionPuzzleToEnter": {
             "PuzzleType": 3,
-            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "CustomText": "<color=red>://ERROR: Door in reactor state lockdown, will only operate during reactor startup sequence.</color>",
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
@@ -99177,13 +99485,13 @@
           "ZoneExpansion": 3,
           "LightSettings": 71,
           "AltitudeData": {
-            "AllowedZoneAltitude": 2,
+            "AllowedZoneAltitude": 1,
             "ChanceToChange": 1.0
           },
           "EventsOnEnter": [],
           "ProgressionPuzzleToEnter": {
             "PuzzleType": 3,
-            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "CustomText": "<color=red>://ERROR: Door in reactor state lockdown, will only operate during reactor startup sequence.</color>",
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
@@ -99247,7 +99555,7 @@
             "Middle": 0.0,
             "End": 0.0
           },
-          "WeaponAmmoMulti": 0.4,
+          "WeaponAmmoMulti": 0.6,
           "WeaponAmmoPlacement": {
             "Start": 0.0,
             "Middle": 0.0,
@@ -99272,8 +99580,8 @@
           "BulkheadDCScanSeed": 0,
           "SubComplex": 1,
           "CoverageMinMax": {
-            "x": 20.0,
-            "y": 30.0
+            "x": 50.0,
+            "y": 60.0
           },
           "BuildFromLocalIndex": 2,
           "StartPosition": 3,
@@ -99282,7 +99590,7 @@
           "ZoneExpansion": 4,
           "LightSettings": 65535,
           "AltitudeData": {
-            "AllowedZoneAltitude": 2,
+            "AllowedZoneAltitude": 1,
             "ChanceToChange": 1.0
           },
           "EventsOnEnter": [],
@@ -99379,11 +99687,221 @@
             "Middle": 0.0,
             "End": 0.0
           }
+        },
+        {
+          "LocalIndex": 7,
+          "SubSeed": 5,
+          "BulkheadDCScanSeed": 0,
+          "SubComplex": 2,
+          "CoverageMinMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "BuildFromLocalIndex": 0,
+          "StartPosition": 3,
+          "StartPosition_IndexWeight": 0.0,
+          "StartExpansion": 1,
+          "ZoneExpansion": 3,
+          "LightSettings": 65535,
+          "AltitudeData": {
+            "AllowedZoneAltitude": 3,
+            "ChanceToChange": 1.0
+          },
+          "EventsOnEnter": [],
+          "ProgressionPuzzleToEnter": {
+            "PuzzleType": 3,
+            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "PlacementCount": 1,
+            "ZonePlacementData": []
+          },
+          "ChainedPuzzleToEnter": 4,
+          "SecurityGateToEnter": 0,
+          "ActiveEnemyWave": {
+            "HasActiveEnemyWave": true,
+            "EnemyGroupInfrontOfDoor": 65519,
+            "EnemyGroupInArea": 0,
+            "EnemyGroupsInArea": 0
+          },
+          "EnemySpawningInZone": [
+            {
+              "GroupType": 2,
+              "Difficulty": 2,
+              "Distribution": 1,
+              "DistributionValue": 1.0
+            }
+          ],
+          "EnemyRespawning": false,
+          "EnemyRespawnRequireOtherZone": true,
+          "EnemyRespawnRoomDistance": 2,
+          "EnemyRespawnTimeInterval": 10.0,
+          "EnemyRespawnCountMultiplier": 1.0,
+          "HSUClustersInZone": 0,
+          "CorpseClustersInZone": 0,
+          "ResourceContainerClustersInZone": 0,
+          "GeneratorClustersInZone": 0,
+          "CorpsesInZone": 0,
+          "GroundSpawnersInZone": 3,
+          "HSUsInZone": 0,
+          "DeconUnitsInZone": 0,
+          "AllowSmallPickupsAllocation": true,
+          "AllowResourceContainerAllocation": true,
+          "ForceBigPickupsAllocation": false,
+          "ConsumableDistributionInZone": 0,
+          "BigPickupDistributionInZone": 0,
+          "TerminalPlacements": [
+            {
+              "PlacementWeights": {
+                "Start": 0.0,
+                "Middle": 0.0,
+                "End": 100000.0
+              },
+              "AreaSeedOffset": 0,
+              "MarkerSeedOffset": 0,
+              "LocalLogFiles": [],
+              "StartingStateData": {
+                "StartingState": 0,
+                "AudioEventEnter": 0,
+                "AudioEventExit": 0
+              }
+            }
+          ],
+          "ForbidTerminalsInZone": false,
+          "PowerGeneratorPlacements": [],
+          "DisinfectionStationPlacements": [],
+          "HealthMulti": 0.8,
+          "HealthPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "WeaponAmmoMulti": 0.8,
+          "WeaponAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "ToolAmmoMulti": 0.4,
+          "ToolAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "DisinfectionMulti": 0.4,
+          "DisinfectionPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          }
+        },
+        {
+          "LocalIndex": 8,
+          "SubSeed": 5,
+          "BulkheadDCScanSeed": 0,
+          "SubComplex": 2,
+          "CoverageMinMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "BuildFromLocalIndex": 0,
+          "StartPosition": 3,
+          "StartPosition_IndexWeight": 0.0,
+          "StartExpansion": 2,
+          "ZoneExpansion": 4,
+          "LightSettings": 65535,
+          "AltitudeData": {
+            "AllowedZoneAltitude": 3,
+            "ChanceToChange": 1.0
+          },
+          "EventsOnEnter": [],
+          "ProgressionPuzzleToEnter": {
+            "PuzzleType": 3,
+            "CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
+            "PlacementCount": 1,
+            "ZonePlacementData": []
+          },
+          "ChainedPuzzleToEnter": 4,
+          "SecurityGateToEnter": 0,
+          "ActiveEnemyWave": {
+            "HasActiveEnemyWave": true,
+            "EnemyGroupInfrontOfDoor": 65519,
+            "EnemyGroupInArea": 0,
+            "EnemyGroupsInArea": 0
+          },
+          "EnemySpawningInZone": [
+            {
+              "GroupType": 2,
+              "Difficulty": 2,
+              "Distribution": 1,
+              "DistributionValue": 1.0
+            }
+          ],
+          "EnemyRespawning": false,
+          "EnemyRespawnRequireOtherZone": true,
+          "EnemyRespawnRoomDistance": 2,
+          "EnemyRespawnTimeInterval": 10.0,
+          "EnemyRespawnCountMultiplier": 1.0,
+          "HSUClustersInZone": 0,
+          "CorpseClustersInZone": 0,
+          "ResourceContainerClustersInZone": 0,
+          "GeneratorClustersInZone": 0,
+          "CorpsesInZone": 0,
+          "GroundSpawnersInZone": 3,
+          "HSUsInZone": 0,
+          "DeconUnitsInZone": 0,
+          "AllowSmallPickupsAllocation": true,
+          "AllowResourceContainerAllocation": true,
+          "ForceBigPickupsAllocation": false,
+          "ConsumableDistributionInZone": 0,
+          "BigPickupDistributionInZone": 0,
+          "TerminalPlacements": [
+            {
+              "PlacementWeights": {
+                "Start": 0.0,
+                "Middle": 0.0,
+                "End": 100000.0
+              },
+              "AreaSeedOffset": 0,
+              "MarkerSeedOffset": 0,
+              "LocalLogFiles": [],
+              "StartingStateData": {
+                "StartingState": 0,
+                "AudioEventEnter": 0,
+                "AudioEventExit": 0
+              }
+            }
+          ],
+          "ForbidTerminalsInZone": false,
+          "PowerGeneratorPlacements": [],
+          "DisinfectionStationPlacements": [],
+          "HealthMulti": 0.8,
+          "HealthPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "WeaponAmmoMulti": 0.8,
+          "WeaponAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "ToolAmmoMulti": 0.4,
+          "ToolAmmoPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "DisinfectionMulti": 0.4,
+          "DisinfectionPlacement": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          }
         }
       ],
-      "name": "B4_L2",
+      "name": "B4_L3",
       "internalEnabled": true,
-      "persistentID": 65516
+      "persistentID": 65515
     },
     {
       "Zones": [
@@ -99502,7 +100020,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65435,
+          "ChainedPuzzleToEnter": 65434,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -99699,7 +100217,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65436,
+          "ChainedPuzzleToEnter": 65435,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -99794,7 +100312,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65436,
+          "ChainedPuzzleToEnter": 65435,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -99889,7 +100407,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65439,
+          "ChainedPuzzleToEnter": 65438,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -99990,7 +100508,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65443,
+          "ChainedPuzzleToEnter": 65442,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -100072,7 +100590,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65443,
+          "ChainedPuzzleToEnter": 65442,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -100154,7 +100672,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65443,
+          "ChainedPuzzleToEnter": 65442,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -100236,7 +100754,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65443,
+          "ChainedPuzzleToEnter": 65442,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -100295,7 +100813,7 @@
       ],
       "name": "C1_L1",
       "internalEnabled": true,
-      "persistentID": 65515
+      "persistentID": 65514
     },
     {
       "Zones": [
@@ -100357,7 +100875,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65444,
+          "ChainedPuzzleToEnter": 65443,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -100596,7 +101114,7 @@
       ],
       "name": "C1_L2",
       "internalEnabled": true,
-      "persistentID": 65514
+      "persistentID": 65513
     },
     {
       "Zones": [
@@ -100626,7 +101144,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65440,
+          "ChainedPuzzleToEnter": 65439,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -100722,7 +101240,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65436,
+          "ChainedPuzzleToEnter": 65435,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -100805,7 +101323,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65437,
+          "ChainedPuzzleToEnter": 65436,
           "SecurityGateToEnter": 1,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -101072,7 +101590,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65444,
+          "ChainedPuzzleToEnter": 65443,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -101131,7 +101649,7 @@
       ],
       "name": "C1_L3",
       "internalEnabled": true,
-      "persistentID": 65513
+      "persistentID": 65512
     },
     {
       "Zones": [
@@ -101259,7 +101777,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65461,
+          "ChainedPuzzleToEnter": 65460,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -101373,7 +101891,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65450,
+          "ChainedPuzzleToEnter": 65449,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -101484,7 +102002,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65447,
+          "ChainedPuzzleToEnter": 65446,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -101595,7 +102113,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65447,
+          "ChainedPuzzleToEnter": 65446,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
@@ -102016,7 +102534,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65458,
+          "ChainedPuzzleToEnter": 65457,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -102121,7 +102639,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65458,
+          "ChainedPuzzleToEnter": 65457,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -102346,7 +102864,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65502,
+          "ChainedPuzzleToEnter": 65501,
           "SecurityGateToEnter": 1,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -102421,7 +102939,7 @@
       ],
       "name": "C2_L1",
       "internalEnabled": true,
-      "persistentID": 65512
+      "persistentID": 65511
     },
     {
       "Zones": [
@@ -102452,7 +102970,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65503,
+          "ChainedPuzzleToEnter": 65502,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -102551,7 +103069,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65501,
+          "ChainedPuzzleToEnter": 65500,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -102626,7 +103144,7 @@
       ],
       "name": "C2_L2",
       "internalEnabled": true,
-      "persistentID": 65511
+      "persistentID": 65510
     },
     {
       "Zones": [
@@ -102881,7 +103399,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65448,
+          "ChainedPuzzleToEnter": 65447,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -103007,7 +103525,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65447,
+          "ChainedPuzzleToEnter": 65446,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -103128,7 +103646,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65501,
+          "ChainedPuzzleToEnter": 65500,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -103365,7 +103883,7 @@
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
             "EnemyGroupInfrontOfDoor": 46,
-            "EnemyGroupInArea": 65523,
+            "EnemyGroupInArea": 65522,
             "EnemyGroupsInArea": 5
           },
           "EnemySpawningInZone": [],
@@ -103435,7 +103953,7 @@
       ],
       "name": "C2_L3",
       "internalEnabled": true,
-      "persistentID": 65510
+      "persistentID": 65509
     },
     {
       "Zones": [
@@ -104085,7 +104603,7 @@
       ],
       "name": "C3_L1",
       "internalEnabled": true,
-      "persistentID": 65509
+      "persistentID": 65508
     },
     {
       "Zones": [
@@ -104237,7 +104755,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65484,
+          "ChainedPuzzleToEnter": 65483,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
@@ -104600,7 +105118,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65483,
+          "ChainedPuzzleToEnter": 65482,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -104936,7 +105454,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65482,
+          "ChainedPuzzleToEnter": 65481,
           "SecurityGateToEnter": 1,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -104995,7 +105513,7 @@
       ],
       "name": "D1_L1",
       "internalEnabled": true,
-      "persistentID": 65508
+      "persistentID": 65507
     },
     {
       "Zones": [
@@ -105025,7 +105543,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65487,
+          "ChainedPuzzleToEnter": 65486,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -105136,7 +105654,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65479,
+          "ChainedPuzzleToEnter": 65478,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -105262,7 +105780,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65487,
+          "ChainedPuzzleToEnter": 65486,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -105379,7 +105897,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65483,
+          "ChainedPuzzleToEnter": 65482,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
@@ -105501,7 +106019,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65483,
+          "ChainedPuzzleToEnter": 65482,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
@@ -105640,7 +106158,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65480,
+          "ChainedPuzzleToEnter": 65479,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -105820,7 +106338,7 @@
       ],
       "name": "D1_L2",
       "internalEnabled": true,
-      "persistentID": 65507
+      "persistentID": 65506
     },
     {
       "Zones": [
@@ -105957,7 +106475,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65481,
+          "ChainedPuzzleToEnter": 65480,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -106215,7 +106733,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65487,
+          "ChainedPuzzleToEnter": 65486,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -106438,7 +106956,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65490,
+          "ChainedPuzzleToEnter": 65489,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -106537,7 +107055,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65488,
+          "ChainedPuzzleToEnter": 65487,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
@@ -106596,7 +107114,7 @@
       ],
       "name": "D1_L3",
       "internalEnabled": true,
-      "persistentID": 65506
+      "persistentID": 65505
     },
     {
       "Zones": [
@@ -106737,7 +107255,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65500,
+          "ChainedPuzzleToEnter": 65499,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -106854,7 +107372,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65498,
+          "ChainedPuzzleToEnter": 65497,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -106971,7 +107489,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65497,
+          "ChainedPuzzleToEnter": 65496,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -107088,7 +107606,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65496,
+          "ChainedPuzzleToEnter": 65495,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -107227,7 +107745,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65491,
+          "ChainedPuzzleToEnter": 65490,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -107338,7 +107856,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65494,
+          "ChainedPuzzleToEnter": 65493,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -107449,7 +107967,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65493,
+          "ChainedPuzzleToEnter": 65492,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -107561,7 +108079,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65492,
+          "ChainedPuzzleToEnter": 65491,
           "SecurityGateToEnter": 1,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -107620,7 +108138,7 @@
       ],
       "name": "D2_L1",
       "internalEnabled": true,
-      "persistentID": 65505
+      "persistentID": 65504
     },
     {
       "Zones": [
@@ -107739,7 +108257,7 @@
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
             "EnemyGroupInfrontOfDoor": 65526,
-            "EnemyGroupInArea": 65524,
+            "EnemyGroupInArea": 65523,
             "EnemyGroupsInArea": 1
           },
           "EnemySpawningInZone": [],
@@ -107822,7 +108340,7 @@
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
             "EnemyGroupInfrontOfDoor": 65526,
-            "EnemyGroupInArea": 65524,
+            "EnemyGroupInArea": 65523,
             "EnemyGroupsInArea": 1
           },
           "EnemySpawningInZone": [],
@@ -108038,7 +108556,7 @@
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
             "EnemyGroupInfrontOfDoor": 65526,
-            "EnemyGroupInArea": 65524,
+            "EnemyGroupInArea": 65523,
             "EnemyGroupsInArea": 1
           },
           "EnemySpawningInZone": [],
@@ -108285,7 +108803,7 @@
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
-            "EnemyGroupInfrontOfDoor": 65522,
+            "EnemyGroupInfrontOfDoor": 65521,
             "EnemyGroupInArea": 49,
             "EnemyGroupsInArea": 1
           },
@@ -108356,7 +108874,7 @@
       ],
       "name": "D2_L2",
       "internalEnabled": true,
-      "persistentID": 65504
+      "persistentID": 65503
     },
     {
       "Zones": [
@@ -108387,7 +108905,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65497,
+          "ChainedPuzzleToEnter": 65496,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -108516,7 +109034,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65499,
+          "ChainedPuzzleToEnter": 65498,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
@@ -108591,7 +109109,7 @@
       ],
       "name": "D2_L3",
       "internalEnabled": true,
-      "persistentID": 65503
+      "persistentID": 65502
     },
     {
       "Zones": [
@@ -108719,7 +109237,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65490,
+          "ChainedPuzzleToEnter": 65489,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -108825,7 +109343,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65488,
+          "ChainedPuzzleToEnter": 65487,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -109151,7 +109669,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65488,
+          "ChainedPuzzleToEnter": 65487,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -109382,7 +109900,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65480,
+          "ChainedPuzzleToEnter": 65479,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -109593,7 +110111,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65489,
+          "ChainedPuzzleToEnter": 65488,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -109880,7 +110398,7 @@
       ],
       "name": "D3_L1",
       "internalEnabled": true,
-      "persistentID": 65502
+      "persistentID": 65501
     },
     {
       "Zones": [
@@ -110009,7 +110527,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65485,
+          "ChainedPuzzleToEnter": 65484,
           "SecurityGateToEnter": 1,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -110084,7 +110602,7 @@
       ],
       "name": "D3_L2",
       "internalEnabled": true,
-      "persistentID": 65501
+      "persistentID": 65500
     },
     {
       "Zones": [
@@ -110491,12 +111009,12 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65478,
+          "ChainedPuzzleToEnter": 65477,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
-            "EnemyGroupInfrontOfDoor": 65520,
-            "EnemyGroupInArea": 65520,
+            "EnemyGroupInfrontOfDoor": 65519,
+            "EnemyGroupInArea": 65519,
             "EnemyGroupsInArea": 2
           },
           "EnemySpawningInZone": [],
@@ -110694,7 +111212,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65477,
+          "ChainedPuzzleToEnter": 65476,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -110808,7 +111326,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65476,
+          "ChainedPuzzleToEnter": 65475,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -110923,7 +111441,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65475,
+          "ChainedPuzzleToEnter": 65474,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -111038,7 +111556,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65474,
+          "ChainedPuzzleToEnter": 65473,
           "SecurityGateToEnter": 1,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -111235,7 +111753,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65479,
+          "ChainedPuzzleToEnter": 65478,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -111586,7 +112104,7 @@
               }
             ]
           },
-          "ChainedPuzzleToEnter": 65470,
+          "ChainedPuzzleToEnter": 65469,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -111703,7 +112221,7 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65472,
+          "ChainedPuzzleToEnter": 65471,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -111821,12 +112339,12 @@
             "PlacementCount": 1,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65468,
+          "ChainedPuzzleToEnter": 65467,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
-            "EnemyGroupInfrontOfDoor": 65520,
-            "EnemyGroupInArea": 65520,
+            "EnemyGroupInfrontOfDoor": 65519,
+            "EnemyGroupInArea": 65519,
             "EnemyGroupsInArea": 3
           },
           "EnemySpawningInZone": [],
@@ -111896,7 +112414,7 @@
       ],
       "name": "E1_L1",
       "internalEnabled": true,
-      "persistentID": 65500
+      "persistentID": 65499
     },
     {
       "Zones": [
@@ -111927,7 +112445,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65467,
+          "ChainedPuzzleToEnter": 65466,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -112032,7 +112550,7 @@
             "PlacementCount": 0,
             "ZonePlacementData": []
           },
-          "ChainedPuzzleToEnter": 65468,
+          "ChainedPuzzleToEnter": 65467,
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": false,
@@ -112164,7 +112682,7 @@
           "SecurityGateToEnter": 0,
           "ActiveEnemyWave": {
             "HasActiveEnemyWave": true,
-            "EnemyGroupInfrontOfDoor": 65520,
+            "EnemyGroupInfrontOfDoor": 65519,
             "EnemyGroupInArea": 0,
             "EnemyGroupsInArea": 0
           },
@@ -112242,7 +112760,7 @@
       ],
       "name": "E1_L2",
       "internalEnabled": true,
-      "persistentID": 65499
+      "persistentID": 65498
     },
     {
       "Zones": [
@@ -112331,7 +112849,7 @@
       ],
       "name": "Ex1_L1",
       "internalEnabled": true,
-      "persistentID": 65498
+      "persistentID": 65497
     }
   ],
   "LastPersistentID": 153

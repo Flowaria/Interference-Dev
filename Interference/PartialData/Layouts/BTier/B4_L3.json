@@ -602,6 +602,12 @@
 					"Difficulty": 0,
 					"Distribution": 2,
 					"DistributionValue": 0.9
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.9
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -622,6 +628,27 @@
 						"Start": 0.0,
 						"Middle": 0.0,
 						"End": 100000.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 0.0,
+						"End": 100000.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 100000.0,
+						"End": 0.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 100000.0,
+						"End": 0.0
 					}
 				}
 			],
@@ -672,14 +699,29 @@
 				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
 			},
-			"EventsOnEnter": [],
+			"EventsOnEnter": [
+				{
+					"Delay": 0.0,
+					"Noise": {
+						"Enabled": true,
+						"RadiusMin": 80.0,
+						"RadiusMax": 90.0
+					},
+					"Intel": {
+						"Enabled": false
+					},
+					"Sound": {
+						"Enabled": false
+					}
+				}
+			],
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 3,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": 4,
+			"ChainedPuzzleToEnter": "Alarm_B1_Class4",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,
@@ -763,14 +805,29 @@
 				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
 			},
-			"EventsOnEnter": [],
+			"EventsOnEnter": [
+				{
+					"Delay": 0.0,
+					"Noise": {
+						"Enabled": true,
+						"RadiusMin": 80.0,
+						"RadiusMax": 90.0
+					},
+					"Intel": {
+						"Enabled": false
+					},
+					"Sound": {
+						"Enabled": false
+					}
+				}
+			],
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 3,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": 4,
+			"ChainedPuzzleToEnter": "Alarm_B1_Class4",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,

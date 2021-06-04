@@ -16937,7 +16937,7 @@
           "Expedition": {
             "ComplexResourceData": 65534,
             "LightSettings": 9,
-            "FogSettings": 65510,
+            "FogSettings": 65505,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
@@ -17103,7 +17103,7 @@
           "Expedition": {
             "ComplexResourceData": 1,
             "LightSettings": 9,
-            "FogSettings": 65509,
+            "FogSettings": 65504,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
@@ -17279,7 +17279,7 @@
           "Expedition": {
             "ComplexResourceData": 3,
             "LightSettings": 9,
-            "FogSettings": 65510,
+            "FogSettings": 65505,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
@@ -17423,7 +17423,7 @@
           "Expedition": {
             "ComplexResourceData": 1,
             "LightSettings": 70,
-            "FogSettings": 65507,
+            "FogSettings": 65502,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
@@ -18240,14 +18240,25 @@
             "Zone": 0
           },
           "SecondaryLayerData": {
-            "ZoneAliasStart": 219,
+            "ZoneAliasStart": 466,
             "ZonesWithBulkheadEntrance": [],
             "BulkheadDoorControllerPlacements": [],
             "BulkheadKeyPlacements": [],
             "ObjectiveData": {
               "DataBlockId": 65516,
               "WinCondition": 0,
-              "ZonePlacementDatas": []
+              "ZonePlacementDatas": [
+                [
+                  {
+                    "LocalIndex": 2,
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  }
+                ]
+              ]
             },
             "ArtifactData": {
               "ArtifactAmountMulti": 0.0,
@@ -18255,24 +18266,43 @@
               "ArtifactZoneDistributions": []
             }
           },
-          "ThirdLayerEnabled": false,
-          "ThirdLayout": 0,
+          "ThirdLayerEnabled": true,
+          "ThirdLayout": 65515,
           "BuildThirdFrom": {
             "LayerType": 0,
             "Zone": 0
           },
           "ThirdLayerData": {
-            "ZoneAliasStart": 0,
+            "ZoneAliasStart": 219,
             "ZonesWithBulkheadEntrance": [],
             "BulkheadDoorControllerPlacements": [],
-            "BulkheadKeyPlacements": [],
+            "BulkheadKeyPlacements": [
+              [
+                {
+                  "LocalIndex": 7,
+                  "Weights": {
+                    "Start": 0.0,
+                    "Middle": 0.0,
+                    "End": 0.0
+                  }
+                },
+                {
+                  "LocalIndex": 8,
+                  "Weights": {
+                    "Start": 0.0,
+                    "Middle": 0.0,
+                    "End": 0.0
+                  }
+                }
+              ]
+            ],
             "ObjectiveData": {
-              "DataBlockId": 0,
+              "DataBlockId": 65515,
               "WinCondition": 0,
               "ZonePlacementDatas": []
             },
             "ArtifactData": {
-              "ArtifactAmountMulti": 1.0,
+              "ArtifactAmountMulti": 0.0,
               "ArtifactLayerDistributionDataID": 0,
               "ArtifactZoneDistributions": []
             }
@@ -18316,14 +18346,14 @@
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 65515,
+          "LevelLayoutData": 65514,
           "MainLayerData": {
             "ZoneAliasStart": 449,
             "ZonesWithBulkheadEntrance": [],
             "BulkheadDoorControllerPlacements": [],
             "BulkheadKeyPlacements": [],
             "ObjectiveData": {
-              "DataBlockId": 65515,
+              "DataBlockId": 65514,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -18379,7 +18409,7 @@
             }
           },
           "SecondaryLayerEnabled": true,
-          "SecondaryLayout": 65514,
+          "SecondaryLayout": 65513,
           "BuildSecondaryFrom": {
             "LayerType": 0,
             "Zone": 0
@@ -18414,7 +18444,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65514,
+              "DataBlockId": 65513,
               "WinCondition": 0,
               "ZonePlacementDatas": []
             },
@@ -18425,7 +18455,7 @@
             }
           },
           "ThirdLayerEnabled": true,
-          "ThirdLayout": 65513,
+          "ThirdLayout": 65512,
           "BuildThirdFrom": {
             "LayerType": 1,
             "Zone": 0
@@ -18447,7 +18477,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65513,
+              "DataBlockId": 65512,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -18523,13 +18553,13 @@
           "Expedition": {
             "ComplexResourceData": 1,
             "LightSettings": 70,
-            "FogSettings": 65508,
+            "FogSettings": 65503,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 65512,
+          "LevelLayoutData": 65511,
           "MainLayerData": {
             "ZoneAliasStart": 243,
             "ZonesWithBulkheadEntrance": [
@@ -18568,7 +18598,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65512,
+              "DataBlockId": 65511,
               "WinCondition": 1,
               "ZonePlacementDatas": [
                 [
@@ -18590,7 +18620,7 @@
             }
           },
           "SecondaryLayerEnabled": true,
-          "SecondaryLayout": 65511,
+          "SecondaryLayout": 65510,
           "BuildSecondaryFrom": {
             "LayerType": 0,
             "Zone": 9
@@ -18601,7 +18631,7 @@
             "BulkheadDoorControllerPlacements": [],
             "BulkheadKeyPlacements": [],
             "ObjectiveData": {
-              "DataBlockId": 65511,
+              "DataBlockId": 65510,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -18633,7 +18663,7 @@
             }
           },
           "ThirdLayerEnabled": true,
-          "ThirdLayout": 65510,
+          "ThirdLayout": 65509,
           "BuildThirdFrom": {
             "LayerType": 0,
             "Zone": 0
@@ -18655,7 +18685,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65510,
+              "DataBlockId": 65509,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -18707,44 +18737,22 @@
           "Expedition": {
             "ComplexResourceData": 65534,
             "LightSettings": 70,
-            "FogSettings": 65527,
+            "FogSettings": 65522,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 65509,
+          "LevelLayoutData": 65508,
           "MainLayerData": {
             "ZoneAliasStart": 619,
             "ZonesWithBulkheadEntrance": [
               6
             ],
-            "BulkheadDoorControllerPlacements": [
-              {
-                "ZoneIndex": 4,
-                "PlacementWeights": {
-                  "Start": 100000.0,
-                  "Middle": 0.0,
-                  "End": 0.0
-                },
-                "AreaSeedOffset": 0,
-                "MarkerSeedOffset": 0
-              }
-            ],
-            "BulkheadKeyPlacements": [
-              [
-                {
-                  "LocalIndex": 5,
-                  "Weights": {
-                    "Start": 0.0,
-                    "Middle": 0.0,
-                    "End": 1E+07
-                  }
-                }
-              ]
-            ],
+            "BulkheadDoorControllerPlacements": [],
+            "BulkheadKeyPlacements": [],
             "ObjectiveData": {
-              "DataBlockId": 65509,
+              "DataBlockId": 65508,
               "WinCondition": 1,
               "ZonePlacementDatas": []
             },
@@ -18831,13 +18839,13 @@
           "Expedition": {
             "ComplexResourceData": 3,
             "LightSettings": 9,
-            "FogSettings": 65526,
+            "FogSettings": 65521,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 65508,
+          "LevelLayoutData": 65507,
           "MainLayerData": {
             "ZoneAliasStart": 660,
             "ZonesWithBulkheadEntrance": [
@@ -18868,7 +18876,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65508,
+              "DataBlockId": 65507,
               "WinCondition": 1,
               "ZonePlacementDatas": [
                 [
@@ -18900,7 +18908,7 @@
             }
           },
           "SecondaryLayerEnabled": true,
-          "SecondaryLayout": 65507,
+          "SecondaryLayout": 65506,
           "BuildSecondaryFrom": {
             "LayerType": 0,
             "Zone": 5
@@ -18911,7 +18919,7 @@
             "BulkheadDoorControllerPlacements": [],
             "BulkheadKeyPlacements": [],
             "ObjectiveData": {
-              "DataBlockId": 65507,
+              "DataBlockId": 65506,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -18953,7 +18961,7 @@
             }
           },
           "ThirdLayerEnabled": true,
-          "ThirdLayout": 65506,
+          "ThirdLayout": 65505,
           "BuildThirdFrom": {
             "LayerType": 0,
             "Zone": 5
@@ -18975,7 +18983,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65506,
+              "DataBlockId": 65505,
               "WinCondition": 0,
               "ZonePlacementDatas": []
             },
@@ -19016,13 +19024,13 @@
           "Expedition": {
             "ComplexResourceData": 1,
             "LightSettings": 39,
-            "FogSettings": 65524,
+            "FogSettings": 65519,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 246,
             "ScoutWavePopulation": 5
           },
-          "LevelLayoutData": 65505,
+          "LevelLayoutData": 65504,
           "MainLayerData": {
             "ZoneAliasStart": 660,
             "ZonesWithBulkheadEntrance": [
@@ -19053,7 +19061,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65505,
+              "DataBlockId": 65504,
               "WinCondition": 1,
               "ZonePlacementDatas": [
                 [
@@ -19075,7 +19083,7 @@
             }
           },
           "SecondaryLayerEnabled": true,
-          "SecondaryLayout": 65504,
+          "SecondaryLayout": 65503,
           "BuildSecondaryFrom": {
             "LayerType": 0,
             "Zone": 20
@@ -19097,7 +19105,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65504,
+              "DataBlockId": 65503,
               "WinCondition": 0,
               "ZonePlacementDatas": []
             },
@@ -19108,7 +19116,7 @@
             }
           },
           "ThirdLayerEnabled": true,
-          "ThirdLayout": 65503,
+          "ThirdLayout": 65502,
           "BuildThirdFrom": {
             "LayerType": 0,
             "Zone": 16
@@ -19119,7 +19127,7 @@
             "BulkheadDoorControllerPlacements": [],
             "BulkheadKeyPlacements": [],
             "ObjectiveData": {
-              "DataBlockId": 65503,
+              "DataBlockId": 65502,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -19155,7 +19163,7 @@
           },
           "Descriptive": {
             "Prefix": "<color=red>0<size=70%>X</size>D00",
-            "PublicName": "Crepuscule",
+            "PublicName": "<color=red>Crepuscule</color>",
             "IsExtraExpedition": false,
             "ExpeditionDepth": 769,
             "EstimatedDuration": "",
@@ -19171,13 +19179,13 @@
           "Expedition": {
             "ComplexResourceData": 1,
             "LightSettings": 39,
-            "FogSettings": 65522,
+            "FogSettings": 65517,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 65502,
+          "LevelLayoutData": 65501,
           "MainLayerData": {
             "ZoneAliasStart": 641,
             "ZonesWithBulkheadEntrance": [
@@ -19218,7 +19226,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65502,
+              "DataBlockId": 65501,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -19260,7 +19268,7 @@
             }
           },
           "SecondaryLayerEnabled": true,
-          "SecondaryLayout": 65501,
+          "SecondaryLayout": 65500,
           "BuildSecondaryFrom": {
             "LayerType": 0,
             "Zone": 7
@@ -19282,7 +19290,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65501,
+              "DataBlockId": 65500,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -19358,13 +19366,13 @@
           "Expedition": {
             "ComplexResourceData": 65533,
             "LightSettings": 9,
-            "FogSettings": 65515,
+            "FogSettings": 65510,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 65500,
+          "LevelLayoutData": 65499,
           "MainLayerData": {
             "ZoneAliasStart": 788,
             "ZonesWithBulkheadEntrance": [
@@ -19395,7 +19403,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65500,
+              "DataBlockId": 65499,
               "WinCondition": 1,
               "ZonePlacementDatas": []
             },
@@ -19406,7 +19414,7 @@
             }
           },
           "SecondaryLayerEnabled": true,
-          "SecondaryLayout": 65499,
+          "SecondaryLayout": 65498,
           "BuildSecondaryFrom": {
             "LayerType": 0,
             "Zone": 11
@@ -19428,7 +19436,7 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 65499,
+              "DataBlockId": 65498,
               "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
@@ -19512,13 +19520,13 @@
           "Expedition": {
             "ComplexResourceData": 1,
             "LightSettings": 9,
-            "FogSettings": 65510,
+            "FogSettings": 65505,
             "EnemyPopulation": 1,
             "ExpeditionBalance": 1,
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 65500,
+          "LevelLayoutData": 65499,
           "MainLayerData": {
             "ZoneAliasStart": 792,
             "ZonesWithBulkheadEntrance": [
@@ -19538,7 +19546,7 @@
             ],
             "BulkheadKeyPlacements": [],
             "ObjectiveData": {
-              "DataBlockId": 65500,
+              "DataBlockId": 65499,
               "WinCondition": 1,
               "ZonePlacementDatas": [
                 [

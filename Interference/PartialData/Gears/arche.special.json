@@ -53,7 +53,7 @@
 	},
 	{
 		"PublicName": "Powered Revolver",
-		"Description": "Ammo: 4/14 (Chargeup Full-auto)\nDamage: 31.5\n[Precision: 0.0x / Stagger: 1.0x]\nRange: 15m-50m\n<color=red>No Headshot</color>",
+		"Description": "Ammo: 4/16 (Chargeup Full-auto)\nDamage: 31.5\n[Precision: 0.0x / Stagger: 1.0x]\nRange: 15m-50m\n<color=red>No Headshot</color>",
 		"FireMode": 2,
 		"RecoilDataID": 5,
 		"Damage": 31.5,
@@ -65,7 +65,7 @@
 		"PrecisionDamageMulti": 0.0,
 		"DefaultClipSize": 4,
 		"DefaultReloadTime": 2.48,
-		"CostOfBullet": 16.428571428,
+		"CostOfBullet": 14.375,
 		"ShotDelay": 0.32,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -261,20 +261,20 @@
 	},
 	{
 		"PublicName": "Heavy-Machinegun",
-		"Description": "Mag: 40/115 (Chargeup Full-auto)\nDamage: 4.375\n[Precision: 0.875x / Stagger: 1.0x]\nRange: 15m-80m",
+		"Description": "Mag: 27/115 (Chargeup Full-auto)\nDamage: 5.95\n[Precision: 0.975x / Stagger: 1.0x]\nRange: 15m-80m",
 		"FireMode": 2,
 		"RecoilDataID": 25,
-		"Damage": 4.375,
+		"Damage": 5.95,
 		"DamageFalloff": {
 			"x": 15.0,
 			"y": 80.0
 		},
 		"StaggerDamageMulti": 1.0,
 		"PrecisionDamageMulti": 0.875,
-		"DefaultClipSize": 40,
+		"DefaultClipSize": 27,
 		"DefaultReloadTime": 3.7,
 		"CostOfBullet": 2.0,
-		"ShotDelay": 0.095,
+		"ShotDelay": 0.15,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 2.0,
@@ -298,7 +298,7 @@
 		"ShotgunBulletCount": 0,
 		"ShotgunConeSize": 0,
 		"ShotgunBulletSpread": 0,
-		"SpecialChargetupTime": 0.32,
+		"SpecialChargetupTime": 0.34,
 		"SpecialCooldownTime": 0.0,
 		"SpecialSemiBurstCountTimeout": 0.0,
 		"Sentry_StartFireDelay": 1.0,
@@ -365,10 +365,10 @@
 	},
 	{
 		"PublicName": "Auto Shotgun",
-		"Description": "Mag: 16/56 (Full-auto)\nDamage: 1.5 (6 Pallets)\n[Precision: 0.85x / Stagger: 0.875x]\nRange: 5m-24m",
+		"Description": "Mag: 16/56 (Full-auto)\nDamage: 1.6 (6 Pallets)\n[Precision: 0.85x / Stagger: 0.875x]\nRange: 5m-24m",
 		"FireMode": 2,
 		"RecoilDataID": 21,
-		"Damage": 1.5,
+		"Damage": 1.6,
 		"DamageFalloff": {
 			"x": 5.0,
 			"y": 24.0
@@ -521,7 +521,7 @@
 	},
 	{
 		"PublicName": "Huntsman Rifle",
-		"Description": "Ammo: 1/38 (Bolt-Action)\nDamage: 10.5\n[Precision: 0.95x / Stagger: 1.0x]\nRange: 5m-70m\nPierce: 2\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
+		"Description": "Ammo: 1/38 (Bolt-Action)\nDamage: 10.5\n[Precision: 0.95x / Stagger: 1.0x]\nRange: 5m-70m\nPierce: 2\n<color=orange>Extremely Fast Auto-Reloading</color>\n<color=orange>Experimental</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
 		"Damage": 10.5,

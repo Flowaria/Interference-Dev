@@ -251,7 +251,7 @@
           {
             "Trigger": 2,
             "Type": 2,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 2,
             "Delay": 5.0,
             "WardenIntel": "Door to [ZONE_2] unlocked by startup sequence",
@@ -260,7 +260,7 @@
           {
             "Trigger": 2,
             "Type": 0,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 0,
             "Delay": 15.0,
             "WardenIntel": "Auxiliary Terminal located in [ZONE_2]",
@@ -384,7 +384,7 @@
           {
             "Trigger": 2,
             "Type": 2,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 3,
             "Delay": 5.0,
             "WardenIntel": "Door to [ZONE_3] unlocked by startup sequence",
@@ -393,7 +393,7 @@
           {
             "Trigger": 2,
             "Type": 0,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 0,
             "Delay": 15.0,
             "WardenIntel": "Auxiliary Terminal located in [ZONE_3]",
@@ -487,7 +487,7 @@
           {
             "Trigger": 2,
             "Type": 2,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 4,
             "Delay": 5.0,
             "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence",
@@ -496,7 +496,7 @@
           {
             "Trigger": 2,
             "Type": 0,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 0,
             "Delay": 15.0,
             "WardenIntel": "Auxiliary Terminal located in [ZONE_4]",
@@ -556,7 +556,7 @@
             "SpawnType": 1
           },
           {
-            "WaveSettings": "WaveSetting_Reactor_9_18_Randomized", //~30 Bullrush
+            "WaveSettings": "WaveSetting_Reactor_8_8_Randomized", //~30 Bullrush
             "WavePopulation": 5,
             "SpawnTimeRel": 0.3,
             "SpawnType": 1
@@ -576,13 +576,7 @@
           {
             "WaveSettings": "WaveSetting_Reactor_8_8_Randomized", //Trickle
             "WavePopulation": 18,
-            "SpawnTimeRel": 0.6,
-            "SpawnType": 0
-          },
-          {
-            "WaveSettings": "WaveSetting_Reactor_8_8_Randomized", //Trickle
-            "WavePopulation": 18,
-            "SpawnTimeRel": 0.8,
+            "SpawnTimeRel": 0.7,
             "SpawnType": 0
           }
         ],
@@ -590,7 +584,7 @@
           {
             "Trigger": 2,
             "Type": 2,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 5,
             "Delay": 5.0,
             "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence",
@@ -599,7 +593,7 @@
           {
             "Trigger": 2,
             "Type": 0,
-            "Layer": 1,
+            "Layer": 2,
             "LocalIndex": 0,
             "Delay": 15.0,
             "WardenIntel": "Auxiliary Terminal located in [ZONE_6]",
@@ -622,19 +616,19 @@
     "CentralPowerGenClustser_FogDataSteps": [
       {
         "m_fogDataId": "Fog_B4_Layer1",
-        "m_transitionToTime": 12.0
+        "m_transitionToTime": 10.5
       },
       {
         "m_fogDataId": "Fog_B4_Layer2",
-        "m_transitionToTime": 12.0
+        "m_transitionToTime": 10.5
       },
       {
         "m_fogDataId": "Fog_B4_Layer3",
-        "m_transitionToTime": 12.0
+        "m_transitionToTime": 10.5
       },
       {
         "m_fogDataId": "Fog_B4_Layer4",
-        "m_transitionToTime": 40.0
+        "m_transitionToTime": 30.0
       }
     ],
     "ActivateHSU_ItemFromStart": 0,

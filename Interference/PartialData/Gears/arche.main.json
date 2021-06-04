@@ -313,10 +313,10 @@
 	},
 	{
 		"PublicName": "Light-Machinegun",
-		"Description": "Ammo: 75/250 (Chargeup Full-auto)\nDamage: 1.4\n[Precision: 0.69x - Stagger: 0.95x]\nRange: 13m-50m",
+		"Description": "Ammo: 75/250 (Chargeup Full-auto)\nDamage: 1.55\n[Precision: 0.69x - Stagger: 0.95x]\nRange: 13m-50m",
 		"FireMode": 2,
 		"RecoilDataID": 2,
-		"Damage": 1.4,
+		"Damage": 1.55,
 		"DamageFalloff": {
 			"x": 13.0,
 			"y": 50.0
@@ -521,7 +521,7 @@
 	},
 	{
 		"PublicName": "Marksman Rifle",
-		"Description": "Ammo: 10/54 (Semi-auto)\nDamage: 7.6\n[Precision: 0.91x - Stagger: 0.75x]\nRange: 10m-80m",
+		"Description": "Ammo: 10/49 (Semi-auto)\nDamage: 7.6\n[Precision: 0.91x - Stagger: 0.75x]\nRange: 10m-80m",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Marksman_Rifle",
 		"Damage": 7.6,
@@ -533,7 +533,7 @@
 		"PrecisionDamageMulti": 1.05,
 		"DefaultClipSize": 10,
 		"DefaultReloadTime": 2.5,
-		"CostOfBullet": 8.517,
+		"CostOfBullet": 9.3876,
 		"ShotDelay": 0.25,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,

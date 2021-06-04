@@ -11474,7 +11474,7 @@
       "ChainedPuzzleToActive": 10,
       "ChainedPuzzleMidObjective": 0,
       "ChainedPuzzleAtExit": 11,
-      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.75,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 0.8,
       "Gather_RequiredCount": -1,
       "Gather_ItemId": 0,
       "Gather_SpawnCount": 0,
@@ -11497,6 +11497,78 @@
       "name": "Unseal_Cargo",
       "internalEnabled": true,
       "persistentID": 65517
+    },
+    {
+      "Type": 3,
+      "Header": "Gather KEYCARD",
+      "MainObjective": "Find the Keycard <color=orange>KEY_OMNI_782F</color> and unlock the unsealer chamber",
+      "FindLocationInfo": "",
+      "FindLocationInfoHelp": "",
+      "GoToZone": "",
+      "GoToZoneHelp": "",
+      "InZoneFindItem": "",
+      "InZoneFindItemHelp": "",
+      "SolveItem": "",
+      "SolveItemHelp": "",
+      "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_Elevator": "",
+      "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
+      "GoToWinConditionHelp_CustomGeo": "",
+      "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+      "GoToWinConditionHelp_ToMainLayer": "",
+      "ShowHelpDelay": 180.0,
+      "WavesOnElevatorLand": [],
+      "WaveOnElevatorWardenIntel": "",
+      "FogTransitionDataOnElevatorLand": 0,
+      "FogTransitionDurationOnElevatorLand": 0.0,
+      "WavesOnActivate": [],
+      "StopAllWavesBeforeGotoWin": false,
+      "WavesOnGotoWin": [],
+      "WaveOnGotoWinTrigger": 0,
+      "EventsOnGotoWin": [
+        {
+          "Trigger": 0,
+          "Type": 2,
+          "Layer": 0,
+          "LocalIndex": 2,
+          "Delay": 0.0,
+          "WardenIntel": "",
+          "SoundID": 0
+        }
+      ],
+      "FogTransitionDataOnGotoWin": 0,
+      "FogTransitionDurationOnGotoWin": 0.0,
+      "ChainedPuzzleToActive": 0,
+      "ChainedPuzzleMidObjective": 0,
+      "ChainedPuzzleAtExit": 11,
+      "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+      "Gather_RequiredCount": 1,
+      "Gather_ItemId": 65523,
+      "Gather_SpawnCount": 1,
+      "Gather_MaxPerZone": 1,
+      "Retrieve_Items": [],
+      "ReactorWaves": [],
+      "LightsOnFromBeginning": false,
+      "LightsOnDuringIntro": false,
+      "LightsOnWhenStartupComplete": false,
+      "SpecialTerminalCommand": "",
+      "SpecialTerminalCommandDesc": "",
+      "PostCommandOutput": [],
+      "PowerCellsToDistribute": 0,
+      "Uplink_NumberOfVerificationRounds": 0,
+      "Uplink_NumberOfTerminals": 1,
+      "CentralPowerGenClustser_NumberOfGenerators": 0,
+      "CentralPowerGenClustser_NumberOfPowerCells": 4,
+      "CentralPowerGenClustser_FogDataSteps": [],
+      "ActivateHSU_ItemFromStart": 0,
+      "ActivateHSU_ItemAfterActivation": 0,
+      "ActivateHSU_StopEnemyWavesOnActivation": false,
+      "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+      "ActivateHSU_RequireItemAfterActivationInExitScan": false,
+      "ActivateHSU_Events": [],
+      "name": "Gather_Keycard_1",
+      "internalEnabled": true,
+      "persistentID": 65516
     },
     {
       "Type": 1,
@@ -11529,10 +11601,19 @@
         {
           "Trigger": 1,
           "Type": 2,
-          "Layer": 0,
-          "LocalIndex": 2,
+          "Layer": 2,
+          "LocalIndex": 7,
           "Delay": 4.0,
-          "WardenIntel": "Door to <color=orange>[Unsealer]</color> has unlocked.",
+          "WardenIntel": "Door to [ZONE_7] and [ZONE_8] has unlocked.",
+          "SoundID": 0
+        },
+        {
+          "Trigger": 1,
+          "Type": 2,
+          "Layer": 2,
+          "LocalIndex": 8,
+          "Delay": 4.0,
+          "WardenIntel": "",
           "SoundID": 0
         }
       ],
@@ -11551,7 +11632,7 @@
           "Warmup": 30.0,
           "WarmupFail": 20.0,
           "Wave": 60.0,
-          "Verify": 200.0,
+          "Verify": 250.0,
           "VerifyFail": 60.0,
           "VerifyInOtherZone": true,
           "ZoneForVerification": 2,
@@ -11636,7 +11717,7 @@
           "Warmup": 30.0,
           "WarmupFail": 20.0,
           "Wave": 90.0,
-          "Verify": 280.0,
+          "Verify": 330.0,
           "VerifyFail": 60.0,
           "VerifyInOtherZone": true,
           "ZoneForVerification": 3,
@@ -11769,7 +11850,7 @@
           "Warmup": 30.0,
           "WarmupFail": 20.0,
           "Wave": 135.0,
-          "Verify": 350.0,
+          "Verify": 400.0,
           "VerifyFail": 60.0,
           "VerifyInOtherZone": true,
           "ZoneForVerification": 4,
@@ -11841,7 +11922,7 @@
               "SpawnType": 1
             },
             {
-              "WaveSettings": 238,
+              "WaveSettings": 240,
               "WavePopulation": 1,
               "SpawnTimeRel": 0.85,
               "SpawnType": 1
@@ -11871,8 +11952,8 @@
         {
           "Warmup": 30.0,
           "WarmupFail": 20.0,
-          "Wave": 150.0,
-          "Verify": 520.0,
+          "Wave": 165.0,
+          "Verify": 565.0,
           "VerifyFail": 80.0,
           "VerifyInOtherZone": true,
           "ZoneForVerification": 6,
@@ -11983,7 +12064,24 @@
       "Uplink_NumberOfTerminals": 1,
       "CentralPowerGenClustser_NumberOfGenerators": 0,
       "CentralPowerGenClustser_NumberOfPowerCells": 4,
-      "CentralPowerGenClustser_FogDataSteps": [],
+      "CentralPowerGenClustser_FogDataSteps": [
+        {
+          "m_fogDataId": 65526,
+          "m_transitionToTime": 12.0
+        },
+        {
+          "m_fogDataId": 65525,
+          "m_transitionToTime": 12.0
+        },
+        {
+          "m_fogDataId": 65524,
+          "m_transitionToTime": 12.0
+        },
+        {
+          "m_fogDataId": 65523,
+          "m_transitionToTime": 40.0
+        }
+      ],
       "ActivateHSU_ItemFromStart": 0,
       "ActivateHSU_ItemAfterActivation": 0,
       "ActivateHSU_StopEnemyWavesOnActivation": false,
@@ -11992,12 +12090,12 @@
       "ActivateHSU_Events": [],
       "name": "Reactor_Startup_Waves_4",
       "internalEnabled": true,
-      "persistentID": 65516
+      "persistentID": 65515
     },
     {
       "Type": 6,
       "Header": "Retrieve Essential Items",
-      "MainObjective": "<color=orange>(Back-up Message)</color> Find the <u><b>MCFC Power cells</b></u> and bring it to the extraction scan",
+      "MainObjective": "<color=orange>(Back-up Message)</color> Find <color=orange>2</color> <u><b>MCFC Power cells</b></u> and bring them to the extraction scan",
       "FindLocationInfo": "<b><i>--LOST COMMUNICATION--</i></b>",
       "FindLocationInfoHelp": "<color=orange>(Back-up Message)</color> Only one terminal maintenance system is located in <u>Zone 450</u>",
       "GoToZone": "",
@@ -12059,12 +12157,12 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "Retrieve_NO_INFO",
       "internalEnabled": true,
-      "persistentID": 65515
+      "persistentID": 65514
     },
     {
       "Type": 1,
       "Header": "Reactor Startup INFINITE ALARM",
-      "MainObjective": "<color=orange>(Back-up Message)</color> Find the <u><b>MCFC Power cells</b></u> and bring it to the extraction scan",
+      "MainObjective": "<color=orange>(Back-up Message)</color> Find <color=orange>2</color> <u><b>MCFC Power cells</b></u> and bring it to the extraction scan",
       "FindLocationInfo": "",
       "FindLocationInfoHelp": "",
       "GoToZone": "",
@@ -12151,7 +12249,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "Reactor_Startup_TERMINAL_BIGCHARGERS",
       "internalEnabled": true,
-      "persistentID": 65514
+      "persistentID": 65513
     },
     {
       "Type": 0,
@@ -12217,7 +12315,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "HSU_DNA_Core_1_2",
       "internalEnabled": true,
-      "persistentID": 65513
+      "persistentID": 65512
     },
     {
       "Type": 5,
@@ -12305,7 +12403,7 @@
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_ClearAlarm_ShadowAlarm",
       "internalEnabled": true,
-      "persistentID": 65512
+      "persistentID": 65511
     },
     {
       "Type": 3,
@@ -12367,7 +12465,7 @@
       "ActivateHSU_Events": [],
       "name": "Gather_FUSE_2",
       "internalEnabled": true,
-      "persistentID": 65511
+      "persistentID": 65510
     },
     {
       "Type": 7,
@@ -12437,7 +12535,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "Distribute_PowerCells_1",
       "internalEnabled": true,
-      "persistentID": 65510
+      "persistentID": 65509
     },
     {
       "Type": 4,
@@ -12513,7 +12611,7 @@
       "ActivateHSU_Events": [],
       "name": "ClearAPath_Default_1",
       "internalEnabled": true,
-      "persistentID": 65509
+      "persistentID": 65508
     },
     {
       "Type": 7,
@@ -12602,7 +12700,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "Distribute_PowerCells_2[NoLightOnStart]",
       "internalEnabled": true,
-      "persistentID": 65508
+      "persistentID": 65507
     },
     {
       "Type": 8,
@@ -12700,7 +12798,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "TerminalUplink_Three_Terminal",
       "internalEnabled": true,
-      "persistentID": 65507
+      "persistentID": 65506
     },
     {
       "Type": 10,
@@ -12830,7 +12928,7 @@
           "SoundID": 3596807584
         }
       ],
-      "FogTransitionDataOnGotoWin": 65525,
+      "FogTransitionDataOnGotoWin": 65520,
       "FogTransitionDurationOnGotoWin": 60.0,
       "ChainedPuzzleToActive": 10,
       "ChainedPuzzleMidObjective": 0,
@@ -12857,7 +12955,7 @@
       "ActivateHSU_Events": [],
       "name": "QTP_Neonate[Activator_Teleporter]",
       "internalEnabled": true,
-      "persistentID": 65506
+      "persistentID": 65505
     },
     {
       "Type": 7,
@@ -12919,7 +13017,7 @@
           "SoundID": 3596807584
         }
       ],
-      "FogTransitionDataOnGotoWin": 65523,
+      "FogTransitionDataOnGotoWin": 65518,
       "FogTransitionDurationOnGotoWin": 1500.0,
       "ChainedPuzzleToActive": 0,
       "ChainedPuzzleMidObjective": 0,
@@ -12950,7 +13048,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "Distribute_PowerCells_1_FAKED_TO_CLEARPATH",
       "internalEnabled": true,
-      "persistentID": 65505
+      "persistentID": 65504
     },
     {
       "Type": 1,
@@ -13284,7 +13382,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "Reactor_Startup_RETRIEVE_CODE_DURING_INTRO[LightOffOnFinish]",
       "internalEnabled": true,
-      "persistentID": 65504
+      "persistentID": 65503
     },
     {
       "Type": 6,
@@ -13354,7 +13452,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "Retrieve Essential Items_2_CARGO, IDLE_TURBINE",
       "internalEnabled": true,
-      "persistentID": 65503
+      "persistentID": 65502
     },
     {
       "Type": 9,
@@ -13420,7 +13518,7 @@
         }
       ],
       "WaveOnElevatorWardenIntel": "Massive Bioreadings Approaching",
-      "FogTransitionDataOnElevatorLand": 65523,
+      "FogTransitionDataOnElevatorLand": 65518,
       "FogTransitionDurationOnElevatorLand": 2100.0,
       "WavesOnActivate": [],
       "StopAllWavesBeforeGotoWin": false,
@@ -13430,7 +13528,7 @@
       "FogTransitionDataOnGotoWin": 0,
       "FogTransitionDurationOnGotoWin": 0.0,
       "ChainedPuzzleToActive": 0,
-      "ChainedPuzzleMidObjective": 65487,
+      "ChainedPuzzleMidObjective": 65486,
       "ChainedPuzzleAtExit": 11,
       "ChainedPuzzleAtExitScanSpeedMultiplier": 0.85,
       "Gather_RequiredCount": -1,
@@ -13452,19 +13550,19 @@
       "CentralPowerGenClustser_NumberOfPowerCells": 3,
       "CentralPowerGenClustser_FogDataSteps": [
         {
-          "m_fogDataId": 65521,
+          "m_fogDataId": 65516,
           "m_transitionToTime": 15.0
         },
         {
-          "m_fogDataId": 65519,
+          "m_fogDataId": 65514,
           "m_transitionToTime": 7.0
         },
         {
-          "m_fogDataId": 65517,
+          "m_fogDataId": 65512,
           "m_transitionToTime": 7.0
         },
         {
-          "m_fogDataId": 65516,
+          "m_fogDataId": 65511,
           "m_transitionToTime": 420.0
         }
       ],
@@ -13475,7 +13573,7 @@
       "ActivateHSU_RequireItemAfterActivationInExitScan": false,
       "name": "CentralPowerGeneratorCluster_4_1",
       "internalEnabled": true,
-      "persistentID": 65502
+      "persistentID": 65501
     },
     {
       "Type": 5,
@@ -13538,7 +13636,7 @@
       "ActivateHSU_Events": [],
       "name": "SpecialTerminalCommand_1",
       "internalEnabled": true,
-      "persistentID": 65501
+      "persistentID": 65500
     },
     {
       "Type": 10,
@@ -13628,7 +13726,7 @@
       "ActivateHSU_Events": [],
       "name": "DataSphere_Retrieve_Data",
       "internalEnabled": true,
-      "persistentID": 65500
+      "persistentID": 65499
     },
     {
       "Type": 9,
@@ -13671,7 +13769,7 @@
       "FogTransitionDataOnGotoWin": 0,
       "FogTransitionDurationOnGotoWin": 0.0,
       "ChainedPuzzleToActive": 0,
-      "ChainedPuzzleMidObjective": 65469,
+      "ChainedPuzzleMidObjective": 65468,
       "ChainedPuzzleAtExit": 11,
       "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
       "Gather_RequiredCount": -1,
@@ -13693,15 +13791,15 @@
       "CentralPowerGenClustser_NumberOfPowerCells": 2,
       "CentralPowerGenClustser_FogDataSteps": [
         {
-          "m_fogDataId": 65514,
+          "m_fogDataId": 65509,
           "m_transitionToTime": 9.0
         },
         {
-          "m_fogDataId": 65512,
+          "m_fogDataId": 65507,
           "m_transitionToTime": 460.0
         },
         {
-          "m_fogDataId": 65513,
+          "m_fogDataId": 65508,
           "m_transitionToTime": 9.0
         }
       ],
@@ -13713,7 +13811,7 @@
       "ActivateHSU_Events": [],
       "name": "CentralPowerGeneratorCluster_2_2",
       "internalEnabled": true,
-      "persistentID": 65499
+      "persistentID": 65498
     },
     {
       "Type": 3,
@@ -13800,7 +13898,7 @@
       "ActivateHSU_Events": [],
       "name": "Gather_FUSE_18[AlwaysSneakMusic]",
       "internalEnabled": true,
-      "persistentID": 65498
+      "persistentID": 65497
     }
   ],
   "LastPersistentID": 95
