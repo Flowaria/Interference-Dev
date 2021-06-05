@@ -11,5 +11,18 @@
 		"internalEnabled": true,
 		"persistentID": 500,
 		"datablock": "GearMeleeHeadPart"
+	},
+	{
+		"General": {
+			"Model": "",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 140,
+			"BundleShard": 13
+		},
+		"Aligns": [],
+		"name": "Empty",
+		"internalEnabled": true,
+		"persistentID": 501,
+		"datablock": "GearMeleeHeadPart"
 	}
 ]

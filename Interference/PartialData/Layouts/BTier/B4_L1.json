@@ -52,7 +52,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": 1,
+			"ConsumableDistributionInZone": "Consumable_Dark_Glowsticks_WithTripmineAndFoam",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{

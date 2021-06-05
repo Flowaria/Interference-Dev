@@ -1,16 +1,25 @@
-<size=85%>>cortex_ni --analyze-geo latest
-Analyzing Geo-data from previous Rundown... DONE!
-<color=orange>WARNING! Geo-data mismatch level is high compare to local data.</color>
-<color=orange>- Suggested Action: Sync the Geo-data, Contact the Admin.</color>
+<size=80%>>Processing geo-data sample from [0xE001]... VALID!
+<color=orange>WARNING: Critical Damage on maintenance system!</color>
+ - Suggested Action: Immediate Repair required
 
->geotools --lookup --query-any *nframe*,*map*
-Querying data with filter... DONE!
-<color=orange>Result:</color>
-- Subcomplex 91X122: Real-Time GeoData nFrame Cluster
+>rundown --load-id 62 --subcomplex 91X122 --forced --comment "Repair maintenance system, Establish External Connection to nFrame Cluster if possible"</size>
+<size=110%>Re-Initiating Rundown Protocol: <color=orange>Interference <color=red>://EXT-Finalize</color></color></size>
 
->rundown --load-id 62 --subcomplex 91X122 --forced</size>
-<size=150%>Initiating Rundown Protocol: <color=orange>Interference</color></size>
-
-
-<size=200%>Change Log (v0.5.40):</size>
-UNSEALER SOFTLOCK IS NOT WORKING PROPERLY
+<size=150%>Change Log (v0.6.0):</size>
+- Level Change:
+  * A1 - Slightly Changed Extreme
+  * D3 - Tweaked Last Cell zone, Tweaked Extraction Event
+  * E1 - Significantly nerfed Difficulty in general
+<color=orange>- Added Extension Level: A4, B4</color>
+- Weapon:
+  <color=orange>* Added Two unique Melee Type: Light Melee, Heavy Melee</color>
+  * Marksman Rifle - Reduced Max Ammo (-5)
+  * Light-MG - Increased Damage (1.4 -> 1.55)
+  * Heavy-MG - Changed style to closer to Auto DMR (R1 stat)
+  * Powered Revolver - Increased Max Ammo (+2)
+  * Auto Shotgun - Increased Damage (1.5 -> 1.6)
+  * Sniper Sentry - Renamed to Anti-Material Sentry, Increased Damage, Reduced Max Ammo
+  * Auto Scatter Sentry - Renamed to Choke-Mod Shotgun Sentry, Increased Damage, Increased Max Ammo
+  * Rifle Sentry - Slightly Increased Ammo (572 -> 648)
+  * Stun Sentry - Slightly Decreased Ammo (1024 -> 1000)
+  * Mine Deployer - Increased Max Ammo (8 -> 10)

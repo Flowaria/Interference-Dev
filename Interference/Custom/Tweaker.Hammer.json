@@ -3,7 +3,7 @@
     "itemID": 100,
     "damage": {
       "light": 4.0,
-      "heavy": 20.0
+      "heavy": 20.01
     },
     "PrecisionDamageMulti": 1.0,
     "cameraDamageRayLength": 1.8,
@@ -172,18 +172,18 @@
       }
     },
     "name": "Default",
-    "internalEnabled": false
+    "internalEnabled": true
   },
   {
-    "itemID": 100,
+    "itemID": 802,
     "damage": {
-      "light": 4.0,
-      "heavy": 20.0
+      "light": 1.8,
+      "heavy": 6.0
     },
-    "PrecisionDamageMulti": 1.0,
-    "cameraDamageRayLength": 100.0,
-    "inputBufferTime": 0.5,
-    "maxPushFrequency": 1.2,
+    "PrecisionDamageMulti": 0.8,
+    "cameraDamageRayLength": 1.9,
+    "inputBufferTime": 0.4,
+    "maxPushFrequency": 0.9,
     "attackDamageSphereDotScale": 0.9,
     "pushDamageSphereRadius": 0.6,
     "syncTimeout": 2.0,
@@ -194,53 +194,53 @@
       "max": 1.0
     },
     "chargeUp": {
-      "maxDamageTimeDef": 2.0,
-      "autoAttackTime": 4.0
+      "maxDamageTimeDef": 0.7,
+      "autoAttackTime": 3.0
     },
     "attackMissRight": {
       "animeBlendIn": 0.2,
-      "attackLength": 1.0,
-      "attackHitTime": 0.3333333,
-      "damageStartTime": 0.3333333,
-      "damageEndTime": 0.7666667,
-      "attackCamFwdHitTime": 0.5,
-      "comboEarlyTime": 0.6666667
+      "attackLength": 0.8,
+      "attackHitTime": 0.1333333,
+      "damageStartTime": 0.1333333,
+      "damageEndTime": 0.5666667,
+      "attackCamFwdHitTime": 0.3,
+      "comboEarlyTime": 0.4666667
     },
     "attackMissLeft": {
       "animeBlendIn": 0.2,
-      "attackLength": 1.0,
-      "attackHitTime": 0.3333333,
-      "damageStartTime": 0.3333333,
-      "damageEndTime": 0.7666667,
-      "attackCamFwdHitTime": 0.5,
-      "comboEarlyTime": 0.6666667
+      "attackLength": 0.8,
+      "attackHitTime": 0.1333333,
+      "damageStartTime": 0.1333333,
+      "damageEndTime": 0.5666667,
+      "attackCamFwdHitTime": 0.3,
+      "comboEarlyTime": 0.4666667
     },
     "attackHitRight": {
       "animeBlendIn": 0.0,
-      "attackLength": 0.5,
-      "attackHitTime": 0.5,
+      "attackLength": 0.3,
+      "attackHitTime": 0.3,
       "damageStartTime": 0.0,
       "damageEndTime": 0.0,
       "attackCamFwdHitTime": 0.0,
-      "comboEarlyTime": 0.4
+      "comboEarlyTime": 0.2
     },
     "attackHitLeft": {
       "animeBlendIn": 0.0,
-      "attackLength": 0.5,
-      "attackHitTime": 0.5,
+      "attackLength": 0.3,
+      "attackHitTime": 0.3,
       "damageStartTime": 0.0,
       "damageEndTime": 0.0,
       "attackCamFwdHitTime": 0.0,
-      "comboEarlyTime": 0.4
+      "comboEarlyTime": 0.2
     },
     "attackPush": {
-      "animeBlendIn": 0.2,
-      "attackLength": 0.6666667,
+      "animeBlendIn": 0.1,
+      "attackLength": 0.1,
       "attackHitTime": 0.0,
-      "damageStartTime": 0.1333333,
-      "damageEndTime": 0.2666667,
-      "attackCamFwdHitTime": 0.3333333,
-      "comboEarlyTime": 0.8333333
+      "damageStartTime": 0.1,
+      "damageEndTime": 0.2,
+      "attackCamFwdHitTime": 0.2,
+      "comboEarlyTime": 0.2
     },
     "attackChargeUpRight": {
       "animeBlendIn": 0.23,
@@ -253,6 +253,181 @@
     },
     "attackChargeUpLeft": {
       "animeBlendIn": 0.3,
+      "attackLength": 0.0,
+      "attackHitTime": 0.0,
+      "damageStartTime": 0.0,
+      "damageEndTime": 0.0,
+      "attackCamFwdHitTime": 0.0,
+      "comboEarlyTime": 0.0
+    },
+    "attackChargeUpReleaseRight": {
+      "animeBlendIn": 0.0,
+      "attackLength": 0.1666667,
+      "attackHitTime": 0.0333333,
+      "damageStartTime": 0.0,
+      "damageEndTime": 0.1666667,
+      "attackCamFwdHitTime": 0.0333333,
+      "comboEarlyTime": 0.1
+    },
+    "attackChargeUpReleaseLeft": {
+      "animeBlendIn": 0.0,
+      "attackLength": 0.1666667,
+      "attackHitTime": 0.0333333,
+      "damageStartTime": 0.0,
+      "damageEndTime": 0.1666667,
+      "attackCamFwdHitTime": 0.0333333,
+      "comboEarlyTime": 0.1
+    },
+    "head": {
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "neck": {
+      "scale": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "handle": {
+      "scale": {
+        "x": 1.0,
+        "y": 1.625,
+        "z": 1.0
+      },
+      "position": {
+        "x": 0.0,
+        "y": 0.21,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "pommel": {
+      "scale": {
+        "x": 6.5,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "position": {
+        "x": 0.1,
+        "y": 0.21,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "name": "Stick",
+    "internalEnabled": true
+  },
+  {
+    "itemID": 800,
+    "damage": {
+      "light": 6.5,
+      "heavy": 50.01
+    },
+    "PrecisionDamageMulti": 0.8,
+    "cameraDamageRayLength": 1.5,
+    "inputBufferTime": 0.5,
+    "maxPushFrequency": 1.6,
+    "attackDamageSphereDotScale": 0.8,
+    "pushDamageSphereRadius": 0.5,
+    "syncTimeout": 2.0,
+    "bufferedAttackTime": -1.0,
+    "bufferedPushTime": -1.0,
+    "staminaSpeed": {
+      "min": 0.8,
+      "max": 1.0
+    },
+    "chargeUp": {
+      "maxDamageTimeDef": 3.85,
+      "autoAttackTime": 6.0
+    },
+    "attackMissRight": {
+      "animeBlendIn": 0.4,
+      "attackLength": 1.8,
+      "attackHitTime": 0.6333333,
+      "damageStartTime": 0.6333333,
+      "damageEndTime": 0.9666667,
+      "attackCamFwdHitTime": 0.7,
+      "comboEarlyTime": 0.8
+    },
+    "attackMissLeft": {
+      "animeBlendIn": 0.4,
+      "attackLength": 1.8,
+      "attackHitTime": 0.6333333,
+      "damageStartTime": 0.6333333,
+      "damageEndTime": 0.9666667,
+      "attackCamFwdHitTime": 0.7,
+      "comboEarlyTime": 0.8
+    },
+    "attackHitRight": {
+      "animeBlendIn": 0.0,
+      "attackLength": 1.2,
+      "attackHitTime": 1.2,
+      "damageStartTime": 0.0,
+      "damageEndTime": 0.0,
+      "attackCamFwdHitTime": 0.0,
+      "comboEarlyTime": 1.0
+    },
+    "attackHitLeft": {
+      "animeBlendIn": 0.0,
+      "attackLength": 1.35,
+      "attackHitTime": 1.35,
+      "damageStartTime": 0.0,
+      "damageEndTime": 0.0,
+      "attackCamFwdHitTime": 0.0,
+      "comboEarlyTime": 1.0
+    },
+    "attackPush": {
+      "animeBlendIn": 0.2,
+      "attackLength": 0.9,
+      "attackHitTime": 0.0,
+      "damageStartTime": 0.1333333,
+      "damageEndTime": 0.2666667,
+      "attackCamFwdHitTime": 0.3333333,
+      "comboEarlyTime": 0.8333333
+    },
+    "attackChargeUpRight": {
+      "animeBlendIn": 0.4,
+      "attackLength": 0.0,
+      "attackHitTime": 0.0,
+      "damageStartTime": 0.0,
+      "damageEndTime": 0.0,
+      "attackCamFwdHitTime": 0.0,
+      "comboEarlyTime": 0.0
+    },
+    "attackChargeUpLeft": {
+      "animeBlendIn": 0.4,
       "attackLength": 0.0,
       "attackHitTime": 0.0,
       "damageStartTime": 0.0,
@@ -280,17 +455,17 @@
     },
     "head": {
       "scale": {
-        "x": 1.5,
-        "y": 1.5,
-        "z": 1.5
+        "x": 1.15,
+        "y": 1.15,
+        "z": 0.8
       },
       "position": {
         "x": 0.0,
         "y": 0.0,
-        "z": 0.0
+        "z": 0.08
       },
       "rotation": {
-        "x": 0.0,
+        "x": -90.0,
         "y": 0.0,
         "z": 0.0
       }
@@ -315,7 +490,7 @@
     "handle": {
       "scale": {
         "x": 1.0,
-        "y": 1.5,
+        "y": 1.3,
         "z": 1.0
       },
       "position": {
@@ -346,7 +521,7 @@
         "z": 0.0
       }
     },
-    "name": "SniperHammer",
-    "internalEnabled": false
+    "name": "Heavy",
+    "internalEnabled": true
   }
 ]

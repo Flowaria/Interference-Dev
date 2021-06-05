@@ -44,6 +44,32 @@
 		"datablock": "ConsumableDistribution"
 	},
 	{
+		"SpawnsPerZone": 18,
+		"ChanceToSpawnInResourceContainer": 0.35,
+		"SpawnData": [
+			{
+				"ItemID": 114,
+				"Weight": 6.0
+			},
+			{
+				"ItemID": 139,
+				"Weight": 7.5
+			},
+			{
+				"ItemID": 30,
+				"Weight": 0.5
+			},
+			{
+				"ItemID": 115,
+				"Weight": 1.0
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Dark_Glowsticks_WithTripmineAndFoam",
+		"datablock": "ConsumableDistribution"
+	},
+	{
 		"SpawnsPerZone": 12,
 		"ChanceToSpawnInResourceContainer": 0.75,
 		"SpawnData": [

@@ -247,6 +247,32 @@
 			"g": 0.7176470,
 			"b": 0.8
 		},
+		"FogDensity": 0.0008,
+		"FogAmbience": 0.0001,
+		"DensityNoiseDirection": {
+			"x": 0.0,
+			"y": -1.0,
+			"z": 0.0
+		},
+		"DensityNoiseSpeed": 0.074,
+		"DensityNoiseScale": 0.131,
+		"DensityHeightAltitude": 8.0,
+		"DensityHeightRange": 2.2,
+		"DensityHeightMaxBoost": 0.02,
+		"Infection": 0.03,
+		"name": "Fog_light_blue_low2_INFECTION",
+		"internalEnabled": true,
+		"persistentID": "Fog_D3_GenClusterActive",
+		"datablock": "FogSettings"
+	},
+	{
+		"Enabled": true,
+		"FogColor": {
+			"a": 0.0313725,
+			"r": 0.2392156,
+			"g": 0.7176470,
+			"b": 0.8
+		},
 		"FogDensity": 0.0004,
 		"FogAmbience": 0.0001,
 		"DensityNoiseDirection": {
@@ -258,7 +284,7 @@
 		"DensityNoiseScale": 0.131,
 		"DensityHeightAltitude": 4.6,
 		"DensityHeightRange": 20.2,
-		"DensityHeightMaxBoost": 0.1,
+		"DensityHeightMaxBoost": 0.007,
 		"Infection": 0.0,
 		"name": "Fog_light_blue_low2",
 		"internalEnabled": true,

@@ -72,15 +72,29 @@
     "WaveOnElevatorWardenIntel": "Massive Bioreadings Approaching",
     "FogTransitionDataOnElevatorLand": "Fog_D2_Low",
     "FogTransitionDurationOnElevatorLand": 2100.0,
-    "WavesOnActivate": [],
+    "WavesOnActivate": [
+      {
+        "WaveSettings": "WaveSetting_Apex_BigOnly_Duo",
+        "WavePopulation": 18,
+        "SpawnDelay": 36.0,
+        "TriggerAlarm": false
+      }
+    ],
     "StopAllWavesBeforeGotoWin": false,
-    "WavesOnGotoWin": [],
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": "WaveSetting_Apex_SmallOnly",
+        "WavePopulation": 18,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      }
+    ],
     "WaveOnGotoWinTrigger": 0,
     "EventsOnGotoWin": [],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
     "ChainedPuzzleToActive": 0,
-    "ChainedPuzzleMidObjective": "Alarm_D1_Class3",
+    "ChainedPuzzleMidObjective": "Alarm_D3_GenCluster",
     "ChainedPuzzleAtExit": 11,
     "ChainedPuzzleAtExitScanSpeedMultiplier": 0.85,
     "Gather_RequiredCount": -1,
@@ -110,12 +124,12 @@
         "m_transitionToTime": 7.0
       },
       {
-        "m_fogDataId": "Fog_D3_Low5",
-        "m_transitionToTime": 7.0
+        "m_fogDataId": "Fog_D3_GenClusterActive",
+        "m_transitionToTime": 360.0
       },
       {
         "m_fogDataId": "Fog_D3_Finish",
-        "m_transitionToTime": 420.0
+        "m_transitionToTime": 30.0
       }
     ],
     "name": "CentralPowerGeneratorCluster_4",

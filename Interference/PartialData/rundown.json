@@ -87,7 +87,7 @@
 			"x": 0.0,
 			"y": 0.0
 		},
-		"SurfaceDescription": "//:General Blueprint data is needed for new Rundown Protocol\n - Locate a Central nFrame Cluster in this Sector."
+		"SurfaceDescription": "//:General Blueprint data is needed for new Rundown Protocol\n - <s>Locate a Central nFrame Cluster in this Sector.</s>\n - Repair Essential Maintanance System\n - Establish External Connection if possible"
 	},
 	"TierA": [
 		{
@@ -1255,7 +1255,7 @@
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Cargo from [0<size=70%>X</size>A001] contains useful parts for [Fog Repeller Beacon]\nUnseal it and bring the content to extraction point.",
-				"RoleplayedWardenIntel": ""
+				"RoleplayedWardenIntel": ">[metallic banging]\n<color=red><size=150%>>..They sounds like angry, aren't it?</size></color>\n>..Yeah it does, And they are screaming from every fucking direction.\n>..At least we have some tripmines."
 			},
 			"Seeds": {
 				"BuildSeed": 616333,

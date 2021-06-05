@@ -36,16 +36,10 @@
 			},
 			"EnemySpawningInZone": [
 				{
-					"GroupType": 0,
-					"Difficulty": 0,
-					"Distribution": 2,
-					"DistributionValue": 0.2
-				},
-				{
 					"GroupType": 1,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.3
+					"DistributionValue": 0.6
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -137,6 +131,12 @@
 					"Difficulty": 0,
 					"Distribution": 2,
 					"DistributionValue": 0.6
+				},
+				{
+					"GroupType": 1,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.3
 				}
 			],
 			"HSUClustersInZone": 0,

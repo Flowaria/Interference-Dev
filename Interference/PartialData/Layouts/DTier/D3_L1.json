@@ -949,12 +949,12 @@
 		},
 		{
 			"LocalIndex": 10, //Left Zone
-			"SubSeed": 0,
+			"SubSeed": 789,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Refinery",
 			"CoverageMinMax": {
-				"x": 50.0,
-				"y": 60.0
+				"x": 40.0,
+				"y": 50.0
 			},
 			"BuildFromLocalIndex": 9,
 			"StartPosition": "From_Start",
@@ -1043,12 +1043,13 @@
 		},
 		{
 			"LocalIndex": 11, //finale
-			"SubSeed": 0,
+			"SubSeed": 695,
 			"BulkheadDCScanSeed": 0,
-			"SubComplex": "Storage",
+			"SubComplex": "Refinery",
+			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_02.prefab",
 			"CoverageMinMax": {
-				"x": 15.0,
-				"y": 20.0
+				"x": 30.0,
+				"y": 40.0
 			},
 			"BuildFromLocalIndex": 10,
 			"StartPosition": "From_Furthest",
@@ -1057,7 +1058,7 @@
 			"ZoneExpansion": "Directional_Forward",
 			"LightSettings": "Light_MonoOrange_AllOn",
 			"AltitudeData": {
-				"AllowedZoneAltitude": "OnlyHigh",
+				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -1067,7 +1068,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": 4,
+			"ChainedPuzzleToEnter": "Alarm_D_Class2_Tank",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -1080,13 +1081,13 @@
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
 			"GeneratorClustersInZone": 0,
-			"CorpsesInZone": 0,
+			"CorpsesInZone": 2,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam",
+			"ConsumableDistributionInZone": "Consumable_Fog_10",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -1100,7 +1101,15 @@
 			],
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
-			"DisinfectionStationPlacements": [],
+			"DisinfectionStationPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				}
+			],
 			"HealthMulti": 0.8,
 			"HealthPlacement": {
 				"Start": 0.0,

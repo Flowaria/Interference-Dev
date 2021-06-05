@@ -35,7 +35,20 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [],
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.6
+				},
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.25
+				}
+			],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,

@@ -110,7 +110,7 @@
 				"PlacementCount": 0,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_B4_QSurgeMIX_5",
+			"ChainedPuzzleToEnter": "Alarm_B_Quick_Mix_4",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
