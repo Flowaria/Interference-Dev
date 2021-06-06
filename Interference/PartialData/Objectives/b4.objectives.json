@@ -76,7 +76,7 @@
     "GoToWinConditionHelp_Elevator": "",
     "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
     "GoToWinConditionHelp_CustomGeo": "",
-    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinCondition_ToMainLayer": "Go back to the <color=orange>[Unsealer Chamber]</color> and complete the expedition.",
     "GoToWinConditionHelp_ToMainLayer": "",
     "ShowHelpDelay": 180.0,
     "WavesOnElevatorLand": [],
@@ -404,7 +404,7 @@
       {
         "Warmup": 30.0, //Wave 3 Big Bullrush at near end
         "WarmupFail": 20.0,
-        "Wave": 135.0,
+        "Wave": 156.0,
         "Verify": 400.0,
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
@@ -507,7 +507,7 @@
       {
         "Warmup": 30.0, //Wave 4 Big Rush, Tank
         "WarmupFail": 20.0,
-        "Wave": 175.0,
+        "Wave": 182.0,
         "Verify": 565.0,
         "VerifyFail": 80.0,
         "VerifyInOtherZone": true,
@@ -520,13 +520,7 @@
             "SpawnType": 1
           },
           {
-            "WaveSettings": 30, //1, Hybrid
-            "WavePopulation": 10,
-            "SpawnTimeRel": 0.0,
-            "SpawnType": 0
-          },
-          {
-            "WaveSettings": 9, //3, Big Bullrush
+            "WaveSettings": 22, //2, Big Bullrush
             "WavePopulation": 5,
             "SpawnTimeRel": 0.0,
             "SpawnType": 1
@@ -534,23 +528,23 @@
           {
             "WaveSettings": 30, //1, Hybrid
             "WavePopulation": 10,
-            "SpawnTimeRel": 0.1,
-            "SpawnType": 0
+            "SpawnTimeRel": 0.05,
+            "SpawnType": 1
           },
           {
             "WaveSettings": 9, //3, Big Bullrush
             "WavePopulation": 5,
-            "SpawnTimeRel": 0.1,
+            "SpawnTimeRel": 0.08,
             "SpawnType": 1
           },
           {
             "WaveSettings": 30, //1, Hybrid
             "WavePopulation": 10,
             "SpawnTimeRel": 0.2,
-            "SpawnType": 0
+            "SpawnType": 1
           },
           {
-            "WaveSettings": 9, //3, Big Bullrush
+            "WaveSettings": 22, //2, Big Bullrush
             "WavePopulation": 5,
             "SpawnTimeRel": 0.2,
             "SpawnType": 1
@@ -564,19 +558,19 @@
           {
             "WaveSettings": 22, //2, Big Bullrush
             "WavePopulation": 5,
-            "SpawnTimeRel": 0.4,
+            "SpawnTimeRel": 0.35,
             "SpawnType": 1
           },
           {
             "WaveSettings": 30, //1, Tank
             "WavePopulation": 16,
-            "SpawnTimeRel": 0.6,
+            "SpawnTimeRel": 0.57,
             "SpawnType": 1
           },
           {
             "WaveSettings": "WaveSetting_Reactor_8_8_Randomized", //Trickle
             "WavePopulation": 18,
-            "SpawnTimeRel": 0.7,
+            "SpawnTimeRel": 0.65,
             "SpawnType": 0
           }
         ],
@@ -628,7 +622,7 @@
       },
       {
         "m_fogDataId": "Fog_B4_Layer4",
-        "m_transitionToTime": 30.0
+        "m_transitionToTime": 20.0
       }
     ],
     "ActivateHSU_ItemFromStart": 0,

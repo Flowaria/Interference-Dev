@@ -1273,6 +1273,30 @@
 						"AudioEventEnter": 632825462,
 						"AudioEventExit": 3105497116
 					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 10.0,
+						"End": 10.0
+					},
+					"AreaSeedOffset": 1
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 10.0,
+						"End": 10.0
+					},
+					"AreaSeedOffset": 5
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 10.0,
+						"End": 10.0
+					},
+					"AreaSeedOffset": 9
 				}
 			],
 			"ForbidTerminalsInZone": false,

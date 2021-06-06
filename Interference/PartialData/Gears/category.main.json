@@ -117,5 +117,22 @@
 		"internalEnabled": true,
 		"persistentID": 130,
 		"datablock": "GearCategory"
+	},
+	{
+		"PublicName": "",
+		"Description": "",
+		"BaseItem": 108,
+		"HUDIcon": "",
+		"FPSArmPoseName": "",
+		"ThirdPersonFullbodyMovement": 0,
+		"SemiArchetype": 0,
+		"BurstArchetype": 0,
+		"AutoArchetype": "AT_MachineCarbine",
+		"SemiBurstArchetype": 0,
+		"PartAlignPriority": [],
+		"name": "MachineCarbine",
+		"internalEnabled": true,
+		"persistentID": 140,
+		"datablock": "GearCategory"
 	}
 ]

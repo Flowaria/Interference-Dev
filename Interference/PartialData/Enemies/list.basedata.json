@@ -338,7 +338,7 @@
 				"Cooldown": 1.0
 			}
 		],
-		"name": "Shooter_Hibernate_Shadow",
+		"name": "Shooter_Shadow",
 		"internalEnabled": true,
 		"persistentID": "Enemy_Shadow_Shooter",
 		"datablock": "Enemy"
@@ -690,7 +690,7 @@
 				"Cooldown": 25.0
 			}
 		],
-		"name": "Tank",
+		"name": "Tank_Scout",
 		"internalEnabled": true,
 		"persistentID": "Enemy_Tank_Scout_Boss",
 		"datablock": "Enemy"

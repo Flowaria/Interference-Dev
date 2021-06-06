@@ -18,9 +18,17 @@
 	{
 		"Type": 1,
 		"GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken CAB F4\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":100},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":41},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":19},\"i\":{\"c\":9,\"v\":9},\"j\":{\"c\":10,\"v\":10},\"k\":{\"c\":11,\"v\":10},\"l\":{\"c\":12,\"v\":23},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":9},\"o\":{\"c\":21,\"v\":12},\"p\":{\"c\":23,\"v\":5},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.05,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"angle\":-135.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Van Auken CAB F4\"}}}",
-		"name": "SMGBurst",
+		"name": "CarbineBurst",
 		"internalEnabled": true,
 		"persistentID": "OFF_CARBINE",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken SB.2\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":140},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":3},\"f\":{\"c\":6,\"v\":2},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":14},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":12},\"o\":{\"c\":21,\"v\":6},\"p\":{\"c\":23,\"v\":4},\"q\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Van Auken SB.2\"}}}",
+		"name": "MachineCarbine",
+		"internalEnabled": true,
+		"persistentID": "OFF_MACHINECARBINE",
 		"datablock": "PlayerOfflineGear"
 	},
 	{

@@ -209,19 +209,19 @@
 	},
 	{
 		"PublicName": "HEL Combat Sniper",
-		"Description": "Ammo: 8/22 (Semi-auto)\nDamage: 16.2\n[Precision: 1.4x / Stagger: 1.0x]\nRange: 38m-100m\nPierce: 4\n<color=orange>Sniper for general Use</color>",
+		"Description": "Ammo: 8/21 (Semi-auto)\nDamage: 20.5\n[Precision: 1.35x / Stagger: 1.0x]\nRange: 10m-150m\nPierce: 4\n<color=orange>Sniper for general Use</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
-		"Damage": 16.2,
+		"Damage": 20.5,
 		"DamageFalloff": {
-			"x": 38.0,
-			"y": 100.0
+			"x": 10.0,
+			"y": 150.0
 		},
 		"StaggerDamageMulti": 1.0,
-		"PrecisionDamageMulti": 1.4,
+		"PrecisionDamageMulti": 1.35,
 		"DefaultClipSize": 8,
-		"DefaultReloadTime": 2.5,
-		"CostOfBullet": 10.45454545,
+		"DefaultReloadTime": 2.65,
+		"CostOfBullet": 10.9523,
 		"ShotDelay": 0.08,
 		"PiercingBullets": true,
 		"PiercingDamageCountLimit": 4,
@@ -417,7 +417,7 @@
 	},
 	{
 		"PublicName": "Double Barrel Shotgun",
-		"Description": "Ammo: 2/14 (Semi-auto)\nDamage: 8.5 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m",
+		"Description": "Ammo: 2/14 (Semi-auto)\nDamage: 8.5 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m\n<color=orange>Auto-Reloading</color>",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Shotgun_DB",
 		"Damage": 8.5,
@@ -618,7 +618,7 @@
 		"Sentry_DetectionMaxRange": 25.0,
 		"Sentry_DetectionMaxAngle": 30.0,
 		"Sentry_FireTowardsTargetInsteadOfForward": false,
-		"name": "GEAR_Minigun",
+		"name": "GEAR_Minigun[Scrap]",
 		"internalEnabled": true,
 		"persistentID": "AT_Minigun",
 		"datablock": "Archetype"

@@ -330,14 +330,49 @@
 				},
 				{
 					"PlacementWeights": {
-						"Start": 1.0,
+						"Start": 0.0,
+						"Middle": 1.0,
+						"End": 0.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 0.0,
+						"End": 1.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
 						"Middle": 0.0,
 						"End": 0.0
 					}
 				},
 				{
 					"PlacementWeights": {
-						"Start": 1.0,
+						"Start": 0.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 0.0,
+						"End": 0.0
+					}
+				},
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
 						"Middle": 0.0,
 						"End": 0.0
 					}

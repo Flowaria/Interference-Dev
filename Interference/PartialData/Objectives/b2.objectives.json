@@ -297,7 +297,7 @@
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
     "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
-    "Gather_RequiredCount": 16,
+    "Gather_RequiredCount": 14,
     "Gather_ItemId": 147,
     "Gather_SpawnCount": 24,
     "Gather_MaxPerZone": 24,

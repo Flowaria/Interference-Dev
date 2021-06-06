@@ -208,6 +208,58 @@
 		"datablock": "Archetype"
 	},
 	{
+		"PublicName": "Machine Carbine",
+		"Description": "Ammo: 65/540 (Full-auto)\nDamage: 0.95\n[Precision: 0.85x - Stagger: 0.75x]\nRange: 5m-100m",
+		"FireMode": 2,
+		"RecoilDataID": "Recoil_MachineCarbine",
+		"Damage": 0.95,
+		"DamageFalloff": {
+			"x": 5.0,
+			"y": 100.0
+		},
+		"StaggerDamageMulti": 0.75,
+		"PrecisionDamageMulti": 0.85,
+		"DefaultClipSize": 65,
+		"DefaultReloadTime": 2.15,
+		"CostOfBullet": 0.8518,
+		"ShotDelay": 0.045,
+		"PiercingBullets": false,
+		"PiercingDamageCountLimit": 5,
+		"HipFireSpread": 2.5,
+		"AimSpread": 0.0,
+		"EquipTransitionTime": 0.4,
+		"EquipSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_UZI_1_equip_weaponmovement"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"AimTransitionTime": 0.2,
+		"AimSequence": [],
+		"BurstDelay": 0.0,
+		"BurstShotCount": 0,
+		"ShotgunBulletCount": 0,
+		"ShotgunConeSize": 0,
+		"ShotgunBulletSpread": 0,
+		"SpecialChargetupTime": 0.0,
+		"SpecialCooldownTime": 0.0,
+		"SpecialSemiBurstCountTimeout": 0.0,
+		"Sentry_StartFireDelay": 1.0,
+		"Sentry_RotationSpeed": 4.0,
+		"Sentry_DetectionMaxRange": 25.0,
+		"Sentry_DetectionMaxAngle": 30.0,
+		"Sentry_FireTowardsTargetInsteadOfForward": false,
+		"name": "GEAR_MachineCarbine",
+		"internalEnabled": true,
+		"persistentID": "AT_MachineCarbine",
+		"datablock": "Archetype"
+	},
+	{
 		"PublicName": "Sawed-off Shotgun",
 		"Description": "Ammo: 2/70 (Semi-auto)\nDamage: 1.85 (9 Pallets)\n[Precision: 0.72x - Stagger: 1.25x]\nRange: 3.85m-21.5m\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
 		"FireMode": 0,

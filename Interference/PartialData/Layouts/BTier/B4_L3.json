@@ -15,7 +15,7 @@
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Right",
 			"ZoneExpansion": "Directional_Right",
-			"LightSettings": 26,
+			"LightSettings": 27,
 			"AltitudeData": {
 				"AllowedZoneAltitude": "Unchanged",
 				"ChanceToChange": 1.0
@@ -113,7 +113,7 @@
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Right",
 			"ZoneExpansion": "Directional_Right",
-			"LightSettings": 20,
+			"LightSettings": "Light_MonoRed_AllOn_ReactorBlue",
 			"AltitudeData": {
 				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
@@ -320,7 +320,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.9
+					"DistributionValue": 0.65
 				},
 				{
 					"GroupType": 3,
@@ -423,7 +423,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.9
+					"DistributionValue": 0.75
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -456,7 +456,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.2,
+			"WeaponAmmoMulti": 2.0,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -514,7 +514,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.6
+					"DistributionValue": 0.4
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -547,7 +547,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.6,
+			"WeaponAmmoMulti": 1.0,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -614,7 +614,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.9
+					"DistributionValue": 0.6
 				},
 				{
 					"GroupType": 3,

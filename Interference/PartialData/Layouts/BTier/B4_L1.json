@@ -289,7 +289,7 @@
 				"PlacementCount": 0,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_B4_Class5",
+			"ChainedPuzzleToEnter": "Alarm_B4_Manual",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
