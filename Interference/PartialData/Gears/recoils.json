@@ -154,6 +154,57 @@
 	},
 	{
 		"power": {
+			"Min": 1.1,
+			"Max": 1.3
+		},
+		"spring": 1.5,
+		"dampening": 22.0,
+		"hipFireCrosshairSizeDefault": 90.0,
+		"hipFireCrosshairRecoilPop": 110.0,
+		"hipFireCrosshairSizeMax": 110.0,
+		"horizontalScale": {
+			"Min": -0.25,
+			"Max": 0.25
+		},
+		"verticalScale": {
+			"Min": 0.8,
+			"Max": 1.0
+		},
+		"directionalSimilarity": 0.0,
+		"worldToViewSpaceBlendHorizontal": 0.06,
+		"worldToViewSpaceBlendVertical": 0.06,
+		"recoilPosImpulse": {
+			"x": 0.0,
+			"y": 0.1,
+			"z": -2.0
+		},
+		"recoilPosShift": {
+			"x": 0.0,
+			"y": 0.1,
+			"z": -0.1
+		},
+		"recoilPosShiftWeight": 1.0,
+		"recoilPosStiffness": 150.0,
+		"recoilPosDamping": 15.0,
+		"recoilPosImpulseWeight": 0.2,
+		"recoilCameraPosWeight": 0.0,
+		"recoilAimingWeight": 1.3,
+		"recoilRotImpulse": {
+			"x": 2.0,
+			"y": 8.0,
+			"z": 25.0
+		},
+		"recoilRotStiffness": 450.0,
+		"recoilRotDamping": 45.0,
+		"recoilRotImpulseWeight": 200.0,
+		"recoilCameraRotWeight": 0.2,
+		"name": "DMRHel",
+		"internalEnabled": true,
+		"persistentID": "Recoil_HelDMR",
+		"datablock": "Recoil"
+	},
+	{
+		"power": {
 			"Min": 0.0001,
 			"Max": 0.0005
 		},
@@ -205,8 +256,8 @@
 	},
 	{
 		"power": {
-		  "Min": 0.075,
-		  "Max": 0.175
+			"Min": 0.075,
+			"Max": 0.175
 		},
 		"spring": 3.5,
 		"dampening": 15.0,
@@ -214,25 +265,25 @@
 		"hipFireCrosshairRecoilPop": 20.0,
 		"hipFireCrosshairSizeMax": 120.0,
 		"horizontalScale": {
-		  "Min": 0.3,
-		  "Max": -0.6
+			"Min": 0.3,
+			"Max": -0.6
 		},
 		"verticalScale": {
-		  "Min": 0.4,
-		  "Max": 0.5
+			"Min": 0.4,
+			"Max": 0.5
 		},
 		"directionalSimilarity": 0.0,
 		"worldToViewSpaceBlendHorizontal": 0.4,
 		"worldToViewSpaceBlendVertical": 0.4,
 		"recoilPosImpulse": {
-		  "x": 0.0,
-		  "y": 0.0,
-		  "z": -0.15
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.15
 		},
 		"recoilPosShift": {
-		  "x": 0.0,
-		  "y": 0.0,
-		  "z": -0.02
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.02
 		},
 		"recoilPosShiftWeight": 1.0,
 		"recoilPosStiffness": 350.0,
@@ -241,9 +292,9 @@
 		"recoilCameraPosWeight": 1.0,
 		"recoilAimingWeight": 2.2,
 		"recoilRotImpulse": {
-		  "x": 0.0,
-		  "y": 2.0,
-		  "z": 5.0
+			"x": 0.0,
+			"y": 2.0,
+			"z": 5.0
 		},
 		"recoilRotStiffness": 80.0,
 		"recoilRotDamping": 8.0,
@@ -253,5 +304,5 @@
 		"internalEnabled": true,
 		"persistentID": "Recoil_MachineCarbine",
 		"datablock": "Recoil"
-	  }
+	}
 ]

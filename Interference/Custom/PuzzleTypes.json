@@ -172,6 +172,42 @@
 			"BioscanID": 102,
 			"DistanceBetweenScans": 14.0,
 			"RevealWithHoloPath": true
+		},
+		{
+			"Name": "Expo 3",
+			"BaseCluster": 4,
+			"PersistentID": 503,
+			"ClusterCount": 2,
+			"BioscanID": 3,
+			"DistanceBetweenScans": -12.0,
+			"RevealWithHoloPath": true
+		},
+		{
+			"Name": "Expo 2",
+			"BaseCluster": 4,
+			"PersistentID": 502,
+			"ClusterCount": 2,
+			"BioscanID": 503,
+			"DistanceBetweenScans": -12.0,
+			"RevealWithHoloPath": true
+		},
+		{
+			"Name": "Expo 1",
+			"BaseCluster": 4,
+			"PersistentID": 501,
+			"ClusterCount": 2,
+			"BioscanID": 502,
+			"DistanceBetweenScans": -12.0,
+			"RevealWithHoloPath": true
+		},
+		{
+			"Name": "Expo Base",
+			"BaseCluster": 4,
+			"PersistentID": 500,
+			"ClusterCount": 2,
+			"BioscanID": 501,
+			"DistanceBetweenScans": -16.0,
+			"RevealWithHoloPath": true
 		}
 	]
 }

@@ -129,7 +129,7 @@
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
-			"GeneratorClustersInZone": 0,
+			"GeneratorClustersInZone": 1,
 			"CorpsesInZone": "Some_10",
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
@@ -206,10 +206,10 @@
 			"ChainedPuzzleToEnter": 0,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
-				"HasActiveEnemyWave": false,
-				"EnemyGroupInfrontOfDoor": 0,
-				"EnemyGroupInArea": 0,
-				"EnemyGroupsInArea": 0
+				"HasActiveEnemyWave": true,
+				"EnemyGroupInfrontOfDoor": 30,
+				"EnemyGroupInArea": "EnemyGroup_Rapid_Single",
+				"EnemyGroupsInArea": 4
 			},
 			"EnemySpawningInZone": [],
 			"HSUClustersInZone": 0,
@@ -289,7 +289,7 @@
 				"PlacementCount": 0,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_B4_Manual",
+			"ChainedPuzzleToEnter": "Alarm_B4_Exit",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,

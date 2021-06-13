@@ -115,8 +115,8 @@
 	},
 	{
 		"Type": 1,
-		"GearJSON": "{\"Ver\":1,\"Name\":\"Buckland XDIST1 AT\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":13},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":4},\"f\":{\"c\":12,\"v\":13},\"g\":{\"c\":16,\"v\":2},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":2},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Buckland XDIST1 AT\"}}}",
-		"name": "SentryGun_ShotgunSemi_Choke",
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Buckland SG5 AT\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":13},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":4},\"f\":{\"c\":12,\"v\":13},\"g\":{\"c\":16,\"v\":2},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":2},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Buckland SG5 AT\"}}}",
+		"name": "SentryGun_ShotgunSemi_Slug",
 		"internalEnabled": true,
 		"persistentID": 25,
 		"datablock": "PlayerOfflineGear"

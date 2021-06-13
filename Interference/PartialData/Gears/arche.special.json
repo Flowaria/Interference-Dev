@@ -53,7 +53,7 @@
 	},
 	{
 		"PublicName": "Powered Revolver",
-		"Description": "Ammo: 4/16 (Chargeup Full-auto)\nDamage: 31.5\n[Precision: 0.0x / Stagger: 1.0x]\nRange: 15m-50m\n<color=red>No Headshot</color>",
+		"Description": "Ammo: 4/18 (Chargeup Full-auto)\nDamage: 31.5\n[Precision: 0.0x / Stagger: 1.0x]\nRange: 15m-50m\n<color=red>No Headshot</color>",
 		"FireMode": 2,
 		"RecoilDataID": 5,
 		"Damage": 31.5,
@@ -65,7 +65,7 @@
 		"PrecisionDamageMulti": 0.0,
 		"DefaultClipSize": 4,
 		"DefaultReloadTime": 2.48,
-		"CostOfBullet": 14.375,
+		"CostOfBullet": 12.7777,
 		"ShotDelay": 0.32,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -105,7 +105,7 @@
 	},
 	{
 		"PublicName": "Quad Cannon",
-		"Description": "Ammo: 20/46 (Chargeup 4-Burst)\nDamage: 15.5\n[Precision: 0.7x / Stagger: 1.2x]\nRange: 20m-75m",
+		"Description": "Ammo: 20/52 (Chargeup 4-Burst)\nDamage: 15.5\n[Precision: 0.7x / Stagger: 1.2x]\nRange: 20m-75m",
 		"FireMode": 1,
 		"RecoilDataID": 24,
 		"Damage": 15.5,
@@ -117,7 +117,7 @@
 		"PrecisionDamageMulti": 0.7,
 		"DefaultClipSize": 20,
 		"DefaultReloadTime": 3.7,
-		"CostOfBullet": 4.95,
+		"CostOfBullet": 4.4230,
 		"ShotDelay": 0.055,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -209,10 +209,10 @@
 	},
 	{
 		"PublicName": "HEL Combat Sniper",
-		"Description": "Ammo: 8/21 (Semi-auto)\nDamage: 20.5\n[Precision: 1.35x / Stagger: 1.0x]\nRange: 10m-150m\nPierce: 4\n<color=orange>Sniper for general Use</color>",
+		"Description": "Ammo: 8/21 (Semi-auto)\nDamage: 27.5\n[Precision: 1.35x / Stagger: 1.0x]\nRange: 10m-150m\nPierce: 4\n<color=orange>Sniper for general Use</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
-		"Damage": 20.5,
+		"Damage": 27.5,
 		"DamageFalloff": {
 			"x": 10.0,
 			"y": 150.0
@@ -260,8 +260,60 @@
 		"datablock": "Archetype"
 	},
 	{
+		"PublicName": "Light-Machinegun",
+		"Description": "Ammo: 75/275 (Full-auto)\nDamage: 2.5\n[Precision: 0.73x - Stagger: 0.95x]\nRange: 14m-70m",
+		"FireMode": 2,
+		"RecoilDataID": 2,
+		"Damage": 2.5,
+		"DamageFalloff": {
+			"x": 14.0,
+			"y": 70.0
+		},
+		"StaggerDamageMulti": 0.95,
+		"PrecisionDamageMulti": 0.73,
+		"DefaultClipSize": 75,
+		"DefaultReloadTime": 2.9,
+		"CostOfBullet": 0.8363,
+		"ShotDelay": 0.066,
+		"PiercingBullets": false,
+		"PiercingDamageCountLimit": 5,
+		"HipFireSpread": 2.5,
+		"AimSpread": 0.5,
+		"EquipTransitionTime": 0.45,
+		"EquipSequence": [
+			{
+				"TriggerTime": 0.0,
+				"Type": 0,
+				"StringData": "Front_Machinegun_1_equip_weaponmovement"
+			},
+			{
+				"TriggerTime": 2.0,
+				"Type": 7
+			}
+		],
+		"AimTransitionTime": 0.25,
+		"AimSequence": [],
+		"BurstDelay": 0.0,
+		"BurstShotCount": 0,
+		"ShotgunBulletCount": 0,
+		"ShotgunConeSize": 0,
+		"ShotgunBulletSpread": 0,
+		"SpecialChargetupTime": 0.0,
+		"SpecialCooldownTime": 0.0,
+		"SpecialSemiBurstCountTimeout": 0.0,
+		"Sentry_StartFireDelay": 1.0,
+		"Sentry_RotationSpeed": 4.0,
+		"Sentry_DetectionMaxRange": 25.0,
+		"Sentry_DetectionMaxAngle": 30.0,
+		"Sentry_FireTowardsTargetInsteadOfForward": false,
+		"name": "GEAR_LMG",
+		"internalEnabled": true,
+		"persistentID": "AT_LMG",
+		"datablock": "Archetype"
+	},
+	{
 		"PublicName": "Heavy-Machinegun",
-		"Description": "Mag: 27/115 (Chargeup Full-auto)\nDamage: 5.95\n[Precision: 0.975x / Stagger: 1.0x]\nRange: 15m-80m",
+		"Description": "Mag: 30/115 (Chargeup Full-auto)\nDamage: 5.95\n[Precision: 0.975x / Stagger: 1.0x]\nRange: 15m-80m",
 		"FireMode": 2,
 		"RecoilDataID": 25,
 		"Damage": 5.95,
@@ -271,7 +323,7 @@
 		},
 		"StaggerDamageMulti": 1.0,
 		"PrecisionDamageMulti": 0.875,
-		"DefaultClipSize": 27,
+		"DefaultClipSize": 30,
 		"DefaultReloadTime": 3.7,
 		"CostOfBullet": 2.0,
 		"ShotDelay": 0.15,
@@ -298,7 +350,7 @@
 		"ShotgunBulletCount": 0,
 		"ShotgunConeSize": 0,
 		"ShotgunBulletSpread": 0,
-		"SpecialChargetupTime": 0.34,
+		"SpecialChargetupTime": 0.24,
 		"SpecialCooldownTime": 0.0,
 		"SpecialSemiBurstCountTimeout": 0.0,
 		"Sentry_StartFireDelay": 1.0,
@@ -313,19 +365,19 @@
 	},
 	{
 		"PublicName": "Choke-Mod Slug Shotgun",
-		"Description": "Ammo: 7/15 (Semi-auto)\nDamage: 8.25 (4 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 7.5m-20m",
+		"Description": "Ammo: 7/18 (Semi-auto)\nDamage: 8.25 (4 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 8.5m-30m",
 		"FireMode": 0,
 		"RecoilDataID": 6,
 		"Damage": 8.25,
 		"DamageFalloff": {
-			"x": 7.5,
-			"y": 20.0
+			"x": 8.5,
+			"y": 30.0
 		},
 		"StaggerDamageMulti": 1.0,
 		"PrecisionDamageMulti": 0.735,
 		"DefaultClipSize": 7,
 		"DefaultReloadTime": 3.0,
-		"CostOfBullet": 15.3333333,
+		"CostOfBullet": 12.7777,
 		"ShotDelay": 0.39,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -365,7 +417,7 @@
 	},
 	{
 		"PublicName": "Auto Shotgun",
-		"Description": "Mag: 16/56 (Full-auto)\nDamage: 1.6 (6 Pallets)\n[Precision: 0.85x / Stagger: 0.875x]\nRange: 5m-24m",
+		"Description": "Mag: 16/56 (Full-auto)\nDamage: 1.6 (7 Pallets)\n[Precision: 0.85x / Stagger: 0.875x]\nRange: 5m-24m",
 		"FireMode": 2,
 		"RecoilDataID": 21,
 		"Damage": 1.6,
@@ -399,7 +451,7 @@
 		"AimSequence": [],
 		"BurstDelay": 0.0,
 		"BurstShotCount": 0,
-		"ShotgunBulletCount": 6,
+		"ShotgunBulletCount": 7,
 		"ShotgunConeSize": 4,
 		"ShotgunBulletSpread": 3,
 		"SpecialChargetupTime": 0.0,
@@ -417,10 +469,10 @@
 	},
 	{
 		"PublicName": "Double Barrel Shotgun",
-		"Description": "Ammo: 2/14 (Semi-auto)\nDamage: 8.5 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m\n<color=orange>Auto-Reloading</color>",
+		"Description": "Ammo: 2/16 (Semi-auto)\nDamage: 8.75 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m\n<color=orange>Auto-Reloading</color>",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Shotgun_DB",
-		"Damage": 8.5,
+		"Damage": 8.75,
 		"DamageFalloff": {
 			"x": 5.5,
 			"y": 20.0
@@ -429,7 +481,7 @@
 		"PrecisionDamageMulti": 0.735,
 		"DefaultClipSize": 2,
 		"DefaultReloadTime": 3.15,
-		"CostOfBullet": 16.427,
+		"CostOfBullet": 14.375,
 		"ShotDelay": 0.7,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -469,10 +521,10 @@
 	},
 	{
 		"PublicName": "Raygun",
-		"Description": "Capacity: 660<size=75%>m</size>A (Chargeup Full-auto)\nDamage: 0.9\n[Precision: 0.7x / Stagger: 0.7x]\nRange: 12m-80m\n<color=orange>No reloading required</color>\n<color=orange>Experimental</color>",
+		"Description": "Capacity: 660<size=75%>m</size>A (Chargeup Full-auto)\nDamage: 0.925\n[Precision: 0.7x / Stagger: 0.7x]\nRange: 12m-80m\n<color=orange>No reloading required</color>\n<color=orange>Experimental</color>",
 		"FireMode": 2,
 		"RecoilDataID": "Recoil_LaserGun",
-		"Damage": 0.9,
+		"Damage": 0.925,
 		"DamageFalloff": {
 			"x": 12.0,
 			"y": 80.0
@@ -521,10 +573,10 @@
 	},
 	{
 		"PublicName": "Huntsman Rifle",
-		"Description": "Ammo: 1/38 (Bolt-Action)\nDamage: 10.5\n[Precision: 0.95x / Stagger: 1.0x]\nRange: 5m-70m\nPierce: 2\n<color=orange>Extremely Fast Auto-Reloading</color>\n<color=orange>Experimental</color>",
+		"Description": "Ammo: 1/38 (Bolt-Action)\nDamage: 21.5\n[Precision: 0.95x / Stagger: 1.0x]\nRange: 5m-70m\nPierce: 2\n<color=orange>Extremely Fast Auto-Reloading</color>\n<color=orange>Experimental</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
-		"Damage": 10.5,
+		"Damage": 21.5,
 		"DamageFalloff": {
 			"x": 5.0,
 			"y": 70.0

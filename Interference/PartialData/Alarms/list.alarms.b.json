@@ -354,23 +354,20 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
-		"PublicAlarmName": "Class III Alarm",
+		"PublicAlarmName": "Class II Binary Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": 1,
 		"SurvivalWavePopulation": 1,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
 		"WantedDistanceFromStartPos": 0.0,
-		"WantedDistanceBetweenPuzzleComponents": 20.0,
+		"WantedDistanceBetweenPuzzleComponents": 13.0,
 		"ChainedPuzzle": [
 			{
 				"PuzzleType": 6
 			},
 			{
-				"PuzzleType": 4
-			},
-			{
-				"PuzzleType": 4
+				"PuzzleType": 501
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,
@@ -379,6 +376,31 @@
 		"name": "Single to Cluster Alarm x3 - Alarm",
 		"internalEnabled": true,
 		"persistentID": "Alarm_B4_Manual",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class II QS BC Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 8.0,
+		"WantedDistanceBetweenPuzzleComponents": 13.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 404
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_B4_Exit",
 		"datablock": "ChainedPuzzle"
 	},
 	{

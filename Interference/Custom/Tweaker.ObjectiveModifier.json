@@ -6,5 +6,6 @@
     "rateMax": 1.5,
     "rateMin": 1.0
   },
+  "instantKill": false,
   "internalEnabled": false
 }

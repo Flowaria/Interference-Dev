@@ -86,5 +86,49 @@
 		"internalEnabled": true,
 		"persistentID": 502,
 		"datablock": "GearSightPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_13.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 50,
+			"BundleShard": 5
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"SightProperties": {
+			"GearFovZoom": 30,
+			"WorldFovZoom": 42
+		},
+		"name": "Cross_Bullseye",
+		"internalEnabled": true,
+		"persistentID": 504,
+		"datablock": "GearSightPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_17.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 50,
+			"BundleShard": 4
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"SightProperties": {
+			"GearFovZoom": 18,
+			"WorldFovZoom": 42
+		},
+		"name": "Sight_17",
+		"internalEnabled": true,
+		"persistentID": 505,
+		"datablock": "GearSightPart"
 	}
 ]

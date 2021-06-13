@@ -10,7 +10,26 @@
 		"BurstArchetype": 0,
 		"AutoArchetype": "AT_Revolver_Powered",
 		"SemiBurstArchetype": 0,
-		"PartAlignPriority": [],
+		"PartAlignPriority": [
+			{
+				"AlignType": 7,
+				"PartPrio": [
+					12
+				]
+			},
+			{
+				"AlignType": 8,
+				"PartPrio": [
+					12
+				]
+			},
+			{
+				"AlignType": 4,
+				"PartPrio": [
+					12
+				]
+			}
+		],
 		"name": "Revolver",
 		"internalEnabled": true,
 		"persistentID": 200,
@@ -65,6 +84,23 @@
 		"name": "MachinegunType",
 		"internalEnabled": true,
 		"persistentID": 220,
+		"datablock": "GearCategory"
+	},
+	{
+		"PublicName": "",
+		"Description": "",
+		"BaseItem": 109,
+		"HUDIcon": "",
+		"FPSArmPoseName": "",
+		"ThirdPersonFullbodyMovement": 0,
+		"SemiArchetype": 0,
+		"BurstArchetype": 0,
+		"AutoArchetype": "AT_LMG",
+		"SemiBurstArchetype": 0,
+		"PartAlignPriority": [],
+		"name": "MachinegunType",
+		"internalEnabled": true,
+		"persistentID": 221,
 		"datablock": "GearCategory"
 	},
 	{

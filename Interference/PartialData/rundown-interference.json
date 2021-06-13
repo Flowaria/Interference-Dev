@@ -536,7 +536,7 @@
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Retrieved Data from [0<size=70%>X</size>E001] has processed.\nExecuting Finalize Protocol, Access to Eastern part of this complex is required.\nPrisoners sent to startup reactor to gain access.",
-				"RoleplayedWardenIntel": ">..This door.. <color=red>it's opened..?</color>\n>..Fuck.. Split up and Defense!\n>[blaring siren]\n>..They're coming!"
+				"RoleplayedWardenIntel": ">..Hey, this door seems to be opened?\n<color=red><size=150%>>..Great... now they can come from BOTH FUCKING SIDE!</size></color>\n>..Calm down\n>..There's no other option now.. I'll take left side!"
 			},
 			"Seeds": {
 				"BuildSeed": 616555,
@@ -1255,7 +1255,7 @@
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Cargo from [0<size=70%>X</size>A001] contains useful parts for [Fog Repeller Beacon]\nUnseal it and bring the content to extraction point.",
-				"RoleplayedWardenIntel": ">[metallic banging]\n<color=red><size=150%>>..They sounds like angry, aren't it?</size></color>\n>..Yeah it does, And they are screaming from every fucking direction.\n>..At least we have some tripmines."
+				"RoleplayedWardenIntel": ">[metallic banging]\n<color=red><size=150%>>..They sound angry, don't they?</size></color>\n>..Yeah it does, And they are screaming from every fucking direction.\n>..At least we have some tripmines."
 			},
 			"Seeds": {
 				"BuildSeed": 616333,

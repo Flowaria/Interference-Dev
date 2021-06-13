@@ -49,6 +49,14 @@
 	},
 	{
 		"Type": 1,
+		"GearJSON": "{\"Ver\":1,\"Name\":\"TR22 Diode\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":102},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":1},\"d\":{\"c\":5,\"v\":3},\"e\":{\"c\":6,\"v\":3},\"f\":{\"c\":7,\"v\":2},\"g\":{\"c\":8,\"v\":9},\"h\":{\"c\":9,\"v\":8},\"i\":{\"c\":10,\"v\":10},\"j\":{\"c\":11,\"v\":10},\"k\":{\"c\":12,\"v\":17},\"l\":{\"c\":16,\"v\":6},\"m\":{\"c\":19,\"v\":3},\"n\":{\"c\":21,\"v\":505},\"o\":{\"c\":23,\"v\":9},\"p\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.03,\"y\":0.0},\"scale\":0.3},\"tDecalB\":{\"position\":{\"x\":0.1,\"y\":0.02},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.32,\"y\":0.0},\"scale\":0.6}},\"publicName\":{\"data\":\"TR22 Diode\"}}}",
+		"name": "DMR_Hel",
+		"internalEnabled": true,
+		"persistentID": "OFF_HELDMR",
+		"datablock": "PlayerOfflineGear"
+	},
+	{
+		"Type": 1,
 		"GearJSON": "{\"Ver\":1,\"Name\":\"Malatack ATK7\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":101},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":42},\"f\":{\"c\":6,\"v\":3},\"g\":{\"c\":7,\"v\":2},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":6},\"j\":{\"c\":10,\"v\":12},\"k\":{\"c\":11,\"v\":12},\"l\":{\"c\":12,\"v\":28},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":7},\"o\":{\"c\":21,\"v\":20},\"p\":{\"c\":23,\"v\":1},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.045,\"y\":0.025},\"angle\":90.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.05,\"y\":0.03},\"angle\":90.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.05,\"y\":0.03},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Malatack ATK7\"}}}",
 		"name": "RifleAuto",
 		"internalEnabled": true,
@@ -69,14 +77,6 @@
 		"name": "SMGAuto_Heavy",
 		"internalEnabled": true,
 		"persistentID": "OFF_SMG_HEAVY",
-		"datablock": "PlayerOfflineGear"
-	},
-	{
-		"Type": 1,
-		"GearJSON": "{\"Ver\":1,\"Name\":\"TechMan Stinger 5\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":102},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":33},\"f\":{\"c\":6,\"v\":33},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":10},\"i\":{\"c\":9,\"v\":10},\"j\":{\"c\":10,\"v\":13},\"k\":{\"c\":11,\"v\":14},\"l\":{\"c\":12,\"v\":27},\"m\":{\"c\":16,\"v\":6},\"n\":{\"c\":19,\"v\":3},\"o\":{\"c\":21,\"v\":5},\"p\":{\"c\":23,\"v\":16},\"q\":{\"c\":25,\"v\":6}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.1,\"y\":0.02},\"angle\":180.0,\"scale\":0.4},\"tDecalB\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.05},\"tPattern\":{\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"TechMan Stinger 5\"}}}\n",
-		"name": "Machinegun_MAIN_Light",
-		"internalEnabled": true,
-		"persistentID": "OFF_LIGHTMACHINEGUN",
 		"datablock": "PlayerOfflineGear"
 	},
 	{

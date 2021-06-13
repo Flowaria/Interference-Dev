@@ -57,7 +57,7 @@
 		"HUDIcon": "",
 		"FPSArmPoseName": "",
 		"ThirdPersonFullbodyMovement": 0,
-		"SemiArchetype": 0,
+		"SemiArchetype": "AT_HelDMR",
 		"BurstArchetype": 0,
 		"AutoArchetype": "AT_LMG",
 		"SemiBurstArchetype": 0,
