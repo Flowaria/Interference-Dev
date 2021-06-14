@@ -343,10 +343,6 @@
 				"AlignName": "Sight_Align"
 			},
 			{
-				"AlignType": 4,
-				"AlignName": "Receiver_Sight"
-			},
-			{
 				"AlignType": 8,
 				"AlignName": "RightHand"
 			}

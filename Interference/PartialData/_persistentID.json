@@ -249,6 +249,7 @@
 	{ "GUID": "Recoil_HelDMR", "ID": 65532 },
 	{ "GUID": "Recoil_Minigun", "ID": 65531 },
 	{ "GUID": "Recoil_MachineCarbine", "ID": 65530 },
+	{ "GUID": "Recoil_Revolver", "ID": 65529 },
 	{ "GUID": "Carry_Cargo_Fixed", "ID": 65535 },
 	{ "GUID": "Carry_Cargo_Closed", "ID": 65534 },
 	{ "GUID": "Carry_Cargo_Opened", "ID": 65533 },

@@ -27,7 +27,7 @@
 		"SpawnData": [
 			{
 				"ItemID": 114,
-				"Weight": 8.0
+				"Weight": 4.5
 			},
 			{
 				"ItemID": 30,
@@ -35,7 +35,7 @@
 			},
 			{
 				"ItemID": 130,
-				"Weight": 1.0
+				"Weight": 4.5
 			}
 		],
 		"name": "ExplorationDark_MoreFlash",
@@ -49,7 +49,11 @@
 		"SpawnData": [
 			{
 				"ItemID": 114,
-				"Weight": 6.0
+				"Weight": 3.0
+			},
+			{
+				"ItemID": 130,
+				"Weight": 3.0
 			},
 			{
 				"ItemID": 139,
@@ -75,7 +79,11 @@
 		"SpawnData": [
 			{
 				"ItemID": 114,
-				"Weight": 8.0
+				"Weight": 4.0
+			},
+			{
+				"ItemID": 130,
+				"Weight": 3.5
 			},
 			{
 				"ItemID": 30,
@@ -115,7 +123,11 @@
 		"SpawnData": [
 			{
 				"ItemID": 114,
-				"Weight": 1.0
+				"Weight": 0.5
+			},
+			{
+				"ItemID": 130,
+				"Weight": 0.5
 			},
 			{
 				"ItemID": 115,
@@ -133,14 +145,14 @@
 		"SpawnData": [
 			{
 				"ItemID": 114,
-				"Weight": 8.0
-			},
-			{
-				"ItemID": 30,
-				"Weight": 1.0
+				"Weight": 4.0
 			},
 			{
 				"ItemID": 130,
+				"Weight": 4.0
+			},
+			{
+				"ItemID": 30,
 				"Weight": 1.0
 			}
 		],

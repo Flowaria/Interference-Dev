@@ -358,7 +358,7 @@
 		"addSerialNumberToName": true,
 		"registerInTerminalSystem": true,
 		"Shard": 2,
-		"inventorySlot": 8,
+		"inventorySlot": 7,
 		"FPSSettings": 31,
 		"crosshair": 0,
 		"HUDIcon": "",
@@ -374,16 +374,13 @@
 		"ConsumableAmmoMax": 0,
 		"audioEventEquip": "",
 		"FirstPersonPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/SmallHSUEuippable_FirstPerson.prefab",
-			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
+			"Assets/AssetPrefabs/Items/MiscPickups/DataSphere_FirstPerson.prefab"
 		],
 		"ThirdPersonPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/CarryItemGeneric_ThirdPerson.prefab",
-			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
+			"Assets/AssetPrefabs/Items/MiscPickups/DataSphere_ThirdPerson.prefab"
 		],
 		"PickupPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_Pickup.prefab",
-			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig_Pickup.prefab"
+			"Assets/AssetPrefabs/Items/MiscPickups/PartialDecoderPickup_Core.prefab"
 		],
 		"InstancePrefabs": [],
 		"EquipTransitionTime": 0.5,
@@ -391,9 +388,9 @@
 		"FPSArmsAnim": "",
 		"ThirdPersonFullbodyMovementSet": 0,
 		"LeftHandGripAlign": "LeftHand",
-		"LeftHandGripAnim": "DefoggerBig",
+		"LeftHandGripAnim": "Generator_Cell",
 		"RightHandGripAlign": "RightHand",
-		"RightHandGripAnim": "DefoggerBig",
+		"RightHandGripAnim": "Generator_Cell",
 		"SightLookAlign": "",
 		"MuzzleAlign": "",
 		"BackpackAlign": "CarryAlign",

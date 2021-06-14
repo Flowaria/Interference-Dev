@@ -73,9 +73,9 @@
 				"nameIgnoreCase": true
 			},
 			"DefaultColor": "black",
-			"DetectionColor": "green", //Dont work
+			"DetectionColor": "#86F8BD",
 			"SelfWakeupColor": "red",
-			"PropagateWakeupColor": "green", //Dont work
+			"PropagateWakeupColor": "red",
 			"TentacleAttackColor": "red",
 			"ShooterFireColor": "#86F8BD",
 			"HeartbeatColor": "#86F8BD",

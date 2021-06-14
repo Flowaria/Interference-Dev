@@ -304,5 +304,56 @@
 		"internalEnabled": true,
 		"persistentID": "Recoil_MachineCarbine",
 		"datablock": "Recoil"
+	},
+	{
+		"power": {
+			"Min": 6.4,
+			"Max": 6.8
+		},
+		"spring": 4.8,
+		"dampening": 18.0,
+		"hipFireCrosshairSizeDefault": 80.0,
+		"hipFireCrosshairRecoilPop": 50.0,
+		"hipFireCrosshairSizeMax": 230.0,
+		"horizontalScale": {
+			"Min": -0.1,
+			"Max": -0.3
+		},
+		"verticalScale": {
+			"Min": 0.8,
+			"Max": 1.0
+		},
+		"directionalSimilarity": 0.0,
+		"worldToViewSpaceBlendHorizontal": 0.7,
+		"worldToViewSpaceBlendVertical": 0.7,
+		"recoilPosImpulse": {
+			"x": 0.0,
+			"y": -0.6,
+			"z": -2.0
+		},
+		"recoilPosShift": {
+			"x": 0.0,
+			"y": -0.05,
+			"z": -0.15
+		},
+		"recoilPosShiftWeight": 0.5,
+		"recoilPosStiffness": 150.0,
+		"recoilPosDamping": 13.0,
+		"recoilPosImpulseWeight": 1.4,
+		"recoilCameraPosWeight": 1.0,
+		"recoilAimingWeight": 0.85,
+		"recoilRotImpulse": {
+			"x": 1.4,
+			"y": 0.4,
+			"z": 0.4
+		},
+		"recoilRotStiffness": 380.0,
+		"recoilRotDamping": 12.5,
+		"recoilRotImpulseWeight": 600.0,
+		"recoilCameraRotWeight": 2.5,
+		"name": "RevolverSemi_v2",
+		"internalEnabled": true,
+		"persistentID": "Recoil_Revolver",
+		"datablock": "Recoil"
 	}
 ]

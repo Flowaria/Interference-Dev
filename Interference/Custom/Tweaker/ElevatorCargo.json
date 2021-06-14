@@ -1,9 +1,11 @@
 [
   {
-    "DataBlockId": 34,
+    "DataBlockId": 65535,
     "ItemID": [
-      133
+      65528,
+      65528
     ],
+    "ForceDisable": false,
     "name": "Fog Turbine",
     "internalEnabled": false
   }

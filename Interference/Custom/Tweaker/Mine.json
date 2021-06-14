@@ -1,0 +1,21 @@
+[
+  {
+    "Delay": 0.25,
+    "Radius": 2.5,
+    "Distance": {
+      "Min": 3.0,
+      "Max": 15.0
+    },
+    "Damage": {
+      "Min": 15.0,
+      "Max": 35.0
+    },
+    "Force": 1000.0,
+    "ExplosionDelay": 0.25,
+    "DeployPickupInteractionDuration": 0.5,
+    "TimeBetweenPlacements": 2.0,
+    "ItemID": 37,
+    "name": "Default",
+    "internalEnabled": false
+  }
+]

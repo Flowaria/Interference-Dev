@@ -1,8 +1,8 @@
 [
 	{
 		"Type": "StandardInventory",
-		"GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba Elite. 1\",\"Packet\":{\"Comps\":{\"Length\":14,\"a\":{\"c\":2,\"v\":200},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":7},\"d\":{\"c\":5,\"v\":29},\"e\":{\"c\":6,\"v\":29},\"f\":{\"c\":8,\"v\":7},\"g\":{\"c\":9,\"v\":14},\"h\":{\"c\":10,\"v\":20},\"i\":{\"c\":11,\"v\":506},\"j\":{\"c\":12,\"v\":504},\"k\":{\"c\":16,\"v\":5000},\"l\":{\"c\":19,\"v\":14},\"m\":{\"c\":25,\"v\":2},\"n\":{\"c\":21,\"v\":502}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.17,\"y\":0.02},\"scale\":0.06},\"tDecalB\":{\"position\":{\"x\":0.17,\"y\":-0.015},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":0.24,\"y\":0.0},\"scale\":0.5}},\"publicName\":{\"data\":\"Mastaba Elite. 1\"}}}",
-		"name": "Marksman Revolver",
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba Elite. 1\",\"Packet\":{\"Comps\":{\"Length\":14,\"a\":{\"c\":2,\"v\":200},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":7},\"d\":{\"c\":5,\"v\":29},\"e\":{\"c\":6,\"v\":29},\"f\":{\"c\":8,\"v\":7},\"g\":{\"c\":9,\"v\":14},\"h\":{\"c\":10,\"v\":20},\"i\":{\"c\":11,\"v\":506},\"j\":{\"c\":12,\"v\":504},\"k\":{\"c\":16,\"v\":0},\"l\":{\"c\":19,\"v\":14},\"m\":{\"c\":25,\"v\":2},\"n\":{\"c\":21,\"v\":0}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.17,\"y\":0.02},\"scale\":0.06},\"tDecalB\":{\"position\":{\"x\":0.17,\"y\":-0.015},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":0.24,\"y\":0.0},\"scale\":0.5}},\"publicName\":{\"data\":\"Mastaba Elite. 1\"}}}",
+		"name": "Magnum Revolver",
 		"internalEnabled": true,
 		"persistentID": "OFF_Revolver_Marksman",
 		"datablock": "PlayerOfflineGear"

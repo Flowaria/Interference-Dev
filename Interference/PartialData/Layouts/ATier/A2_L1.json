@@ -39,7 +39,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 1.2
+					"DistributionValue": 1.05
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -130,7 +130,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.65
+					"DistributionValue": 0.45
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -191,7 +191,7 @@
 		},
 		{
 			"LocalIndex": 2, //Cell Search / Low / Stealth
-			"SubSeed": 0,
+			"SubSeed": 5762,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DigSite",
 			"CoverageMinMax": {
@@ -228,7 +228,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.68
+					"DistributionValue": 0.8
 				},
 				{
 					"GroupType": 3,
@@ -241,14 +241,14 @@
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
 			"GeneratorClustersInZone": 0,
-			"CorpsesInZone": "Tons_50",
+			"CorpsesInZone": 0,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
-			"AllowSmallPickupsAllocation": true,
+			"AllowSmallPickupsAllocation": false,
 			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": true,
-			"ConsumableDistributionInZone": 1,
-			"BigPickupDistributionInZone": 5,
+			"ForceBigPickupsAllocation": false,
+			"ConsumableDistributionInZone": 0,
+			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
@@ -261,19 +261,19 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.3,
+			"HealthMulti": 0.8,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.3,
+			"WeaponAmmoMulti": 0.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.3,
+			"ToolAmmoMulti": 0.6,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -310,8 +310,17 @@
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 2,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
-				"PlacementCount": 0,
-				"ZonePlacementData": []
+				"PlacementCount": 1,
+				"ZonePlacementData": [
+					{
+						"LocalIndex": 2,
+						"Weights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 10000.0
+						}
+					}
+				]
 			},
 			"ChainedPuzzleToEnter": "Alarm_A_Class3",
 			"SecurityGateToEnter": 0,
@@ -530,7 +539,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": 1,
+			"ConsumableDistributionInZone": 0,
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{

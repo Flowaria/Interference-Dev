@@ -1,23 +1,23 @@
 [
 	{
-		"PublicName": "Marksman Revolver",
-		"Description": "Ammo: 8/60 (Semi-auto)\nDamage: 6.8\n[Precision: 1.3x / Stagger: 1.0x]\nRange: 25m-80m\n<color=orange>Precision Wave Killer</color>",
+		"PublicName": "Magnum Revolver",
+		"Description": "Ammo: 6/54 (Semi-auto)\nDamage: 15.6\n[Precision: 0.75x / Stagger: 1.0x]\nRange: 10m-90m",
 		"FireMode": 0,
-		"RecoilDataID": 5,
-		"Damage": 6.8,
+		"RecoilDataID": "Recoil_Revolver",
+		"Damage": 15.6,
 		"DamageFalloff": {
-			"x": 25.0,
-			"y": 80.0
+			"x": 10.0,
+			"y": 90.0
 		},
 		"StaggerDamageMulti": 1.0,
-		"PrecisionDamageMulti": 1.3,
-		"DefaultClipSize": 8,
-		"DefaultReloadTime": 1.8,
-		"CostOfBullet": 3.83333333,
-		"ShotDelay": 0.1,
+		"PrecisionDamageMulti": 0.75,
+		"DefaultClipSize": 6,
+		"DefaultReloadTime": 2.15,
+		"CostOfBullet": 4.2592,
+		"ShotDelay": 0.25,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
-		"HipFireSpread": 2.0,
+		"HipFireSpread": 5.0,
 		"AimSpread": 0.0,
 		"EquipTransitionTime": 0.4,
 		"EquipSequence": [

@@ -1,0 +1,110 @@
+{
+  "Tier1": [
+    {
+      "Decrypt": null,
+      "Label": "A1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 2.0,
+      "Position": {
+        "X": -375.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "A2",
+      "Heat": false,
+      "Status": null,
+      "Scale": 2.0,
+      "Position": {
+        "X": 375.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  ],
+  "Tier2": [
+    {
+      "Decrypt": null,
+      "Label": "B1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.428571,
+      "Position": {
+        "X": -525.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "B2",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.428571,
+      "Position": {
+        "X": 0.0,
+        "Y": -315.0,
+        "Z": 0.0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "B3",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.428571,
+      "Position": {
+        "X": 525.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  ],
+  "Tier3": [
+    {
+      "Decrypt": null,
+      "Label": "C1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.818182,
+      "Position": {
+        "X": -412.5,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "C2",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.818182,
+      "Position": {
+        "X": 412.5,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  ],
+  "Tier4": [
+    {
+      "Decrypt": null,
+      "Label": "D1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 10.0,
+      "Position": {
+        "X": -75.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  ],
+  "Tier5": null,
+  "HideProgression": true,
+  "HideTiers": true,
+  "internalEnabled": false
+}

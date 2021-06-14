@@ -129,7 +129,7 @@
     "SpecialTerminalCommandDesc": "",
     "PostCommandOutput": [],
     "PowerCellsToDistribute": 0,
-    "Uplink_NumberOfVerificationRounds": 5,
+    "Uplink_NumberOfVerificationRounds": 4,
     "Uplink_NumberOfTerminals": 2,
     "CentralPowerGenClustser_NumberOfGenerators": 0,
     "CentralPowerGenClustser_NumberOfPowerCells": 4,
@@ -179,7 +179,7 @@
         "Type": 1,
         "Layer": 2,
         "LocalIndex": 2,
-        "Delay": 15.0,
+        "Delay": 14.0,
         "WardenIntel": "LOW POWER::Motion Trigger Lockdown for [ZONE_2] unsealed.",
         "SoundID": 0
       }

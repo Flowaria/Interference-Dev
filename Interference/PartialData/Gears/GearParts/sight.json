@@ -67,10 +67,10 @@
 	},
 	{
 		"General": {
-			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_16.prefab",
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_4_B.prefab",
 			"GearCategoryFilter": 0,
 			"AssetBundle": 50,
-			"BundleShard": 18
+			"BundleShard": 4
 		},
 		"Aligns": [
 			{
@@ -79,10 +79,10 @@
 			}
 		],
 		"SightProperties": {
-			"GearFovZoom": 16,
+			"GearFovZoom": 30,
 			"WorldFovZoom": 42
 		},
-		"name": "12_FovFix",
+		"name": "IronSight_Rev_FovFix",
 		"internalEnabled": true,
 		"persistentID": 502,
 		"datablock": "GearSightPart"
