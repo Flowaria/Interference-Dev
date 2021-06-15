@@ -1490,7 +1490,7 @@
 					"GroupType": 1,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.3
+					"DistributionValue": 0.6
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -1575,7 +1575,7 @@
 				"HasActiveEnemyWave": true,
 				"EnemyGroupInfrontOfDoor": "EnemyGroup_Striker_Lot",
 				"EnemyGroupInArea": "EnemyGroup_Striker_Lot",
-				"EnemyGroupsInArea": 3
+				"EnemyGroupsInArea": 2
 			},
 			"EnemySpawningInZone": [],
 			"HSUClustersInZone": 0,

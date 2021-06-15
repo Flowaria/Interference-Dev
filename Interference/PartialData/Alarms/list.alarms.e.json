@@ -244,7 +244,7 @@
 	{
 		"PublicAlarmName": "[SHUFFLE_TYPE1]",
 		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": "WaveSetting_Trickle_Big_2_53",
+		"SurvivalWaveSettings": "WaveSetting_Trickle_Big_2_69",
 		"SurvivalWavePopulation": "WavePop_Shadow_BigBullrush",
 		"DisableSurvivalWaveOnComplete": false,
 		"UseRandomPositions": true,
