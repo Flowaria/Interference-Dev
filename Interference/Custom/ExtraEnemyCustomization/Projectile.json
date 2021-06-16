@@ -27,6 +27,48 @@
 					"ShotSpreadYMax": "Unchanged"
 				}
 			]
+		},
+		{
+			"Enabled": true,
+			"DebugName": "FastShooter",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Shooter_Fast"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"FireSettings": [
+				{
+					"FromDistance": -1.0,
+					"OverrideProjectileType": true,
+					"ProjectileType": 52, //Slow Projectile
+					"BurstCount": "Unchanged",
+					"BurstDelay": "Unchanged",
+					"ShotDelayMin": "20%",
+					"ShotDelayMax": "20%",
+					"InitialFireDelay": "Unchanged",
+					"ShotSpreadXMin": "40%",
+					"ShotSpreadXMax": "40%",
+					"ShotSpreadYMin": "40%",
+					"ShotSpreadYMax": "40%"
+				},
+				{
+					"FromDistance": 10.0, //Fast Projectile
+					"OverrideProjectileType": true,
+					"ProjectileType": 51,
+					"BurstCount": "Unchanged",
+					"BurstDelay": "Unchanged",
+					"ShotDelayMin": "20%",
+					"ShotDelayMax": "20%",
+					"InitialFireDelay": "Unchanged",
+					"ShotSpreadXMin": "40%",
+					"ShotSpreadXMax": "40%",
+					"ShotSpreadYMin": "40%",
+					"ShotSpreadYMax": "40%"
+				}
+			]
 		}
 	],
 	"ProjectileDefinitions": [
@@ -40,6 +82,28 @@
 			"GlowRange": 0.5,
 			"Damage": "75% of default",
 			"Infection": "1.75%"
+		},
+		{
+			"DebugName": "Tiny_Fast_Red",
+			"ID": 51,
+			"BaseProjectile": "TargetingTiny",
+			"Speed": "100%",
+			"HomingStrength": "250%",
+			"GlowColor": "red",
+			"GlowRange": 0.5,
+			"Damage": "3%",
+			"Infection": "0%"
+		},
+		{
+			"DebugName": "Tiny_Slow_Red",
+			"ID": 52,
+			"BaseProjectile": "TargetingMedium",
+			"Speed": "50%",
+			"HomingStrength": "500%",
+			"GlowColor": "red",
+			"GlowRange": 2.0,
+			"Damage": "10%",
+			"Infection": "0%"
 		}
 	]
 }

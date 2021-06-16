@@ -774,5 +774,92 @@
 		"internalEnabled": true,
 		"persistentID": "Enemy_SlenderMan",
 		"datablock": "Enemy"
+	},
+	{
+		"EnemyType": 2,
+		"AssetBundle": 300,
+		"BundleShard": 0,
+		"BasePrefabs": [
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+		],
+		"ModelDatas": [
+			{
+				"ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+				"ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterBig.prefab",
+				"PositionOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"RotationOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"NeckScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"HeadScale": {
+					"x": 1.25,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"ChestScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"ArmScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"LegScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"SizeRange": {
+					"x": 1.05,
+					"y": 1.15
+				}
+			}
+		],
+		"DetectionDataId": 13,
+		"BehaviorDataId": "Behavior_Shooter_Fast",
+		"MovementDataId": "Movement_Shooter_Fast",
+		"BalancingDataId": 11,
+		"SFXDataId": 11,
+		"LinkedSlaveModels": [],
+		"InternalMaterial": 65536,
+		"isCoccoon": false,
+		"EnemySpottedDialogId": 0,
+		"AI_Abilities": [
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterSmall.prefab",
+				"AbilityType": 2,
+				"Cooldown": 0.6
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+				"AbilityType": 7,
+				"Cooldown": 25.0
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+				"AbilityType": 8,
+				"Cooldown": 1.0
+			}
+		],
+		"name": "Shooter_FastProjectile",
+		"internalEnabled": true,
+		"persistentID": "Enemy_Shooter_Fast",
+		"datablock": "Enemy"
 	}
 ]

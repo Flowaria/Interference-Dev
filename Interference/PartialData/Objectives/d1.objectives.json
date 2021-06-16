@@ -136,14 +136,6 @@
         "LocalIndex": 6,
         "Delay": 4.0,
         "WardenIntel": "Security door to [ZONE_6] unlocked"
-      },
-      {
-        "Trigger": 0,
-        "Type": 2,
-        "Layer": 1,
-        "LocalIndex": 6,
-        "Delay": 8.0,
-        "WardenIntel": "Security door to [ZONE_6] unlocked"
       }
     ],
     "FogTransitionDataOnGotoWin": 0,

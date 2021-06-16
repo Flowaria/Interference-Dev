@@ -16,7 +16,7 @@
 			"ZoneExpansion": "Directional_Forward",
 			"LightSettings": "Light_MonoOrange_AllOn",
 			"AltitudeData": {
-				"AllowedZoneAltitude": "OnlyMid",
+				"AllowedZoneAltitude": "OnlyHigh",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -103,8 +103,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 25.0,
-				"y": 30.0
+				"x": 45.0,
+				"y": 60.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Start",
@@ -113,7 +113,7 @@
 			"ZoneExpansion": "Directional_Right",
 			"LightSettings": 31,
 			"AltitudeData": {
-				"AllowedZoneAltitude": "OnlyLow",
+				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -657,12 +657,12 @@
 			},
 			"EventsOnEnter": [],
 			"ProgressionPuzzleToEnter": {
-				"PuzzleType": 3,
+				"PuzzleType": 0,
 				"CustomText": "<color=red>://ERROR: Access Denied!</color>",
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": 0,
+			"ChainedPuzzleToEnter": "Alarm_D1_Class6",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,
@@ -694,20 +694,28 @@
 			],
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
-			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.6,
+			"DisinfectionStationPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 10000.0,
+						"End": 0.0
+					}
+				}
+			],
+			"HealthMulti": 1.2,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.6,
+			"WeaponAmmoMulti": 1.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.4,
+			"ToolAmmoMulti": 1.2,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

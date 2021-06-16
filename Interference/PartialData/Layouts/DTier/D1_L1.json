@@ -2,18 +2,18 @@
 	"Zones": [
 		{
 			"LocalIndex": 0, //Starting
-			"SubSeed": 0,
+			"SubSeed": 11,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 50.0,
-				"y": 60.0
+				"x": 40.0,
+				"y": 50.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Start",
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Forward",
-			"ZoneExpansion": "Expansional",
+			"ZoneExpansion": "Collapsed",
 			"LightSettings": 12,
 			"AltitudeData": {
 				"AllowedZoneAltitude": "Unchanged",
@@ -133,7 +133,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_D1_Class6",
+			"ChainedPuzzleToEnter": "Alarm_D1_Class5",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,

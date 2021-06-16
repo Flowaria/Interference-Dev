@@ -99,6 +99,45 @@
 					"AlwaysPulse": false
 				}
 			]
+		},
+		{
+			"Enabled": true,
+			"DebugName": "FastShooter",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Shooter_Fast"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"DefaultColor": "black",
+			"DetectionColor": "red",
+			"SelfWakeupColor": "red",
+			"PropagateWakeupColor": "red",
+			"TentacleAttackColor": "red",
+			"ShooterFireColor": "red",
+			"HeartbeatColor": "red",
+			"PulseEffects": [
+				{
+					"Target": "Hibernate",
+					"Duration": 2.0,
+					"GlowPattern": "04",
+					"GlowColor": "red",
+					"RandomizeTime": true,
+					"KeepOnDead": false,
+					"AlwaysPulse": false
+				},
+				{
+					"Target": "Combat",
+					"Duration": 1.0,
+					"GlowPattern": "0f",
+					"GlowColor": "red",
+					"RandomizeTime": true,
+					"KeepOnDead": false,
+					"AlwaysPulse": false
+				}
+			]
 		}
 	],
 	"LimbCustom": [],
