@@ -103,6 +103,57 @@
 	},
 	{
 		"power": {
+			"Min": 2.0,
+			"Max": 3.5
+		},
+		"spring": 2.2,
+		"dampening": 20.0,
+		"hipFireCrosshairSizeDefault": 120.0,
+		"hipFireCrosshairRecoilPop": 80.0,
+		"hipFireCrosshairSizeMax": 180.0,
+		"horizontalScale": {
+			"Min": -0.5,
+			"Max": 0.1
+		},
+		"verticalScale": {
+			"Min": 0.8,
+			"Max": 1.0
+		},
+		"directionalSimilarity": 0.0,
+		"worldToViewSpaceBlendHorizontal": 0.2,
+		"worldToViewSpaceBlendVertical": 0.2,
+		"recoilPosImpulse": {
+			"x": 1.0,
+			"y": -40.0,
+			"z": -5.0
+		},
+		"recoilPosShift": {
+			"x": 0.0,
+			"y": -0.5,
+			"z": -0.1
+		},
+		"recoilPosShiftWeight": 1.0,
+		"recoilPosStiffness": 350.0,
+		"recoilPosDamping": 30.0,
+		"recoilPosImpulseWeight": 1.0,
+		"recoilCameraPosWeight": 1.0,
+		"recoilAimingWeight": 0.7,
+		"recoilRotImpulse": {
+			"x": 14.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"recoilRotStiffness": 100.0,
+		"recoilRotDamping": 12.0,
+		"recoilRotImpulseWeight": 100.0,
+		"recoilCameraRotWeight": 4.0,
+		"name": "ShotgunSemi_v2",
+		"internalEnabled": true,
+		"persistentID": "Recoil_Shotgun_SawedOff",
+		"datablock": "Recoil"
+	},
+	{
+		"power": {
 			"Min": 8.4,
 			"Max": 8.6
 		},
@@ -307,50 +358,50 @@
 	},
 	{
 		"power": {
-			"Min": 6.4,
-			"Max": 6.8
+			"Min": 3.4,
+			"Max": 3.8
 		},
-		"spring": 4.8,
-		"dampening": 18.0,
+		"spring": 2.0,
+		"dampening": 20.0,
 		"hipFireCrosshairSizeDefault": 80.0,
 		"hipFireCrosshairRecoilPop": 50.0,
 		"hipFireCrosshairSizeMax": 230.0,
 		"horizontalScale": {
-			"Min": -0.1,
-			"Max": -0.3
+			"Min": -1.3,
+			"Max": 1.3
 		},
 		"verticalScale": {
-			"Min": 0.8,
-			"Max": 1.0
+			"Min": 1.2,
+			"Max": 1.4
 		},
 		"directionalSimilarity": 0.0,
 		"worldToViewSpaceBlendHorizontal": 0.7,
 		"worldToViewSpaceBlendVertical": 0.7,
 		"recoilPosImpulse": {
-			"x": 0.0,
-			"y": -0.6,
-			"z": -2.0
+			"x": 1.0,
+			"y": -6.0,
+			"z": -12.0
 		},
 		"recoilPosShift": {
 			"x": 0.0,
-			"y": -0.05,
-			"z": -0.15
+			"y": -0.5,
+			"z": -0.1
 		},
 		"recoilPosShiftWeight": 0.5,
-		"recoilPosStiffness": 150.0,
-		"recoilPosDamping": 13.0,
-		"recoilPosImpulseWeight": 1.4,
-		"recoilCameraPosWeight": 1.0,
-		"recoilAimingWeight": 0.85,
+		"recoilPosStiffness": 320.0,
+		"recoilPosDamping": 18.0,
+		"recoilPosImpulseWeight": 0.1,
+		"recoilCameraPosWeight": 8.0,
+		"recoilAimingWeight": 0.8,
 		"recoilRotImpulse": {
-			"x": 1.4,
-			"y": 0.4,
-			"z": 0.4
+			"x": 30.0,
+			"y": 1.0,
+			"z": 1.0
 		},
-		"recoilRotStiffness": 380.0,
-		"recoilRotDamping": 12.5,
-		"recoilRotImpulseWeight": 600.0,
-		"recoilCameraRotWeight": 2.5,
+		"recoilRotStiffness": 320.0,
+		"recoilRotDamping": 15.0,
+		"recoilRotImpulseWeight": 60.0,
+		"recoilCameraRotWeight": 5.0,
 		"name": "RevolverSemi_v2",
 		"internalEnabled": true,
 		"persistentID": "Recoil_Revolver",

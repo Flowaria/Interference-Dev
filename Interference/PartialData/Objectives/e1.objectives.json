@@ -33,7 +33,7 @@
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [
       {
-        "WaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
+        "WaveSettings": "WaveSetting_Apex_SmallOnly",
         "WavePopulation": 18,
         "SpawnDelay": 0.0,
         "TriggerAlarm": true
@@ -64,7 +64,7 @@
     "ChainedPuzzleToActive": 10,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
-    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.15,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.585,
     "ActivateHSU_ItemFromStart": "Carry_DataSphere_FixedName",
     "ActivateHSU_ItemAfterActivation": "Carry_DataSphere_FixedName",
     "ActivateHSU_StopEnemyWavesOnActivation": true,

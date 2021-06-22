@@ -4,7 +4,7 @@
 			"LocalIndex": 0, //Starting
 			"SubSeed": 11,
 			"BulkheadDCScanSeed": 0,
-			"SubComplex": "DataCenter",
+			"SubComplex": "Lab",
 			"CoverageMinMax": {
 				"x": 40.0,
 				"y": 50.0
@@ -16,7 +16,7 @@
 			"ZoneExpansion": "Collapsed",
 			"LightSettings": 12,
 			"AltitudeData": {
-				"AllowedZoneAltitude": "Unchanged",
+				"AllowedZoneAltitude": "OnlyHigh",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -53,7 +53,7 @@
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
 			"ConsumableDistributionInZone": 20,
-			"BigPickupDistributionInZone": 0,
+			"BigPickupDistributionInZone": 3,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
@@ -78,7 +78,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.0,
+			"ToolAmmoMulti": 0.4,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -177,7 +177,15 @@
 				}
 			],
 			"ForbidTerminalsInZone": false,
-			"PowerGeneratorPlacements": [],
+			"PowerGeneratorPlacements": [
+				{
+					"PlacementWeights": {
+						"Start": 0.0,
+						"Middle": 0.0,
+						"End": 100000.0
+					}
+				}
+			],
 			"DisinfectionStationPlacements": [],
 			"HealthMulti": 0.4,
 			"HealthPlacement": {
@@ -185,13 +193,13 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.8,
+			"WeaponAmmoMulti": 0.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.6,
+			"ToolAmmoMulti": 0.2,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -206,12 +214,12 @@
 		},
 		{
 			"LocalIndex": 2, //Right Generator Passage
-			"SubSeed": 0,
+			"SubSeed": 788,
 			"BulkheadDCScanSeed": 0,
-			"SubComplex": "Lab",
+			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 65.0,
-				"y": 70.0
+				"x": 20.0,
+				"y": 30.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Random",
@@ -220,7 +228,7 @@
 			"ZoneExpansion": "Directional_Right",
 			"LightSettings": 15,
 			"AltitudeData": {
-				"AllowedZoneAltitude": "Unchanged",
+				"AllowedZoneAltitude": "OnlyHigh",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -252,13 +260,13 @@
 					"GroupType": 0,
 					"Difficulty": 6,
 					"Distribution": 2,
-					"DistributionValue": 0.8
+					"DistributionValue": 0.3
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 900,
 					"Distribution": 2,
-					"DistributionValue": 0.8
+					"DistributionValue": 0.5
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -291,13 +299,13 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.2,
+			"WeaponAmmoMulti": 0.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.0,
+			"ToolAmmoMulti": 0.2,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -316,8 +324,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Lab",
 			"CoverageMinMax": {
-				"x": 65.0,
-				"y": 70.0
+				"x": 30.0,
+				"y": 40.0
 			},
 			"BuildFromLocalIndex": 2,
 			"StartPosition": "From_Furthest",
@@ -326,7 +334,7 @@
 			"ZoneExpansion": "Directional_Right",
 			"LightSettings": 48,
 			"AltitudeData": {
-				"AllowedZoneAltitude": "Unchanged",
+				"AllowedZoneAltitude": "OnlyHigh",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -362,6 +370,24 @@
 					"Difficulty": 3000,
 					"Distribution": "Force_One",
 					"DistributionValue": 1.0
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 3000,
+					"Distribution": "Force_One",
+					"DistributionValue": 1.0
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 3000,
+					"Distribution": "Force_One",
+					"DistributionValue": 1.0
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 3000,
+					"Distribution": "Force_One",
+					"DistributionValue": 1.0
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -379,9 +405,14 @@
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 1.0,
+						"Start": 100000.0,
 						"Middle": 0.0,
 						"End": 0.0
+					},
+					"StartingStateData": {
+						"StartingState": 10,
+						"AudioEventEnter": 632825462,
+						"AudioEventExit": 3105497116
 					}
 				}
 			],
@@ -389,26 +420,26 @@
 			"PowerGeneratorPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 1.0,
+						"Start": 100000.0,
 						"Middle": 0.0,
 						"End": 0.0
 					}
 				}
 			],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.6,
+			"HealthMulti": 0.2,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.8,
+			"WeaponAmmoMulti": 0.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.4,
+			"ToolAmmoMulti": 0.2,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -422,7 +453,7 @@
 			}
 		},
 		{
-			"LocalIndex": 4, //Left Generator
+			"LocalIndex": 4, //Resources
 			"SubSeed": 0,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Lab",
@@ -452,12 +483,12 @@
 						"Weights": {
 							"Start": 0.0,
 							"Middle": 0.0,
-							"End": 10000.0
+							"End": 100000.0
 						}
 					}
 				]
 			},
-			"ChainedPuzzleToEnter": "Alarm_D1_Class4_S1",
+			"ChainedPuzzleToEnter": 4,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -465,20 +496,7 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [
-				{
-					"GroupType": 2, //BIG CHARGER
-					"Difficulty": 2,
-					"Distribution": 1,
-					"DistributionValue": 1.0
-				},
-				{
-					"GroupType": 3,
-					"Difficulty": 3000,
-					"Distribution": "Force_One",
-					"DistributionValue": 1.0
-				}
-			],
+			"EnemySpawningInZone": [],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
@@ -536,51 +554,33 @@
 				}
 			],
 			"ForbidTerminalsInZone": false,
-			"PowerGeneratorPlacements": [
-				{
-					"PlacementWeights": {
-						"Start": 0.0,
-						"Middle": 0.0,
-						"End": 1000.0
-					}
-				}
-			],
+			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.6,
+			"HealthMulti": 1.6,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 100.0
 			},
-			"WeaponAmmoMulti": 0.8,
+			"WeaponAmmoMulti": 1.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 100.0
 			},
-			"ToolAmmoMulti": 0.6,
+			"ToolAmmoMulti": 1.0,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 100.0
 			},
-			"DisinfectionMulti": 0.4, //DIS: 2
+			"DisinfectionMulti": 1.8, //DIS: 2
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 100.0
 			},
-			"StaticSpawnDataContainers": [
-				{
-					"Count": 50,
-					"DistributionWeightType": 0,
-					"DistributionWeight": 0.0,
-					"DistributionRandomBlend": 1.0,
-					"DistributionResultPow": 1.0,
-					"StaticSpawnDataId": 1,
-					"FixedSeed": 0
-				}
-			]
+			"StaticSpawnDataContainers": []
 		},
 		{
 			"LocalIndex": 5, //Forward, Hub Zone
@@ -677,7 +677,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.8,
+			"WeaponAmmoMulti": 1.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

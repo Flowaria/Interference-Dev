@@ -346,6 +346,37 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
+		"PublicAlarmName": "Class IV Surge Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 38,
+		"SurvivalWavePopulation": 14,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 15.0,
+		"WantedDistanceBetweenPuzzleComponents": 17.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E1_ExtractionDoor",
+		"datablock": "ChainedPuzzle"
+	},
+	{
 		"PublicAlarmName": "Class III Surge Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": 38,

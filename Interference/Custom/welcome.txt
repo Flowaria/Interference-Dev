@@ -1,27 +1,15 @@
-<size=75%>>Processing geo-data sample from [0xE001]... VALID!
+<size=80%>>Processing geo-data sample from [0xE001]... VALID!
 <color=orange>WARNING: Critical Damage on maintenance system!</color>
  - Suggested Action: Immediate Repair required
 
 >rundown --load-id 62 --subcomplex 91X122 --forced --comment "Repair maintenance system, Establish External Connection to nFrame Cluster if possible"</size>
 <size=100%>Re-Initiating Rundown Protocol: <color=orange>Interference <color=red>://EXT-Finalize</color></color></size>
 
-<size=125%>Change Log (v0.6.0):</size>
+<size=125%>Change Log (v0.6.10):</size>
 - Level Change:
-  * A1 - Slightly Changed Extreme
-  * D3 - Tweaked Last Cell zone, Tweaked Extraction Event
-  * E1 - Significantly nerfed Difficulty in general
-<color=orange>- Added Extension Level: A4, B4</color>
-- Weapon:
-  <color=orange>* Added Weapon: Machine Carbine (Main)</color>
-  <color=orange>* Added Two unique Melee Type: Light Melee, Heavy Melee</color>
-  * HEL Combat Sniper - Increase DMG (16.2 -> 20.5), Reduce Max Ammo (-1)
-  * Marksman Rifle - Reduce Max Ammo (-5)
-  * Light-MG - Increase DMG (1.4 -> 1.55)
-  * Heavy-MG - Changed style to closer to Auto DMR (R1 stat)
-  * Powered Revolver - Increase Max Ammo (+2)
-  * Auto Shotgun - Increase DMG (1.5 -> 1.6)
-  * Sniper Sentry - Renamed to Anti-Material Sentry, Increase DMG, Reduce Max Ammo
-  * Auto Scatter Sentry - Renamed to Choke-Mod Shotgun Sentry, Increase DMG, Increase Max Ammo
-  * Rifle Sentry - Slightly Increase Ammo (572 -> 648)
-  * Stun Sentry - Slightly Decrease Ammo (1024 -> 1000)
-  * Mine Deployer - Increase Max Ammo (8 -> 10)
+  * D1 - Nerfed Level In general
+  * C1 - Overload objective now shows zone info (only)
+- Weapon Balancing:
+  * A lot of change on almost every main weapon, check them out!
+  * Powered Revolver: Removed Chargup
+  * Hel Combat Sniper: Increased Pierce count to 5 (from 4)

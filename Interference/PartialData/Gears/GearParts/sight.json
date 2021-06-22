@@ -130,5 +130,49 @@
 		"internalEnabled": true,
 		"persistentID": 505,
 		"datablock": "GearSightPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/IronSights/IronSights_1_B.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 50,
+			"BundleShard": 7
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"SightProperties": {
+			"GearFovZoom": 30,
+			"WorldFovZoom": 42
+		},
+		"name": "IronSight_SawedOff",
+		"internalEnabled": true,
+		"persistentID": 506,
+		"datablock": "GearSightPart"
+	},
+	{
+		"General": {
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Sights/Sight_Empty.prefab",
+			"GearCategoryFilter": 0,
+			"AssetBundle": 50,
+			"BundleShard": 11
+		},
+		"Aligns": [
+			{
+				"AlignType": 6,
+				"AlignName": "Sight_Align"
+			}
+		],
+		"SightProperties": {
+			"GearFovZoom": 35,
+			"WorldFovZoom": 55
+		},
+		"name": "Sight_Empty_Revolver",
+		"internalEnabled": true,
+		"persistentID": 507,
+		"datablock": "GearSightPart"
 	}
 ]

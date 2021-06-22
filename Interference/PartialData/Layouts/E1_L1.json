@@ -666,6 +666,11 @@
 						"Start": 0.0,
 						"Middle": 0.0,
 						"End": 0.0
+					},
+					"StartingStateData": {
+						"StartingState": 10,
+						"AudioEventEnter": 632825462,
+						"AudioEventExit": 3105497116
 					}
 				}
 			],
@@ -1302,25 +1307,25 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 1.8,
+			"HealthMulti": 2.0,
 			"HealthPlacement": {
 				"Start": 10000.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.6,
+			"WeaponAmmoMulti": 3.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 10000.0,
 				"End": 10000.0
 			},
-			"ToolAmmoMulti": 1.6,
+			"ToolAmmoMulti": 1.8,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 10000.0,
 				"End": 10000.0
 			},
-			"DisinfectionMulti": 2.4,
+			"DisinfectionMulti": 2.8,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 10000.0,
@@ -1420,7 +1425,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.0,
+			"WeaponAmmoMulti": 1.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -1523,7 +1528,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.0,
+			"WeaponAmmoMulti": 3.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

@@ -255,9 +255,9 @@
         "Trigger": 0,
         "Type": 2, //Unlock Door
         "Layer": 2,
-        "LocalIndex": 6,
+        "LocalIndex": 4,
         "Delay": 6.0,
-        "WardenIntel": "Door to [ZONE_6] unlocked."
+        "WardenIntel": "Door to [ZONE_4] unlocked."
       },
       {
         "Trigger": 0,

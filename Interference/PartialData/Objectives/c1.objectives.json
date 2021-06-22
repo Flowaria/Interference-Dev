@@ -127,7 +127,7 @@
   {
     "Type": 0,
     "Header": "Essential DNA Core",
-    "MainObjective": "<color=orange>(Back-up Message)</color> Find the <u><b>Hydrostasis Unit</b></u> and retrieve a DNA core sample",
+    "MainObjective": "<color=orange>(Back-up Message)</color> Find the matching <u><b>Hydrostasis Unit</b></u> inside [ITEM_ZONE] and retrieve a DNA core sample",
     "FindLocationInfo": "<b><i>--LOST COMMUNICATION--</i></b>",
     "FindLocationInfoHelp": "",
     "GoToZone": "",

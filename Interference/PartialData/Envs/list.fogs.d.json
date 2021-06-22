@@ -11,7 +11,7 @@
 		},
 		"DensityNoiseSpeed": 0.03,
 		"DensityNoiseScale": 0.18,
-		"DensityHeightAltitude": -2.2,
+		"DensityHeightAltitude": -3.2,
 		"DensityHeightRange": 3.2,
 		"DensityHeightMaxBoost": 0.055,
 		"Infection": 0.055,

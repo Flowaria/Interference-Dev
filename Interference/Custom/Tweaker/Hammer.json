@@ -2,7 +2,7 @@
   {
     "Damage": {
       "Min": 4.0,
-      "Max": 20.01
+      "Max": 20.05
     },
     "PrecisionDamageMulti": 1.0,
     "CameraDamageRayLength": 1.8,
@@ -348,9 +348,9 @@
   {
     "Damage": {
       "Min": 6.5,
-      "Max": 50.01
+      "Max": 50.05
     },
-    "PrecisionDamageMulti": 0.8,
+    "PrecisionDamageMulti": 0.805,
     "CameraDamageRayLength": 1.5,
     "InputBufferTime": 0.5,
     "MaxPushFrequency": 1.6,

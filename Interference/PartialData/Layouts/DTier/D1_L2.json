@@ -58,7 +58,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_FogBulk_Some_Mixed",
+			"ConsumableDistributionInZone": "Consumable_FogBulk_Some",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -72,13 +72,13 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.4,
+			"HealthMulti": 0.6,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.0,
+			"WeaponAmmoMulti": 0.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -98,7 +98,7 @@
 			}
 		},
 		{
-			"LocalIndex": 1, //Fog Turbine And Key
+			"LocalIndex": 1, //Key
 			"SubSeed": 0,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
@@ -123,20 +123,20 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_D_Class4_QSurge",
+			"ChainedPuzzleToEnter": 4,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
-				"HasActiveEnemyWave": false,
-				"EnemyGroupInfrontOfDoor": 0,
-				"EnemyGroupInArea": 0,
-				"EnemyGroupsInArea": 0
+				"HasActiveEnemyWave": true,
+				"EnemyGroupInfrontOfDoor": 30,
+				"EnemyGroupInArea": 33,
+				"EnemyGroupsInArea": 2
 			},
 			"EnemySpawningInZone": [
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.8
+					"DistributionValue": 1.35
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -150,32 +150,32 @@
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
 			"ConsumableDistributionInZone": 9,
-			"BigPickupDistributionInZone": 3,
+			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
-						"Start": 10000.0,
+						"Start": 0.0,
 						"Middle": 0.0,
-						"End": 0.0
+						"End": 100000.0
 					}
 				}
 			],
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.6,
+			"HealthMulti": 0.8,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.4,
+			"WeaponAmmoMulti": 0.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.0,
+			"ToolAmmoMulti": 0.6,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -318,8 +318,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 70.0,
-				"y": 80.0
+				"x": 40.0,
+				"y": 50.0
 			},
 			"BuildFromLocalIndex": 2,
 			"StartPosition": "From_Furthest",
@@ -339,7 +339,7 @@
 				"ZonePlacementData": []
 			},
 			"ChainedPuzzleToEnter": "Alarm_D1_Class4_S1",
-			"SecurityGateToEnter": 0,
+			"SecurityGateToEnter": 0, 
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,
 				"EnemyGroupInfrontOfDoor": 33,
@@ -426,8 +426,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 70.0,
-				"y": 80.0
+				"x": 40.0,
+				"y": 50.0
 			},
 			"BuildFromLocalIndex": 2,
 			"StartPosition": "From_Furthest",
@@ -662,7 +662,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_D1_Class6",
+			"ChainedPuzzleToEnter": "Alarm_D1_Class5",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": true,
@@ -703,19 +703,19 @@
 					}
 				}
 			],
-			"HealthMulti": 1.2,
+			"HealthMulti": 3.2,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.2,
+			"WeaponAmmoMulti": 3.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 1.2,
+			"ToolAmmoMulti": 1.4,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

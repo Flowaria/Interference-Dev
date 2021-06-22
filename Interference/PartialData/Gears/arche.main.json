@@ -1,10 +1,10 @@
 [
 	{
-		"PublicName": "Light-SMG",
-		"Description": "Ammo: 45/353 (Full-auto)\nDamage: 1.3\n[Precision: 0.92x - Stagger: 1.08x]\nRange: 7m-55m",
+		"PublicName": "Light-SMG", //9.6 Mag
+		"Description": "Ammo: 45/387 (Full-auto)\nDamage: 1.63\n[Precision: 0.92x - Stagger: 1.08x]\nRange: 7m-55m",
 		"FireMode": 2,
 		"RecoilDataID": 2,
-		"Damage": 1.3,
+		"Damage": 1.63,
 		"DamageFalloff": {
 			"x": 7.0,
 			"y": 55.0
@@ -13,7 +13,7 @@
 		"PrecisionDamageMulti": 0.92,
 		"DefaultClipSize": 45,
 		"DefaultReloadTime": 1.55,
-		"CostOfBullet": 1.3,
+		"CostOfBullet": 1.1886,
 		"ShotDelay": 0.044,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -52,20 +52,20 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Heavy-SMG",
-		"Description": "Ammo: 36/298 (Full-auto)\nDamage: 1.925\n[Precision: 0.93x - Stagger: 0.95x]\nRange: 8m-58m",
+		"PublicName": "Heavy-SMG", //10 Mag
+		"Description": "Ammo: 36/324 (Full-auto)\nDamage: 2.05\n[Precision: 0.96x - Stagger: 0.95x]\nRange: 8m-58m",
 		"FireMode": 2,
 		"RecoilDataID": 2,
-		"Damage": 1.925,
+		"Damage": 2.05,
 		"DamageFalloff": {
 			"x": 8.0,
 			"y": 58.0
 		},
 		"StaggerDamageMulti": 0.95,
-		"PrecisionDamageMulti": 0.93,
+		"PrecisionDamageMulti": 0.96,
 		"DefaultClipSize": 36,
 		"DefaultReloadTime": 1.78,
-		"CostOfBullet": 1.5435,
+		"CostOfBullet": 1.4197,
 		"ShotDelay": 0.075,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -104,11 +104,11 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Battle Rifle",
-		"Description": "Ammo: 27/215 (Full-auto)\nDamage: 2.75\n[Precision: 1.0x - Stagger: 0.8x]\nRange: 10m-70m",
+		"PublicName": "Battle Rifle", //10 Mag
+		"Description": "Ammo: 27/243 (Full-auto)\nDamage: 2.85\n[Precision: 1.0x - Stagger: 0.8x]\nRange: 10m-70m",
 		"FireMode": 2,
 		"RecoilDataID": 13,
-		"Damage": 2.75,
+		"Damage": 2.85,
 		"DamageFalloff": {
 			"x": 10.0,
 			"y": 70.0
@@ -117,7 +117,7 @@
 		"PrecisionDamageMulti": 0.8,
 		"DefaultClipSize": 27,
 		"DefaultReloadTime": 1.8,
-		"CostOfBullet": 2.1395348837,
+		"CostOfBullet": 1.8930,
 		"ShotDelay": 0.097,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -156,21 +156,21 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Carbine",
-		"Description": "Ammo: 40/354 (4-Burst)\nDamage: 1.7\n[Precision: 1.0x - Stagger: 1.0x]\nRange: 7m-55m",
+		"PublicName": "Burst Carbine", //9.5 Mag
+		"Description": "Ammo: 42/357 (2-Burst)\nDamage: 2.06\n[Precision: 1.1x - Stagger: 1.0x]\nRange: 7m-55m",
 		"FireMode": 1,
 		"RecoilDataID": 14,
-		"Damage": 1.7,
+		"Damage": 2.06,
 		"DamageFalloff": {
 			"x": 7.0,
 			"y": 55.0
 		},
 		"StaggerDamageMulti": 1.0,
-		"PrecisionDamageMulti": 1.0,
-		"DefaultClipSize": 40,
+		"PrecisionDamageMulti": 1.1,
+		"DefaultClipSize": 42,
 		"DefaultReloadTime": 1.6,
-		"CostOfBullet": 1.3,
-		"ShotDelay": 0.035,
+		"CostOfBullet": 1.2885,
+		"ShotDelay": 0.0235,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 2.0,
@@ -189,8 +189,8 @@
 		],
 		"AimTransitionTime": 0.25,
 		"AimSequence": [],
-		"BurstDelay": 0.1,
-		"BurstShotCount": 4,
+		"BurstDelay": 0.2,
+		"BurstShotCount": 2,
 		"ShotgunBulletCount": 0,
 		"ShotgunConeSize": 0,
 		"ShotgunBulletSpread": 0,
@@ -208,20 +208,20 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Machine Carbine",
-		"Description": "Ammo: 65/540 (Full-auto)\nDamage: 1.2\n[Precision: 0.88x - Stagger: 0.7x]\nRange: 6.5m-115m",
+		"PublicName": "Machine Carbine", //12 Mag
+		"Description": "Ammo: 65/715 (Full-auto)\nDamage: 1.35\n[Precision: 0.935x - Stagger: 0.7x]\nRange: 7.5m-155m",
 		"FireMode": 2,
 		"RecoilDataID": "Recoil_MachineCarbine",
-		"Damage": 1.2,
+		"Damage": 1.35,
 		"DamageFalloff": {
-			"x": 6.5,
-			"y": 115.0
+			"x": 7.5,
+			"y": 155.0
 		},
 		"StaggerDamageMulti": 0.7,
-		"PrecisionDamageMulti": 0.88,
+		"PrecisionDamageMulti": 0.935,
 		"DefaultClipSize": 65,
 		"DefaultReloadTime": 2.15,
-		"CostOfBullet": 0.8518,
+		"CostOfBullet": 0.6433,
 		"ShotDelay": 0.045,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -260,21 +260,21 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Sawed-off Shotgun",
-		"Description": "Ammo: 2/60 (Semi-auto)\nDamage: 1.98 (9 Pallets)\n[Precision: 0.72x - Stagger: 1.25x]\nRange: 3.85m-21.5m\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
+		"PublicName": "Sawed-off Shotgun", //21 Mag
+		"Description": "Ammo: 3/60 (Semi-auto)\nDamage: 2.21 (10 Pallets)\n[Precision: 0.835x - Stagger: 1.8x]\nRange: 4.5m-28.5m\n<color=orange>Extremely Fast Reloading</color>\n<color=orange>Experimental</color>",
 		"FireMode": 0,
-		"RecoilDataID": 6,
-		"Damage": 1.98,
+		"RecoilDataID": "Recoil_Shotgun_SawedOff",
+		"Damage": 2.21,
 		"DamageFalloff": {
-			"x": 3.85,
-			"y": 21.5
+			"x": 4.5,
+			"y": 28.5
 		},
-		"StaggerDamageMulti": 1.25,
-		"PrecisionDamageMulti": 0.72,
-		"DefaultClipSize": 2,
+		"StaggerDamageMulti": 1.8,
+		"PrecisionDamageMulti": 0.835,
+		"DefaultClipSize": 3,
 		"DefaultReloadTime": 0.65,
 		"CostOfBullet": 7.6666,
-		"ShotDelay": 0.17,
+		"ShotDelay": 0.33,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 2.5,
@@ -295,9 +295,9 @@
 		"AimSequence": [],
 		"BurstDelay": 0.05,
 		"BurstShotCount": 0,
-		"ShotgunBulletCount": 9,
+		"ShotgunBulletCount": 10,
 		"ShotgunConeSize": 6,
-		"ShotgunBulletSpread": 5,
+		"ShotgunBulletSpread": 3,
 		"SpecialChargetupTime": 0.0,
 		"SpecialCooldownTime": 0.0,
 		"SpecialSemiBurstCountTimeout": 0.0,
@@ -312,8 +312,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Combat Rifle",
-		"Description": "Ammo: 14/112 (Semi-auto)\nDamage: 5.25\n[Precision: 1.05x - Stagger: 0.75x]\nRange: 18.2m-76m",
+		"PublicName": "Combat Rifle", //9.5 Mag
+		"Description": "Ammo: 14/119 (Semi-auto)\nDamage: 5.25\n[Precision: 1.05x - Stagger: 0.75x]\nRange: 18.2m-76m",
 		"FireMode": 0,
 		"RecoilDataID": 12,
 		"Damage": 5.25,
@@ -325,7 +325,7 @@
 		"PrecisionDamageMulti": 1.05,
 		"DefaultClipSize": 14,
 		"DefaultReloadTime": 2.8,
-		"CostOfBullet": 4.1071428571,
+		"CostOfBullet": 3.8655,
 		"ShotDelay": 0.115,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -364,23 +364,23 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "HEL DMR",
-		"Description": "Ammo: 12/96 (Full-auto)\nDamage: 6.35\n[Precision: 1.0x - Stagger: 1.15x]\nRange: 15m-100m\nPierce: 3",
+		"PublicName": "HEL DMR", //9.6 Mag
+		"Description": "Ammo: 12/104 (Semi-auto)\nDamage: 6.35\n[Precision: 1.0x - Stagger: 1.5x]\nRange: 15m-100m\nPierce: 4",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_HelDMR",
-		"Damage": 6.3,
+		"Damage": 6.35,
 		"DamageFalloff": {
 			"x": 14.0,
 			"y": 100.0
 		},
-		"StaggerDamageMulti": 1.15,
+		"StaggerDamageMulti": 1.5,
 		"PrecisionDamageMulti": 1.0,
 		"DefaultClipSize": 12,
-		"DefaultReloadTime": 2.4,
-		"CostOfBullet": 4.7916,
+		"DefaultReloadTime": 1.92,
+		"CostOfBullet": 4.4230,
 		"ShotDelay": 0.22,
 		"PiercingBullets": true,
-		"PiercingDamageCountLimit": 3,
+		"PiercingDamageCountLimit": 4,
 		"HipFireSpread": 2.2,
 		"AimSpread": 0.0,
 		"EquipTransitionTime": 0.45,
@@ -416,8 +416,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Tactical Handgun",
-		"Description": "Ammo: 12/146 (Semi-auto)\nDamage: 4.5\n[Precision: 1.0x - Stagger: 1.15x]\nRange: 7m-55m",
+		"PublicName": "Tactical Handgun", //14 Mag
+		"Description": "Ammo: 12/156 (Semi-auto)\nDamage: 4.5\n[Precision: 1.0x - Stagger: 1.15x]\nRange: 7m-55m",
 		"FireMode": 0,
 		"RecoilDataID": 12,
 		"Damage": 4.5,
@@ -429,7 +429,7 @@
 		"PrecisionDamageMulti": 1.0,
 		"DefaultClipSize": 12,
 		"DefaultReloadTime": 1.3,
-		"CostOfBullet": 3.15068493150,
+		"CostOfBullet": 2.9487,
 		"ShotDelay": 0.115,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -468,7 +468,7 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Handgun",
+		"PublicName": "Handgun", //Infinite
 		"Description": "Ammo: 21 (Semi-auto)\nDamage: 2.2\n[Precision: 1.0x - Stagger: 1.15x]\nRange: 10m-70m\n<color=orange>Infinite Ammo</color>",
 		"FireMode": 0,
 		"RecoilDataID": 12,
@@ -520,8 +520,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Stun Rifle",
-		"Description": "Ammo: 36/432 (3-Burst)\nDamage: 1.0\n[Precision: 0.0x - Stagger: 10.0x]\nRange: 50m-100m\n<color=orange>Extremely High Stagger</color>\n<color=orange>Experimental</color>",
+		"PublicName": "Stun Rifle", //13 Mag
+		"Description": "Ammo: 36/432 (2-Burst)\nDamage: 1.0\n[Precision: 0.0x - Stagger: 10.0x]\nRange: 50m-100m\n<color=orange>Extremely High Stagger</color>\n<color=orange>Experimental</color>",
 		"FireMode": 1,
 		"RecoilDataID": 24,
 		"Damage": 1.0,
@@ -534,7 +534,7 @@
 		"DefaultClipSize": 36,
 		"DefaultReloadTime": 2.2,
 		"CostOfBullet": 1.0648,
-		"ShotDelay": 0.012,
+		"ShotDelay": 0.0125,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 4.5,
@@ -553,8 +553,8 @@
 		],
 		"AimTransitionTime": 0.25,
 		"AimSequence": [],
-		"BurstDelay": 0.2,
-		"BurstShotCount": 3,
+		"BurstDelay": 0.125,
+		"BurstShotCount": 2,
 		"ShotgunBulletCount": 0,
 		"ShotgunConeSize": 0,
 		"ShotgunBulletSpread": 0,
@@ -572,7 +572,7 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Marksman Rifle",
+		"PublicName": "Marksman Rifle", //6 Mag
 		"Description": "Ammo: 10/49 (Semi-auto)\nDamage: 7.6\n[Precision: 0.91x - Stagger: 0.75x]\nRange: 10m-80m",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Marksman_Rifle",
