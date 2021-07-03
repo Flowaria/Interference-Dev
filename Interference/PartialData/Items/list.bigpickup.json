@@ -350,7 +350,8 @@
 		"internalEnabled": true,
 		"persistentID": "Carry_Neonate_Stage1",
 		"datablock": "Item"
-	},
+	}
+	/*,
 	{
 		"publicName": "Fog Repeller Beacon",
 		"terminalItemShortName": "FOG_BEACON",
@@ -399,4 +400,5 @@
 		"persistentID": "Carry_FogBeacon",
 		"datablock": "Item"
 	}
+	*/
 ]

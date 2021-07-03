@@ -281,6 +281,13 @@
 			"Weight": 1.0
 		},
 		{
+			"Role": 700,
+			"Difficulty": 700,
+			"Enemy": "Enemy_Shooter_Fast", //Elite Shooter
+			"Cost": 1.0,
+			"Weight": 1.0
+		},
+		{
 			"Role": 1000,
 			"Difficulty": 1000,
 			"Enemy": "Enemy_Shadow_Bullrush", //Charger Shadow
@@ -341,6 +348,20 @@
 			"Difficulty": 4000,
 			"Enemy": "Enemy_Tank_Scout_Boss",
 			"Cost": 3.0,
+			"Weight": 1.0
+		},
+		{
+			"Role": 5,
+			"Difficulty": 5000,
+			"Enemy": "Enemy_Scout_Big",
+			"Cost": 3.0,
+			"Weight": 1.0
+		},
+		{
+			"Role": 1500,
+			"Difficulty": 1500,
+			"Enemy": 36,
+			"Cost": 10.0,
 			"Weight": 1.0
 		}
 	],

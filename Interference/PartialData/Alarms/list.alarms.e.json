@@ -282,7 +282,6 @@
 			{
 				"PuzzleType": 2
 			},
-
 			{
 				"PuzzleType": 4
 			},
@@ -292,7 +291,6 @@
 			{
 				"PuzzleType": 2
 			},
-			
 			{
 				"PuzzleType": 4
 			},
@@ -402,6 +400,56 @@
 		"name": "Alarm",
 		"internalEnabled": true,
 		"persistentID": "Alarm_E1_Class3_Surge",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class I Siege Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 42,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 5.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 100
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 1010911017,
+		"AlarmSoundStop": 42633153,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E2_Stage1",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class III QS BC Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 14.0,
+		"WantedDistanceBetweenPuzzleComponents": 14.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E2_QS_BC3",
 		"datablock": "ChainedPuzzle"
 	}
 ]

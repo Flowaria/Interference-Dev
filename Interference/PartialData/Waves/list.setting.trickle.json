@@ -130,6 +130,31 @@
   },
   {
     "m_pauseBeforeStart": 2.0,
+    "m_pauseBetweenGroups": 30.0,
+    "m_wavePauseMin_atCost": 1.0,
+    "m_wavePauseMax_atCost": 10.0,
+    "m_wavePauseMin": 1.0,
+    "m_wavePauseMax": 20.0,
+    "m_populationFilter": [
+      3
+    ],
+    "m_filterType": "Include",
+    "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+    "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+    "m_populationPointsTotal": -1.0,
+    "m_populationPointsPerWaveStart": 10000.0,
+    "m_populationPointsPerWaveEnd": 10000.0,
+    "m_populationPointsMinPerGroup": 2.0,
+    "m_populationPointsPerGroupStart": 2.0,
+    "m_populationPointsPerGroupEnd": 2.0,
+    "m_populationRampOverTime": 0.0,
+    "name": "Trickle_Big_2_140",
+    "internalEnabled": true,
+    "persistentID": "WaveSetting_Trickle_Big_1_30",
+		"datablock": "SurvivalWaveSettings"
+  },
+  {
+    "m_pauseBeforeStart": 2.0,
     "m_pauseBetweenGroups": 75.0,
     "m_wavePauseMin_atCost": 1.0,
     "m_wavePauseMax_atCost": 10.0,

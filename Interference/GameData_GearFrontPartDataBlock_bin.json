@@ -2553,6 +2553,135 @@
     },
     {
       "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Short_Shotgun_2.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "RightHandGripAnim": "Short_Shotgun_2_Player_Idle",
+        "AssetBundle": 20,
+        "BundleShard": 3
+      },
+      "Aligns": [
+        {
+          "AlignType": 0,
+          "AlignName": "Front_M"
+        },
+        {
+          "AlignType": 1,
+          "AlignName": "Front_SE"
+        },
+        {
+          "AlignType": 2,
+          "AlignName": "Front_Mag"
+        },
+        {
+          "AlignType": 5,
+          "AlignName": "Front_Flash"
+        },
+        {
+          "AlignType": 4,
+          "AlignName": "Front_Sight"
+        },
+        {
+          "AlignType": 6,
+          "AlignName": "Sight_Align"
+        },
+        {
+          "AlignType": 8,
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": 7,
+          "AlignName": "LeftHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": 0,
+          "StringData": "Short_Shotgun_2_Weapon_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": 1,
+          "StringData": "Short_Shotgun_2_Parts_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": 4,
+          "StringData": "Short_Shotgun_2_Parts_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": 8,
+          "StringData": "Short_Shotgun_2_Parts_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": 2,
+          "StringData": "Short_Shotgun_2_Player_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": 9,
+          "StringData": "Short_Shotgun_2_Player_Reload"
+        },
+        {
+          "TriggerTime": 0.0,
+          "Type": 5,
+          "StringData": "carbine_reload_3_foley"
+        },
+        {
+          "TriggerTime": 0.2,
+          "Type": 5,
+          "StringData": "shotgun_reload_break_open"
+        },
+        {
+          "TriggerTime": 0.8,
+          "Type": 5,
+          "StringData": "smg_reload_3_grab_mag"
+        },
+        {
+          "TriggerTime": 1.25,
+          "Type": 5,
+          "StringData": "shotgun_reload_1_shell_in"
+        },
+        {
+          "TriggerTime": 1.5,
+          "Type": 5,
+          "StringData": "generic_reload_foley_quick_soft"
+        },
+        {
+          "TriggerTime": 1.6,
+          "Type": 5,
+          "StringData": "generic_reload_foley_quick"
+        },
+        {
+          "TriggerTime": 1.7,
+          "Type": 5,
+          "StringData": "shotgun_reload_break_close"
+        },
+        {
+          "TriggerTime": 2.25,
+          "Type": 5,
+          "StringData": "generic_reload_grab_heavy_weapon"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": 6
+        },
+        {
+          "TriggerTime": 2.5,
+          "Type": 7
+        }
+      ],
+      "name": "Front_Short_Shotgun_2",
+      "internalEnabled": true,
+      "persistentID": 47
+    },
+    {
+      "General": {
         "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Fronts/Front_Pistol_1.prefab",
         "Children": [],
         "GearCategoryFilter": 0,
@@ -2803,5 +2932,5 @@
       "persistentID": 46
     }
   ],
-  "LastPersistentID": 46
+  "LastPersistentID": 47
 }

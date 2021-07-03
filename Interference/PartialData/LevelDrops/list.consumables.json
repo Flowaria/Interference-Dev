@@ -318,5 +318,23 @@
 		"internalEnabled": true,
 		"persistentID": "Consumable_Hard_NoFog_NoFoam_Tech",
 		"datablock": "ConsumableDistribution"
-	}
+	},
+	{
+		"SpawnsPerZone": 10,
+		"ChanceToSpawnInResourceContainer": 0.7,
+		"SpawnData": [
+		  {
+			"ItemID": 140,
+			"Weight": 3.0
+		  },
+		  {
+			"ItemID": 142,
+			"Weight": 7.0
+		  }
+		],
+		"name": "Syringes_Tech",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Tech_Syringe",
+		"datablock": "ConsumableDistribution"
+	  }
 ]

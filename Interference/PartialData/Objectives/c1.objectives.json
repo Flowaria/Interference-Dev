@@ -11,7 +11,7 @@
     "InZoneFindItemHelp": "",
     "SolveItem": "",
     "SolveItemHelp": "",
-    "GoToWinCondition_Elevator": "",
+    "GoToWinCondition_Elevator": "Return the <u><b>MCFC Power cells</b></u> to the extraction point in [EXTRACTION_ZONE]",
     "GoToWinConditionHelp_Elevator": "",
     "GoToWinCondition_CustomGeo": "",
     "GoToWinConditionHelp_CustomGeo": "",
@@ -83,24 +83,18 @@
     "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
     "ReactorWaves": [
       {
-        "Warmup": 10.0,
+        "Warmup": 15.0,
         "WarmupFail": 10.0,
         "Wave": 30.0,
-        "Verify": 130.0,
-        "VerifyFail": 47.5,
+        "Verify": 145.0,
+        "VerifyFail": 25.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 2,
         "EnemyWaves": [
           {
-            "WaveSettings": 30,
+            "WaveSettings": 22,
             "WavePopulation": 5,
             "SpawnTimeRel": 0.0,
-            "SpawnType": 0
-          },
-          {
-            "WaveSettings": 30,
-            "WavePopulation": 5,
-            "SpawnTimeRel": 0.666,
             "SpawnType": 0
           }
         ],

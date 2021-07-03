@@ -73,19 +73,19 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 1.0,
+			"HealthMulti": 1.4,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.0,
+			"WeaponAmmoMulti": 1.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 1.0,
+			"ToolAmmoMulti": 1.4,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -156,7 +156,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.4,
+			"WeaponAmmoMulti": 2.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -262,7 +262,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.4,
+			"WeaponAmmoMulti": 2.0,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -365,7 +365,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.4,
+			"WeaponAmmoMulti": 2.0,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -456,7 +456,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.0,
+			"WeaponAmmoMulti": 2.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -547,7 +547,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.0,
+			"WeaponAmmoMulti": 1.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

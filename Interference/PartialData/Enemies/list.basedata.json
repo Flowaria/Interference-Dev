@@ -861,5 +861,92 @@
 		"internalEnabled": true,
 		"persistentID": "Enemy_Shooter_Fast",
 		"datablock": "Enemy"
+	},
+	{
+		"EnemyType": 2,
+		"AssetBundle": 300,
+		"BundleShard": 0,
+		"BasePrefabs": [
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/EnemyBase.prefab",
+			"Assets/AssetPrefabs/Characters/Enemies/Bases/ShooterBase.prefab"
+		],
+		"ModelDatas": [
+			{
+				"ModelFile": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Shooter_CB.prefab",
+				"ModelCustomization": "Assets/AssetPrefabs/CharacterBuilder/Enemies/Shooter/Customization_ShooterBig.prefab",
+				"PositionOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"RotationOffset": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"NeckScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"HeadScale": {
+					"x": 1.17,
+					"y": 1.17,
+					"z": 1.17
+				},
+				"ChestScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"ArmScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"LegScale": {
+					"x": 1.0,
+					"y": 1.0,
+					"z": 1.0
+				},
+				"SizeRange": {
+					"x": 1.9,
+					"y": 1.9
+				}
+			}
+		],
+		"DetectionDataId": 13,
+		"BehaviorDataId": 20,
+		"MovementDataId": 20,
+		"BalancingDataId": "Balance_Scout_Big",
+		"SFXDataId": 20,
+		"LinkedSlaveModels": [],
+		"InternalMaterial": 65536,
+		"isCoccoon": false,
+		"EnemySpottedDialogId": 51,
+		"AI_Abilities": [
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ProjectileShooterBig.prefab",
+				"AbilityType": 2,
+				"Cooldown": 1.0
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_ScoutDetection.prefab",
+				"AbilityType": 7,
+				"Cooldown": 25.0
+			},
+			{
+				"Enabled": true,
+				"AbilityPrefab": "Assets/AssetPrefabs/Characters/Enemies/Abilities/EAB_DoorBreakerShooter.prefab",
+				"AbilityType": 8,
+				"Cooldown": 1.0
+			}
+		],
+		"name": "Scout_Big",
+		"internalEnabled": true,
+		"persistentID": "Enemy_Scout_Big",
+		"datablock": "Enemy"
 	}
 ]

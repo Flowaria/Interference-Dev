@@ -106,5 +106,32 @@
 		"internalEnabled": true,
 		"persistentID": "Balance_Slenderman",
 		"datablock": "EnemyBalancing"
+	},
+	{
+		"Health": {
+			"HealthMax": 75.0,
+			"DamageUntilHitreact": 20.0,
+			"BodypartHealth": 15.0,
+			"WeakspotDamageMulti": 2.0,
+			"ArmorDamageMulti": 0.3,
+			"HitreactOnLimbDestruction": 4,
+			"TryForceHitreactOnLimbDestruction": true
+		},
+		"GlueTolerance": 19.0,
+		"GlueFadeOutTime": 9.0,
+		"CanBePushed": false,
+		"ForbidTwitchHit": false,
+		"AllowDamgeBonusFromBehind": true,
+		"UseTentacleTunnelCheck": true,
+		"UseVisibilityRaycastDuringTentacleAttack": false,
+		"TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
+		"TentacleAttackDamage": 3.0,
+		"MeleeAttackDamage": 3.0,
+		"MeleeAttackDamageCheckRadius": 1.0,
+		"TagTime": 60.0,
+		"name": "Scout_Big",
+		"internalEnabled": true,
+		"persistentID": "Balance_Scout_Big",
+		"datablock": "EnemyBalancing"
 	}
 ]

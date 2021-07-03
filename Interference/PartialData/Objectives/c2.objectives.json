@@ -88,7 +88,7 @@
   {
     "Type": 3,
     "Header": "Gather FUSE",
-    "MainObjective": "Gather [COUNT_REQUIRED] Electrical Fuse and return to the point of entrance.",
+    "MainObjective": "Gather [COUNT_REQUIRED] Electrical Fuse",
     "FindLocationInfo": "Look for FUSEs in the complex",
     "FindLocationInfoHelp": "Current progress: [COUNT_CURRENT] / [COUNT_REQUIRED]",
     "GoToZone": "",

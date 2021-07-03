@@ -53,7 +53,7 @@
 					"g": 0.6,
 					"b": 1.0
 				},
-				"Scale": 0.9
+				"Scale": 0.93
 			},
 			"TierCVisuals": {
 				"Color": {
@@ -62,7 +62,7 @@
 					"g": 0.6117647058,
 					"b": 1.0
 				},
-				"Scale": 0.745
+				"Scale": 0.782
 			},
 			"TierDVisuals": {
 				"Color": {
@@ -846,7 +846,7 @@
 			"Expedition": {
 				"ComplexResourceData": 3,
 				"LightSettings": 21,
-				"FogSettings": "Fog_B2_Init",
+				"FogSettings": "Fog_B2_Down",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
@@ -855,10 +855,22 @@
 			"LevelLayoutData": "Layout_B2_L1",
 			"MainLayerData": {
 				"ZoneAliasStart": 52,
-				"ZonesWithBulkheadEntrance": [],
+				"ZonesWithBulkheadEntrance": [
+					7
+				],
 				"BulkheadDoorControllerPlacements": [
 					{
-						"ZoneIndex": 2,
+						"ZoneIndex": 1,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 0
+					},
+					{
+						"ZoneIndex": 6,
 						"PlacementWeights": {
 							"Start": 0.0,
 							"Middle": 0.0,
@@ -871,7 +883,7 @@
 				"BulkheadKeyPlacements": [
 					[
 						{
-							"LocalIndex": 9,
+							"LocalIndex": 6,
 							"Weights": {
 								"Start": 0.0,
 								"Middle": 0.0,
@@ -904,39 +916,6 @@
 				"BulkheadKeyPlacements": [],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_B2_L2",
-					"WinCondition": 0,
-					"ZonePlacementDatas": [
-						[
-							{
-								"LocalIndex": 1,
-								"Weights": {
-									"Start": 0.0,
-									"Middle": 0.0,
-									"End": 0.0
-								}
-							}
-						]
-					]
-				},
-				"ArtifactData": {
-					"ArtifactAmountMulti": 0.0,
-					"ArtifactLayerDistributionDataID": 0,
-					"ArtifactZoneDistributions": []
-				}
-			},
-			"ThirdLayerEnabled": true,
-			"ThirdLayout": "Layout_B2_L3",
-			"BuildThirdFrom": {
-				"LayerType": 0,
-				"Zone": 2
-			},
-			"ThirdLayerData": {
-				"ZoneAliasStart": 81,
-				"ZonesWithBulkheadEntrance": [],
-				"BulkheadDoorControllerPlacements": [],
-				"BulkheadKeyPlacements": [],
-				"ObjectiveData": {
-					"DataBlockId": "Obj_B2_L3",
 					"WinCondition": 0,
 					"ZonePlacementDatas": [
 						[
@@ -975,8 +954,9 @@
 					"ArtifactZoneDistributions": []
 				}
 			},
+			"ThirdLayerEnabled": false,
 			"SpecialOverrideData": {
-				"WeakResourceContainerWithPackChanceForLocked": 0.125
+				"WeakResourceContainerWithPackChanceForLocked": 0.06
 			}
 		},
 		{
@@ -1388,6 +1368,166 @@
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>EEB",
+				"PublicName": "Heartbeats",
+				"ExpeditionDepth": 678,
+				"IsExtraExpedition": true,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Further security layer need proper certificate to access.\nLocate the security mainframe terminals to generate certificate.",
+				"RoleplayedWardenIntel": ">.."
+			},
+			"Seeds": {
+				"BuildSeed": 6234521,
+				"FunctionMarkerOffset": 5050,
+				"StandardMarkerOffset": 2020,
+				"LightJobSeedOffset": 0
+			},
+			"Expedition": {
+				"ComplexResourceData": 1,
+				"LightSettings": 70,
+				"FogSettings": "Fog_B5_Layer0",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": 3,
+				"ScoutWavePopulation": 1
+			},
+			"LevelLayoutData": "Layout_B5_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 38,
+				"ZonesWithBulkheadEntrance": [
+					1
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 0,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 100000.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 1,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 0,
+							"Weights": {
+								"Start": 10.0,
+								"Middle": 10.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B5_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_B5_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 0
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 155,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 2,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B5_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_B5_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 8
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 478,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_B5_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 1000.0,
+									"End": 1000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
 		}
 	],
 	"TierC": [
@@ -1396,7 +1536,7 @@
 			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>C00",
-				"PublicName": "<color=orange>Forbidden</color>",
+				"PublicName": "<color=orange>$__DENIED__</color>",
 				"ExpeditionDepth": -99999,
 				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
@@ -1439,6 +1579,38 @@
 							}
 						],
 						[
+							{
+								"LocalIndex": 9,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
+							{
+								"LocalIndex": 10,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
+							{
+								"LocalIndex": 11,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
+							{
+								"LocalIndex": 12,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000000.0
+								}
+							},
 							{
 								"LocalIndex": 9,
 								"Weights": {
@@ -1603,7 +1775,7 @@
 			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>C00",
-				"PublicName": "<color=red>Brute Force</color>",
+				"PublicName": "<color=#ff406c>Brute Force</color>",
 				"ExpeditionDepth": 588,
 				"IsExtraExpedition": false,
 				"EstimatedDuration": "",
@@ -1778,10 +1950,10 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 1,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEC",
-				"PublicName": "Desperation",
+				"PublicName": "<color=#40E0D0>Cyanus</color>",
 				"ExpeditionDepth": 711,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
@@ -2445,65 +2617,41 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": "BlockedAndScrambled",
+			"Accessibility": 1,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEE",
 				"PublicName": "<i>EoL</i>",
 				"ExpeditionDepth": 1162,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Closing Rundown Session::SubComplex: [91X122]\nExtract Essential Items from this part of facility",
+				"ExpeditionDescription": "Closing Rundown Session::SubComplex: [91X122]\nRestore Long-term maintenance system.\nHigh prisoner fatality ra<color=red>#####_66$A421</color>",
 				"RoleplayedWardenIntel": ""
 			},
 			"Seeds": {
-				"BuildSeed": 0,
+				"BuildSeed": -7523,
 				"FunctionMarkerOffset": 0,
 				"StandardMarkerOffset": 0,
 				"LightJobSeedOffset": 0
 			},
 			"Expedition": {
-				"ComplexResourceData": 1,
+				"ComplexResourceData": "Complex_Mining_E2",
 				"LightSettings": 9,
-				"FogSettings": "LightFog_Ambient",
+				"FogSettings": "HeavyFog_E2_High_Layer_Mid",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
 				"ScoutWavePopulation": 1
 			},
-			"LevelLayoutData": "Layout_E1_L1",
+			"LevelLayoutData": "Layout_E2_L1",
 			"MainLayerData": {
-				"ZoneAliasStart": 792,
-				"ZonesWithBulkheadEntrance": [
-					8
-				],
-				"BulkheadDoorControllerPlacements": [
-					{
-						"ZoneIndex": 0,
-						"PlacementWeights": {
-							"Start": 0.0,
-							"Middle": 0.0,
-							"End": 0.0
-						},
-						"AreaSeedOffset": 53,
-						"MarkerSeedOffset": 0
-					}
-				],
+				"ZoneAliasStart": 982,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
 				"BulkheadKeyPlacements": [],
 				"ObjectiveData": {
-					"DataBlockId": "Obj_E1_L1",
+					"DataBlockId": "Obj_E2_L1",
 					"WinCondition": 1,
-					"ZonePlacementDatas": [
-						[
-							{
-								"LocalIndex": 5,
-								"Weights": {
-									"Start": 0.0,
-									"Middle": 0.0,
-									"End": 0.0
-								}
-							}
-						]
-					]
+					"ZonePlacementDatas": []
 				},
 				"ArtifactData": {
 					"ArtifactAmountMulti": 0.0,

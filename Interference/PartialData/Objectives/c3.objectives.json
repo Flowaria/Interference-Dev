@@ -31,12 +31,6 @@
         "WavePopulation": 18,
         "SpawnDelay": 0.0,
         "TriggerAlarm": true
-      },
-      {
-        "WaveSettings": "WaveSetting_Apex_BigOnly_Harder",
-        "WavePopulation": 18,
-        "SpawnDelay": 1.5,
-        "TriggerAlarm": true
       }
     ],
     "WaveOnGotoWinTrigger": 0,

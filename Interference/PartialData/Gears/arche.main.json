@@ -208,8 +208,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Machine Carbine", //12 Mag
-		"Description": "Ammo: 65/715 (Full-auto)\nDamage: 1.35\n[Precision: 0.935x - Stagger: 0.7x]\nRange: 7.5m-155m",
+		"PublicName": "Machine Carbine", //11 Mag
+		"Description": "Ammo: 65/650 (Full-auto)\nDamage: 1.35\n[Precision: 0.935x - Stagger: 0.7x]\nRange: 7.5m-155m",
 		"FireMode": 2,
 		"RecoilDataID": "Recoil_MachineCarbine",
 		"Damage": 1.35,
@@ -221,7 +221,7 @@
 		"PrecisionDamageMulti": 0.935,
 		"DefaultClipSize": 65,
 		"DefaultReloadTime": 2.15,
-		"CostOfBullet": 0.6433,
+		"CostOfBullet": 0.7076,
 		"ShotDelay": 0.045,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,

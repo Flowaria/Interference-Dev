@@ -37,9 +37,9 @@
 			"EnemySpawningInZone": [
 				{
 					"GroupType": 0,
-					"Difficulty": 1,
+					"Difficulty": 2,
 					"Distribution": 2,
-					"DistributionValue": 0.4
+					"DistributionValue": 0.6
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -112,18 +112,12 @@
 			"ChainedPuzzleToEnter": "Alarm_UN_QSurge_5",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
-				"HasActiveEnemyWave": false,
-				"EnemyGroupInfrontOfDoor": 0,
-				"EnemyGroupInArea": 0,
-				"EnemyGroupsInArea": 0
+				"HasActiveEnemyWave": true,
+				"EnemyGroupInfrontOfDoor": 30,
+				"EnemyGroupInArea": "EnemyGroup_Rapid_Single",
+				"EnemyGroupsInArea": 3
 			},
 			"EnemySpawningInZone": [
-				{
-					"GroupType": 0,
-					"Difficulty": 0,
-					"Distribution": 2,
-					"DistributionValue": 0.4
-				},
 				{
 					"GroupType": 1,
 					"Difficulty": 0,
@@ -249,7 +243,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.0,
+			"WeaponAmmoMulti": 1.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -270,12 +264,12 @@
 		},
 		{
 			"LocalIndex": 6, //LEFT
-			"SubSeed": 0,
+			"SubSeed": 979,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Lab",
 			"CoverageMinMax": {
-				"x": 50.0,
-				"y": 60.0
+				"x": 40.0,
+				"y": 50.0
 			},
 			"BuildFromLocalIndex": 5,
 			"StartPosition": "From_Random",
@@ -294,7 +288,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_UN_S1_3",
+			"ChainedPuzzleToEnter": "Alarm_UN_S1_4_Shorter",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -307,13 +301,19 @@
 					"GroupType": 1,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.6
+					"DistributionValue": 0.9
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
 					"DistributionValue": 0.4
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 1,
+					"DistributionValue": 1.0
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -338,7 +338,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.2,
+			"WeaponAmmoMulti": 0.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -383,7 +383,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_UN_S1_3",
+			"ChainedPuzzleToEnter": "Alarm_UN_S1_4_Shorter",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -396,13 +396,19 @@
 					"GroupType": 1,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.6
+					"DistributionValue": 0.9
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
 					"DistributionValue": 0.4
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 1,
+					"DistributionValue": 1.0
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -427,7 +433,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.2,
+			"WeaponAmmoMulti": 0.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -472,7 +478,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_UN_Class3_Surge",
+			"ChainedPuzzleToEnter": "Alarm_UN_Class4",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -575,7 +581,20 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [],
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.6
+				},
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.3
+				}
+			],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
@@ -585,7 +604,7 @@
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": false,
+			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": 9,
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [],
@@ -651,7 +670,20 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [],
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.6
+				},
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.3
+				}
+			],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
@@ -661,7 +693,7 @@
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": false,
+			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": 9,
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [],
@@ -727,7 +759,20 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [],
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.6
+				},
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.3
+				}
+			],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
@@ -737,7 +782,7 @@
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": false,
+			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": 9,
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [],
@@ -803,7 +848,20 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [],
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 3,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.6
+				},
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.3
+				}
+			],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
@@ -813,7 +871,7 @@
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": false,
+			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": 9,
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [],

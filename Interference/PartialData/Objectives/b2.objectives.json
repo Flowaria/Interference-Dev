@@ -20,8 +20,8 @@
     "ShowHelpDelay": 180.0,
     "WavesOnElevatorLand": [],
     "WaveOnElevatorWardenIntel": "",
-    "FogTransitionDataOnElevatorLand": "Fog_B2_Landed",
-    "FogTransitionDurationOnElevatorLand": 25.0,
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
     "WavesOnActivate": [],
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [
@@ -42,40 +42,109 @@
     "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
     "ReactorWaves": [
       {
-        "Warmup": 30.0,
-        "WarmupFail": 18.0,
-        "Wave": 32.0,
-        "Verify": 40.0,
-        "VerifyFail": 24.0,
+        "Warmup": 20.0, //Wave 1
+        "WarmupFail": 10.0,
+        "Wave": 40.0,
+        "Verify": 30.0,
+        "VerifyFail": 30.0,
         "VerifyInOtherZone": false,
         "ZoneForVerification": 0,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 30,
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_Less",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30,
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.4,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Up",
+            "FogTransitionDuration": 15.0
+          },
+          {
+            "Trigger": 2,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Down",
+            "FogTransitionDuration": 10.0
+          }
+        ]
+      },
+      {
+        "Warmup": 15.0, //Wave 2
+        "WarmupFail": 10.0,
+        "Wave": 30.0,
+        "Verify": 27.0,
+        "VerifyFail": 27.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 3,
         "EnemyWaves": [
           {
             "WaveSettings": "WaveSetting_Reactor_LotLess",
             "WavePopulation": 6,
             "SpawnTimeRel": 0.0,
             "SpawnType": 1
-          }
-        ],
-        "Events": []
-      },
-      {
-        "Warmup": 16.0,
-        "WarmupFail": 13.0,
-        "Wave": 32.0,
-        "Verify": 32.0,
-        "VerifyFail": 26.0,
-        "VerifyInOtherZone": true,
-        "ZoneForVerification": 4,
-        "EnemyWaves": [
+          },
           {
-            "WaveSettings": "WaveSetting_Reactor_Less",
-            "WavePopulation": 1,
-            "SpawnTimeRel": 0.0,
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.55,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30,
+            "WavePopulation": 18,
+            "SpawnTimeRel": 0.55,
             "SpawnType": 1
           }
         ],
         "Events": [
+          {
+            "Trigger": 1,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Up",
+            "FogTransitionDuration": 15.0
+          },
+          {
+            "Trigger": 2,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Down",
+            "FogTransitionDuration": 10.0
+          },
           {
             "Trigger": 1,
             "Type": 2,
@@ -90,19 +159,100 @@
             "Layer": 0,
             "LocalIndex": 0,
             "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_3]"
+          }
+        ]
+      },
+      {
+        "Warmup": 15.0, //Wave 3
+        "WarmupFail": 10.0,
+        "Wave": 30.0,
+        "Verify": 26.0,
+        "VerifyFail": 26.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 4,
+        "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_3",
+            "WavePopulation": 5,
+            "SpawnTimeRel": 0.2,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.5,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": "WaveSetting_Reactor_3",
+            "WavePopulation": 5,
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Up",
+            "FogTransitionDuration": 15.0
+          },
+          {
+            "Trigger": 2,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Down",
+            "FogTransitionDuration": 10.0
+          },
+          {
+            "Trigger": 1,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 4,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
             "WardenIntel": "Auxiliary Terminal located in [ZONE_4]"
           }
         ]
       },
       {
-        "Warmup": 16.0,
-        "WarmupFail": 13.0,
-        "Wave": 43.0,
-        "Verify": 340.0,
-        "VerifyFail": 24.0,
+        "Warmup": 15.0, //Wave 4
+        "WarmupFail": 10.0,
+        "Wave": 30.0,
+        "Verify": 25.0,
+        "VerifyFail": 25.0,
         "VerifyInOtherZone": true,
-        "ZoneForVerification": 6,
+        "ZoneForVerification": 5,
         "EnemyWaves": [
+          {
+            "WaveSettings": "WaveSetting_Reactor_LotLess",
+            "WavePopulation": 5,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
           {
             "WaveSettings": "WaveSetting_Reactor_LotLess",
             "WavePopulation": 6,
@@ -112,18 +262,40 @@
           {
             "WaveSettings": "WaveSetting_Reactor_LotLess",
             "WavePopulation": 6,
-            "SpawnTimeRel": 0.4,
+            "SpawnTimeRel": 0.7,
             "SpawnType": 1
           }
         ],
         "Events": [
           {
             "Trigger": 1,
-            "Type": 1,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Up",
+            "FogTransitionDuration": 15.0
+          },
+          {
+            "Trigger": 2,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Down",
+            "FogTransitionDuration": 10.0
+          },
+          {
+            "Trigger": 1,
+            "Type": 2,
             "Layer": 0,
             "LocalIndex": 5,
             "Delay": 5.0,
-            "WardenIntel": "Door to [ZONE_5] opened by startup sequence"
+            "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence"
           },
           {
             "Trigger": 2,
@@ -131,26 +303,18 @@
             "Layer": 0,
             "LocalIndex": 0,
             "Delay": 5.0,
-            "WardenIntel": "Auxiliary Terminal located in [ZONE_6]"
-          },
-          {
-            "Trigger": 2,
-            "Type": 2,
-            "Layer": 1,
-            "LocalIndex": 0,
-            "Delay": 10.0,
-            "WardenIntel": "Door to <color=orange>Extreme</color> unlocked by startup sequence"
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_5]"
           }
         ]
       },
       {
-        "Warmup": 16.0,
-        "WarmupFail": 9.0,
-        "Wave": 39.0,
-        "Verify": 385.0,
-        "VerifyFail": 20.0,
+        "Warmup": 15.0, //Wave 5
+        "WarmupFail": 10.0,
+        "Wave": 30.0,
+        "Verify": 180.0,
+        "VerifyFail": 28.0,
         "VerifyInOtherZone": true,
-        "ZoneForVerification": 8,
+        "ZoneForVerification": 7,
         "EnemyWaves": [
           {
             "WaveSettings": "WaveSetting_Reactor_Less",
@@ -174,19 +338,33 @@
         "Events": [
           {
             "Trigger": 1,
-            "Type": 1,
+            "Type": 6,
             "Layer": 0,
-            "LocalIndex": 7,
-            "Delay": 5.0,
-            "WardenIntel": "Door to [ZONE_7] and [ZONE_9] opened by startup sequence"
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Up",
+            "FogTransitionDuration": 15.0
+          },
+          {
+            "Trigger": 2,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "Fog_B2_Down",
+            "FogTransitionDuration": 10.0
           },
           {
             "Trigger": 1,
-            "Type": 1,
+            "Type": 2,
             "Layer": 0,
-            "LocalIndex": 9,
+            "LocalIndex": 6,
             "Delay": 5.0,
-            "WardenIntel": ""
+            "WardenIntel": "Door to [ZONE_6] unlocked by startup sequence"
           },
           {
             "Trigger": 2,
@@ -194,7 +372,7 @@
             "Layer": 0,
             "LocalIndex": 0,
             "Delay": 5.0,
-            "WardenIntel": "Auxiliary Terminal located in [ZONE_8]"
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_7]"
           }
         ]
       }
@@ -219,48 +397,6 @@
     "name": "Reactor_Startup_Waves_5_FAST[LightOffOnFinish]",
     "internalEnabled": true,
     "persistentID": "Obj_B2_L1",
-    "datablock": "WardenObjective"
-  },
-  {
-    "Type": 6,
-    "Header": "Retrieve Essential Items",
-    "MainObjective": "Find [ALL_ITEMS] and bring it to the extraction scan in [EXTRACTION_ZONE]",
-    "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
-    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
-    "GoToZone": "",
-    "GoToZoneHelp": "",
-    "InZoneFindItem": "",
-    "InZoneFindItemHelp": "",
-    "SolveItem": "",
-    "SolveItemHelp": "",
-    "GoToWinCondition_Elevator": "",
-    "GoToWinConditionHelp_Elevator": "",
-    "GoToWinCondition_CustomGeo": "",
-    "GoToWinConditionHelp_CustomGeo": "",
-    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
-    "GoToWinConditionHelp_ToMainLayer": "",
-    "ShowHelpDelay": 180.0,
-    "WavesOnElevatorLand": [],
-    "WaveOnElevatorWardenIntel": "",
-    "FogTransitionDataOnElevatorLand": 0,
-    "FogTransitionDurationOnElevatorLand": 0.0,
-    "WavesOnActivate": [],
-    "StopAllWavesBeforeGotoWin": false,
-    "WavesOnGotoWin": [],
-    "WaveOnGotoWinTrigger": 0,
-    "EventsOnGotoWin": [],
-    "FogTransitionDataOnGotoWin": 0,
-    "FogTransitionDurationOnGotoWin": 0.0,
-    "ChainedPuzzleToActive": 0,
-    "ChainedPuzzleMidObjective": 0,
-    "ChainedPuzzleAtExit": 11,
-    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
-    "Retrieve_Items": [
-      148, 148
-    ],
-    "name": "Retrieve Essential Items_2_CRYO",
-    "internalEnabled": true,
-    "persistentID": "Obj_B2_L2",
     "datablock": "WardenObjective"
   },
   {
@@ -290,20 +426,29 @@
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [],
     "WaveOnGotoWinTrigger": 0,
-    "EventsOnGotoWin": [],
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 0,
+        "Type": 2,
+        "Layer": 0,
+        "LocalIndex": 7,
+        "Delay": 5.0,
+        "WardenIntel": "Door to [ZONE_7] unlocked."
+      }
+    ],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
     "ChainedPuzzleToActive": 0,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
     "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
-    "Gather_RequiredCount": 14,
+    "Gather_RequiredCount": 10,
     "Gather_ItemId": 147,
-    "Gather_SpawnCount": 24,
-    "Gather_MaxPerZone": 24,
+    "Gather_SpawnCount": 21,
+    "Gather_MaxPerZone": 21,
     "name": "Gather_Harddrives_8",
     "internalEnabled": true,
-    "persistentID": "Obj_B2_L3",
+    "persistentID": "Obj_B2_L2",
     "datablock": "WardenObjective"
   }
 ]

@@ -14,6 +14,10 @@
 					"WaveSetting": "Shadows"
 				},
 				{
+					"TargetSetting": "BigScouts",
+					"WaveSetting": "Bigs"
+				},
+				{
 					"TargetSetting": "TankScouts",
 					"WaveSetting": "TankScout_Error"
 				}
@@ -40,6 +44,15 @@
 			}
 		},
 		{
+			"Name": "BigScouts",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Big",
+				"nameIgnoreCase": true
+			}
+		},
+		{
 			"Name": "TankScouts",
 			"Target": {
 				"Mode": "PersistentID",
@@ -50,6 +63,18 @@
 		}
 	],
 	"WaveSettings": [
+		{
+			"Name": "Bigs",
+			"Waves": [
+				[
+					{
+						"WaveSettingID": "WaveSetting_Scout_Bigs",
+						"WavePopulationID": 18,
+						"Delay": 0.0
+					}
+				]
+			]
+		},
 		{
 			"Name": "Bullrushes",
 			"Waves": [

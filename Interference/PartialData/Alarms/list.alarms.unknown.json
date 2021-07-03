@@ -138,7 +138,7 @@
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
 		"WantedDistanceFromStartPos": 0.0,
-		"WantedDistanceBetweenPuzzleComponents": 9.0,
+		"WantedDistanceBetweenPuzzleComponents": 15.0,
 		"ChainedPuzzle": [
 			{
 				"PuzzleType": 6
@@ -216,7 +216,7 @@
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
 		"WantedDistanceFromStartPos": 0.0,
-		"WantedDistanceBetweenPuzzleComponents": 16.0,
+		"WantedDistanceBetweenPuzzleComponents": 17.0,
 		"ChainedPuzzle": [
 			{
 				"PuzzleType": 14
@@ -234,6 +234,37 @@
 		"name": "Unknown S1 III",
 		"internalEnabled": true,
 		"persistentID": "Alarm_UN_S1_3",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "[SHUFFLE_TYPE2]",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
+		"SurvivalWavePopulation": 18,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 11.5,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Unknown S1 IV",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_S1_4_Shorter",
 		"datablock": "ChainedPuzzle"
 	},
 	{
@@ -268,6 +299,37 @@
 		"name": "Unknown Q Surge 5",
 		"internalEnabled": true,
 		"persistentID": "Alarm_UN_QSurge_5",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "[SHUFFLE_TYPE2]",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 1,
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 13.0,
+		"WantedDistanceBetweenPuzzleComponents": 15.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 5
+			},
+			{
+				"PuzzleType": 4
+			},
+			{
+				"PuzzleType": 2
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Unknown Q Surge 5",
+		"internalEnabled": true,
+		"persistentID": "Alarm_UN_Class4",
 		"datablock": "ChainedPuzzle"
 	}
 ]
