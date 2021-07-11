@@ -66,7 +66,7 @@
 			"y": -1.0,
 			"z": 0.0
 		},
-		"DensityNoiseSpeed": 0.074,
+		"DensityNoiseSpeed": 0.044,
 		"DensityNoiseScale": 0.131,
 		"DensityHeightAltitude": -3.2,
 		"DensityHeightRange": 2.2,

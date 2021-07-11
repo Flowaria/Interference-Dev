@@ -1,7 +1,7 @@
 [
 	{
-		"PublicName": "Magnum Revolver",
-		"Description": "Ammo: 6/54 (Semi-auto)\nDamage: 15.6\n[Precision: 0.75x / Stagger: 1.0x]\nRange: 10m-90m",
+		"PublicName": "Magnum Revolver", //10 Mag
+		"Description": "Ammo: 6/54 (Semi-auto)\nDamage: 15.6\n[Precision: 0.75x / Stagger: 1.0x]\nRange: 10m-90m\n<color=orange>Stable Wave Grinder</color>",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Revolver",
 		"Damage": 15.6,
@@ -52,7 +52,7 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Powered Revolver",
+		"PublicName": "Powered Revolver", //6 Mag
 		"Description": "Ammo: 4/20 (Full-auto)\nDamage: 31.5\n[Precision: 0.0x / Stagger: 1.0x]\nRange: 15m-50m\n<color=red>No Headshot</color>",
 		"FireMode": 2,
 		"RecoilDataID": 5,
@@ -104,8 +104,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Quad Cannon",
-		"Description": "Ammo: 20/52 (Chargeup 4-Burst)\nDamage: 15.5\n[Precision: 0.7x / Stagger: 1.2x]\nRange: 20m-75m",
+		"PublicName": "Quad Cannon", //3.6 Mag
+		"Description": "Ammo: 20/52 (Chargeup 4-Burst)\nDamage: 15.5\n[Precision: 0.7x / Stagger: 1.2x]\nRange: 20m-75m\n<color=orange>Stable Giant Grinder</color>",
 		"FireMode": 1,
 		"RecoilDataID": 24,
 		"Damage": 15.5,
@@ -142,7 +142,7 @@
 		"ShotgunBulletCount": 0,
 		"ShotgunConeSize": 0,
 		"ShotgunBulletSpread": 0,
-		"SpecialChargetupTime": 0.7,
+		"SpecialChargetupTime": 0.35,
 		"SpecialCooldownTime": 0.0,
 		"SpecialSemiBurstCountTimeout": 0.5,
 		"Sentry_StartFireDelay": 1.0,
@@ -156,7 +156,7 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Anti-Material Sniper",
+		"PublicName": "Anti-Material Sniper", //3.5 Mag
 		"Description": "Ammo: 4/10 (Semi-auto)\nDamage: 41.5\n[Precision: 2.0x / Stagger: 1.0x]\nRange: 90m-150m\n<color=orange>Giant One-Tapper</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
@@ -208,7 +208,7 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "HEL Combat Sniper",
+		"PublicName": "HEL Combat Sniper", //3.625 Mag
 		"Description": "Ammo: 8/21 (Semi-auto)\nDamage: 27.5\n[Precision: 1.35x / Stagger: 1.0x]\nRange: 18m-150m\nPierce: 5\n<color=orange>Sniper for general Use</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
@@ -260,8 +260,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Light-Machinegun",
-		"Description": "Ammo: 75/275 (Full-auto)\nDamage: 2.5\n[Precision: 0.73x - Stagger: 0.95x]\nRange: 15m-75m",
+		"PublicName": "Light-Machinegun", //4.666 Mag
+		"Description": "Ammo: 75/275 (Full-auto)\nDamage: 2.5\n[Precision: 0.73x - Stagger: 0.95x]\nRange: 15m-75m\n<color=orange>Balanced Wave Grinder</color>",
 		"FireMode": 2,
 		"RecoilDataID": 2,
 		"Damage": 2.5,
@@ -312,8 +312,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Heavy-Machinegun",
-		"Description": "Mag: 30/115 (Chargeup Full-auto)\nDamage: 5.95\n[Precision: 0.975x / Stagger: 1.0x]\nRange: 20m-90m",
+		"PublicName": "Heavy-Machinegun", //4.8333 Mag
+		"Description": "Mag: 30/115 (Chargeup Full-auto)\nDamage: 5.95\n[Precision: 0.975x / Stagger: 1.0x]\nRange: 20m-90m\n<color=orange>Precision Wave Grinder</color>",
 		"FireMode": 2,
 		"RecoilDataID": 25,
 		"Damage": 5.95,
@@ -364,8 +364,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Choke-Mod Slug Shotgun",
-		"Description": "Ammo: 7/18 (Semi-auto)\nDamage: 8.6 (4 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 8.5m-50m",
+		"PublicName": "Choke-Mod Slug Shotgun", //4 Mag
+		"Description": "Ammo: 7/21 (Semi-auto)\nDamage: 8.6 (4 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 8.5m-50m\n<color=orange>Balanced</color>",
 		"FireMode": 0,
 		"RecoilDataID": 6,
 		"Damage": 8.6,
@@ -377,7 +377,7 @@
 		"PrecisionDamageMulti": 0.735,
 		"DefaultClipSize": 7,
 		"DefaultReloadTime": 3.0,
-		"CostOfBullet": 12.7777,
+		"CostOfBullet": 10.9523,
 		"ShotDelay": 0.39,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -416,8 +416,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Auto Shotgun",
-		"Description": "Mag: 16/64 (Full-auto)\nDamage: 2.35 (6 Pallets)\n[Precision: 0.735x / Stagger: 1.5x]\nRange: 5m-30m",
+		"PublicName": "Auto Shotgun", //5 Mag
+		"Description": "Mag: 16/64 (Full-auto)\nDamage: 2.35 (6 Pallets)\n[Precision: 0.735x / Stagger: 1.5x]\nRange: 5m-30m\n<color=orange>Staggering, Wave Grinding</color>",
 		"FireMode": 2,
 		"RecoilDataID": 21,
 		"Damage": 2.35,
@@ -468,8 +468,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Double Barrel Shotgun",
-		"Description": "Ammo: 2/16 (Semi-auto)\nDamage: 8.75 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m\n<color=orange>Auto-Reloading</color>",
+		"PublicName": "Double Barrel Shotgun", //9 Mag
+		"Description": "Ammo: 2/16 (Semi-auto)\nDamage: 8.75 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m\n<color=orange>Auto-Reloading</color>\n<color=orange>Powerful Giant Grinder</color>",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Shotgun_DB",
 		"Damage": 8.75,
@@ -572,7 +572,7 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Huntsman Rifle",
+		"PublicName": "Huntsman Rifle", //40 Mag
 		"Description": "Ammo: 1/39 (Bolt-Action)\nDamage: 23.5\n[Precision: 0.97x / Stagger: 1.0x]\nRange: 15m-125m\nPierce: 2\n<color=orange>Extremely Fast Auto-Reloading</color>\n<color=orange>Experimental</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,

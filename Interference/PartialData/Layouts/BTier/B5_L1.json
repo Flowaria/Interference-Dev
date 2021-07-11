@@ -579,7 +579,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 1.8
+					"DistributionValue": 1.5
 				},
 				{
 					"GroupType": 1,
@@ -698,7 +698,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.8
+					"DistributionValue": 0.7
 				},
 				{
 					"GroupType": 1,
@@ -716,25 +716,25 @@
 					"GroupType": 2,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 1.8
+					"DistributionValue": 1.5
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 700,
 					"Distribution": 2,
-					"DistributionValue": 0.33
+					"DistributionValue": 0.15
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 700,
 					"Distribution": 2,
-					"DistributionValue": 0.33
+					"DistributionValue": 0.15
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 700,
 					"Distribution": 2,
-					"DistributionValue": 0.33
+					"DistributionValue": 0.15
 				}
 			],
 			"HSUClustersInZone": 0,

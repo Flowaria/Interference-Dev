@@ -36,5 +36,24 @@
 		"internalEnabled": true,
 		"persistentID": "Movement_Shooter_Fast",
 		"datablock": "EnemyMovement"
+	},
+	{
+		"AnimationControllers": 128,
+		"MoveSlowerWhenInPlayerRoom": false,
+		"MoveSlowerWithinTargetDistance": 0.0,
+		"GlobalAnimSpeedMulti": 1.3,
+		"PathMoveAnimSpeedMulti": 0.9,
+		"RotationLerp": 1.5,
+		"RotationLerpWhenNotMoving": 0.0,
+		"DefaultMoveState": 2,
+		"BlendIntoAttackAnim": 0.5,
+		"BlendIntoScreamAnim": 0.5,
+		"AllowMovmentBlendOutOfPathMove": true,
+		"PathMoveAnimDampTime": 0.4,
+		"AllowClimbDownLadders": false,
+		"name": "Pusher",
+		"internalEnabled": true,
+		"persistentID": "Movement_Pusher",
+		"datablock": "EnemyMovement"
 	}
 ]

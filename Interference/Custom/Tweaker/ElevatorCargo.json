@@ -1,12 +1,11 @@
 [
   {
-    "DataBlockId": 65535,
+    "DataBlockId": 333, //C3
     "ItemID": [
-      65528,
-      65528
+      8999
     ],
     "ForceDisable": false,
-    "name": "Fog Turbine",
+    "name": "Fog Beacon",
     "internalEnabled": false
   }
 ]

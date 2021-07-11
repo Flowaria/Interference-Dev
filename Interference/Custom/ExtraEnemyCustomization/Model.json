@@ -58,6 +58,24 @@
 					"To": "mtr_StrikerChild"
 				}
 			]
+		},
+		{
+			"Enabled": false,
+			"DebugName": "Pusher",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Pusher"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"MaterialSets": [
+				{
+					"From": "birther",
+					"To": "mtr_tank"
+				}
+			]
 		}
 	],
 	"GlowCustom": [
@@ -140,7 +158,116 @@
 			]
 		}
 	],
-	"LimbCustom": [],
+	"LimbCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "Pusher",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Pusher"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"Limbs": [
+				{
+					"LimbName": "All",
+					"LimbType": "Normal",
+					"CustomMulti": 1.0,
+					"Health": "Unchanged"
+				},
+				{
+					"LimbName": "Head",
+					"LimbType": "Weakspot",
+					"CustomMulti": 10.0,
+					"Health": "Unchanged"
+				},
+				{
+					"LimbName": "EggSack(Clone)",
+					"LimbType": "ArmorCustom",
+					"CustomMulti": 0.5,
+					"Health": "Unchanged"
+				}
+			]
+		}
+	],
+	"ModelRefCustom": [
+		{
+			"Enabled": true,
+			"DebugName": "Pusher",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Pusher"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"ModelRefs": [
+				{
+					"Type": "ShooterFire",
+					"CopyFrom": "ScoutFeeler",
+					"CopyFromPath": "",
+					"Offset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"RotateOffset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					}
+				},
+				{
+					"Type": "Tentacle",
+					"CopyFrom": "ScoutFeeler",
+					"CopyFromPath": "",
+					"Offset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"RotateOffset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					}
+				},
+				{
+					"Type": "Tentacle2",
+					"CopyFrom": "ScoutFeeler",
+					"CopyFromPath": "",
+					"Offset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"RotateOffset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					}
+				},
+				{
+					"Type": "Tentacle3",
+					"CopyFrom": "ScoutFeeler",
+					"CopyFromPath": "",
+					"Offset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"RotateOffset": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					}
+				}
+			]
+		}
+	],
 	"MarkerCustom": [
 		{
 			"Enabled": true,

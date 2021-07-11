@@ -190,5 +190,69 @@
 		"internalEnabled": true,
 		"persistentID": "Behavior_Shooter_Fast",
 		"datablock": "EnemyBehavior"
+	},
+	{
+		"MeleeAttackDistance": {
+			"Min": 0.0,
+			"Max": 15.0
+		},
+		"RangedAttackDistance": {
+			"Min": 15.0,
+			"Max": 30.0
+		},
+		"StrafeDistance": {
+			"Min": -1.0,
+			"Max": -1.0
+		},
+		"HowOftenToStrafe": {
+			"Min": -1.0,
+			"Max": -1.0
+		},
+		"DistanceToStrafeWithoutLOS": {
+			"Min": -1.0,
+			"Max": -1.0
+		},
+		"DistanceToStrafeInTargetsLOS": {
+			"Min": -1.0,
+			"Max": -1.0
+		},
+		"DistanceToStrafeWithoutTargetsLOS": {
+			"Min": -1.0,
+			"Max": -1.0
+		},
+		"MoveCloserDelayAfterAttack": {
+			"Min": 1.0,
+			"Max": 2.0
+		},
+		"MoveTowardsTargetDuration": {
+			"Min": 1.0,
+			"Max": 3.0
+		},
+		"ClosestTargetDistance": {
+			"Min": 2.0,
+			"Max": 3.3
+		},
+		"StartWalkDuration": {
+			"Min": 1.0,
+			"Max": 1.5
+		},
+		"StartWalkTimeoutUntilNext": {
+			"Min": 15.0,
+			"Max": 20.0
+		},
+		"ScreamStateDelay": {
+			"Min": 5.0,
+			"Max": 15.0
+		},
+		"RushTargetDistance": 0.1,
+		"ChanceToPropagateOnDetection": 0.25,
+		"ChanceToPropagateOnDeath": 0.25,
+		"ChanceToPropagateToMastermind": 0.1,
+		"PropagationDistance": 20.0,
+		"DisableTargetPreferenceWeight": false,
+		"name": "Pusher",
+		"internalEnabled": true,
+		"persistentID": "Behavior_Pusher",
+		"datablock": "EnemyBehavior"
 	}
 ]

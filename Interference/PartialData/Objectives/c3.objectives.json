@@ -27,20 +27,20 @@
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [
       {
-        "WaveSettings": "WaveSetting_Apex_BigOnly_Harder",
-        "WavePopulation": 18,
+        "WaveSettings": 8,
+        "WavePopulation": 15,
         "SpawnDelay": 0.0,
         "TriggerAlarm": true
       }
     ],
-    "WaveOnGotoWinTrigger": 0,
+    "WaveOnGotoWinTrigger": 1,
     "EventsOnGotoWin": [],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
     "ChainedPuzzleToActive": 0,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
-    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.85,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.6,
     "Gather_RequiredCount": -1,
     "Gather_ItemId": 0,
     "Gather_SpawnCount": 0,
@@ -65,7 +65,7 @@
     "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
     "ActivateHSU_RequireItemAfterActivationInExitScan": false,
     "ActivateHSU_Events": [],
-    "name": "ClearAPath_Default",
+    "name": "ClearAPath_Default[FogBeacon]",
     "internalEnabled": true,
     "persistentID": "Obj_C3_L1",
     "datablock": "WardenObjective"

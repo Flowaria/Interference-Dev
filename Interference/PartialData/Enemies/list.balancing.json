@@ -109,7 +109,7 @@
 	},
 	{
 		"Health": {
-			"HealthMax": 75.0,
+			"HealthMax": 70.0,
 			"DamageUntilHitreact": 20.0,
 			"BodypartHealth": 15.0,
 			"WeakspotDamageMulti": 2.0,
@@ -132,6 +132,33 @@
 		"name": "Scout_Big",
 		"internalEnabled": true,
 		"persistentID": "Balance_Scout_Big",
+		"datablock": "EnemyBalancing"
+	},
+	{
+		"Health": {
+			"HealthMax": 1000.0,
+			"DamageUntilHitreact": 250.0,
+			"BodypartHealth": 25.0,
+			"WeakspotDamageMulti": 1.5,
+			"ArmorDamageMulti": 1.0,
+			"HitreactOnLimbDestruction": 4,
+			"TryForceHitreactOnLimbDestruction": true
+		},
+		"GlueTolerance": 100.0,
+		"GlueFadeOutTime": 15.0,
+		"CanBePushed": false,
+		"ForbidTwitchHit": false,
+		"AllowDamgeBonusFromBehind": true,
+		"UseTentacleTunnelCheck": false,
+		"UseVisibilityRaycastDuringTentacleAttack": true,
+		"TentacleAttackDamageRadiusIfNoTunnelCheck": 0.5,
+		"TentacleAttackDamage": 6.0,
+		"MeleeAttackDamage": 15.0,
+		"MeleeAttackDamageCheckRadius": 1.0,
+		"TagTime": 60.0,
+		"name": "Pusher",
+		"internalEnabled": true,
+		"persistentID": "Balance_Pusher",
 		"datablock": "EnemyBalancing"
 	}
 ]

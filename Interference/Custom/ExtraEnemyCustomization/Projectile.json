@@ -15,9 +15,9 @@
 				{
 					"FromDistance": -1.0,
 					"OverrideProjectileType": true,
-					"ProjectileType": 50,
+					"ProjectileType": 52,
 					"BurstCount": "Unchanged",
-					"BurstDelay": "Unchanged",
+					"BurstDelay": "200%",
 					"ShotDelayMin": "Unchanged",
 					"ShotDelayMax": "Unchanged",
 					"InitialFireDelay": "Unchanged",
@@ -25,6 +25,34 @@
 					"ShotSpreadXMax": "Unchanged",
 					"ShotSpreadYMin": "Unchanged",
 					"ShotSpreadYMax": "Unchanged"
+				}
+			]
+		},
+		{
+			"Enabled": true,
+			"DebugName": "Pusher",
+			"Target": {
+				"Mode": "PersistentID",
+				"persistentIDs": [
+					"Enemy_Pusher"
+				],
+				"nameParam": "",
+				"nameIgnoreCase": true
+			},
+			"FireSettings": [
+				{
+					"FromDistance": -1.0,
+					"OverrideProjectileType": true,
+					"ProjectileType": 53,
+					"BurstCount": "100%",
+					"BurstDelay": "200%",
+					"ShotDelayMin": "50%",
+					"ShotDelayMax": "50%",
+					"InitialFireDelay": "Unchanged",
+					"ShotSpreadXMin": "150%",
+					"ShotSpreadXMax": "150%",
+					"ShotSpreadYMin": "150%",
+					"ShotSpreadYMax": "150%"
 				}
 			]
 		},
@@ -103,6 +131,17 @@
 			"GlowColor": "red",
 			"GlowRange": 2.0,
 			"Damage": "10%",
+			"Infection": "0%"
+		},
+		{
+			"DebugName": "Tiny_Mid_Red",
+			"ID": 53,
+			"BaseProjectile": "TargetingSmall",
+			"Speed": "115%",
+			"HomingStrength": "65%",
+			"GlowColor": "red",
+			"GlowRange": 0.5,
+			"Damage": "5%",
 			"Infection": "0%"
 		}
 	]

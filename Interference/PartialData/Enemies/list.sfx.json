@@ -31,5 +31,38 @@
 		"internalEnabled": true,
 		"persistentID": "SFX_Striker_Rusher",
 		"datablock": "EnemySFX"
+	},
+	{
+		"SFX_ID_walk": 1368628755,
+		"SFX_ID_run": 327950447,
+		"SFX_ID_climbLadder": 0,
+		"SFX_ID_heartbeatPulse": 3978814126,
+		"SFX_ID_hibernateIdle": 3863401504,
+		"hibernateIdleInterval": {
+			"x": 0.0,
+			"y": 0.0
+		},
+		"SFX_ID_hibernateWakeUp": 331334693,
+		"SFX_ID_hibernateDie": 521334375,
+		"SFX_ID_hibernateDetectionStart": 0,
+		"SFX_ID_scream": 334153491,
+		"SFX_ID_stuckInGlue": 4047807245,
+		"SFX_ID_releaseFromGlue": 334153491,
+		"SFX_ID_attackWindUp": 803654643,
+		"SFX_ID_attackWindUp_NotLocalTarget": 0,
+		"SFX_ID_attackFire": 2290460535,
+		"SFX_ID_hurtSmall": 3141223601,
+		"SFX_ID_hurtBig": 778541630,
+		"SFX_ID_die": 521334375,
+		"SFX_ID_JumpStart": 0,
+		"SFX_ID_JumpInAir": 0,
+		"SFX_ID_JumpLand": 0,
+		"SFX_ID_BigTentacleStart": 2290460535,
+		"SFX_ID_BigTentacleTipLoop": 2537735803,
+		"SFX_ID_BigTentacleEnd": 442572259,
+		"name": "Pusher",
+		"internalEnabled": true,
+		"persistentID": "SFX_Pusher",
+		"datablock": "EnemySFX"
 	}
 ]

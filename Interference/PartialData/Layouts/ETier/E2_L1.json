@@ -4,7 +4,7 @@
 			"LocalIndex": 0,
 			"SubSeed": 0,
 			"BulkheadDCScanSeed": 0,
-			"SubComplex": "Storage",
+			"SubComplex": "DigSite",
 			"CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_03.prefab",
 			"CoverageMinMax": {
 				"x": 40.0,

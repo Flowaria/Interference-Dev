@@ -350,17 +350,16 @@
 		"internalEnabled": true,
 		"persistentID": "Carry_Neonate_Stage1",
 		"datablock": "Item"
-	}
-	/*,
+	},
 	{
 		"publicName": "Fog Repeller Beacon",
-		"terminalItemShortName": "FOG_BEACON",
-		"terminalItemLongName": "MODIFIED INDUSTRIAL GRADE FOG REPELLER TURBINE",
-		"addSerialNumberToName": true,
+		"terminalItemShortName": "FOG_BEACON_Z01",
+		"terminalItemLongName": "Fog Repeller Beacon",
+		"addSerialNumberToName": false,
 		"registerInTerminalSystem": true,
 		"Shard": 2,
-		"inventorySlot": 7,
-		"FPSSettings": 31,
+		"inventorySlot": 8,
+		"FPSSettings": 37,
 		"crosshair": 0,
 		"HUDIcon": "",
 		"ShowCrosshairWhenAiming": false,
@@ -368,20 +367,22 @@
 		"GUIShowAmmoPack": false,
 		"GUIShowAmmoTotalRel": false,
 		"GUIShowAmmoInfinite": false,
-		"canMoveQuick": true,
-		"BlockToolAmmoRefill": false,
+		"canMoveQuick": false,
 		"ClassAmmoCostFactor": 1.0,
 		"ConsumableAmmoMin": 0,
 		"ConsumableAmmoMax": 0,
 		"audioEventEquip": "",
 		"FirstPersonPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/DataSphere_FirstPerson.prefab"
+			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_FirstPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
 		],
 		"ThirdPersonPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/DataSphere_ThirdPerson.prefab"
+			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_ThirdPerson.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig.prefab"
 		],
 		"PickupPrefabs": [
-			"Assets/AssetPrefabs/Items/MiscPickups/PartialDecoderPickup_Core.prefab"
+			"Assets/AssetPrefabs/Items/MiscPickups/HeavyFogRepeller_Pickup.prefab",
+			"Assets/AssetPrefabs/Items/MiscPickups/DefoggerBig_Pickup.prefab"
 		],
 		"InstancePrefabs": [],
 		"EquipTransitionTime": 0.5,
@@ -394,11 +395,10 @@
 		"RightHandGripAnim": "Generator_Cell",
 		"SightLookAlign": "",
 		"MuzzleAlign": "",
-		"BackpackAlign": "CarryAlign",
+		"BackpackAlign": "",
 		"name": "Carry_FogBeacon[ConstantFog]",
 		"internalEnabled": true,
 		"persistentID": "Carry_FogBeacon",
 		"datablock": "Item"
 	}
-	*/
 ]

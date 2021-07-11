@@ -363,6 +363,13 @@
 			"Enemy": 36,
 			"Cost": 10.0,
 			"Weight": 1.0
+		},
+		{
+			"Role": 9000,
+			"Difficulty": 9000,
+			"Enemy": "Enemy_Pusher",
+			"Cost": 10.0,
+			"Weight": 1.0
 		}
 	],
 	"name": "DefaultPop_Modifier",

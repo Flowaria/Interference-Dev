@@ -1379,7 +1379,7 @@
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "Further security layer need proper certificate to access.\nLocate the security mainframe terminals to generate certificate.",
-				"RoleplayedWardenIntel": ">.."
+				"RoleplayedWardenIntel": "<color=red><size=150%>>..This terminal is only one we can access it.</size></color>\n>..And the rest of it?\n>..Locked by passwords from other zone...\n>..Hey! I found this log, it might be useful?\n>..It should be"
 			},
 			"Seeds": {
 				"BuildSeed": 6234521,
@@ -1791,7 +1791,7 @@
 			"Expedition": {
 				"ComplexResourceData": 1,
 				"LightSettings": 70,
-				"FogSettings": "HeavyFog_Below_Infection_Fast",
+				"FogSettings": "HeavyFog_Below_C2",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
 				"ScoutWaveSettings": 3,
@@ -1950,7 +1950,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": 1,
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEC",
 				"PublicName": "<color=#40E0D0>Cyanus</color>",
@@ -1958,16 +1958,16 @@
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
 				"ExpeditionDescription": "High Infection Barrier is blocking pathway to [0<size=70%>X</size>EEE2]\nAllocating [Fog Repeller Beacon] to Expendable prisoners to clear a path.",
-				"RoleplayedWardenIntel": ""
+				"RoleplayedWardenIntel": ">..Do Warden making somekind of joke to us?! He gave us a Turbine to clear all the way!?\n>..Wait! This Turbine...\n<color=red><size=150%>>..It's getting bigger when it deployed!</size></color>\n>..Hmm.. Now that sounds less hopeless."
 			},
 			"Seeds": {
-				"BuildSeed": 616555,
+				"BuildSeed": -68472,
 				"FunctionMarkerOffset": 0,
 				"StandardMarkerOffset": 0,
 				"LightJobSeedOffset": 0
 			},
 			"Expedition": {
-				"ComplexResourceData": "Complex_Mining_Modifier",
+				"ComplexResourceData": "Complex_Mining_Modifier_C3",
 				"LightSettings": 70,
 				"FogSettings": "HeavyFog_Below_C3_Infection_Fast",
 				"EnemyPopulation": 1,
@@ -1977,10 +1977,8 @@
 			},
 			"LevelLayoutData": "Layout_C3_L1",
 			"MainLayerData": {
-				"ZoneAliasStart": 619,
-				"ZonesWithBulkheadEntrance": [
-					6
-				],
+				"ZoneAliasStart": 617,
+				"ZonesWithBulkheadEntrance": [],
 				"BulkheadDoorControllerPlacements": [],
 				"BulkheadKeyPlacements": [],
 				"ObjectiveData": {
@@ -2617,7 +2615,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": 1,
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEE",
 				"PublicName": "<i>EoL</i>",

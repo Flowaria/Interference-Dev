@@ -17,7 +17,7 @@
 			"ZoneExpansion": "Directional_Forward",
 			"LightSettings": 56,
 			"AltitudeData": {
-				"AllowedZoneAltitude": "Unchanged",
+				"AllowedZoneAltitude": "OnlyMid",
 				"ChanceToChange": 1.0
 			},
 			"EventsOnEnter": [],
@@ -35,7 +35,14 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [],
+			"EnemySpawningInZone": [
+				{
+					"GroupType": 0,
+					"Difficulty": 0,
+					"Distribution": 2,
+					"DistributionValue": 0.45
+				}
+			],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
@@ -60,13 +67,13 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 1.8,
+			"HealthMulti": 1.0,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 1.8,
+			"WeaponAmmoMulti": 1.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -112,7 +119,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_C_Surge",
+			"ChainedPuzzleToEnter": "Alarm_C_Surge_4",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -151,7 +158,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.6,
+			"WeaponAmmoMulti": 0.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

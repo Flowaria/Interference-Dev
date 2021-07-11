@@ -1,0 +1,399 @@
+{
+  "IncludeBoosterCategoryInName": true,
+  "MutedBoosters": [
+    {
+      "Name": "MUTED TYPE",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Damage",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Custom Effect",
+          "ShortName": "IS HANDICAP",
+          "DescriptionPositive": "This does nothing",
+          "DescriptionNegative": "",
+          "Effect": "RegenerationCap",
+          "Category": "Health",
+          "IsNegative": false,
+          "Value": 0
+        }
+      ],
+      "Conditions": []
+    },
+    {
+      "Name": "Starvation",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Health",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Ammo Efficiency",
+          "ShortName": "STAR-A",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You found less ammo on ammo/tool pack",
+          "Effect": "AmmoSupport",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 45
+        },
+        {
+          "Name": "Health Efficiency",
+          "ShortName": "STAR-M",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You found less medkit on medipack",
+          "Effect": "HealSupport",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 35
+        }
+      ],
+      "Conditions": []
+    },
+    {
+      "Name": "Ski-ssue",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Tool",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Tracker Recharge",
+          "ShortName": "TRK-66",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Slower Tracker Recharge Speed",
+          "Effect": "ScannerRechargeSpeed",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 40
+        },
+        {
+          "Name": "Foam Efficiency",
+          "ShortName": "FO-NEG",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Lower C-foam Efficiency",
+          "Effect": "GlueEfficiency",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 50
+        },
+        {
+          "Name": "Tripmine Damage",
+          "ShortName": "MYI III",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Decrease Tripmine damage",
+          "Effect": "TripMineDamage",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 35
+        },
+        {
+          "Name": "Sentry Speed",
+          "ShortName": "AUTO-REV-ALPHA",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Decreased Sentry gun target speed",
+          "Effect": "SentryGunSpeed",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 35
+        },
+        {
+          "Name": "Sentry Damage",
+          "ShortName": "AUTO-REV-OMEGA",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Decreased Sentry gun damage",
+          "Effect": "SentryGunDamage",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 15
+        }
+      ],
+      "Conditions": []
+    },
+    {
+      "Name": "Rusty",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Damage",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Tracker Recharge",
+          "ShortName": "TRK-66",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Slower Tracker Recharge Speed",
+          "Effect": "ScannerRechargeSpeed",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 40
+        },
+        {
+          "Name": "Foam Efficiency",
+          "ShortName": "FO-NEG",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Lower C-foam Efficiency",
+          "Effect": "GlueEfficiency",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 50
+        },
+        {
+          "Name": "Tripmine Damage",
+          "ShortName": "MYI III",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Decrease Tripmine damage",
+          "Effect": "TripMineDamage",
+          "Category": "Tool",
+          "IsNegative": true,
+          "Value": 35
+        }
+      ],
+      "Conditions": []
+    }
+  ],
+  "BoldBoosters": [
+    {
+      "Name": "BOLD TYPE",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Damage",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Custom Effect",
+          "ShortName": "IS LOW-RISK-LOW-RETURN",
+          "DescriptionPositive": "This does nothing",
+          "DescriptionNegative": "",
+          "Effect": "RegenerationCap",
+          "Category": "Health",
+          "IsNegative": false,
+          "Value": 0
+        }
+      ],
+      "Conditions": []
+    }
+  ],
+  "AggressiveBoosters": [
+    {
+      "Name": "AGGRESSIVE TYPE",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Damage",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Custom Effect",
+          "ShortName": "IS HIGH-RISK-HIGH-RETURN",
+          "DescriptionPositive": "This does nothing",
+          "DescriptionNegative": "",
+          "Effect": "RegenerationCap",
+          "Category": "Health",
+          "IsNegative": false,
+          "Value": 0
+        }
+      ],
+      "Conditions": []
+    },
+    {
+      "Name": "Axylia",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Damage",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Hammer Damage",
+          "ShortName": "HM-UBER",
+          "DescriptionPositive": "Melee Damage Buff",
+          "DescriptionNegative": "",
+          "Effect": "MeleeDamage",
+          "Category": "Damage",
+          "IsNegative": false,
+          "Value": 400
+        },
+        {
+          "Name": "Melee Res",
+          "ShortName": "MR-NEG",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You take more damage on melee damage (18% for regular striker)",
+          "Effect": "MeleeResistance",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 50
+        },
+        {
+          "Name": "Projectile Res",
+          "ShortName": "MR-NEG",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You take more damage on projectile damage (8% for regular shooter)",
+          "Effect": "ProjectileResistance",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 60
+        }
+      ],
+      "Conditions": [
+        {
+          "Name": "Wielding Melee",
+          "ShortName": "",
+          "Description": "When wielding melee",
+          "Condition": "IsWieldingMelee"
+        },
+        {
+          "Name": "Health 40%",
+          "ShortName": "",
+          "Description": "Subject must have 40% health or less for booster to be active.",
+          "Condition": "HasLowHealth"
+        }
+      ]
+    },
+    {
+      "Name": "Seeker",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Tool",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Tracker Recharge",
+          "ShortName": "TRK-77",
+          "DescriptionPositive": "Faster Tracker Recharge Speed",
+          "DescriptionNegative": "",
+          "Effect": "ScannerRechargeSpeed",
+          "Category": "Tool",
+          "IsNegative": false,
+          "Value": 70
+        },
+        {
+          "Name": "Melee Res",
+          "ShortName": "MR-NEG",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You take more damage on melee damage",
+          "Effect": "MeleeResistance",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 100
+        },
+        {
+          "Name": "Projectile Res",
+          "ShortName": "MR-NEG",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You take more damage on projectile damage",
+          "Effect": "ProjectileResistance",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 100
+        }
+      ],
+      "Conditions": [
+        {
+          "Name": "Wielding Tool",
+          "ShortName": "",
+          "Description": "When wielding tool",
+          "Condition": "IsWieldingTool"
+        }
+      ]
+    },
+    {
+      "Name": "Megaheal",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Health",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Regen Cap",
+          "ShortName": "HEL-T2-P",
+          "DescriptionPositive": "Regen cap increase",
+          "DescriptionNegative": "",
+          "Effect": "RegenerationCap",
+          "Category": "Health",
+          "IsNegative": false,
+          "Value": 150
+        },
+        {
+          "Name": "Regen Speed",
+          "ShortName": "HEL-T1-N",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "Regen speed decrease",
+          "Effect": "RegenerationSpeed",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 50
+        },
+        {
+          "Name": "Health Efficiency",
+          "ShortName": "STAR-M",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You found less medkit on medipack",
+          "Effect": "HealSupport",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 80
+        }
+      ],
+      "Conditions": []
+    },
+    {
+      "Name": "Detox",
+      "BackgroundIcon": "",
+      "ForegroundIcon": "",
+      "Category": "Health",
+      "Range": {
+        "x": 0,
+        "y": 0
+      },
+      "Effects": [
+        {
+          "Name": "Infection Res",
+          "ShortName": "DTX-MEGA",
+          "DescriptionPositive": "Infection Resistance",
+          "DescriptionNegative": "",
+          "Effect": "InfectionResistance",
+          "Category": "Health",
+          "IsNegative": false,
+          "Value": 100
+        },
+        {
+          "Name": "Projectile Res",
+          "ShortName": "MR-NEG",
+          "DescriptionPositive": "",
+          "DescriptionNegative": "You take more damage on projectile damage",
+          "Effect": "ProjectileResistance",
+          "Category": "Health",
+          "IsNegative": true,
+          "Value": 200
+        }
+      ],
+      "Conditions": []
+    }
+  ]
+}

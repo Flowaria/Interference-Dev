@@ -698,58 +698,8 @@
 		],
 		"ElevatorShafts_1x1": [
 			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_mining_02.prefab",
-				"SubComplex": 2,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_mining_01.prefab",
-				"SubComplex": 2,
-				"Shard": 17
-			},
-			{
 				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_mining_03.prefab",
 				"SubComplex": 2,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_storage_01.prefab",
-				"SubComplex": 2,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_01.prefab",
-				"SubComplex": 0,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_02.prefab",
-				"SubComplex": 0,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_03.prefab",
-				"SubComplex": 0,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_dig_site_05.prefab",
-				"SubComplex": 0,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_refinery_01.prefab",
-				"SubComplex": 1,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_refinery_03.prefab",
-				"SubComplex": 1,
-				"Shard": 17
-			},
-			{
-				"Prefab": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_32x32_elevator_shaft_refinery_02.prefab",
-				"SubComplex": 1,
 				"Shard": 17
 			}
 		],
@@ -952,7 +902,7 @@
 		],
 		"name": "Complex_Mining_Modifier",
 		"internalEnabled": true,
-		"persistentID": "Complex_Mining_Modifier",
+		"persistentID": "Complex_Mining_Modifier_C3",
 		"datablock": "ComplexResourceSet"
 	}
 ]

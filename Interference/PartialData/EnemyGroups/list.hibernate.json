@@ -189,5 +189,22 @@
 		"internalEnabled": true,
 		"persistentID": "EnemyGroup_Birther_Align1",
 		"datablock": "EnemyGroup"
+	},
+	{
+		"Type": 0,
+		"Difficulty": 9000,
+		"SpawnPlacementType": 1,
+		"MaxScore": 10.0,
+		"RelativeWeight": 1.0,
+		"Roles": [
+			{
+				"Role": 9000,
+				"Distribution": "Force_One"
+			}
+		],
+		"name": "Pusher_Align",
+		"internalEnabled": true,
+		"persistentID": "EnemyGroup_Pusher_Align1",
+		"datablock": "EnemyGroup"
 	}
 ]

@@ -5,11 +5,8 @@
 >rundown --load-id 62 --subcomplex 91X122 --forced --comment "Repair maintenance system, Establish External Connection to nFrame Cluster if possible"</size>
 <size=100%>Re-Initiating Rundown Protocol: <color=orange>Interference <color=red>://EXT-Finalize</color></color></size>
 
-<size=125%>Change Log (v0.6.10):</size>
+<size=125%>Change Log (v0.8.0):</size>
 - Level Change:
-  * D1 - Nerfed Level In general
-  * C1 - Overload objective now shows zone info (only)
-- Weapon Balancing:
-  * A lot of change on almost every main weapon, check them out!
-  * Powered Revolver: Removed Chargup
-  * Hel Combat Sniper: Increased Pierce count to 5 (from 4)
+  * Added: C3 - Cyanus
+  * B5 - Nerfed Hibernating enemy amount in few zones
+  * C2 - Removed Infectious Fog, Replacing to dense fog.
