@@ -175,6 +175,37 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
+		"PublicAlarmName": "Class IV Cluster Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
+		"SurvivalWavePopulation": 1,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 9.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 9
+			},
+			{
+				"PuzzleType": 9
+			},
+			{
+				"PuzzleType": 9
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge 4x",
+		"internalEnabled": true,
+		"persistentID": "Alarm_C3_Class4_Cluster",
+		"datablock": "ChainedPuzzle"
+	},
+	{
 		"PublicAlarmName": "Class V Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
@@ -243,11 +274,11 @@
 		"PublicAlarmName": "Class III Surge Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly_Duo",
-		"SurvivalWavePopulation": 18,
+		"SurvivalWavePopulation": 15,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
 		"WantedDistanceFromStartPos": 12.0,
-		"WantedDistanceBetweenPuzzleComponents": 14.0,
+		"WantedDistanceBetweenPuzzleComponents": 9.0,
 		"ChainedPuzzle": [
 			{
 				"PuzzleType": 8
@@ -275,7 +306,7 @@
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
 		"WantedDistanceFromStartPos": 10.0,
-		"WantedDistanceBetweenPuzzleComponents": 8.0,
+		"WantedDistanceBetweenPuzzleComponents": 8.5,
 		"ChainedPuzzle": [
 			{
 				"PuzzleType": 6

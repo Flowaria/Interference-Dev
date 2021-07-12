@@ -5,8 +5,13 @@
 >rundown --load-id 62 --subcomplex 91X122 --forced --comment "Repair maintenance system, Establish External Connection to nFrame Cluster if possible"</size>
 <size=100%>Re-Initiating Rundown Protocol: <color=orange>Interference <color=red>://EXT-Finalize</color></color></size>
 
-<size=125%>Change Log (v0.8.0):</size>
+<size=125%>Change Log (v0.9.0):</size>
 - Level Change:
-  * Added: C3 - Cyanus
-  * B5 - Nerfed Hibernating enemy amount in few zones
-  * C2 - Removed Infectious Fog, Replacing to dense fog.
+  * Added: D4 - Ark
+  * C3 - Slightly Adjusted Difficulty
+- Weapon Change:
+  * SMG-Type - Slightly Increased Reload Speed
+  * Handgun - Slightly Decreased Reload Speed, Reduced Mag (21 -> 20)
+  * Stun Rifle - Slightly Increased Damage so giants are always stunned by 4 bullets
+  * Tactical Handgun - Slightly Increased Reload Speed
+  * Magnum Revolver - Slightly Increased Reload Speed

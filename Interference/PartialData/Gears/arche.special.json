@@ -12,7 +12,7 @@
 		"StaggerDamageMulti": 1.0,
 		"PrecisionDamageMulti": 0.75,
 		"DefaultClipSize": 6,
-		"DefaultReloadTime": 2.15,
+		"DefaultReloadTime": 1.75,
 		"CostOfBullet": 4.2592,
 		"ShotDelay": 0.25,
 		"PiercingBullets": false,

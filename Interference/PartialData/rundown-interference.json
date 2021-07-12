@@ -38,49 +38,24 @@
 				"b": 0.0
 			},
 			"TierAVisuals": {
-				"Color": {
-					"a": 0.5,
-					"r": 0.8039215686,
-					"g": 1.0,
-					"b": 1.0
-				},
+				"Color": "#e34747",
 				"Scale": 0.75
 			},
 			"TierBVisuals": {
-				"Color": {
-					"a": 0.8,
-					"r": 0.4039215686,
-					"g": 0.6,
-					"b": 1.0
-				},
+				"Color": "#68215b",
 				"Scale": 0.93
 			},
 			"TierCVisuals": {
-				"Color": {
-					"a": 1.0,
-					"r": 0.631372549,
-					"g": 0.6117647058,
-					"b": 1.0
-				},
-				"Scale": 0.782
-			},
-			"TierDVisuals": {
-				"Color": {
-					"a": 1.0,
-					"r": 0.64705882,
-					"g": 0.4,
-					"b": 1.0
-				},
+				"Color": "#64205d",
 				"Scale": 0.66
 			},
+			"TierDVisuals": {
+				"Color": "#2d0f69",
+				"Scale": 0.81
+			},
 			"TierEVisuals": {
-				"Color": {
-					"a": 0.8,
-					"r": 0.6470588,
-					"g": 0.4,
-					"b": 1.0
-				},
-				"Scale": 0.725
+				"Color": "#0a0639",
+				"Scale": 0.89
 			}
 		},
 		"SurfaceIconPosition": {
@@ -2483,6 +2458,174 @@
 			"SpecialOverrideData": {
 				"WeakResourceContainerWithPackChanceForLocked": -1.0
 			}
+		},
+		{
+			"Enabled": true,
+			"Accessibility": 0,
+			"Descriptive": {
+				"Prefix": "0<size=70%>X</size>EED",
+				"PublicName": "Ark",
+				"ExpeditionDepth": 969,
+				"IsExtraExpedition": true,
+				"EstimatedDuration": "",
+				"ExpeditionDescription": "Sector [0<size=70%>X</size>EEE2] has protected by Kovak Intruder Detection System.\nSpecific tissue sample inside cryogenic cases are required in order to bypass it.\nPrisoners sent to retrieve cryogenic cases.",
+				"RoleplayedWardenIntel": ">..I barely see shit through this dusts...\n>..Well at least it's better than infectious one...\n<color=red><size=200%>>..Hey! What is this.. Class Delta Alarm?</size></color>\n>..No one knows, until we pull it."
+			},
+			"Seeds": {
+				"BuildSeed": 969554,
+				"FunctionMarkerOffset": 0,
+				"StandardMarkerOffset": 0,
+				"LightJobSeedOffset": 5988
+			},
+			"Expedition": {
+				"ComplexResourceData": 3,
+				"LightSettings": 65,
+				"FogSettings": "Fog_D4",
+				"EnemyPopulation": 1,
+				"ExpeditionBalance": 1,
+				"ScoutWaveSettings": "WaveSetting_Scout_Kind",
+				"ScoutWavePopulation": 5
+			},
+			"LevelLayoutData": "Layout_D4_L1",
+			"MainLayerData": {
+				"ZoneAliasStart": 397,
+				"ZonesWithBulkheadEntrance": [
+					3
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 1,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 656,
+						"MarkerSeedOffset": 0
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 2,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 100000.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D4_L1",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 6,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_D4_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 1
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 718,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 1,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_D4_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 2,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 3,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 4,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 6,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 0.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": false,
+			"SpecialOverrideData": {
+				"WeakResourceContainerWithPackChanceForLocked": -1.0
+			}
 		}
 	],
 	"TierE": [
@@ -2615,7 +2758,7 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": 0,
+			"Accessibility": 1,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEE",
 				"PublicName": "<i>EoL</i>",

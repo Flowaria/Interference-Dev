@@ -11,6 +11,17 @@
 		"datablock": "SurvivalWavePopulation"
 	},
 	{
+		"WaveRoleWeakling": "Enemy_Shadow_Bullrush",
+		"WaveRoleStandard": "Enemy_Shadow_Bullrush",
+		"WaveRoleSpecial": "Enemy_Shadow_Bullrush",
+		"WaveRoleMiniBoss": "Enemy_Shadow_Bullrush",
+		"WaveRoleBoss": "Enemy_Shadow_Bullrush",
+		"name": "Bullrush_Shadow",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Only_Bullrush_Shadow",
+		"datablock": "SurvivalWavePopulation"
+	},
+	{
 		"WaveRoleWeakling": "Enemy_Shadow_Big_Bullrush",
 		"WaveRoleStandard": "Enemy_Shadow_Big_Bullrush",
 		"WaveRoleSpecial": "Enemy_Shadow_Big_Bullrush",
@@ -52,6 +63,17 @@
 		"name": "Baseline_birther",
 		"internalEnabled": true,
 		"persistentID": "WavePop_Only_Birther_Boss",
+		"datablock": "SurvivalWavePopulation"
+	},
+	{
+		"WaveRoleWeakling": "Enemy_Pusher",
+		"WaveRoleStandard": "Enemy_Pusher",
+		"WaveRoleSpecial": "Enemy_Pusher",
+		"WaveRoleMiniBoss": "Enemy_Pusher",
+		"WaveRoleBoss": "Enemy_Pusher",
+		"name": "Baseline_fosterer",
+		"internalEnabled": true,
+		"persistentID": "WavePop_Only_Fosterer",
 		"datablock": "SurvivalWavePopulation"
 	},
 	{

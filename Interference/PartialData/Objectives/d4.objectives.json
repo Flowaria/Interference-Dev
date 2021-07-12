@@ -1,0 +1,201 @@
+[
+  {
+    "Type": 6,
+    "Header": "Retrieve Essential Items",
+    "MainObjective": "Find [ALL_ITEMS] and bring them to the extraction scan in [EXTRACTION_ZONE]",
+    "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+    "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE] with cryogenic cases.",
+    "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": "WaveSetting_Apex_BigOnly_Harder",
+        "WavePopulation": 18,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": true
+      }
+    ],
+    "WaveOnGotoWinTrigger": 1,
+    "EventsOnGotoWin": [],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "Retrieve_Items": [
+      148, 148
+    ],
+    "ReactorWaves": [],
+    "LightsOnFromBeginning": false,
+    "LightsOnDuringIntro": false,
+    "LightsOnWhenStartupComplete": false,
+    "SpecialTerminalCommand": "",
+    "SpecialTerminalCommandDesc": "",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 0,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 0,
+    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_FogDataSteps": [],
+    "ActivateHSU_ItemFromStart": 0,
+    "ActivateHSU_ItemAfterActivation": 0,
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "Retrieve Essential Items_2",
+    "internalEnabled": true,
+    "persistentID": "Obj_D4_L1",
+    "datablock": "WardenObjective"
+  },
+  {
+    "Type": 9,
+    "Header": "Central Powergenerator Cluster",
+    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Generator Cluster in [ITEM_ZONE] to overload it",
+    "FindLocationInfo": "Locate the Power Cells and use them to power up the Generator Cluster",
+    "FindLocationInfoHelp": "Generators Online: [COUNT_CURRENT] / [COUNT_REQUIRED]",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Filteration System Online. Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 180.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": "WaveSetting_Trickle_1_300",
+        "WavePopulation": "WavePop_Only_Fosterer",
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false
+      },
+      {
+        "WaveSettings": "WaveSetting_Trickle_3_60",
+        "WavePopulation": "WavePop_Only_Bullrush_Shadow",
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false
+      }
+    ],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 2,
+        "Type": 5,
+        "Layer": 0,
+        "LocalIndex": 0,
+        "Delay": 0.0,
+        "SoundID": 2591647810,
+        "FogSetting": 0,
+        "FogTransitionDuration": 0.0
+      },
+      {
+        "Trigger": 1,
+        "Type": 2,
+        "Layer": 1,
+        "LocalIndex": 1,
+        "Delay": 4.0,
+        "WardenIntel": "Security door to [ZONE_1] unlocked"
+      },
+      {
+        "Trigger": 0,
+        "Type": 5,
+        "Layer": 0,
+        "LocalIndex": 0,
+        "Delay": 8.0,
+        "WardenIntel": "WARNING::Filteration System requires maintenance - ALARM TRIGGERED",
+        "SoundID": 2081519152
+      },
+      {
+        "Trigger": 0,
+        "Type": 5,
+        "Layer": 0,
+        "LocalIndex": 0,
+        "Delay": 8.0,
+        "SoundID": 1190355274
+      }
+    ],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "Gather_RequiredCount": -1,
+    "Gather_ItemId": 0,
+    "Gather_SpawnCount": 0,
+    "Gather_MaxPerZone": 0,
+    "Retrieve_Items": [],
+    "ReactorWaves": [],
+    "LightsOnFromBeginning": true,
+    "LightsOnDuringIntro": true,
+    "LightsOnWhenStartupComplete": true,
+    "SpecialTerminalCommand": "",
+    "SpecialTerminalCommandDesc": "",
+    "PostCommandOutput": [],
+    "PowerCellsToDistribute": 3,
+    "Uplink_NumberOfVerificationRounds": 0,
+    "Uplink_NumberOfTerminals": 1,
+    "CentralPowerGenClustser_NumberOfGenerators": 4,
+    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_FogDataSteps": [
+      {
+        "m_fogDataId": "Fog_D4_Less1",
+        "m_transitionToTime": 10.0
+      },
+      {
+        "m_fogDataId": "Fog_D4_Less2",
+        "m_transitionToTime": 10.0
+      },
+      {
+        "m_fogDataId": "Fog_D4_Less3",
+        "m_transitionToTime": 10.0
+      },
+      {
+        "m_fogDataId": "Fog_D4_Less3",
+        "m_transitionToTime": 60.0
+      },
+      {
+        "m_fogDataId": "Fog_D4_Less3",
+        "m_transitionToTime": 60.0
+      }
+    ],
+    "ActivateHSU_ItemFromStart": 0,
+    "ActivateHSU_ItemAfterActivation": 0,
+    "ActivateHSU_StopEnemyWavesOnActivation": false,
+    "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+    "ActivateHSU_Events": [],
+    "name": "CentralPowerGeneratorCluster_4",
+    "internalEnabled": true,
+    "persistentID": "Obj_D4_L2",
+    "datablock": "WardenObjective"
+  }
+]

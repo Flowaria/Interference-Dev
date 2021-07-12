@@ -290,5 +290,89 @@
 		"internalEnabled": true,
 		"persistentID": "Fog_D3_Finish",
 		"datablock": "FogSettings"
+	},
+	{
+		"Enabled": true,
+		"FogColor": "#904F1C03",
+		"FogDensity": 0.001,
+		"FogAmbience": 0.001,
+		"DensityNoiseDirection": {
+			"x": 0.3,
+			"y": -1.0,
+			"z": 0.3
+		},
+		"DensityNoiseSpeed": 0.1,
+		"DensityNoiseScale": 0.131,
+		"DensityHeightAltitude": 0.2,
+		"DensityHeightRange": 3.2,
+		"DensityHeightMaxBoost": 0.006,
+		"Infection": 0.0,
+		"name": "Fog_dust",
+		"internalEnabled": true,
+		"persistentID": "Fog_D4",
+		"datablock": "FogSettings"
+	},
+	{
+		"Enabled": true,
+		"FogColor": "#904F1C03",
+		"FogDensity": 0.00075,
+		"FogAmbience": 0.001,
+		"DensityNoiseDirection": {
+			"x": 0.3,
+			"y": -1.0,
+			"z": 0.3
+		},
+		"DensityNoiseSpeed": 0.1,
+		"DensityNoiseScale": 0.131,
+		"DensityHeightAltitude": 0.2,
+		"DensityHeightRange": 3.2,
+		"DensityHeightMaxBoost": 0.004,
+		"Infection": 0.0,
+		"name": "Fog_dust",
+		"internalEnabled": true,
+		"persistentID": "Fog_D4_Less1",
+		"datablock": "FogSettings"
+	},
+	{
+		"Enabled": true,
+		"FogColor": "#904F1C03",
+		"FogDensity": 0.0005,
+		"FogAmbience": 0.001,
+		"DensityNoiseDirection": {
+			"x": 0.3,
+			"y": -1.0,
+			"z": 0.3
+		},
+		"DensityNoiseSpeed": 0.1,
+		"DensityNoiseScale": 0.131,
+		"DensityHeightAltitude": 0.2,
+		"DensityHeightRange": 3.2,
+		"DensityHeightMaxBoost": 0.002,
+		"Infection": 0.0,
+		"name": "Fog_dust",
+		"internalEnabled": true,
+		"persistentID": "Fog_D4_Less2",
+		"datablock": "FogSettings"
+	},
+	{
+		"Enabled": true,
+		"FogColor": "#904F1C03",
+		"FogDensity": 0.00025,
+		"FogAmbience": 0.001,
+		"DensityNoiseDirection": {
+			"x": 0.3,
+			"y": -1.0,
+			"z": 0.3
+		},
+		"DensityNoiseSpeed": 0.1,
+		"DensityNoiseScale": 0.131,
+		"DensityHeightAltitude": 0.2,
+		"DensityHeightRange": 3.2,
+		"DensityHeightMaxBoost": 0.001,
+		"Infection": 0.0,
+		"name": "Fog_dust",
+		"internalEnabled": true,
+		"persistentID": "Fog_D4_Less3",
+		"datablock": "FogSettings"
 	}
 ]
