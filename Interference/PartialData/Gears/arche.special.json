@@ -14,7 +14,7 @@
 		"DefaultClipSize": 6,
 		"DefaultReloadTime": 1.75,
 		"CostOfBullet": 4.2592,
-		"ShotDelay": 0.25,
+		"ShotDelay": 0.12,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 5.0,
@@ -52,8 +52,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Powered Revolver", //6 Mag
-		"Description": "Ammo: 4/20 (Full-auto)\nDamage: 31.5\n[Precision: 0.0x / Stagger: 1.0x]\nRange: 15m-50m\n<color=red>No Headshot</color>",
+		"PublicName": "Powered Revolver", //7 Mag
+		"Description": "Ammo: 4/24 (Full-auto)\nDamage: 31.5\n[Precision: 0.0x / Stagger: 1.0x]\nRange: 15m-50m\n<color=red>No Headshot</color>",
 		"FireMode": 2,
 		"RecoilDataID": 5,
 		"Damage": 31.5,
@@ -65,7 +65,7 @@
 		"PrecisionDamageMulti": 0.0,
 		"DefaultClipSize": 4,
 		"DefaultReloadTime": 2.48,
-		"CostOfBullet": 11.5,
+		"CostOfBullet": 9.5833,
 		"ShotDelay": 0.33,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -208,8 +208,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "HEL Combat Sniper", //3.625 Mag
-		"Description": "Ammo: 8/21 (Semi-auto)\nDamage: 27.5\n[Precision: 1.35x / Stagger: 1.0x]\nRange: 18m-150m\nPierce: 5\n<color=orange>Sniper for general Use</color>",
+		"PublicName": "HEL Combat Sniper", //4 Mag
+		"Description": "Ammo: 7/18 (Semi-auto)\nDamage: 27.5\n[Precision: 1.35x / Stagger: 1.0x]\nRange: 18m-150m\nPierce: 5\n<color=orange>Sniper for general Use</color>",
 		"FireMode": 0,
 		"RecoilDataID": 9,
 		"Damage": 27.5,
@@ -219,9 +219,9 @@
 		},
 		"StaggerDamageMulti": 1.0,
 		"PrecisionDamageMulti": 1.35,
-		"DefaultClipSize": 8,
+		"DefaultClipSize": 7,
 		"DefaultReloadTime": 2.65,
-		"CostOfBullet": 10.9523,
+		"CostOfBullet": 12.5,
 		"ShotDelay": 0.08,
 		"PiercingBullets": true,
 		"PiercingDamageCountLimit": 5,

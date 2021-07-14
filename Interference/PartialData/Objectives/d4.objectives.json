@@ -164,15 +164,11 @@
     "PowerCellsToDistribute": 3,
     "Uplink_NumberOfVerificationRounds": 0,
     "Uplink_NumberOfTerminals": 1,
-    "CentralPowerGenClustser_NumberOfGenerators": 4,
-    "CentralPowerGenClustser_NumberOfPowerCells": 4,
+    "CentralPowerGenClustser_NumberOfGenerators": 3,
+    "CentralPowerGenClustser_NumberOfPowerCells": 3,
     "CentralPowerGenClustser_FogDataSteps": [
       {
         "m_fogDataId": "Fog_D4_Less1",
-        "m_transitionToTime": 10.0
-      },
-      {
-        "m_fogDataId": "Fog_D4_Less2",
         "m_transitionToTime": 10.0
       },
       {

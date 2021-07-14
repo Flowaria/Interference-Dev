@@ -111,22 +111,7 @@
 				"AllowedZoneAltitude": "Ascending",
 				"ChanceToChange": 1.0
 			},
-			"EventsOnEnter": [
-				{
-					"Delay": 0.0,
-					"Noise": {
-						"Enabled": true,
-						"RadiusMin": 64.0,
-						"RadiusMax": 80.0
-					},
-					"Intel": {
-						"Enabled": false
-					},
-					"Sound": {
-						"Enabled": false
-					}
-				}
-			],
+			"EventsOnEnter": [],
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 0,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
@@ -146,7 +131,7 @@
 					"GroupType": 0,
 					"Difficulty": 500,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 0.4
+					"DistributionValue": 0.6
 				}
 			],
 			"EnemyRespawning": true,

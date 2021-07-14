@@ -313,121 +313,13 @@
 			}
 		},
 		{
-			"LocalIndex": 3, //Left
-			"SubSeed": 0,
+			"LocalIndex": 3, //Right
+			"SubSeed": -8,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 40.0,
-				"y": 50.0
-			},
-			"BuildFromLocalIndex": 2,
-			"StartPosition": "From_Furthest",
-			"StartPosition_IndexWeight": 0.0,
-			"StartExpansion": "Towards_Left",
-			"ZoneExpansion": "Directional_Left",
-			"LightSettings": 37,
-			"AltitudeData": {
-				"AllowedZoneAltitude": "OnlyLow",
-				"ChanceToChange": 1.0
-			},
-			"EventsOnEnter": [],
-			"ProgressionPuzzleToEnter": {
-				"PuzzleType": 0,
-				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
-				"PlacementCount": 1,
-				"ZonePlacementData": []
-			},
-			"ChainedPuzzleToEnter": "Alarm_D1_Class4_S1",
-			"SecurityGateToEnter": 0, 
-			"ActiveEnemyWave": {
-				"HasActiveEnemyWave": true,
-				"EnemyGroupInfrontOfDoor": 33,
-				"EnemyGroupInArea": 0,
-				"EnemyGroupsInArea": 0
-			},
-			"EnemySpawningInZone": [
-				{
-					"GroupType": 0,
-					"Difficulty": 0,
-					"Distribution": 2,
-					"DistributionValue": 1.2
-				},
-				{
-					"GroupType": 0,
-					"Difficulty": 500,
-					"Distribution": "Rel_Value",
-					"DistributionValue": 0.25
-				}
-			],
-			"HSUClustersInZone": 0,
-			"CorpseClustersInZone": 0,
-			"ResourceContainerClustersInZone": 0,
-			"GeneratorClustersInZone": 0,
-			"CorpsesInZone": "Many_20",
-			"HSUsInZone": 1,
-			"DeconUnitsInZone": 0,
-			"AllowSmallPickupsAllocation": true,
-			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": 9,
-			"BigPickupDistributionInZone": 0,
-			"TerminalPlacements": [
-				{
-					"PlacementWeights": {
-						"Start": 0.0,
-						"Middle": 100.0,
-						"End": 0.0
-					}
-				}
-			],
-			"ForbidTerminalsInZone": false,
-			"PowerGeneratorPlacements": [],
-			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.4,
-			"HealthPlacement": {
-				"Start": 0.0,
-				"Middle": 0.0,
-				"End": 0.0
-			},
-			"WeaponAmmoMulti": 0.4,
-			"WeaponAmmoPlacement": {
-				"Start": 0.0,
-				"Middle": 0.0,
-				"End": 0.0
-			},
-			"ToolAmmoMulti": 0.2,
-			"ToolAmmoPlacement": {
-				"Start": 0.0,
-				"Middle": 0.0,
-				"End": 0.0
-			},
-			"DisinfectionMulti": 0.0,
-			"DisinfectionPlacement": {
-				"Start": 0.0,
-				"Middle": 0.0,
-				"End": 0.0
-			},
-			"StaticSpawnDataContainers": [
-				{
-					"Count": 40,
-					"DistributionWeightType": 0,
-					"DistributionWeight": 0.0,
-					"DistributionRandomBlend": 1.0,
-					"DistributionResultPow": 1.0,
-					"StaticSpawnDataId": 1,
-					"FixedSeed": 0
-				}
-			]
-		},
-		{
-			"LocalIndex": 4, //Right
-			"SubSeed": 0,
-			"BulkheadDCScanSeed": 0,
-			"SubComplex": "DataCenter",
-			"CoverageMinMax": {
-				"x": 40.0,
-				"y": 50.0
+				"x": 5.0,
+				"y": 10.0
 			},
 			"BuildFromLocalIndex": 2,
 			"StartPosition": "From_Furthest",
@@ -459,13 +351,13 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 1.2
+					"DistributionValue": 0.6
 				},
 				{
 					"GroupType": 0,
 					"Difficulty": 500,
 					"Distribution": "Rel_Value",
-					"DistributionValue": 0.25
+					"DistributionValue": 0.1
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -492,19 +384,19 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.4,
+			"HealthMulti": 0.8,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.4,
+			"WeaponAmmoMulti": 0.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.2,
+			"ToolAmmoMulti": 0.6,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -515,27 +407,16 @@
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
-			},
-			"StaticSpawnDataContainers": [
-				{
-					"Count": 40,
-					"DistributionWeightType": 0,
-					"DistributionWeight": 0.0,
-					"DistributionRandomBlend": 1.0,
-					"DistributionResultPow": 1.0,
-					"StaticSpawnDataId": 1,
-					"FixedSeed": 0
-				}
-			]
+			}
 		},
 		{
-			"LocalIndex": 5, //Forward
+			"LocalIndex": 4, //Forward
 			"SubSeed": 0,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 60.0,
-				"y": 70.0
+				"x": 40.0,
+				"y": 50.0
 			},
 			"BuildFromLocalIndex": 2,
 			"StartPosition": "From_Furthest",
@@ -555,14 +436,6 @@
 				"ZonePlacementData": [
 					{
 						"LocalIndex": 3,
-						"Weights": {
-							"Start": 0.0,
-							"Middle": 0.0,
-							"End": 10000.0
-						}
-					},
-					{
-						"LocalIndex": 4,
 						"Weights": {
 							"Start": 0.0,
 							"Middle": 0.0,
@@ -597,7 +470,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": 9,
+			"ConsumableDistributionInZone": "Consumable_FogBulk_Some",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -611,19 +484,19 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.8,
+			"HealthMulti": 1.6,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.6,
+			"WeaponAmmoMulti": 1.8,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 0.4,
+			"ToolAmmoMulti": 1.0,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -637,8 +510,8 @@
 			}
 		},
 		{
-			"LocalIndex": 6, //Disinfect
-			"SubSeed": 1111,
+			"LocalIndex": 5, //Disinfect
+			"SubSeed": 1115,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Lab",
 			"CoverageMinMax": {
@@ -681,7 +554,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": 9,
+			"ConsumableDistributionInZone": "Consumable_FogBulk_Some",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{

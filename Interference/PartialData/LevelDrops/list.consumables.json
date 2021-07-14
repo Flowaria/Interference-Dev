@@ -264,6 +264,24 @@
 		"datablock": "ConsumableDistribution"
 	},
 	{
+		"SpawnsPerZone": 8,
+		"ChanceToSpawnInResourceContainer": 0.75,
+		"SpawnData": [
+			{
+				"ItemID": 117,
+				"Weight": 3.0
+			},
+			{
+				"ItemID": 115,
+				"Weight": 1.0
+			}
+		],
+		"name": "ExplorationDark_MoreFlash",
+		"internalEnabled": true,
+		"persistentID": "Consumable_6Fog_2Foam_8",
+		"datablock": "ConsumableDistribution"
+	},
+	{
 		"SpawnsPerZone": 6,
 		"ChanceToSpawnInResourceContainer": 0.4,
 		"SpawnData": [

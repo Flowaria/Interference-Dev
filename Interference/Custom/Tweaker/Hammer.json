@@ -177,8 +177,8 @@
       "Min": 1.8,
       "Max": 7.5
     },
-    "PrecisionDamageMulti": 0.8,
-    "CameraDamageRayLength": 1.9,
+    "PrecisionDamageMulti": 0.9,
+    "CameraDamageRayLength": 2.1,
     "InputBufferTime": 0.4,
     "MaxPushFrequency": 0.9,
     "AttackDamageSphereDotScale": 0.9,
@@ -190,7 +190,7 @@
       "Min": 0.8,
       "Max": 1.0
     },
-    "ChargeUpTime": 0.7,
+    "ChargeUpTime": 0.5,
     "AutoAttackTime": 3.0,
     "AttackMissRight": {
       "AnimBlendIn": 0.2,
@@ -212,21 +212,21 @@
     },
     "AttackHitRight": {
       "AnimBlendIn": 0.0,
-      "AttackLength": 0.3,
-      "AttackHitTime": 0.3,
+      "AttackLength": 0.5,
+      "AttackHitTime": 0.5,
       "AttackCamFwdHitTime": 0.0,
       "DamageStartTime": 0.0,
       "DamageEndTime": 0.0,
-      "ComboEarlyTime": 0.2
+      "ComboEarlyTime": 0.4
     },
     "AttackHitLeft": {
       "AnimBlendIn": 0.0,
-      "AttackLength": 0.3,
-      "AttackHitTime": 0.3,
+      "AttackLength": 0.5,
+      "AttackHitTime": 0.5,
       "AttackCamFwdHitTime": 0.0,
       "DamageStartTime": 0.0,
       "DamageEndTime": 0.0,
-      "ComboEarlyTime": 0.2
+      "ComboEarlyTime": 0.4
     },
     "AttackPush": {
       "AnimBlendIn": 0.1,

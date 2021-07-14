@@ -1017,5 +1017,33 @@
 		"internalEnabled": true,
 		"persistentID": "Alarm_D4_Siege_Hard",
 		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class III Surge Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 42,
+		"SurvivalWavePopulation": 7,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 12.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Surge 4x",
+		"internalEnabled": true,
+		"persistentID": "Alarm_D4_Class3_Surge_Shadows",
+		"datablock": "ChainedPuzzle"
 	}
 ]

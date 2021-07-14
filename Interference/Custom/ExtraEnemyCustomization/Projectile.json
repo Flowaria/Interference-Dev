@@ -15,7 +15,7 @@
 				{
 					"FromDistance": -1.0,
 					"OverrideProjectileType": true,
-					"ProjectileType": 52,
+					"ProjectileType": 50,
 					"BurstCount": "Unchanged",
 					"BurstDelay": "200%",
 					"ShotDelayMin": "Unchanged",
@@ -25,34 +25,6 @@
 					"ShotSpreadXMax": "Unchanged",
 					"ShotSpreadYMin": "Unchanged",
 					"ShotSpreadYMax": "Unchanged"
-				}
-			]
-		},
-		{
-			"Enabled": true,
-			"DebugName": "Pusher",
-			"Target": {
-				"Mode": "PersistentID",
-				"persistentIDs": [
-					"Enemy_Pusher"
-				],
-				"nameParam": "",
-				"nameIgnoreCase": true
-			},
-			"FireSettings": [
-				{
-					"FromDistance": -1.0,
-					"OverrideProjectileType": true,
-					"ProjectileType": 53,
-					"BurstCount": "100%",
-					"BurstDelay": "200%",
-					"ShotDelayMin": "50%",
-					"ShotDelayMax": "50%",
-					"InitialFireDelay": "Unchanged",
-					"ShotSpreadXMin": "150%",
-					"ShotSpreadXMax": "150%",
-					"ShotSpreadYMin": "150%",
-					"ShotSpreadYMax": "150%"
 				}
 			]
 		},

@@ -14,10 +14,10 @@
 	},
 	{
 		"General": {
-			"Model": "",
+			"Model": "Assets/AssetPrefabs/Items/Gear/Parts/Melee/Handles/Handle_Hammer_8.prefab",
 			"GearCategoryFilter": 0,
-			"AssetBundle": 140,
-			"BundleShard": 13
+			"AssetBundle": 160,
+			"BundleShard": 12
 		},
 		"Aligns": [],
 		"name": "Empty",

@@ -2099,7 +2099,7 @@
 						],
 						[
 							{
-								"LocalIndex": 5,
+								"LocalIndex": 4,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
@@ -2473,8 +2473,8 @@
 			},
 			"Seeds": {
 				"BuildSeed": 969554,
-				"FunctionMarkerOffset": 0,
-				"StandardMarkerOffset": 0,
+				"FunctionMarkerOffset": 1111,
+				"StandardMarkerOffset": 7676,
 				"LightJobSeedOffset": 5988
 			},
 			"Expedition": {
@@ -2576,25 +2576,13 @@
 					"ZonePlacementDatas": [
 						[
 							{
-								"LocalIndex": 2,
-								"Weights": {
-									"Start": 0.0,
-									"Middle": 0.0,
-									"End": 0.0
-								}
-							}
-						],
-						[
-							{
 								"LocalIndex": 3,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
 									"End": 10000.0
 								}
-							}
-						],
-						[
+							},
 							{
 								"LocalIndex": 4,
 								"Weights": {
@@ -2606,11 +2594,21 @@
 						],
 						[
 							{
-								"LocalIndex": 6,
+								"LocalIndex": 5,
 								"Weights": {
 									"Start": 0.0,
 									"Middle": 0.0,
-									"End": 0.0
+									"End": 10000.0
+								}
+							}
+						],
+						[
+							{
+								"LocalIndex": 7,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 10000.0
 								}
 							}
 						]

@@ -5,13 +5,14 @@
 >rundown --load-id 62 --subcomplex 91X122 --forced --comment "Repair maintenance system, Establish External Connection to nFrame Cluster if possible"</size>
 <size=100%>Re-Initiating Rundown Protocol: <color=orange>Interference <color=red>://EXT-Finalize</color></color></size>
 
-<size=125%>Change Log (v0.9.0):</size>
+<size=125%>Change Log (v0.9.10):</size>
 - Level Change:
-  * Added: D4 - Ark
-  * C3 - Slightly Adjusted Difficulty
+  * D1 - Nerfed Extreme Part, Adding more Resources
+  * D4 - Changed Extreme Part
+  * C3 - Added more resources for key searching phase
 - Weapon Change:
-  * SMG-Type - Slightly Increased Reload Speed
-  * Handgun - Slightly Decreased Reload Speed, Reduced Mag (21 -> 20)
-  * Stun Rifle - Slightly Increased Damage so giants are always stunned by 4 bullets
-  * Tactical Handgun - Slightly Increased Reload Speed
-  * Magnum Revolver - Slightly Increased Reload Speed
+  * SMG-Type - Faster Holding Speed, Faster Aim Speed
+  * Combat Rifle - Added More Ammo (+7)
+  * M Revolver - Faster Fire Rate
+  * P Revolver - Added More Ammo (+4)
+  * Hel Combat Sniper - Decreased Ammo (-3), Decreased Clip (-1)

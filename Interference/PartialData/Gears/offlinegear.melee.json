@@ -17,7 +17,7 @@
 	},
 	{
 		"Type": 1,
-		"GearJSON": "{\"Ver\":1,\"Name\":\"Rod\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":802},\"b\":{\"c\":3,\"v\":802},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":13},\"e\":{\"c\":46,\"v\":5},\"f\":{\"c\":48,\"v\":2},\"g\":{\"c\":50,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Rod\"}}}",
+		"GearJSON": "{\"Ver\":1,\"Name\":\"Rod\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":802},\"b\":{\"c\":3,\"v\":802},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":501},\"e\":{\"c\":46,\"v\":5},\"f\":{\"c\":48,\"v\":2},\"g\":{\"c\":50,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Rod\"}}}",
 		"name": "Rod",
 		"internalEnabled": true,
 		"persistentID": "OFF_Rod",

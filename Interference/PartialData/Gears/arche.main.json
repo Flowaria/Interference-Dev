@@ -19,7 +19,7 @@
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 2.5,
 		"AimSpread": 0.0,
-		"EquipTransitionTime": 0.4,
+		"EquipTransitionTime": 0.2,
 		"EquipSequence": [
 			{
 				"TriggerTime": 0.0,
@@ -31,7 +31,7 @@
 				"Type": 7
 			}
 		],
-		"AimTransitionTime": 0.2,
+		"AimTransitionTime": 0.15,
 		"AimSequence": [],
 		"BurstDelay": 0.0,
 		"BurstShotCount": 0,
@@ -71,7 +71,7 @@
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 2.5,
 		"AimSpread": 0.0,
-		"EquipTransitionTime": 0.4,
+		"EquipTransitionTime": 0.2,
 		"EquipSequence": [
 			{
 				"TriggerTime": 0.0,
@@ -83,7 +83,7 @@
 				"Type": 7
 			}
 		],
-		"AimTransitionTime": 0.25,
+		"AimTransitionTime": 0.15,
 		"AimSequence": [],
 		"BurstDelay": 0.0,
 		"BurstShotCount": 0,
@@ -312,8 +312,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Combat Rifle", //9.5 Mag
-		"Description": "Ammo: 14/119 (Semi-auto)\nDamage: 5.25\n[Precision: 1.05x - Stagger: 0.75x]\nRange: 18.2m-76m",
+		"PublicName": "Combat Rifle", //10 Mag
+		"Description": "Ammo: 14/126 (Semi-auto)\nDamage: 5.25\n[Precision: 1.05x - Stagger: 0.75x]\nRange: 18.2m-76m",
 		"FireMode": 0,
 		"RecoilDataID": 12,
 		"Damage": 5.25,
@@ -324,8 +324,8 @@
 		"StaggerDamageMulti": 0.75,
 		"PrecisionDamageMulti": 1.05,
 		"DefaultClipSize": 14,
-		"DefaultReloadTime": 2.8,
-		"CostOfBullet": 3.8655,
+		"DefaultReloadTime": 2.2,
+		"CostOfBullet": 3.6507,
 		"ShotDelay": 0.115,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -435,7 +435,7 @@
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 1.0,
 		"AimSpread": 0.0,
-		"EquipTransitionTime": 0.45,
+		"EquipTransitionTime": 0.15,
 		"EquipSequence": [
 			{
 				"TriggerTime": 0.0,
@@ -447,7 +447,7 @@
 				"Type": 7
 			}
 		],
-		"AimTransitionTime": 0.3,
+		"AimTransitionTime": 0.15,
 		"AimSequence": [],
 		"BurstDelay": 0.0,
 		"BurstShotCount": 0,

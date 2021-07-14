@@ -58,7 +58,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": true,
-			"ConsumableDistributionInZone": "Consumable_Fog_10",
+			"ConsumableDistributionInZone": "Consumable_6Fog_2Foam_8",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -79,19 +79,19 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.2,
+			"HealthMulti": 0.4,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.2,
+			"WeaponAmmoMulti": 0.6,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 1.0,
+			"ToolAmmoMulti": 1.2,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -358,13 +358,13 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.5
+					"DistributionValue": 0.3
 				},
 				{
 					"GroupType": 1,
 					"Difficulty": 6,
 					"Distribution": 2,
-					"DistributionValue": 0.4
+					"DistributionValue": 0.2
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -463,13 +463,13 @@
 					"GroupType": 0,
 					"Difficulty": 1,
 					"Distribution": 2,
-					"DistributionValue": 0.6
+					"DistributionValue": 0.3
 				},
 				{
 					"GroupType": 1,
 					"Difficulty": 6,
 					"Distribution": 2,
-					"DistributionValue": 0.2
+					"DistributionValue": 0.1
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -567,7 +567,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.7
+					"DistributionValue": 0.3
 				},
 				{
 					"GroupType": 1,
@@ -667,20 +667,7 @@
 				"EnemyGroupInArea": 0,
 				"EnemyGroupsInArea": 0
 			},
-			"EnemySpawningInZone": [
-				{
-					"GroupType": 0,
-					"Difficulty": 0,
-					"Distribution": 2,
-					"DistributionValue": 0.3
-				},
-				{
-					"GroupType": 1,
-					"Difficulty": 6,
-					"Distribution": 2,
-					"DistributionValue": 0.8
-				}
-			],
+			"EnemySpawningInZone": [],
 			"HSUClustersInZone": 0,
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
