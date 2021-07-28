@@ -236,6 +236,20 @@
 		"datablock": "ConsumableDistribution"
 	},
 	{
+		"SpawnsPerZone": 3,
+		"ChanceToSpawnInResourceContainer": 0.15,
+		"SpawnData": [
+			{
+				"ItemID": 117,
+				"Weight": 1.0
+			}
+		],
+		"name": "FogRepeller_Few",
+		"internalEnabled": true,
+		"persistentID": "Consumable_Fog_3",
+		"datablock": "ConsumableDistribution"
+	},
+	{
 		"SpawnsPerZone": 10,
 		"ChanceToSpawnInResourceContainer": 0.15,
 		"SpawnData": [

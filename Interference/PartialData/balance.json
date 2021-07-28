@@ -2,8 +2,8 @@
 	{
 		"HealthPerZone": 1.0,
 		"DisinfectionPerZone": 1.0,
-		"WeaponAmmoPerZone": 0.8,
-		"ToolAmmoPerZone": 0.7,
+		"WeaponAmmoPerZone": 1.0,
+		"ToolAmmoPerZone": 1.0,
 		"CommodityValuePerZone": 0.0,
 		"ChanceToPutCommodityInResourceContainer": 0.7,
 		"ChanceToPutArtifactInResourceContainer": 0.15,
@@ -53,7 +53,7 @@
 		"WeakDoorChanceLockWeightHackableLock": 1.0,
 		"WeakDoorUnlockedChanceForOpen": 0.0,
 		"WeakDoorOpenChanceForWallRemoverUsed": 0.0,
-		"WeakDoorLockHealth": 13.0, //Changed Value (og: 15) - For Revolver
+		"WeakDoorLockHealth": 13.0, //Changed Value (og: 15)
 		"WeakResourceContainerWithPackChanceForLocked": 0.75,
 		"ResourcePackSizes": [
 			0.6,

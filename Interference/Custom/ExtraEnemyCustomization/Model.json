@@ -285,6 +285,23 @@
 			"BlinkDuration": 100.0,
 			"BlinkMinDelay": 2.0,
 			"BlinkMaxDelay": 5.0
+		},
+		{
+			"Enabled": true,
+			"DebugName": "Shadows",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Scout_Big_Shadow",
+				"nameIgnoreCase": true
+			},
+			"SpriteName": "marker_miniboss",
+			"MarkerColor": "#ff406c", //Default #d22f1e
+			"BlinkIn": false,
+			"Blink": false,
+			"BlinkDuration": 100.0,
+			"BlinkMinDelay": 2.0,
+			"BlinkMaxDelay": 5.0
 		}
 	]
 }

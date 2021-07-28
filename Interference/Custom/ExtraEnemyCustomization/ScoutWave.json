@@ -10,6 +10,10 @@
 					"WaveSetting": "Bullrushes"
 				},
 				{
+					"TargetSetting": "BigShadowScouts",
+					"WaveSetting": "BigShadowBullrushes"
+				},
+				{
 					"TargetSetting": "ShadowScouts",
 					"WaveSetting": "Shadows"
 				},
@@ -31,6 +35,15 @@
 				"Mode": "NameContains",
 				"persistentIDs": [],
 				"nameParam": "Bullrush",
+				"nameIgnoreCase": true
+			}
+		},
+		{
+			"Name": "BigShadowScouts",
+			"Target": {
+				"Mode": "NameContains",
+				"persistentIDs": [],
+				"nameParam": "Big_Shadow",
 				"nameIgnoreCase": true
 			}
 		},
@@ -82,6 +95,18 @@
 					{
 						"WaveSettingID": 3,
 						"WavePopulationID": 5,
+						"Delay": 0.0
+					}
+				]
+			]
+		},
+		{
+			"Name": "BigShadowBullrushes",
+			"Waves": [
+				[
+					{
+						"WaveSettingID": "WaveSetting_Scout_Bigs",
+						"WavePopulationID": "WavePop_Shadow_BigBullrush",
 						"Delay": 0.0
 					}
 				]

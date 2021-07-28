@@ -5,14 +5,5 @@
 >rundown --load-id 62 --subcomplex 91X122 --forced --comment "Repair maintenance system, Establish External Connection to nFrame Cluster if possible"</size>
 <size=100%>Re-Initiating Rundown Protocol: <color=orange>Interference <color=red>://EXT-Finalize</color></color></size>
 
-<size=125%>Change Log (v0.9.10):</size>
-- Level Change:
-  * D1 - Nerfed Extreme Part, Adding more Resources
-  * D4 - Changed Extreme Part
-  * C3 - Added more resources for key searching phase
-- Weapon Change:
-  * SMG-Type - Faster Holding Speed, Faster Aim Speed
-  * Combat Rifle - Added More Ammo (+7)
-  * M Revolver - Faster Fire Rate
-  * P Revolver - Added More Ammo (+4)
-  * Hel Combat Sniper - Decreased Ammo (-3), Decreased Clip (-1)
+<size=125%>Change Log (v1.0.0):</size>
+<size=200%><color=red>- Unlocked [0xEEE2]</color></size>

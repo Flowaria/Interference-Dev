@@ -1192,17 +1192,17 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.2,
+			"WeaponAmmoMulti": 2.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
-				"End": 0.0
+				"End": 1000.0
 			},
-			"ToolAmmoMulti": 0.0,
+			"ToolAmmoMulti": 0.8,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
-				"End": 0.0
+				"End": 1000.0
 			},
 			"DisinfectionMulti": 1.6,
 			"DisinfectionPlacement": {

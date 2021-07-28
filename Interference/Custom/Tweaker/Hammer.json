@@ -174,11 +174,11 @@
   },
   {
     "Damage": {
-      "Min": 1.8,
+      "Min": 2.0,
       "Max": 7.5
     },
-    "PrecisionDamageMulti": 0.9,
-    "CameraDamageRayLength": 2.1,
+    "PrecisionDamageMulti": 1.35,
+    "CameraDamageRayLength": 2.3,
     "InputBufferTime": 0.4,
     "MaxPushFrequency": 0.9,
     "AttackDamageSphereDotScale": 0.9,

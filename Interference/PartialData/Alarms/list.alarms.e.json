@@ -425,6 +425,71 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
+		"PublicAlarmName": "Class V Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 38,
+		"SurvivalWavePopulation": 14,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E2_Class5_Hard",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class IV Semi Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 36,
+		"SurvivalWavePopulation": 14,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 2
+			},
+			{
+				"PuzzleType": 2
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Single to Cluster Alarm x3 - Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E2_Class4_Duo",
+		"datablock": "ChainedPuzzle"
+	},
+	{
 		"PublicAlarmName": "Class III QS BC Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Harder",
@@ -450,6 +515,65 @@
 		"name": "Alarm",
 		"internalEnabled": true,
 		"persistentID": "Alarm_E2_QS_BC3",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class V S1 Alarm",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly_Harder",
+		"SurvivalWavePopulation": 7,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 9.0,
+		"WantedDistanceBetweenPuzzleComponents": 9.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			},
+			{
+				"PuzzleType": 14
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E2_Class5_S1_BigShadow",
+		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "[SHUFFLE_TYPE1]",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly_Harder", //Big Striker Only
+		"SurvivalWavePopulation": "WavePop_Shadow_BigBullrush",
+		"DisableSurvivalWaveOnComplete": false,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 14.0,
+		"WantedDistanceBetweenPuzzleComponents": 14.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 404
+			},
+			{
+				"PuzzleType": 404
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 2200133294,
+		"AlarmSoundStop": 1190355274,
+		"name": "Alarm",
+		"internalEnabled": true,
+		"persistentID": "Alarm_E2_Exit",
 		"datablock": "ChainedPuzzle"
 	}
 ]

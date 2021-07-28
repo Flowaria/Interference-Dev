@@ -92,5 +92,33 @@
 		"internalEnabled": true,
 		"persistentID": "Scan_Class2_Cluster",
 		"datablock": "ChainedPuzzle"
+	},
+	{
+		"PublicAlarmName": "Class III Scan",
+		"TriggerAlarmOnActivate": false,
+		"SurvivalWaveSettings": 0,
+		"SurvivalWavePopulation": 0,
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 12.0,
+		"WantedDistanceBetweenPuzzleComponents": 12.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			},
+			{
+				"PuzzleType": 6
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 0,
+		"AlarmSoundStop": 0,
+		"name": "Small Scan",
+		"internalEnabled": true,
+		"persistentID": "Scan_Class3_Surge",
+		"datablock": "ChainedPuzzle"
 	}
 ]

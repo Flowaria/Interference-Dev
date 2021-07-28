@@ -174,6 +174,23 @@
 		"datablock": "EnemyGroup"
 	},
 	{
+		"Type": 3,
+		"Difficulty": 5100,
+		"SpawnPlacementType": 0,
+		"MaxScore": 3.0,
+		"RelativeWeight": 1.0,
+		"Roles": [
+			{
+				"Role": 5,
+				"Distribution": 5
+			}
+		],
+		"name": "Pure_Detect_BigScout_Shadow",
+		"internalEnabled": true,
+		"persistentID": "EnemyGroup_Scout_Big_Shadow",
+		"datablock": "EnemyGroup"
+	},
+	{
 		"Type": 0,
 		"Difficulty": 1500,
 		"SpawnPlacementType": 1,

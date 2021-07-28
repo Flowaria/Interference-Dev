@@ -529,11 +529,6 @@
 	],
 	"SingleDropPlugsWithGates": [
 		{
-			"Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_01_with_gate.prefab",
-			"SubComplex": 2,
-			"Shard": 16
-		},
-		{
 			"Prefab": "Assets/AssetPrefabs/Complex/Mining/Plugs/env_plug_8mheight_elev6m_mining_with_gate_01.prefab",
 			"SubComplex": 2,
 			"Shard": 16
@@ -576,11 +571,6 @@
 		{
 			"Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_02_with_gate.prefab",
 			"SubComplex": 1,
-			"Shard": 16
-		},
-		{
-			"Prefab": "Assets/AssetPrefabs/Complex/Generic/Plugs/env_plug_8mheight_elev6m_01_with_gate.prefab",
-			"SubComplex": 8,
 			"Shard": 16
 		}
 	],

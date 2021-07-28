@@ -69,7 +69,7 @@
   {
     "Type": 9,
     "Header": "Central Powergenerator Cluster",
-    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Generator Cluster in [ITEM_ZONE] to overload it",
+    "MainObjective": "Find [COUNT_REQUIRED] Power Cells and bring them to the Generator Cluster in [ITEM_ZONE] to activate fine-dust filteration system",
     "FindLocationInfo": "Locate the Power Cells and use them to power up the Generator Cluster",
     "FindLocationInfoHelp": "Generators Online: [COUNT_CURRENT] / [COUNT_REQUIRED]",
     "GoToZone": "",

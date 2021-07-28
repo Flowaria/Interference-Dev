@@ -2756,15 +2756,15 @@
 		},
 		{
 			"Enabled": true,
-			"Accessibility": 1,
+			"Accessibility": 0,
 			"Descriptive": {
 				"Prefix": "0<size=70%>X</size>EEE",
 				"PublicName": "<i>EoL</i>",
 				"ExpeditionDepth": 1162,
 				"IsExtraExpedition": true,
 				"EstimatedDuration": "",
-				"ExpeditionDescription": "Closing Rundown Session::SubComplex: [91X122]\nRestore Long-term maintenance system.\nHigh prisoner fatality ra<color=red>#####_66$A421</color>",
-				"RoleplayedWardenIntel": ""
+				"ExpeditionDescription": "Closing Rundown Session::SubComplex: [91X122]\nRestore powerline for Long-term maintenance system.\nHigh prisoner fatality ra<color=red>#####_66$A421</color>",
+				"RoleplayedWardenIntel": "<color=red><size=200%>[LOST CONNECTION]</size></color>"
 			},
 			"Seeds": {
 				"BuildSeed": -7523,
@@ -2778,15 +2778,39 @@
 				"FogSettings": "HeavyFog_E2_High_Layer_Mid",
 				"EnemyPopulation": 1,
 				"ExpeditionBalance": 1,
-				"ScoutWaveSettings": 3,
-				"ScoutWavePopulation": 1
+				"ScoutWaveSettings": "WaveSetting_Scout_Kind",
+				"ScoutWavePopulation": 5
 			},
 			"LevelLayoutData": "Layout_E2_L1",
 			"MainLayerData": {
 				"ZoneAliasStart": 982,
-				"ZonesWithBulkheadEntrance": [],
-				"BulkheadDoorControllerPlacements": [],
-				"BulkheadKeyPlacements": [],
+				"ZonesWithBulkheadEntrance": [
+					14
+				],
+				"BulkheadDoorControllerPlacements": [
+					{
+						"ZoneIndex": 6,
+						"PlacementWeights": {
+							"Start": 0.0,
+							"Middle": 0.0,
+							"End": 0.0
+						},
+						"AreaSeedOffset": 0,
+						"MarkerSeedOffset": 5
+					}
+				],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 13,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
 				"ObjectiveData": {
 					"DataBlockId": "Obj_E2_L1",
 					"WinCondition": 1,
@@ -2798,7 +2822,94 @@
 					"ArtifactZoneDistributions": []
 				}
 			},
-			"SecondaryLayerEnabled": false
+			"SecondaryLayerEnabled": true,
+			"SecondaryLayout": "Layout_E2_L2",
+			"BuildSecondaryFrom": {
+				"LayerType": 0,
+				"Zone": 6
+			},
+			"SecondaryLayerData": {
+				"ZoneAliasStart": 492,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 2,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_E2_L2",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 1,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			},
+			"ThirdLayerEnabled": true,
+			"ThirdLayout": "Layout_E2_L3",
+			"BuildThirdFrom": {
+				"LayerType": 0,
+				"Zone": 6
+			},
+			"ThirdLayerData": {
+				"ZoneAliasStart": 765,
+				"ZonesWithBulkheadEntrance": [],
+				"BulkheadDoorControllerPlacements": [],
+				"BulkheadKeyPlacements": [
+					[
+						{
+							"LocalIndex": 0,
+							"Weights": {
+								"Start": 0.0,
+								"Middle": 0.0,
+								"End": 0.0
+							}
+						}
+					]
+				],
+				"ObjectiveData": {
+					"DataBlockId": "Obj_E2_L3",
+					"WinCondition": 0,
+					"ZonePlacementDatas": [
+						[
+							{
+								"LocalIndex": 0,
+								"Weights": {
+									"Start": 0.0,
+									"Middle": 0.0,
+									"End": 100000.0
+								}
+							}
+						]
+					]
+				},
+				"ArtifactData": {
+					"ArtifactAmountMulti": 0.0,
+					"ArtifactLayerDistributionDataID": 0,
+					"ArtifactZoneDistributions": []
+				}
+			}
 		}
 		/*{
 			"Enabled": true,

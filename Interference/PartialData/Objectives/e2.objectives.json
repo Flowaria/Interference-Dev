@@ -1,217 +1,491 @@
 [
   {
-    "Type": 11,
-    "Header": "Survive",
-    "MainObjective": "Clear a path to [Zone 000] for further progress",
-    "WardenObjectiveSpecialUpdateType": 0,
-    "FindLocationInfo": "Security Protocol <color=orange>PR_GE::66</color> in effect. Survive and reach to [Zone 000]",
+    "Type": 1,
+    "Header": "Reactor Startup",
+    "MainObjective": "Find the main reactor for this subcomplex and make sure it is back online",
+    "FindLocationInfo": "Find the Reactor in [ITEM_ZONE]",
     "FindLocationInfoHelp": "",
-    "GoToZone": "",
+    "GoToZone": "Navigate to [ITEM_ZONE] and start the Reactor",
     "GoToZoneHelp": "",
-    "InZoneFindItem": "",
+    "InZoneFindItem": "Find the reactor control panel and initiate the startup",
     "InZoneFindItemHelp": "",
-    "SolveItem": "",
+    "SolveItem": "Make sure the Reactor is fully started before leaving",
     "SolveItemHelp": "",
     "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
     "GoToWinConditionHelp_Elevator": "",
-    "GoToWinCondition_CustomGeo": "Security Procotol Disengaged. Proceed to <color=orange>[Extreme]</color> and <color=orange>[Overload]</color> for further progress.",
-    "GoToWinConditionHelp_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE] when done.",
+    "GoToWinCondition_CustomGeo": "Reactor Back Online - Go to the forward exit point in [EXTRACTION_ZONE]",
+    "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
     "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
     "GoToWinConditionHelp_ToMainLayer": "",
     "ShowHelpDelay": 180.0,
-    "WavesOnElevatorLand": [
-      {
-        "WaveSettings": "WaveSetting_Apex_Empty",
-        "WavePopulation": 1,
-        "SpawnDelay": 0.0,
-        "TriggerAlarm": true
-      }
-    ],
-    "WaveOnElevatorWardenIntel": "Unexpected Breach Detected - Engage Security Protocol - PR_GE::66",
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
     "FogTransitionDataOnElevatorLand": 0,
     "FogTransitionDurationOnElevatorLand": 0.0,
     "WavesOnActivate": [],
-    "EventsOnActivate": [
-      {
-        "Trigger": 1,
-        "Type": 6,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 0.0,
-        "WardenIntel": "PR_GE::66 - Initializing the protocol (1/4)",
-        "SoundID": 0,
-        "FogSetting": "HeavyFog_E2_High_Layer_High",
-        "FogTransitionDuration": 30.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 3,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 190.0,
-        "WardenIntel": "CRITICAL POWER FAILURE - REROUTING IN PROGRESS..",
-        "SoundID": 1479064690,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 4,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 220.0,
-        "WardenIntel": "POWER REROUTE COMPLETE - RESTORING SYSTEMS.. ",
-        "SoundID": 3206896761,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 6,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 560.0,
-        "WardenIntel": "CRITICAL POWER FAILURE! Unable to maintain air filtration system. FOG RISE IMMINENT",
-        "SoundID": 0,
-        "FogSetting": 85,
-        "FogTransitionDuration": 140.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 2,
-        "Layer": 0,
-        "LocalIndex": 4,
-        "Delay": 600.0,
-        "WardenIntel": " ",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 6,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 1140.0,
-        "WardenIntel": "WARNING: Air filtration system reaching critical levels",
-        "SoundID": 0,
-        "FogSetting": "HeavyFog_E2_High_Layer_High",
-        "FogTransitionDuration": 30.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 2,
-        "Layer": 0,
-        "LocalIndex": 7,
-        "Delay": 1200.0,
-        "WardenIntel": "",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 0,
-        "Type": 0,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 225.0,
-        "WardenIntel": "WARNING: NOT ABLE TO RESTORE POWER TO [ZONE 183] & [ZONE 184] - POWER CELLS NEEDED TO GAIN ACCESS",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 0,
-        "Type": 0,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 605.0,
-        "WardenIntel": "Releasing phase lock to [Zone 182]",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 0,
-        "Type": 0,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 1205.0,
-        "WardenIntel": "Releasing phase lock to [Zone 185]",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 3,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 1400.0,
-        "WardenIntel": "CRITICAL POWER FAILURE - REROUTING IN PROGRESS..",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      },
-      {
-        "Trigger": 1,
-        "Type": 4,
-        "Layer": 0,
-        "LocalIndex": 0,
-        "Delay": 1580.0,
-        "WardenIntel": "POWER REROUTE COMPLETE - RESTORING SYSTEMS.. ",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      }
-    ],
     "StopAllWavesBeforeGotoWin": false,
-    "WavesOnGotoWin": [
-      {
-        "WaveSettings": 7,
-        "WavePopulation": 1,
-        "SpawnDelay": 10.0,
-        "TriggerAlarm": false,
-        "IntelMessage": "E.v1 - Evacuation protocol initialized"
-      }
-    ],
+    "WavesOnGotoWin": [],
     "WaveOnGotoWinTrigger": 0,
-    "EventsOnGotoWin": [
-      {
-        "Trigger": 1,
-        "Type": 1,
-        "Layer": 0,
-        "LocalIndex": 9,
-        "Delay": 0.0,
-        "WardenIntel": "Releasing phase lock to [Zone 187] - Allowed to extract. ",
-        "SoundID": 0,
-        "FogSetting": 0,
-        "FogTransitionDuration": 0.0
-      }
-    ],
+    "EventsOnGotoWin": [],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
-    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleToActive": 10,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
-    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,
-    "Gather_RequiredCount": -1,
-    "Gather_ItemId": 0,
-    "Gather_SpawnCount": 0,
-    "Gather_MaxPerZone": 0,
-    "Retrieve_Items": [],
-    "ReactorWaves": [],
-    "LightsOnFromBeginning": false,
-    "LightsOnDuringIntro": false,
-    "LightsOnWhenStartupComplete": false,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 2.5,
+    "ReactorWaves": [
+      {
+        "Warmup": 20.0, //Wave 1
+        "WarmupFail": 10.0,
+        "Wave": 75.0,
+        "Verify": 240.0,
+        "VerifyFail": 60.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 4,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 22, //Big Charger 2
+            "WavePopulation": 15,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 23,
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 22, //Big Charger 2
+            "WavePopulation": 15,
+            "SpawnTimeRel": 0.25,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 23,
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.5,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 22, //Big Charger 2
+            "WavePopulation": 15,
+            "SpawnTimeRel": 0.75,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 2,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 4,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 10.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_4]"
+          }
+        ]
+      },
+      {
+        "Warmup": 15.0, //Wave 2
+        "WarmupFail": 10.0,
+        "Wave": 95.0,
+        "Verify": 660.0,
+        "VerifyFail": 120.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 6,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 23, //Wave 12
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 22, //Big Charger 2
+            "WavePopulation": 15,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //Hybrid 1
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.15,
+            "SpawnType": 1
+          },
+
+          {
+            "WaveSettings": 30, //Wave 12
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.2,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //Hybrid 1
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.3,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //Hybrid 1
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.45,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //Wave 12
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.5,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //Hybrid 1
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //Wave 12
+            "WavePopulation": 10,
+            "SpawnTimeRel": 0.65,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //Tank
+            "WavePopulation": 16,
+            "SpawnTimeRel": 0.7,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 2,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 5,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_5] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 10.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_6]"
+          },
+          {
+            "Trigger": 2,
+            "Type": 5,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 20.0,
+            "SoundID": 2081519152,
+            "WardenIntel": "WARNING::Reactor Unstability Detected! - Reducing Powerline capacity"
+          }
+        ]
+      },
+      {
+        "Warmup": 20.0, //Wave 3
+        "WarmupFail": 10.0,
+        "Wave": 28.0,
+        "Verify": 22.0,
+        "VerifyFail": 22.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 8,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 40, //8
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 40, //8
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.75,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 4, //Turn on lights
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 1.0,
+            "WardenIntel": "",
+            "SoundID": 0
+          },
+          {
+            "Trigger": 1,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "ERROR://POWERLINE OVERLOAD - REACT00R HI__$$ INT__NS$TY TEST MALF__nCTI##N"
+          },
+          {
+            "Trigger": 1,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 7,
+            "Delay": 10.0,
+            "WardenIntel": "Door to [ZONE_7] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_8]"
+          }
+        ]
+      },
+      {
+        "Warmup": 10.0, //Wave 4
+        "WarmupFail": 10.0,
+        "Wave": 28.0,
+        "Verify": 22.0,
+        "VerifyFail": 22.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 9,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 40, //8
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 40, //8
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.75,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 4, //Turn on lights
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0
+          },
+          {
+            "Trigger": 1,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 9,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_9] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_9]"
+          }
+        ]
+      },
+      {
+        "Warmup": 10.0, //Wave 5
+        "WarmupFail": 10.0,
+        "Wave": 28.0,
+        "Verify": 22.0,
+        "VerifyFail": 22.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 10,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 40, //8, Shadows
+            "WavePopulation": 7,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 40, //8
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.75,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 10,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_10] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_10]"
+          }
+        ]
+      },
+      {
+        "Warmup": 10.0, //Wave 6
+        "WarmupFail": 10.0,
+        "Wave": 28.0,
+        "Verify": 22.0,
+        "VerifyFail": 22.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 12,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 23, //12, Shadows
+            "WavePopulation": 7,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 22, //Infection Hybrid 2
+            "WavePopulation": "WavePop_Base_InfectionRapid",
+            "SpawnTimeRel": 0.3,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 11,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_11] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_12]"
+          },
+          {
+            "Trigger": 3,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "HeavyFog_E2_High_Layer_Low",
+            "FogTransitionDuration": 900.0
+          },
+          {
+            "Trigger": 3,
+            "Type": 5,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 10.0,
+            "SoundID": 2081519152,
+            "WardenIntel": "WARNING::Reactor Unstability Reached Max Level - Finalize the startup sequence immediately!"
+          },
+          {
+            "Trigger": 3,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 15.0,
+            "WardenIntel": "WARNING::Rerouting Power to ECCS - Fog Stability in Critical Level!"
+          }
+        ]
+      },
+      {
+        "Warmup": 10.0, //Wave 7
+        "WarmupFail": 10.0,
+        "Wave": 28.0,
+        "Verify": 22.0,
+        "VerifyFail": 22.0,
+        "VerifyInOtherZone": true,
+        "ZoneForVerification": 13,
+        "EnemyWaves": [
+          {
+            "WaveSettings": 23, //12
+            "WavePopulation": 6,
+            "SpawnTimeRel": 0.0,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 22, //BigShadowBullrush 2
+            "WavePopulation": "WavePop_Shadow_BigBullrush",
+            "SpawnTimeRel": 0.1,
+            "SpawnType": 1
+          },
+          {
+            "WaveSettings": 30, //BigShadowBullrush 1
+            "WavePopulation": "WavePop_Shadow_BigBullrush",
+            "SpawnTimeRel": 0.6,
+            "SpawnType": 1
+          }
+        ],
+        "Events": [
+          {
+            "Trigger": 1,
+            "Type": 2,
+            "Layer": 0,
+            "LocalIndex": 13,
+            "Delay": 5.0,
+            "WardenIntel": "Door to [ZONE_13] unlocked by startup sequence"
+          },
+          {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 5.0,
+            "WardenIntel": "Auxiliary Terminal located in [ZONE_13]"
+          },
+          {
+            "Trigger": 3,
+            "Type": 6,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 0.0,
+            "WardenIntel": "",
+            "SoundID": 0,
+            "FogSetting": "HeavyFog_E2_High_Layer_Mid",
+            "FogTransitionDuration": 20.0
+          },
+          {
+            "Trigger": 3,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 15.0,
+            "WardenIntel": "Rerouted Power to Fog Condition Stablizer - Fog Stability in Moderate Level!"
+          }
+        ]
+      }
+    ],
+    "LightsOnFromBeginning": true,
+    "LightsOnDuringIntro": true,
+    "LightsOnWhenStartupComplete": true,
     "SpecialTerminalCommand": "",
     "SpecialTerminalCommandDesc": "",
     "PostCommandOutput": [],
-    "SpecialCommandRule": 0,
     "PowerCellsToDistribute": 0,
     "Uplink_NumberOfVerificationRounds": 0,
     "Uplink_NumberOfTerminals": 1,
-    "Uplink_WaveSpawnType": 1,
     "CentralPowerGenClustser_NumberOfGenerators": 0,
     "CentralPowerGenClustser_NumberOfPowerCells": 4,
     "CentralPowerGenClustser_FogDataSteps": [],
@@ -219,22 +493,159 @@
     "ActivateHSU_ItemAfterActivation": 0,
     "ActivateHSU_StopEnemyWavesOnActivation": false,
     "ActivateHSU_ObjectiveCompleteAfterInsertion": false,
-    "ActivateHSU_RequireItemAfterActivationInExitScan": false,
     "ActivateHSU_Events": [],
-    "Survival_TimeToActivate": 180.0,
-    "Survival_TimeToSurvive": 1440.0,
-    "Survival_TimerTitle": "Time Until Security Procotol to be Disengaged:",
-    "Survival_TimerToActivateTitle": "<color=red>WARNING!:</color> Security Protocol <color=red>PR_GE::66</color> will be engaged:",
-    "GatherTerminal_SpawnCount": 0,
-    "GatherTerminal_RequiredCount": 0,
-    "GatherTerminal_Command": "",
-    "GatherTerminal_CommandHelp": "",
-    "GatherTerminal_DownloadingText": "",
-    "GatherTerminal_DownloadCompleteText": "",
-    "GatherTerminal_DownloadTime": -1.0,
-    "name": "Survival_R5.5_B4",
+    "name": "Reactor_Startup_Waves_7_MIXED",
     "internalEnabled": true,
     "persistentID": "Obj_E2_L1",
+    "datablock": "WardenObjective"
+  },
+  {
+		"Type": 13,
+		"Header": "Corrupted Uplink",
+		"MainObjective": "Find the <u>Uplink Terminal</u> [ALL_ITEMS] and establish an external uplink from it",
+		"WardenObjectiveSpecialUpdateType": 0,
+		"FindLocationInfo": "Gather information about the location of the terminals",
+		"FindLocationInfoHelp": "Access more data in the terminal maintenance system",
+		"GoToZone": "Navigate to [ITEM_ZONE] and find [ALL_ITEMS]",
+		"GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
+		"InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ALL_ITEMS]",
+		"InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
+		"SolveItem": "Use [ITEM_SERIAL] to create an uplink to [UPLINK_ADDRESS]",
+		"SolveItemHelp": "Use the UPLINK_CONNECT command to establish the connection",
+		"GoToWinCondition_Elevator": "",
+		"GoToWinConditionHelp_Elevator": "",
+		"GoToWinCondition_CustomGeo": "",
+		"GoToWinConditionHelp_CustomGeo": "",
+		"GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+		"GoToWinConditionHelp_ToMainLayer": "",
+		"ShowHelpDelay": 180.0,
+		"WavesOnElevatorLand": [],
+		"WaveOnElevatorWardenIntel": "",
+		"FogTransitionDataOnElevatorLand": 0,
+		"FogTransitionDurationOnElevatorLand": 0.0,
+		"WavesOnActivate": [
+			{
+				"WaveSettings": "WaveSetting_Apex_SmallOnly_Kind",
+				"WavePopulation": 7,
+				"SpawnDelay": 0.0,
+				"TriggerAlarm": true
+			},
+      {
+				"WaveSettings": "WaveSetting_Trickle_Big_1_30",
+				"WavePopulation": 7,
+				"SpawnDelay": 45.0,
+				"TriggerAlarm": true
+			}
+		],
+		"EventsOnActivate": [],
+		"StopAllWavesBeforeGotoWin": false,
+		"WavesOnGotoWin": [],
+		"WaveOnGotoWinTrigger": 0,
+		"EventsOnGotoWin": [
+			{
+				"Trigger": 1,
+				"Type": 2,
+				"Layer": 1,
+				"LocalIndex": 2,
+				"Delay": 4.0,
+				"WardenIntel": "Security door to [ZONE_2] unlocked"
+			}
+		],
+		"FogTransitionDataOnGotoWin": 0,
+		"FogTransitionDurationOnGotoWin": 0.0,
+		"ChainedPuzzleToActive": 0,
+		"ChainedPuzzleMidObjective": 0,
+		"ChainedPuzzleAtExit": 11,
+		"ChainedPuzzleAtExitScanSpeedMultiplier": 0.2,
+		"Gather_RequiredCount": -1,
+		"Gather_ItemId": 0,
+		"Gather_SpawnCount": 0,
+		"Gather_MaxPerZone": 0,
+		"Retrieve_Items": [],
+		"ReactorWaves": [],
+		"LightsOnFromBeginning": false,
+		"LightsOnDuringIntro": false,
+		"LightsOnWhenStartupComplete": false,
+		"SpecialTerminalCommand": "",
+		"SpecialTerminalCommandDesc": "",
+		"PostCommandOutput": [],
+		"SpecialCommandRule": 0,
+		"PowerCellsToDistribute": 0,
+		"Uplink_NumberOfVerificationRounds": 8,
+		"Uplink_NumberOfTerminals": 1,
+		"Uplink_WaveSpawnType": "InSuppliedCourseNodeZone",
+		"CentralPowerGenClustser_NumberOfGenerators": 2,
+		"CentralPowerGenClustser_NumberOfPowerCells": 4,
+		"CentralPowerGenClustser_FogDataSteps": [],
+		"ActivateHSU_ItemFromStart": 0,
+		"ActivateHSU_ItemAfterActivation": 0,
+		"ActivateHSU_StopEnemyWavesOnActivation": false,
+		"ActivateHSU_ObjectiveCompleteAfterInsertion": false,
+		"ActivateHSU_RequireItemAfterActivationInExitScan": false,
+		"ActivateHSU_Events": [],
+		"Survival_TimeToActivate": 0.0,
+		"Survival_TimeToSurvive": 0.0,
+		"Survival_TimerTitle": "",
+		"Survival_TimerToActivateTitle": "",
+		"GatherTerminal_SpawnCount": 0,
+		"GatherTerminal_RequiredCount": 0,
+		"GatherTerminal_Command": "",
+		"GatherTerminal_CommandHelp": "",
+		"GatherTerminal_DownloadingText": "",
+		"GatherTerminal_DownloadCompleteText": "",
+		"GatherTerminal_DownloadTime": -1.0,
+		"name": "CorruptedUplink_One_Terminal",
+		"internalEnabled": true,
+		"persistentID": "Obj_E2_L2",
+		"datablock": "WardenObjective"
+	},
+  {
+    "Type": 6,
+    "Header": "Retrieve Essential Items",
+    "MainObjective": "Find [ALL_ITEMS] and bring it to the extraction scan in [EXTRACTION_ZONE]",
+    "FindLocationInfo": "Gather information about the location of [ALL_ITEMS]",
+    "FindLocationInfoHelp": "WARNING::Anti-theft Security Protocol in effect. Retrieve [ALL_ITEMS] in caution",
+    "GoToZone": "",
+    "GoToZoneHelp": "",
+    "InZoneFindItem": "",
+    "InZoneFindItemHelp": "",
+    "SolveItem": "",
+    "SolveItemHelp": "",
+    "GoToWinCondition_Elevator": "",
+    "GoToWinConditionHelp_Elevator": "",
+    "GoToWinCondition_CustomGeo": "",
+    "GoToWinConditionHelp_CustomGeo": "",
+    "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
+    "GoToWinConditionHelp_ToMainLayer": "",
+    "ShowHelpDelay": 30.0,
+    "WavesOnElevatorLand": [],
+    "WaveOnElevatorWardenIntel": "",
+    "FogTransitionDataOnElevatorLand": 0,
+    "FogTransitionDurationOnElevatorLand": 0.0,
+    "WavesOnActivate": [],
+    "StopAllWavesBeforeGotoWin": false,
+    "WavesOnGotoWin": [
+      {
+				"WaveSettings": "WaveSetting_Trickle_33_WAVE_BULLRUSH",
+				"WavePopulation": "WavePop_Only_Bullrush_Shadow",
+				"SpawnDelay": 8.0,
+				"TriggerAlarm": true
+			}
+    ],
+    "WaveOnGotoWinTrigger": 0,
+    "EventsOnGotoWin": [],
+    "FogTransitionDataOnGotoWin": 0,
+    "FogTransitionDurationOnGotoWin": 0.0,
+    "ChainedPuzzleToActive": 0,
+    "ChainedPuzzleMidObjective": 0,
+    "ChainedPuzzleAtExit": 11,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 0.5,
+    "Retrieve_Items": [
+      "Carry_Cargo_Fixed"
+    ],
+    "name": "Retrieve Essential Items_1_CARGO",
+    "internalEnabled": true,
+    "persistentID": "Obj_E2_L3",
     "datablock": "WardenObjective"
   }
 ]
