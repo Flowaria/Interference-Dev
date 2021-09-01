@@ -887,7 +887,7 @@
 	{
 		"PublicAlarmName": "Security Area [DELTA-//:ERROR#???] Alarm",
 		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": 36,
+		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly_Kind",
 		"SurvivalWavePopulation": 17,
 		"DisableSurvivalWaveOnComplete": false,
 		"UseRandomPositions": true,
@@ -968,7 +968,7 @@
 	{
 		"PublicAlarmName": "Security Area [ALPHA-://OVERLOAD#46] Alarm",
 		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly_Duo",
+		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly_Kind",
 		"SurvivalWavePopulation": 10,
 		"DisableSurvivalWaveOnComplete": true,
 		"UseRandomPositions": true,
@@ -976,13 +976,13 @@
 		"WantedDistanceBetweenPuzzleComponents": 12.0,
 		"ChainedPuzzle": [
 			{
-				"PuzzleType": 8
+				"PuzzleType": 6
 			},
 			{
 				"PuzzleType": 316
 			},
 			{
-				"PuzzleType": 8
+				"PuzzleType": 6
 			},
 			{
 				"PuzzleType": 12

@@ -52,7 +52,7 @@
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": false,
+			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": 5, //Fog (5~6)
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
@@ -149,7 +149,7 @@
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
-			"ForceBigPickupsAllocation": false,
+			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": "Consumable_Dark_Glowsticks",
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [

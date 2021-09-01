@@ -5,5 +5,16 @@
 >rundown --load-id 62 --subcomplex 91X122 --forced --comment "Repair maintenance system, Establish External Connection to nFrame Cluster if possible"</size>
 <size=100%>Re-Initiating Rundown Protocol: <color=orange>Interference <color=red>://EXT-Finalize</color></color></size>
 
-<size=125%>Change Log (v1.0.0):</size>
-<size=200%><color=red>- Unlocked [0xEEE2]</color></size>
+<size=125%>Change Log (v1.3.0):</size>
+<size=200%><color=orange>Level Balancing</color></size>
+<color=#68215b>- B5: Changed Required Terminal count (4->3)
+<color=#64205d>- C3: Increased Resource, Nerfed Last Alarm
+<color=#2d0f69>- D1: Increased Resource
+- D2: Increased Resource
+- D3: Slightly Decreased Fog Transition Speed
+- D4: Nerfed Delta Alarm Waves
+<color=#0a0639>- E1: Fixed Seed change bug on restart, Slightly Reseeded Level
+- E2: Fixed Seed change bug on restart</color></color></color></color>
+
+Weapon Change:
+- Magnum Revolver: Added Pierce (3), Increased Clip Size (6->8)

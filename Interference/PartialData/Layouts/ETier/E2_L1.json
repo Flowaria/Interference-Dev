@@ -84,13 +84,13 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.4,
+			"WeaponAmmoMulti": 4.4,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 1.6,
+			"ToolAmmoMulti": 2.6,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -162,7 +162,7 @@
 			"AllowSmallPickupsAllocation": true,
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
-			"ConsumableDistributionInZone": "Consumable_Dark_Glowsticks",
+			"ConsumableDistributionInZone": 0,
 			"BigPickupDistributionInZone": 0,
 			"TerminalPlacements": [
 				{
@@ -176,25 +176,25 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 4.0,
+			"HealthMulti": 3.0,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 16.0,
+			"WeaponAmmoMulti": 11.0,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 6.0,
+			"ToolAmmoMulti": 3.0,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.8,
+			"DisinfectionMulti": 0.0,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -254,7 +254,7 @@
 			"CorpseClustersInZone": 0,
 			"ResourceContainerClustersInZone": 0,
 			"GeneratorClustersInZone": 0,
-			"CorpsesInZone": 4,
+			"CorpsesInZone": 0,
 			"HSUsInZone": 0,
 			"DeconUnitsInZone": 0,
 			"AllowSmallPickupsAllocation": true,
@@ -284,7 +284,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.0,
+			"DisinfectionMulti": 0.8,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -292,7 +292,7 @@
 			},
 			"StaticSpawnDataContainers": [
 				{
-					"Count": 600,
+					"Count": 100,
 					"DistributionWeightType": 0,
 					"DistributionWeight": 0.0,
 					"DistributionRandomBlend": 0.0,
@@ -379,7 +379,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 3.0,
+			"DisinfectionMulti": 3.2,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -947,7 +947,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.75
+					"DistributionValue": 0.9
 				},
 				{
 					"GroupType": 2, //CHARGER
@@ -1171,7 +1171,7 @@
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": true,
 			"ConsumableDistributionInZone": 1,
-			"BigPickupDistributionInZone": 0,
+			"BigPickupDistributionInZone": 5,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
@@ -1241,17 +1241,8 @@
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 2,
 				"CustomText": "",
-				"PlacementCount": 1,
-				"ZonePlacementData": [
-					{
-						"LocalIndex": 11,
-						"Weights": {
-							"Start": 0.0,
-							"Middle": 0.0,
-							"End": 10000.0
-						}
-					}
-				]
+				"PlacementCount": 0,
+				"ZonePlacementData": []
 			},
 			"ChainedPuzzleToEnter": "Alarm_E2_Class4_Duo",
 			"SecurityGateToEnter": 0,

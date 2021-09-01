@@ -6,8 +6,8 @@
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "Storage",
 			"CoverageMinMax": {
-				"x": 50.0,
-				"y": 60.0
+				"x": 80.0,
+				"y": 90.0
 			},
 			"BuildFromLocalIndex": 0,
 			"StartPosition": "From_Random",
@@ -54,10 +54,22 @@
 					"DistributionValue": 1.0
 				},
 				{
+					"GroupType": 3,
+					"Difficulty": 3,
+					"Distribution": 1,
+					"DistributionValue": 1.0
+				},
+				{
+					"GroupType": 3,
+					"Difficulty": 3,
+					"Distribution": 1,
+					"DistributionValue": 1.0
+				},
+				{
 					"GroupType": 0,
 					"Difficulty": 1000,
 					"Distribution": 2,
-					"DistributionValue": 0.4
+					"DistributionValue": 0.5
 				}
 			],
 			"HSUClustersInZone": 0,

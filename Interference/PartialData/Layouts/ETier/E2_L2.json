@@ -45,7 +45,7 @@
 					"GroupType": 0,
 					"Difficulty": 0,
 					"Distribution": 2,
-					"DistributionValue": 0.4
+					"DistributionValue": 0.5
 				}
 			],
 			"HSUClustersInZone": 0,
@@ -230,10 +230,10 @@
 			"ChainedPuzzleToEnter": 0,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
-				"HasActiveEnemyWave": false,
-				"EnemyGroupInfrontOfDoor": 0,
-				"EnemyGroupInArea": 0,
-				"EnemyGroupsInArea": 0
+				"HasActiveEnemyWave": true,
+				"EnemyGroupInfrontOfDoor": "EnemyGroup_BigShadow_Bullrush_6",
+				"EnemyGroupInArea": "EnemyGroup_Shadows_Large",
+				"EnemyGroupsInArea": 2
 			},
 			"EnemySpawningInZone": [],
 			"HSUClustersInZone": 0,

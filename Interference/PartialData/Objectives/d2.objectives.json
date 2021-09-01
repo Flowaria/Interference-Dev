@@ -60,7 +60,7 @@
       }
     ],
     "FogTransitionDataOnGotoWin": "Fog_D2_Low",
-    "FogTransitionDurationOnGotoWin": 1500.0,
+    "FogTransitionDurationOnGotoWin": 1550.0,
     "ChainedPuzzleToActive": 0,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,

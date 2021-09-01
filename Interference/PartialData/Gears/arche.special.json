@@ -1,7 +1,7 @@
 [
 	{
-		"PublicName": "Magnum Revolver", //10 Mag
-		"Description": "Ammo: 6/54 (Semi-auto)\nDamage: 15.6\n[Precision: 0.75x / Stagger: 1.0x]\nRange: 10m-90m\n<color=orange>Stable Wave Grinder</color>",
+		"PublicName": "Magnum Revolver", //9 Mag
+		"Description": "Ammo: 8/64 (Semi-auto)\nDamage: 15.6\n[Precision: 0.75x / Stagger: 1.0x]\nRange: 10m-90m\nPierce: 2\n<color=orange>Stable Wave Grinder</color>",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Revolver",
 		"Damage": 15.6,
@@ -11,12 +11,12 @@
 		},
 		"StaggerDamageMulti": 1.0,
 		"PrecisionDamageMulti": 0.75,
-		"DefaultClipSize": 6,
+		"DefaultClipSize": 8,
 		"DefaultReloadTime": 1.75,
 		"CostOfBullet": 4.2592,
 		"ShotDelay": 0.12,
-		"PiercingBullets": false,
-		"PiercingDamageCountLimit": 5,
+		"PiercingBullets": true,
+		"PiercingDamageCountLimit": 3,
 		"HipFireSpread": 5.0,
 		"AimSpread": 0.0,
 		"EquipTransitionTime": 0.4,
@@ -104,11 +104,11 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Quad Cannon", //3.6 Mag
-		"Description": "Ammo: 20/52 (Chargeup 4-Burst)\nDamage: 15.5\n[Precision: 0.7x / Stagger: 1.2x]\nRange: 20m-75m\n<color=orange>Stable Giant Grinder</color>",
+		"PublicName": "Quad Cannon", //3.8 Mag
+		"Description": "Ammo: 20/56 (Chargeup 4-Burst)\nDamage: 21.5\n[Precision: 0.7x / Stagger: 1.2x]\nRange: 20m-75m\n<color=orange>Stable Giant Grinder</color>",
 		"FireMode": 1,
 		"RecoilDataID": 24,
-		"Damage": 15.5,
+		"Damage": 21.5,
 		"DamageFalloff": {
 			"x": 20.0,
 			"y": 75.0
@@ -117,7 +117,7 @@
 		"PrecisionDamageMulti": 0.7,
 		"DefaultClipSize": 20,
 		"DefaultReloadTime": 3.7,
-		"CostOfBullet": 4.4230,
+		"CostOfBullet": 4.1071,
 		"ShotDelay": 0.055,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -312,8 +312,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Heavy-Machinegun", //4.8333 Mag
-		"Description": "Mag: 30/115 (Chargeup Full-auto)\nDamage: 5.95\n[Precision: 0.975x / Stagger: 1.0x]\nRange: 20m-90m\n<color=orange>Precision Wave Grinder</color>",
+		"PublicName": "Heavy-Machinegun", //5.5 Mag
+		"Description": "Mag: 30/135 (Full-auto)\nDamage: 5.95\n[Precision: 0.975x / Stagger: 1.0x]\nRange: 20m-90m\n<color=orange>Precision Wave Grinder</color>",
 		"FireMode": 2,
 		"RecoilDataID": 25,
 		"Damage": 5.95,
@@ -325,8 +325,8 @@
 		"PrecisionDamageMulti": 0.875,
 		"DefaultClipSize": 30,
 		"DefaultReloadTime": 3.7,
-		"CostOfBullet": 2.0,
-		"ShotDelay": 0.15,
+		"CostOfBullet": 1.7037,
+		"ShotDelay": 0.136,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 2.0,
@@ -350,7 +350,7 @@
 		"ShotgunBulletCount": 0,
 		"ShotgunConeSize": 0,
 		"ShotgunBulletSpread": 0,
-		"SpecialChargetupTime": 0.24,
+		"SpecialChargetupTime": 0.0,
 		"SpecialCooldownTime": 0.0,
 		"SpecialSemiBurstCountTimeout": 0.0,
 		"Sentry_StartFireDelay": 1.0,
@@ -364,8 +364,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Choke-Mod Slug Shotgun", //4 Mag
-		"Description": "Ammo: 7/21 (Semi-auto)\nDamage: 8.6 (4 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 8.5m-50m\n<color=orange>Balanced</color>",
+		"PublicName": "Choke-Mod Slug Shotgun", //5.42 Mag
+		"Description": "Ammo: 7/31 (Semi-auto)\nDamage: 8.6 (4 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 8.5m-50m\n<color=orange>Balanced</color>",
 		"FireMode": 0,
 		"RecoilDataID": 6,
 		"Damage": 8.6,
@@ -377,7 +377,7 @@
 		"PrecisionDamageMulti": 0.735,
 		"DefaultClipSize": 7,
 		"DefaultReloadTime": 3.0,
-		"CostOfBullet": 10.9523,
+		"CostOfBullet": 7.4193,
 		"ShotDelay": 0.39,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -468,11 +468,11 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Double Barrel Shotgun", //9 Mag
-		"Description": "Ammo: 2/16 (Semi-auto)\nDamage: 8.75 (8 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m\n<color=orange>Auto-Reloading</color>\n<color=orange>Powerful Giant Grinder</color>",
+		"PublicName": "Double Barrel Shotgun", //9.5 Mag
+		"Description": "Ammo: 2/17 (Semi-auto)\nDamage: 9.45 (9 Pallets)\n[Precision: 0.735x / Stagger: 1.0x]\nRange: 5.5m-20m\n<color=orange>Auto-Reloading</color>\n<color=orange>Powerful Giant Grinder</color>",
 		"FireMode": 0,
 		"RecoilDataID": "Recoil_Shotgun_DB",
-		"Damage": 8.75,
+		"Damage": 9.45,
 		"DamageFalloff": {
 			"x": 5.5,
 			"y": 20.0
@@ -481,7 +481,7 @@
 		"PrecisionDamageMulti": 0.735,
 		"DefaultClipSize": 2,
 		"DefaultReloadTime": 3.15,
-		"CostOfBullet": 14.375,
+		"CostOfBullet": 13.5294,
 		"ShotDelay": 0.7,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
@@ -503,7 +503,7 @@
 		"AimSequence": [],
 		"BurstDelay": 0.0,
 		"BurstShotCount": 0,
-		"ShotgunBulletCount": 8,
+		"ShotgunBulletCount": 9,
 		"ShotgunConeSize": 3,
 		"ShotgunBulletSpread": 3,
 		"SpecialChargetupTime": 0.0,
@@ -521,19 +521,19 @@
 	},
 	{
 		"PublicName": "Raygun",
-		"Description": "Capacity: 766<size=75%>m</size>A (Chargeup Full-auto)\nDamage: 1.45\n[Precision: 0.9x / Stagger: 0.8x]\nRange: 12m-80m\n<color=orange>No reloading required</color>\n<color=orange>Experimental</color>",
+		"Description": "Capacity: 744<size=75%>m</size>A (Chargeup Full-auto)\nDamage: 1.5\n[Precision: 0.8x / Stagger: 0.5x]\nRange: 12m-80m\n<color=orange>No reloading required</color>\n<color=orange>Experimental</color>",
 		"FireMode": 2,
 		"RecoilDataID": "Recoil_LaserGun",
-		"Damage": 1.45,
+		"Damage": 1.5,
 		"DamageFalloff": {
 			"x": 12.0,
 			"y": 80.0
 		},
-		"StaggerDamageMulti": 0.9,
+		"StaggerDamageMulti": 0.5,
 		"PrecisionDamageMulti": 0.8,
 		"DefaultClipSize": 1,
 		"DefaultReloadTime": 0.00001,
-		"CostOfBullet": 0.3002,
+		"CostOfBullet": 0.3091,
 		"ShotDelay": 0.02,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,

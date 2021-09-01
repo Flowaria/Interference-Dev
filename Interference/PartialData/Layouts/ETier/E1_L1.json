@@ -211,18 +211,18 @@
 		},
 		{
 			"LocalIndex": 18, //Left Cell Search
-			"SubSeed": 0,
+			"SubSeed": -222,
 			"BulkheadDCScanSeed": 0,
 			"SubComplex": "DataCenter",
 			"CoverageMinMax": {
-				"x": 30.0,
-				"y": 40.0
+				"x": 50.0,
+				"y": 60.0
 			},
 			"BuildFromLocalIndex": 19,
 			"StartPosition": "From_Furthest",
 			"StartPosition_IndexWeight": 0.0,
 			"StartExpansion": "Towards_Left",
-			"ZoneExpansion": "Directional_Left",
+			"ZoneExpansion": "Collapsed",
 			"LightSettings": 70,
 			"AltitudeData": {
 				"AllowedZoneAltitude": "OnlyLow",
@@ -659,7 +659,7 @@
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
 			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam_Tech",
-			"BigPickupDistributionInZone": 0,
+			"BigPickupDistributionInZone": 5,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
@@ -726,17 +726,8 @@
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 2,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
-				"PlacementCount": 1,
-				"ZonePlacementData": [
-					{
-						"LocalIndex": 14,
-						"Weights": {
-							"Start": 0.0,
-							"Middle": 10000.0,
-							"End": 10000.0
-						}
-					}
-				]
+				"PlacementCount": 0,
+				"ZonePlacementData": []
 			},
 			"ChainedPuzzleToEnter": "Alarm_E1_M5",
 			"SecurityGateToEnter": 0,
@@ -765,7 +756,7 @@
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
 			"ConsumableDistributionInZone": "Consumable_Hard_NoFog_NoFoam_Tech",
-			"BigPickupDistributionInZone": 0,
+			"BigPickupDistributionInZone": 5,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
@@ -827,17 +818,8 @@
 			"ProgressionPuzzleToEnter": {
 				"PuzzleType": 2,
 				"CustomText": "<color=red>://ERROR: Door in emergency lockdown, unable to operate.</color>",
-				"PlacementCount": 1,
-				"ZonePlacementData": [
-					{
-						"LocalIndex": 13,
-						"Weights": {
-							"Start": 0.0,
-							"Middle": 10000.0,
-							"End": 10000.0
-						}
-					}
-				]
+				"PlacementCount": 0,
+				"ZonePlacementData": []
 			},
 			"ChainedPuzzleToEnter": "Alarm_E1_QS7",
 			"SecurityGateToEnter": 1,
@@ -970,13 +952,13 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.8,
+			"HealthMulti": 1.6,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 0.8,
+			"WeaponAmmoMulti": 1.2,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -988,7 +970,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"DisinfectionMulti": 0.2,
+			"DisinfectionMulti": 0.6,
 			"DisinfectionPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -1021,7 +1003,7 @@
 				"PlacementCount": 0,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_D_Class4_QSurge",
+			"ChainedPuzzleToEnter": "Alarm_E1_Class4_QSurge",
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,

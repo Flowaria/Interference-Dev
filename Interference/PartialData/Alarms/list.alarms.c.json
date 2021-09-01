@@ -206,40 +206,6 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
-		"PublicAlarmName": "Class V Alarm",
-		"TriggerAlarmOnActivate": true,
-		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
-		"SurvivalWavePopulation": 1,
-		"DisableSurvivalWaveOnComplete": true,
-		"UseRandomPositions": true,
-		"WantedDistanceFromStartPos": 12.0,
-		"WantedDistanceBetweenPuzzleComponents": 14.0,
-		"ChainedPuzzle": [
-			{
-				"PuzzleType": 6
-			},
-			{
-				"PuzzleType": 2
-			},
-			{
-				"PuzzleType": 4
-			},
-			{
-				"PuzzleType": 2
-			},
-			{
-				"PuzzleType": 4
-			}
-		],
-		"OnlyShowHUDWhenPlayerIsClose": false,
-		"AlarmSoundStart": 3339129407,
-		"AlarmSoundStop": 42633153,
-		"name": "Surge 4x",
-		"internalEnabled": true,
-		"persistentID": "Alarm_C3_Class5",
-		"datablock": "ChainedPuzzle"
-	},
-	{
 		"PublicAlarmName": "Class IV Surge Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_BigOnly_Harder",
@@ -333,7 +299,7 @@
 		"datablock": "ChainedPuzzle"
 	},
 	{
-		"PublicAlarmName": "Class VII Q Surge Alarm",
+		"PublicAlarmName": "Class III QS BC Alarm",
 		"TriggerAlarmOnActivate": true,
 		"SurvivalWaveSettings": "WaveSetting_Apex_SmallOnly",
 		"SurvivalWavePopulation": 1,
@@ -346,22 +312,10 @@
 				"PuzzleType": 102
 			},
 			{
-				"PuzzleType": 102
+				"PuzzleType": 404
 			},
 			{
-				"PuzzleType": 102
-			},
-			{
-				"PuzzleType": 102
-			},
-			{
-				"PuzzleType": 102
-			},
-			{
-				"PuzzleType": 102
-			},
-			{
-				"PuzzleType": 102
+				"PuzzleType": 404
 			}
 		],
 		"OnlyShowHUDWhenPlayerIsClose": false,

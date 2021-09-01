@@ -26,7 +26,27 @@
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [],
     "WaveOnGotoWinTrigger": 0,
-    "EventsOnGotoWin": [],
+    "EventsOnGotoWin": [
+      {
+        "Trigger": 0,
+        "Type": 6,
+        "Layer": 0,
+        "LocalIndex": 0,
+        "Delay": 0.0,
+        "WardenIntel": "",
+        "SoundID": 0,
+        "FogSetting": "HeavyFog_E2_High_Layer_Mid",
+        "FogTransitionDuration": 20.0
+      },
+      {
+        "Trigger": 0,
+        "Type": 0,
+        "Layer": 0,
+        "LocalIndex": 0,
+        "Delay": 10.0,
+        "WardenIntel": "Rerouted Power to Fog Condition Stablizer - Fog Stability in Moderate Level!"
+      }
+    ],
     "FogTransitionDataOnGotoWin": 0,
     "FogTransitionDurationOnGotoWin": 0.0,
     "ChainedPuzzleToActive": 10,
@@ -381,6 +401,14 @@
             "WardenIntel": "Auxiliary Terminal located in [ZONE_12]"
           },
           {
+            "Trigger": 2,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 10.0,
+            "WardenIntel": "WARNING::Rerouting Power to ECCS - Fog Stability in Critical Level!"
+          },
+          {
             "Trigger": 3,
             "Type": 6,
             "Layer": 0,
@@ -389,24 +417,7 @@
             "WardenIntel": "",
             "SoundID": 0,
             "FogSetting": "HeavyFog_E2_High_Layer_Low",
-            "FogTransitionDuration": 900.0
-          },
-          {
-            "Trigger": 3,
-            "Type": 5,
-            "Layer": 0,
-            "LocalIndex": 0,
-            "Delay": 10.0,
-            "SoundID": 2081519152,
-            "WardenIntel": "WARNING::Reactor Unstability Reached Max Level - Finalize the startup sequence immediately!"
-          },
-          {
-            "Trigger": 3,
-            "Type": 0,
-            "Layer": 0,
-            "LocalIndex": 0,
-            "Delay": 15.0,
-            "WardenIntel": "WARNING::Rerouting Power to ECCS - Fog Stability in Critical Level!"
+            "FogTransitionDuration": 660.0
           }
         ]
       },
@@ -448,31 +459,20 @@
             "WardenIntel": "Door to [ZONE_13] unlocked by startup sequence"
           },
           {
+            "Trigger": 1,
+            "Type": 0,
+            "Layer": 0,
+            "LocalIndex": 0,
+            "Delay": 10.0,
+            "WardenIntel": "WARNING::Reactor Unstability Reached Max Level - Finalize the startup sequence immediately!"
+          },
+          {
             "Trigger": 2,
             "Type": 0,
             "Layer": 0,
             "LocalIndex": 0,
             "Delay": 5.0,
             "WardenIntel": "Auxiliary Terminal located in [ZONE_13]"
-          },
-          {
-            "Trigger": 3,
-            "Type": 6,
-            "Layer": 0,
-            "LocalIndex": 0,
-            "Delay": 0.0,
-            "WardenIntel": "",
-            "SoundID": 0,
-            "FogSetting": "HeavyFog_E2_High_Layer_Mid",
-            "FogTransitionDuration": 20.0
-          },
-          {
-            "Trigger": 3,
-            "Type": 0,
-            "Layer": 0,
-            "LocalIndex": 0,
-            "Delay": 15.0,
-            "WardenIntel": "Rerouted Power to Fog Condition Stablizer - Fog Stability in Moderate Level!"
           }
         ]
       }
@@ -534,7 +534,13 @@
 				"WaveSettings": "WaveSetting_Trickle_Big_1_30",
 				"WavePopulation": 7,
 				"SpawnDelay": 45.0,
-				"TriggerAlarm": true
+				"TriggerAlarm": false
+			},
+      {
+				"WaveSettings": "WaveSetting_Trickle_Big_1_30",
+				"WavePopulation": 7,
+				"SpawnDelay": 60.0,
+				"TriggerAlarm": false
 			}
 		],
 		"EventsOnActivate": [],
@@ -617,7 +623,7 @@
     "GoToWinConditionHelp_CustomGeo": "",
     "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
     "GoToWinConditionHelp_ToMainLayer": "",
-    "ShowHelpDelay": 30.0,
+    "ShowHelpDelay": 10.0,
     "WavesOnElevatorLand": [],
     "WaveOnElevatorWardenIntel": "",
     "FogTransitionDataOnElevatorLand": 0,
@@ -626,9 +632,9 @@
     "StopAllWavesBeforeGotoWin": false,
     "WavesOnGotoWin": [
       {
-				"WaveSettings": "WaveSetting_Trickle_33_WAVE_BULLRUSH",
+				"WaveSettings": "WaveSetting_Trickle_33_WAVE_BULLRUSH_E2",
 				"WavePopulation": "WavePop_Only_Bullrush_Shadow",
-				"SpawnDelay": 8.0,
+				"SpawnDelay": 4.0,
 				"TriggerAlarm": true
 			}
     ],

@@ -71,7 +71,7 @@
     ],
     "WaveOnElevatorWardenIntel": "Massive Bioreadings Approaching",
     "FogTransitionDataOnElevatorLand": "Fog_D2_Low",
-    "FogTransitionDurationOnElevatorLand": 2100.0,
+    "FogTransitionDurationOnElevatorLand": 2220.0,
     "WavesOnActivate": [
       {
         "WaveSettings": "WaveSetting_Apex_BigOnly_Duo",

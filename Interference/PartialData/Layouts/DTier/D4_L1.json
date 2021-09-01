@@ -607,7 +607,7 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 0.8,
+			"HealthMulti": 2.4,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -699,13 +699,13 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 1.6,
+			"HealthMulti": 3.0,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"WeaponAmmoMulti": 2.4,
+			"WeaponAmmoMulti": 3.0,
 			"WeaponAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

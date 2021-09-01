@@ -1,7 +1,7 @@
 [
 	{
 		"PublicName": "Light-SMG", //10.26 Mag
-		"Description": "Ammo: 45/417 (Full-auto)\nDamage: 1.63\n[Precision: 0.92x - Stagger: 1.08x]\nRange: 7m-55m",
+		"Description": "Ammo: 45/417 (Full-auto)\nDamage: 1.63\n[Precision: 0.92x - Stagger: 1.2x]\nRange: 7m-55m",
 		"FireMode": 2,
 		"RecoilDataID": 2,
 		"Damage": 1.63,
@@ -9,7 +9,7 @@
 			"x": 7.0,
 			"y": 55.0
 		},
-		"StaggerDamageMulti": 1.08,
+		"StaggerDamageMulti": 1.2,
 		"PrecisionDamageMulti": 0.92,
 		"DefaultClipSize": 45,
 		"DefaultReloadTime": 1.4,
@@ -157,10 +157,10 @@
 	},
 	{
 		"PublicName": "Burst Carbine", //9.5 Mag
-		"Description": "Ammo: 42/357 (2-Burst)\nDamage: 2.06\n[Precision: 1.1x - Stagger: 1.0x]\nRange: 7m-55m",
+		"Description": "Ammo: 42/357 (2-Burst)\nDamage: 2.55\n[Precision: 1.1x - Stagger: 1.0x]\nRange: 7m-55m",
 		"FireMode": 1,
 		"RecoilDataID": 14,
-		"Damage": 2.06,
+		"Damage": 2.55,
 		"DamageFalloff": {
 			"x": 7.0,
 			"y": 55.0
@@ -209,7 +209,7 @@
 	},
 	{
 		"PublicName": "Machine Carbine", //11 Mag
-		"Description": "Ammo: 65/650 (Full-auto)\nDamage: 1.35\n[Precision: 0.935x - Stagger: 0.7x]\nRange: 7.5m-155m",
+		"Description": "Ammo: 65/650 (Full-auto)\nDamage: 1.35\n[Precision: 0.935x - Stagger: 0.55x]\nRange: 7.5m-155m",
 		"FireMode": 2,
 		"RecoilDataID": "Recoil_MachineCarbine",
 		"Damage": 1.35,
@@ -217,7 +217,7 @@
 			"x": 7.5,
 			"y": 155.0
 		},
-		"StaggerDamageMulti": 0.7,
+		"StaggerDamageMulti": 0.55,
 		"PrecisionDamageMulti": 0.935,
 		"DefaultClipSize": 65,
 		"DefaultReloadTime": 2.15,
@@ -312,8 +312,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Combat Rifle", //10 Mag
-		"Description": "Ammo: 14/126 (Semi-auto)\nDamage: 5.25\n[Precision: 1.05x - Stagger: 0.75x]\nRange: 18.2m-76m",
+		"PublicName": "Combat Rifle", //9.4 Mag
+		"Description": "Ammo: 15/126 (Semi-auto)\nDamage: 5.25\n[Precision: 1.1x - Stagger: 1.25x]\nRange: 18.2m-76m",
 		"FireMode": 0,
 		"RecoilDataID": 12,
 		"Damage": 5.25,
@@ -321,12 +321,12 @@
 			"x": 18.2,
 			"y": 76.0
 		},
-		"StaggerDamageMulti": 0.75,
-		"PrecisionDamageMulti": 1.05,
-		"DefaultClipSize": 14,
+		"StaggerDamageMulti": 1.25,
+		"PrecisionDamageMulti": 1.1,
+		"DefaultClipSize": 15,
 		"DefaultReloadTime": 2.2,
 		"CostOfBullet": 3.6507,
-		"ShotDelay": 0.115,
+		"ShotDelay": 0.1,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,
 		"HipFireSpread": 1.0,
@@ -376,7 +376,7 @@
 		"StaggerDamageMulti": 1.5,
 		"PrecisionDamageMulti": 1.0,
 		"DefaultClipSize": 12,
-		"DefaultReloadTime": 1.92,
+		"DefaultReloadTime": 2.2,
 		"CostOfBullet": 4.4230,
 		"ShotDelay": 0.22,
 		"PiercingBullets": true,
@@ -520,8 +520,8 @@
 		"datablock": "Archetype"
 	},
 	{
-		"PublicName": "Stun Rifle", //13 Mag
-		"Description": "Ammo: 36/432 (2-Burst)\nDamage: 1.1\n[Precision: 0.0x - Stagger: 10.0x]\nRange: 50m-100m\n<color=orange>Extremely High Stagger</color>\n<color=orange>Experimental</color>",
+		"PublicName": "Stun Rifle", //Infinite
+		"Description": "Ammo: 36 (2-Burst)\nDamage: 1.1\n[Precision: 0.0x - Stagger: 10.0x]\nRange: 50m-100m\n<color=orange>Extremely High Stagger, Infinite Ammo</color>\n<color=orange>Experimental</color>",
 		"FireMode": 1,
 		"RecoilDataID": 24,
 		"Damage": 1.1,
@@ -533,7 +533,7 @@
 		"PrecisionDamageMulti": 0.0,
 		"DefaultClipSize": 36,
 		"DefaultReloadTime": 2.2,
-		"CostOfBullet": 1.0648,
+		"CostOfBullet": 0.001,
 		"ShotDelay": 0.0125,
 		"PiercingBullets": false,
 		"PiercingDamageCountLimit": 5,

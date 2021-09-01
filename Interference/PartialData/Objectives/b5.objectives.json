@@ -82,7 +82,7 @@
 		"Survival_TimerTitle": "",
 		"Survival_TimerToActivateTitle": "",
 		"GatherTerminal_SpawnCount": 6,
-		"GatherTerminal_RequiredCount": 4,
+		"GatherTerminal_RequiredCount": 3,
 		"GatherTerminal_Command": "OVERRIDE_PARTIAL_CONFIRM",
 		"GatherTerminal_CommandHelp": "Do Partial confirm for security mainframe override",
 		"GatherTerminal_DownloadingText": "Sending Respond to mainframe",

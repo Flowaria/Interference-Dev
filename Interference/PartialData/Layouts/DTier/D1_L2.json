@@ -26,7 +26,7 @@
 				"PlacementCount": 1,
 				"ZonePlacementData": []
 			},
-			"ChainedPuzzleToEnter": "Alarm_D1_Class3",
+			"ChainedPuzzleToEnter": 4,
 			"SecurityGateToEnter": 0,
 			"ActiveEnemyWave": {
 				"HasActiveEnemyWave": false,
@@ -59,7 +59,7 @@
 			"AllowResourceContainerAllocation": true,
 			"ForceBigPickupsAllocation": false,
 			"ConsumableDistributionInZone": "Consumable_FogBulk_Some",
-			"BigPickupDistributionInZone": 0,
+			"BigPickupDistributionInZone": 3,
 			"TerminalPlacements": [
 				{
 					"PlacementWeights": {
@@ -484,7 +484,7 @@
 			"ForbidTerminalsInZone": false,
 			"PowerGeneratorPlacements": [],
 			"DisinfectionStationPlacements": [],
-			"HealthMulti": 1.6,
+			"HealthMulti": 2.4,
 			"HealthPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,
@@ -496,7 +496,7 @@
 				"Middle": 0.0,
 				"End": 0.0
 			},
-			"ToolAmmoMulti": 1.0,
+			"ToolAmmoMulti": 1.4,
 			"ToolAmmoPlacement": {
 				"Start": 0.0,
 				"Middle": 0.0,

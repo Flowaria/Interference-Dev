@@ -33,9 +33,9 @@
 		"datablock": "SurvivalWavePopulation"
 	},
 	{
-		"WaveRoleWeakling": "Enemy_Shooter_Infection_Big",
-		"WaveRoleStandard": "Enemy_Shooter_Infection_Big",
-		"WaveRoleSpecial": "Enemy_Shooter_Infection_Big",
+		"WaveRoleWeakling": 21,
+		"WaveRoleStandard": 13,
+		"WaveRoleSpecial": 11,
 		"WaveRoleMiniBoss": "Enemy_Shooter_Infection_Big",
 		"WaveRoleBoss": "Enemy_Shooter_Infection_Big",
 		"name": "Baseline_rapid_shooter",
@@ -44,11 +44,11 @@
 		"datablock": "SurvivalWavePopulation"
 	},
 	{
-		"WaveRoleWeakling": 21,
-		"WaveRoleStandard": 13,
-		"WaveRoleSpecial": 11,
-		"WaveRoleMiniBoss": 33,
-		"WaveRoleBoss": 33,
+		"WaveRoleWeakling": "Enemy_Shooter_Infection_Big",
+		"WaveRoleStandard": "Enemy_Shooter_Infection_Big",
+		"WaveRoleSpecial": "Enemy_Shooter_Infection_Big",
+		"WaveRoleMiniBoss": "Enemy_Shooter_Infection_Big",
+		"WaveRoleBoss": "Enemy_Shooter_Infection_Big",
 		"name": "Baseline_rapid_shooter",
 		"internalEnabled": true,
 		"persistentID": "WavePop_InfectionRapid",
